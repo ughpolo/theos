@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+.firstPage {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 2fr;
+}
+
+.headerWrapper {
+  margin-top: 20px;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+}
+
+.titleWrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+
+.title {
+  grid-row: 1/2;
+}
+
+#title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#sub {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.subtitle h3 {
+  grid-row: 2/3;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.rightbutton {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: grid;
+  justify-items: right;
+  align-items: center;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  width: 100%;
+  border-top: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+  font-size: small;
+}
+
+.sticky {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navWrapper {
+  z-index: 9999;
+  background-color: white;
+
+  grid-column: 1/4;
+  display: grid;
+  /* justify-items: center; */
+  /* align-items: center; */
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.nav_links {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  list-style: none;
+  grid-column: 2/4;
+  grid-row: 1/2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover {
+  transition: 0.3s;
+  color: rgb(196, 7, 7);
+  border-bottom: 0.5px solid rgb(102, 8, 8);
+  padding-bottom: 2px;
+}
+
+.logo {
+  margin: 0;
+
+  grid-column: 1/2;
+  grid-row: 1/2;
+  max-width: 40%;
+  height: auto;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 20;
+}

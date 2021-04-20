@@ -8,8 +8,10 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MatIconModule } from '@angular/material/icon';
+import { OrteComponent } from './orte/orte.component';
 import { MatButtonModule } from '@angular/material/button';
-import { VoyageComponent } from './voyage-text/voyage/voyage.component';
+import { VoyageComponent } from './voyage/voyage.component';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -17,9 +19,11 @@ import { VoyageComponent } from './voyage-text/voyage/voyage.component';
     AppComponent,
     CarouselComponent,
     NavbarComponent,
-    VoyageComponent
+    VoyageComponent,
+    OrteComponent
   ],
   imports: [
+    MatCardModule,
     MatButtonModule,
     MatIconModule,
     CarouselModule,

@@ -9,13 +9,15 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { VoyageComponent } from './voyage-text/voyage/voyage.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
-    NavbarComponent
+    NavbarComponent,
+    VoyageComponent
   ],
   imports: [
     MatButtonModule,

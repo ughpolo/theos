@@ -11,6 +11,8 @@ export class OrteComponent implements OnInit {
 
   kacheln:Beitrag[] = [];
 
+  
+
   constructor(private dataSourceService: DataServiceService) { }
 
   ngOnInit(): void {

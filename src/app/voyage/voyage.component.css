@@ -13,7 +13,7 @@
 }
 
 .theosReihe {
-  background: #b0abab;
+  background: #9ba78a;
   display: block;
   grid-column: 1/2;
   justify-content: center;
@@ -37,11 +37,12 @@
 }
 
 .voyage-text {
+font-family: 'Crimson Text', serif;
   padding: 30px;
 }
 
 .subscribe {
-  background: #b0abab;
+  background: #9ba78a;
   grid-column: 3/4;
   text-align: center;
   display: block;

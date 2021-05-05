@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { DataServiceService } from '../data-service.service';
+import { Beitrag } from '../models/beitrag';
 
 @Component({
   selector: 'app-carousel',
@@ -8,13 +10,16 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class CarouselComponent implements OnInit {
 
-  constructor() { }
+  items:Beitrag[] = []
+
+  constructor(private dataSourceService: DataServiceService) { }
 
   ngOnInit(): void {
+    this.items = this.dataSourceService.beiträge;
   }
 
   customOptions: OwlOptions = {
-    items: 5,
+    items: 4,
     loop: true,
     mouseDrag: false,
     touchDrag: false,

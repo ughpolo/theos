@@ -14,6 +14,7 @@ import { VoyageComponent } from './voyage/voyage.component';
 import { MatCardModule } from '@angular/material/card';
 import {MatSelectModule} from '@angular/material/select';
 import { OrtItemComponent } from './orte/ort-item/ort-item.component';
+import { CarouselItemComponent } from './carousel/carousel-item/carousel-item.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { OrtItemComponent } from './orte/ort-item/ort-item.component';
     NavbarComponent,
     VoyageComponent,
     OrteComponent,
-    OrtItemComponent
+    OrtItemComponent,
+    CarouselItemComponent
   ],
   imports: [
     MatSelectModule,

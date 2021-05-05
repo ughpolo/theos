@@ -9,6 +9,9 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+app-ort-item{
+    margin-bottom: 30px;
+}
 
 
 app-ort-item:nth-child(4n + 1){

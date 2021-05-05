@@ -1,0 +1,20 @@
+mat-card img{
+    object-fit: cover;
+    height: 150px;
+}
+
+#title::after{
+    content: "\a";
+    white-space: pre;
+}
+
+mat-card{
+    cursor: pointer;
+}
+
+.text{
+    text-align: center;
+}
+
+
+

@@ -12,6 +12,8 @@ import { OrteComponent } from './orte/orte.component';
 import { MatButtonModule } from '@angular/material/button';
 import { VoyageComponent } from './voyage/voyage.component';
 import { MatCardModule } from '@angular/material/card';
+import {MatSelectModule} from '@angular/material/select';
+import { OrtItemComponent } from './orte/ort-item/ort-item.component';
 
 
 @NgModule({
@@ -20,9 +22,11 @@ import { MatCardModule } from '@angular/material/card';
     CarouselComponent,
     NavbarComponent,
     VoyageComponent,
-    OrteComponent
+    OrteComponent,
+    OrtItemComponent
   ],
   imports: [
+    MatSelectModule,
     MatCardModule,
     MatButtonModule,
     MatIconModule,

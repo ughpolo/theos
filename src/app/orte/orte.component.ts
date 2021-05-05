@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataServiceService } from '../data-service.service';
+import { Beitrag } from '../models/beitrag';
 
 @Component({
   selector: 'app-orte',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrteComponent implements OnInit {
 
-  constructor() { }
+  kacheln:Beitrag[] = [];
+
+  constructor(private dataSourceService: DataServiceService) { }
 
   ngOnInit(): void {
+    this.kacheln = this.dataSourceService.beiträge;
   }
+
 
 }

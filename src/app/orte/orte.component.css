@@ -1,0 +1,41 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.firstRow{
+    display: grid;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+app-ort-item:nth-child(4n + 1){
+    margin-right: 10px;
+}
+
+app-ort-item:nth-child(4n + 4){
+    margin-left: 10px;
+}
+
+app-ort-item:nth-child(4n + 2){
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+app-ort-item:nth-child(4n + 3){
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+
+.fEl{
+    
+
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: #fff; 
+}
+

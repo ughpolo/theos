@@ -15,6 +15,8 @@
     bottom: 0;
     width: 100%;
     line-height: 25px;
+    filter: none;
+    /* backdrop-filter: grayscale(100%); */
   }
   
   .owl-item{
@@ -24,6 +26,10 @@
     position: relative;
     
   }
+
+  img {
+    filter: gray;
+  }
   
   .container {
     height: 490px;
@@ -31,7 +37,9 @@
     align-items: center;
     row-gap: 0;
     background-image:
+    linear-gradient(black, black),
     url("../../../assets/images/first.jpg");
+    background-blend-mode: saturation;
     background-size: cover;
     background-position: center center;
     display: block;
@@ -51,6 +59,14 @@
       height:48px !important;
       width:48px !important;
       font-size:48px !important;
+  }
+
+  .mat-button, .mat-icon-button, .mat-stroked-button:hover ::ng-deep{
+
+    transition: 0.5s;
+    background: rgb(155, 30, 30);
+    opacity: 0.9;
+    
   }
   
   
@@ -90,6 +106,8 @@
     font-family: "Montserrat";
     text-transform: uppercase;
   }
+
+  mat-stroked-button
   
   .date h4 {
     font-family: "Montserrat";

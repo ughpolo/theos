@@ -16,7 +16,7 @@
     width: 100%;
     line-height: 25px;
     filter: none;
-    /* backdrop-filter: grayscale(100%); */
+    /* backdrop-filter: grayscale(60%); */
   }
   
   .owl-item{
@@ -27,9 +27,7 @@
     
   }
 
-  img {
-    filter: gray;
-  }
+
   
   .container {
     height: 490px;
@@ -55,11 +53,6 @@
     font-weight: 200;
   }
   
-  mat-stroked-button{
-      height:48px !important;
-      width:48px !important;
-      font-size:48px !important;
-  }
 
   .mat-button, .mat-icon-button, .mat-stroked-button:hover ::ng-deep{
 

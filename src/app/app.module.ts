@@ -18,6 +18,12 @@ import { CarouselItemComponent } from './carousel/carousel-item/carousel-item.co
 import { StickyNavModule } from 'ng2-sticky-nav';
 import { AmsoldingenComponent } from './beiträge/amsoldingen/amsoldingen.component';
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
+import { IhrbeitragComponent } from './ihrbeitrag/ihrbeitrag.component';
+import { ImpressumComponent } from './impressum/impressum.component';
+import {MatInputModule} from '@angular/material/input';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+
 
 
 @NgModule({
@@ -30,9 +36,15 @@ import { HomeComponent } from './home/home.component';
     OrtItemComponent,
     CarouselItemComponent,
     AmsoldingenComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent,
+    IhrbeitragComponent,
+    ImpressumComponent
   ],
   imports: [
+    ReactiveFormsModule,
+    FormsModule,
+    MatInputModule,
     StickyNavModule,
     MatSelectModule,
     MatCardModule,

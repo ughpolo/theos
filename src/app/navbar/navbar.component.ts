@@ -14,4 +14,8 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  hasRoute(route: string): boolean {
+    return this.router.url.includes(route);
+  }
+
 }

@@ -13,7 +13,7 @@
 }
 
 .theosReihe {
-  background: grey;
+  background: #F5F5F5;
   display: block;
   grid-column: 1/2;
   justify-content: center;
@@ -23,7 +23,13 @@
 }
 
 .theosReihe-text {
+  text-transform: none;
   padding: 30px;
+  display: block;
+}
+
+a{
+  color: black;
 }
 
 .voyage {
@@ -36,13 +42,27 @@
   line-height: 25px;
 }
 
+#reihelink{
+  margin-top: 30px;
+}
+
 .voyage-text {
-font-family: 'Crimson Text', serif;
+  font-family: 'Montserrat';
   padding: 30px;
 }
 
+#author{
+  font-size: small;
+}
+
+
+.abotext{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
 .subscribe {
-  background: grey;
+  background: #F5F5F5;
   grid-column: 3/4;
   text-align: center;
   display: block;
@@ -51,7 +71,35 @@ font-family: 'Crimson Text', serif;
   line-height: 25px;
 }
 
+h1, h2, h4, h5, h6{
+  font-family: 'Montserrat';
+}
+h3{
+  font-family: 'Playfair Display';
+  letter-spacing: 0.5px;
+}
+
+
+
 .subscribe-text {
+  font-family: 'Montserrat';
   line-height: 25px;
   padding: 30px;
+  display: block;
+}
+
+/* font-family: 'Montserrat';
+text-align: center;
+font-size: 12px;
+text-transform: uppercase;
+color: #989898; */
+
+
+.button{
+  border-color: black;
+  height: 40px;
+  font-size:16px ;
+  letter-spacing: 2px;
+  font-weight: 200;
+  
 }

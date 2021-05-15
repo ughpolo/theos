@@ -17,10 +17,11 @@
 }
 
 .titleWrapper {
+  margin-top: 10px;
   display: grid;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .title {
@@ -28,9 +29,9 @@
 }
 
 #title {
-  font-family: "Playfair Display", serif;
+  font-family: 'Rock Salt', cursive;
   font-size: 30px;
-  font-weight: bold;
+  
   text-transform: uppercase;
 }
 
@@ -60,6 +61,7 @@
   justify-content: center;
 }
 nav {
+  line-height: 0;
   width: 100%;
   border-top: 1px solid #d9d9d9;
   box-sizing: border-box;
@@ -67,14 +69,14 @@ nav {
   padding: 0;
   grid-column: 2/3;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
 }
 
 li,
 a {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat';
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-decoration: none;
   font-weight: 400;
   color: black;
@@ -115,7 +117,7 @@ a {
 }
 
 .nav_links li a:hover {
-  transition: 0.3s;
+  transition: 0.1s;
   color: rgb(196, 7, 7);
   border-bottom: 0.5px solid rgb(102, 8, 8);
   padding-bottom: 2px;

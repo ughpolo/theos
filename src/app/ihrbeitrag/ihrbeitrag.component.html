@@ -1,14 +1,31 @@
 <div class="container">
-    <div class="cover">
-        <div class="textWrapper">
-            <p>theos</p>
-            <h1>Ihr Beitrag</h1>
-        </div>
+  <div class="cover">
+    <div class="textWrapper">
+      <p>theos</p>
+      <h1>Ihr Beitrag</h1>
     </div>
   </div>
+</div>
 <div class="form">
-    <div class="input">
+  <div class="input">
     <form class="example-form">
+      <div class="angaben">
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td>
+              <mat-form-field class="example-full-width">
+                <mat-label>Vorname</mat-label>
+                <input matInput>
+              </mat-form-field>
+            </td>
+            <td>
+              <mat-form-field class="example-full-width">
+                <mat-label>Nachname</mat-label>
+                <input matInput>
+              </mat-form-field>
+            </td>
+          </tr>
+        </table>
         <mat-form-field class="example-full-width">
           <mat-label>Email</mat-label>
           <input type="email" matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
@@ -19,6 +36,60 @@
             Email is <strong>required</strong>
           </mat-error>
         </mat-form-field>
-      </form>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td>
+              <mat-form-field class="example-full-width">
+                <mat-label>Institution</mat-label>
+                <input matInput>
+              </mat-form-field>
+            </td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td>
+              <mat-form-field class="example-full-width">
+                <mat-label>Ort</mat-label>
+                <input matInput>
+              </mat-form-field>
+            </td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td>
+              <mat-form-field class="example-full-width">
+                <mat-label>Land</mat-label>
+                <input matInput>
+              </mat-form-field>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </form>
+    <div class="text">
+      <p>Wenn Sie selbst einen Text zu einem theologisch bedeutsamen Ort in der Schweiz verfassen möchten, freuen wir
+        uns über Ihre Zusendung.</p>
+      <ul>
+        <li>5000-6000 Zeichen über einen historisch oder systematisch-theologisch bedeutsamen (nicht notwendig
+          christlichen) Ort in der Schweiz</li>
+        <li>1-2 Bilder mit eigenen Bildrechten und Bildlegende</li>
+        <li>verwenden Sie bitte keine Fussnoten</li>
+        <li>1-3 Literaturhinweise zur Vertiefung</li>
+        <li>Text in deutscher, französischer, italienischer oder rätischer Sprache</li>
+      </ul>
+
+
+
+
+
+      <p>Bitte gehen Sie in Ihrem Text auf folgende Aspekte ein:</p>
+      <ul>
+        <li>Was ist heute zu sehen?</li>
+        <li>Welche Geschichte und Geschichten ranken sich um den Ort?</li>
+        <li>Worin besteht die theologische oder historische Bedeutsamkeit des Ortes?</li>
+      </ul>
     </div>
+  </div>
 </div>

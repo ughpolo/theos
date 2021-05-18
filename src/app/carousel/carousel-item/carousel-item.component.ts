@@ -15,10 +15,10 @@ export class CarouselItemComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    
+
   }
 
-  route(beitrag: any){
+  route(beitrag: any) {
     this.router.navigateByUrl('/amsoldingen')
   }
 }

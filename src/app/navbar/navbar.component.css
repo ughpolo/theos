@@ -69,7 +69,7 @@ nav {
   padding: 0;
   grid-column: 2/3;
   display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-columns: 1fr 11fr 1fr;
 }
 
 li,
@@ -112,6 +112,10 @@ a {
   padding: 0px 20px;
 }
 
+ul{
+  padding-inline-start: 0;
+}
+
 .nav_links li a {
   transition: all 0.3 ease 0s;
 }
@@ -125,11 +129,11 @@ a {
 
 .logo {
   margin: 0;
-
   grid-column: 1/2;
   grid-row: 1/2;
-  max-width: 40%;
-  height: auto;
+  height: 60px;
+  
+  
 }
 
 .fixed {

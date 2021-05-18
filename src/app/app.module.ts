@@ -23,6 +23,7 @@ import { IhrbeitragComponent } from './ihrbeitrag/ihrbeitrag.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import {MatInputModule} from '@angular/material/input';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { APP_BASE_HREF, LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 
 
@@ -55,7 +56,10 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    { provide: APP_BASE_HREF, useValue: '/' },
+    { provide: LocationStrategy, useClass: HashLocationStrategy },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

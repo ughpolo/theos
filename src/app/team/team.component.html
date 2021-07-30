@@ -7,7 +7,7 @@
     </div>
 </div>
 <div class="team">
-    <mat-card class="example-card">
+    <mat-card class="example-card" [class.selected]="currentSelected === 'maria'" (click)="showText('maria', target )">
         <img mat-card-image src="../../assets/images/maria.jpg" alt="Photo of a Shiba Inu">
         <mat-card-content>
             <p>
@@ -19,7 +19,8 @@
         </mat-card-content>
     </mat-card>
 
-    <mat-card class="example-card" style="text-align: center;">
+    <mat-card class="example-card" [class.selected]="currentSelected === 'adriana'"
+        (click)="showText('adriana', target)">
         <img mat-card-image src="../../assets/images/adriana.jpg" alt="Photo of a Shiba Inu">
         <mat-card-content>
             <p>
@@ -32,7 +33,7 @@
             </p>
         </mat-card-content>
     </mat-card>
-    <mat-card class="example-card">
+    <mat-card [class.selected]="currentSelected === 'martin'" class="example-card" (click)="showText('martin', target)">
         <img mat-card-image src="../../assets/images/martin.jpg" alt="Photo of a Shiba Inu">
         <mat-card-content>
             <p>
@@ -45,7 +46,8 @@
         </mat-card-content>
     </mat-card>
 
-    <mat-card class="example-card">
+    <mat-card [class.selected]="currentSelected === 'katharina'" class="example-card"
+        (click)="showText('katharina', target)">
         <img mat-card-image class="img-responsive" src="../../assets/images/2.jpg" alt="Photo of a Shiba Inu">
         <mat-card-content>
             <p>
@@ -58,5 +60,55 @@
         </mat-card-content>
     </mat-card>
 
-
+</div>
+<div class="text" #target>
+    <div *ngIf="currentSelected === 'maria'" class="description">
+        <p>
+            "Orte sind nicht einfach nur Orte: Sie erzählen von Menschen und Ereignissen, in ihnen spiegeln sich
+            Deutungen
+            und Ansichten wider und sie ermöglichen einen anderen Zugang zu Fragen und Auseinandersetzungen in
+            Geschichte
+            und Gegenwart. Orte sind daher Quellen der Theologie, die mehr erkennen lassen als Texte oder diese
+            verständlicher machen. Durch theos wird die Schweiz zu einer theologischen Quelle. In der Betrachtung von
+            Orten
+            - in ihrem Gebiet oder mit ihr verbunden - zeigt sich ihre religiöse Prägung und ein Stück Schweizer
+            Geschichte
+            bekannter und unbekannter Menschen, Ereignisse, Deutungen und Ansichten in Geschichte und Gegenwart. Ihre
+            theologische Bedeutsamkeit liegt darin, die Schweiz mit anderen Augen zu sehen und sie lädt ein zum
+            Weiterdenken, -forschen und -ergründen dessen, was nicht nur in Büchern gelesen werden kann, sondern auch
+            konkret vor Ort erfahrbar ist. Da alle Menschen, gleich welcher religiösen Prägung, sich an theos beteiligen
+            können, ist es ein kleines Wikipedia, das wie ein Boomerang die theos-Landkarte erweitert. Das macht es für
+            mich
+            aus: theos ist von Menschen für Menschen, die uns zeigen, welche theologische Bedeutung gewisse Orte (für
+            sie)
+            haben."
+        </p>
+    </div>
+    <div *ngIf="currentSelected === 'adriana'" class="description">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque fuga ratione voluptatem tempore itaque
+            inventore ad tenetur quos dignissimos nisi, architecto sapiente suscipit placeat dolore impedit nam
+            temporibus, incidunt corporis repellat eaque id. Hic assumenda porro ut saepe neque praesentium a in
+            repellendus, enim velit quis voluptates ipsam delectus, architecto ipsum. Laudantium delectus non culpa,
+            dicta corrupti quo iste illum ex reiciendis earum! Error praesentium corporis, laudantium reprehenderit
+            molestiae nesciunt.
+        </p>
+    </div>
+    <div *ngIf="currentSelected === 'martin'" class="description">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quam nisi, a eos facere placeat delectus
+            reiciendis quae ab nihil incidunt, rerum, maiores dolor nesciunt fuga minus sint rem necessitatibus ipsa
+            explicabo molestias debitis consequuntur? Quis laboriosam beatae blanditiis, quia vitae eaque explicabo
+            repudiandae suscipit consequatur sit deleniti, et labore, a numquam adipisci inventore voluptates recusandae
+            aut velit eligendi esse?
+        </p>
+    </div>
+    <div *ngIf="currentSelected === 'katharina'" class="description">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque necessitatibus ad impedit porro optio
+            dignissimos obcaecati blanditiis aliquam facilis veritatis tempore non repellendus, temporibus error quae,
+            illum, fugit dolorum iste adipisci! Nesciunt impedit tenetur ad blanditiis adipisci doloremque praesentium
+            cupiditate.
+        </p>
+    </div>
 </div>

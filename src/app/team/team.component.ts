@@ -12,4 +12,21 @@ export class TeamComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  currentSelected!: string;
+
+  showText(name: string, target: any) {
+    this.currentSelected = name;
+    setTimeout(() => {
+      this.scrollToTarget(target);
+    }, 20)
+    console.log("yo");
+
+  }
+
+  scrollToTarget(target: any) {
+    target.scrollIntoView({
+      behavior: "smooth"
+    })
+  }
+
 }

@@ -31,6 +31,75 @@ mat-card {
   justify-content: center;
 }
 
+.text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.description {
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: "Montserrat";
+  text-align: center;
+  grid-column: 2/3;
+}
+
+.description p {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+.example-card:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+}
+
+.selected {
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 a {
   color: black;
 }
@@ -38,6 +107,10 @@ a {
 mat-card-content {
   justify-content: center;
   display: flex;
+}
+
+.mat-card:not([class*="mat-elevation-z"]) {
+  box-shadow: none;
 }
 
 .example-card {

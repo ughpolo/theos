@@ -29,14 +29,14 @@
 }
 
 #title {
-  font-family: 'Rock Salt', cursive;
-  font-size: 30px;
-  
+  font-family: "Montserrat";
+  font-size: 35px;
+
   text-transform: uppercase;
 }
 
 #sub {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 4px;
@@ -49,8 +49,14 @@
   font-size: small;
 }
 
+.institut {
+  font-family: "Montserrat";
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
 .rightbutton {
-  grid-column: 3/4;
+  grid-column: 1/2;
   grid-row: 1/2;
   display: grid;
   justify-items: right;
@@ -74,7 +80,7 @@ nav {
 
 li,
 a {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   text-transform: uppercase;
   letter-spacing: 2px;
   text-decoration: none;
@@ -112,7 +118,7 @@ a {
   padding: 0px 20px;
 }
 
-ul{
+ul {
   padding-inline-start: 0;
 }
 
@@ -129,11 +135,9 @@ ul{
 
 .logo {
   margin: 0;
-  grid-column: 1/2;
+  grid-column: 3/4;
   grid-row: 1/2;
   height: 60px;
-  
-  
 }
 
 .fixed {

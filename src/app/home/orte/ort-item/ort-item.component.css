@@ -1,57 +1,58 @@
-mat-card img{
-    object-fit: cover;
-    height: 150px;
+mat-card img {
+  object-fit: cover;
+  height: 200px;
 }
 
-#title::after{
-    content: "\a";
-    white-space: pre;
+#title::after {
+  content: "\a";
+  white-space: pre;
 }
 
-mat-card{
-    cursor: pointer;
+mat-card {
+  cursor: pointer;
+  width: 150px;
+  border-radius: 0;
 }
 
-mat-label{
-    display: flex;
-    justify-content: center;
-    color: black;
-    letter-spacing: 2px;
+mat-label {
+  display: flex;
+  justify-content: center;
+  color: black;
+  letter-spacing: 2px;
 }
 
-#beitrag{
-    color: rgb(212, 53, 53);
+#beitrag {
+  color: rgb(212, 53, 53);
 }
 
-
-
-
-mat-card-content{
-    font-family:"Roboto", "Helvetica Neue", sans-serif;
+mat-card-content {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.text{
-    text-align: center;
+.text {
+  text-align: center;
 }
 
-.dropdown::ng-deep .mat-form-field-underline{
-    display: none;
+.dropdown::ng-deep .mat-form-field-underline {
+  display: none;
 }
 
-.dropdown::ng-deep .mat-form-field-wrapper{
-    padding-bottom: 0;
+.dropdown::ng-deep .mat-form-field-wrapper {
+  padding-bottom: 0;
 }
 
-.dropdown::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex{
-    padding: 0;
+.dropdown::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  padding: 0;
 }
 
-mat-card::ng-deep{
-    border: none;
+.mat-card:not([class*="mat-elevation-z"]) {
+  box-shadow: none;
 }
 
-
+mat-card::ng-deep {
+  border: none;
+}

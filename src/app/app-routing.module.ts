@@ -5,16 +5,19 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { OrteComponent } from './home/orte/orte.component';
 import { IhrbeitragComponent } from './ihrbeitrag/ihrbeitrag.component';
-import { ImpressumComponent } from './impressum/impressum.component';
+import { TeamComponent } from './team/team.component';
+import { MapComponent } from './map/map.component';
 
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
-  {path: 'reisehinweise', component: OrteComponent},
-  {path: 'amsoldingen', component: AmsoldingenComponent},
-  {path: 'kontakt', component: ContactComponent},
-  {path: 'beitrag', component: IhrbeitragComponent},
-  {path: 'impressum', component: ImpressumComponent},
+  { path: 'home', component: HomeComponent },
+  { path: 'reisehinweise', component: OrteComponent },
+  { path: 'amsoldingen', component: AmsoldingenComponent },
+  { path: 'kontakt', component: ContactComponent },
+  { path: 'beitrag', component: IhrbeitragComponent },
+  { path: 'team', component: TeamComponent },
+  { path: 'map', component: MapComponent },
+
   { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 

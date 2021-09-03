@@ -17,5 +17,10 @@ export class NavbarComponent implements OnInit {
   hasRoute(route: string): boolean {
     return this.router.url.includes(route);
   }
+  open = false;
 
+
+  toggleNav() {
+    this.open = !this.open;
+  }
 }

@@ -58,6 +58,10 @@
   grid-template-columns: 1fr 3fr 1fr;
 }
 
+.kachel {
+  padding: 0.3rem;
+}
+
 .inside {
   display: grid;
   grid-column: 2/3;
@@ -87,7 +91,6 @@ ul {
 
 .text-unten {
   background: #e6e6e6;
-  padding-top: 20px;
   grid-column: 2/3;
 }
 

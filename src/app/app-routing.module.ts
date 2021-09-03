@@ -8,6 +8,7 @@ import { IhrbeitragComponent } from './ihrbeitrag/ihrbeitrag.component';
 import { TeamComponent } from './team/team.component';
 import { MapComponent } from './map/map.component';
 import { ReisehinweiseComponent } from './reisehinweise/reisehinweise.component';
+import { AboutComponent } from './about/about.component';
 
 
 const routes: Routes = [
@@ -21,8 +22,8 @@ const routes: Routes = [
   { path: 'amsoldingen', component: AmsoldingenComponent },
   { path: 'kontakt', component: ContactComponent },
   { path: 'beitrag', component: IhrbeitragComponent },
-  { path: 'team', component: TeamComponent },
   { path: 'map', component: MapComponent },
+  { path: 'team', component: AboutComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 

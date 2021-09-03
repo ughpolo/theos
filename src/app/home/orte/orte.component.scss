@@ -72,3 +72,11 @@ app-ort-item:nth-child(4n + 3) {
   display: block;
   height: 100%;
 }
+
+@media (max-width: 808px) {
+  .firstRow {
+    display: grid;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

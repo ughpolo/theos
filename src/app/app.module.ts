@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -9,6 +9,10 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MatIconModule } from '@angular/material/icon';
 import { OrteComponent } from './home/orte/orte.component';
+import { MatListModule } from '@angular/material/list';
+import { MatToolbarModule } from '@angular/material/toolbar';
+
+
 import { MatButtonModule } from '@angular/material/button';
 import { VoyageComponent } from './home/voyage/voyage.component';
 import { MatCardModule } from '@angular/material/card';
@@ -32,6 +36,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MarkerService } from './marker.service';
 import { ShapeService } from './shape.service';
 import { RemoveshitespacesPipe } from './custompipe/removeshitespaces.pipe';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -40,6 +45,7 @@ import { RemoveshitespacesPipe } from './custompipe/removeshitespaces.pipe';
 
 @NgModule({
   declarations: [
+
     AppComponent,
     CarouselComponent,
     NavbarComponent,
@@ -56,8 +62,12 @@ import { RemoveshitespacesPipe } from './custompipe/removeshitespaces.pipe';
     FooterComponent,
     ReisehinweiseComponent,
     RemoveshitespacesPipe,
+    AboutComponent,
   ],
   imports: [
+    MatToolbarModule,
+    MatListModule,
+    MatSidenavModule,
     HttpClientModule,
     MatGridListModule,
     ReactiveFormsModule,

@@ -1,14 +1,19 @@
-<!-- *ngIf="hasRoute('home')"  -->
-<div class="headerWrapper">
+<!--   -->
+<div *ngIf="hasRoute('home')" class="headerWrapper">
     <div class="titleWrapper">
-        <div class="left"></div>
         <div class="title">
             <div class="vertical">
                 <h1 id="title"><span style="color: red;">T</span>heos</h1>
                 <h3 id="sub">Theologisch bedeutsame Orte der Schweiz</h3>
             </div>
         </div>
+
+    </div>
+    <div>
         <img class="logo" src="../../assets/logobern.png">
+    </div>
+    <div class="institut">
+        <h4 class="institut">Institut für<br> Historische <br>Theologie</h4>
     </div>
 </div>
 <div class="navWrapper" ngStickyNav stickyClass="sticky">
@@ -27,8 +32,44 @@
             </ul>
         </div>
         <div class="rightbutton">
-            <h4 class="institut">Institut für Historische Theologie</h4>
+        </div>
+        <div class="dropdown">
+            <mat-icon (click)="toggleNav()">menu</mat-icon>
         </div>
     </nav>
-
 </div>
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport [(opened)]="open">
+        <mat-toolbar>Menu</mat-toolbar>
+        <mat-nav-list>
+            <ul class="side">
+                <li class="side_li">
+                    <a routerLink="/home" [ngClass]="router.url == '/home' ? 'active' : 'link'"
+                        (click)="toggleNav()">Home</a>
+                </li>
+                <li class="side_li">
+                    <a routerLink="/reisehinweise/kacheln"
+                        [ngClass]="router.url == '/reisehinweise/kacheln' || router.url == '/reisehinweise/map' ? 'active' : 'link'"
+                        (click)="toggleNav()">Orte</a>
+                </li>
+                <li class="side_li">
+                    <a routerLink="/beitrag" [ngClass]="router.url == '/beitrag' ? 'active' : 'link'"
+                        (click)="toggleNav()">Ihr
+                        Beitrag</a>
+                </li>
+                <li class="side_li">
+                    <a routerLink="/team" [ngClass]="router.url == '/team' ? 'active' : 'link'"
+                        (click)="toggleNav()">Über
+                        uns</a>
+                </li>
+                <li class="side_li">
+                    <a routerLink="/kontakt" [ngClass]="router.url == '/kontakt' ? 'active' : 'link'"
+                        (click)="toggleNav()">Kontakt</a>
+                </li>
+            </ul>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <ng-content></ng-content>
+    </mat-sidenav-content>
+</mat-sidenav-container>

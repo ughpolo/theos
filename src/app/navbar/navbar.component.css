@@ -107,7 +107,7 @@ a {
 }
 
 .navWrapper {
-  z-index: 9999;
+  z-index: 2000;
   background-color: white;
 
   grid-column: 1/4;

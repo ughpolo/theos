@@ -68,6 +68,11 @@
   margin: 0;
 }
 
+.right {
+  grid-column: 3/4;
+  width: 190px;
+}
+
 .rightbutton {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -107,11 +112,12 @@ a {
 }
 
 .navWrapper {
-  z-index: 9999;
+  z-index: 2000;
   background-color: white;
-
+  width: 100%;
   grid-column: 1/4;
   display: grid;
+  min-height: 10px;
   /* justify-items: center; */
   /* align-items: center; */
   grid-template-columns: 1fr 3fr 1fr;
@@ -136,7 +142,14 @@ ul {
 .logo {
   margin: 0;
   grid-column: 3/4;
-  width: 150px;
+  width: 130px;
+  position: absolute;
+  right: 0;
+}
+
+.institut {
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .fixed {
@@ -173,6 +186,14 @@ ul {
   animation: line 0.25s linear forwards;
 }
 
+.sidenav-container {
+  z-index: 2001;
+}
+
+.dropdown {
+  grid-column: 3/4;
+}
+
 @keyframes line {
   from {
     left: 50%;
@@ -181,5 +202,40 @@ ul {
   to {
     left: 5%;
     width: 100%;
+  }
+}
+
+@media (max-width: 1237px) {
+  li,
+  a {
+    font-size: 1.1rem;
+  }
+  .nav_links li {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 983px) {
+  li,
+  a {
+    font-size: 1.1rem;
+  }
+  .nav_links li {
+    padding: 0 6px;
+  }
+}
+
+@media (max-width: 901px) {
+  .links {
+    display: none;
+  }
+}
+
+@media (min-width: 902px) {
+  .dropdown {
+    display: none;
+  }
+  .sidenav-container {
+    display: none;
   }
 }

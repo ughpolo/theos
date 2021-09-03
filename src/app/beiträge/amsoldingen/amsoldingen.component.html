@@ -5,7 +5,7 @@
                 <h1>Amsoldingen Kirche</h1>
             </div>
             <div class="author">
-                <h2>Nicole Hublard</h2>
+                <h2 id="author">Nicole Hublard</h2>
             </div>
             <div class="date">
                 <h3>2020</h3>
@@ -141,7 +141,34 @@
             <p>
                 Pilgerstempel der Kirche Amsoldingen (Bild: Nicole Hublard)
             </p>
+            <p><i>Nicole Hublard ist Studentin der französischen und spanischen Sprach- und Literaturwissenschaften an
+                    der
+                    Universität Bern.</i>
+            </p>
+            <div class="vertiefung">
+                <h2>Zur Vertiefung:</h2>
+                <ul>
+                    <li>Kramer, Daniel: «Der Thuner Medaillon-Teppich und die Wollstickerei der Wartburg (14. Jh.)», in:
+                        Jahresbericht Schlossmuseum Thun, Thun 2003, 27-50, online verfügbar unter:
+                        https://biblio.unibe.ch/digibern/jahrbuch_schloss_thun/jahrbuch_schloss_thun_2003.pdf
+                        (10.06.2020).</li>
+                    <li>Rutishauser, Samuel: Kirche Amsoldingen: Schweizerischer Kunstführer (Serie 30, Nr. 296), hg. in
+                        Zusammenarbeit mit der Kirchgemeinde Amsoldingen, Gesellschaft für Schweizerische
+                        Kunstgeschichte, Bern 1981.</li>
+                    <li>Rutishauser, Samuel: Amsoldingen: Ehemalige Stiftskirche, Bauforschung, Bern 1982.</li>
+                </ul>
+            </div>
+            <div class="weitere">
+                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div>
             <app-map></app-map>
         </div>
+
     </div>
+
 </div>

@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+#details {
+  color: white;
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 110px;
+  background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  line-height: 25px;
+  filter: none;
+  /* backdrop-filter: grayscale(100%); */
+}
+
+.container {
+  height: 490px;
+  width: auto;
+  justify-items: center;
+  align-items: center;
+  row-gap: 0;
+  background-image: linear-gradient(black, black),
+    url("../../../assets/images/first.jpg");
+  background-blend-mode: saturation;
+  background-size: cover;
+  background-position: center center;
+  display: block;
+}
+
+.read {
+  border-color: white;
+  width: 165px;
+  height: 40px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.mat-button,
+.mat-icon-button,
+.mat-stroked-button:hover ::ng-deep {
+  transition: 0.5s;
+  background: rgb(155, 30, 30);
+  opacity: 0.9;
+}
+
+.location {
+  display: block;
+  text-align: center;
+  line-height: 50px;
+}
+
+#first {
+}
+.title {
+  display: block;
+  text-align: center;
+  line-height: 50px;
+}
+
+.date {
+  display: block;
+  text-align: center;
+  line-height: 50px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  line-height: 25px;
+}
+
+.title h2 {
+  font-family: "Playfair Display";
+  font-size: 36px;
+}
+
+.location h4 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+mat-stroked-button .date h4 {
+  font-family: "Montserrat";
+}

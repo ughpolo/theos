@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="cover">
+        <div class="textWrapper">
+            <div class="buttons">
+                <button class="kacheln" mat-raised-button [routerLink]="['/reisehinweise/kacheln']"
+                    routerLinkActive="mat-warn">
+                    Kacheln
+                </button>
+                <button class="map" mat-raised-button [routerLink]="['/reisehinweise/map']" routerLinkActive="mat-warn">
+                    Karte
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

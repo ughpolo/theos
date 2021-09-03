@@ -2,16 +2,24 @@ import { Injectable } from '@angular/core';
 import { Beitrag } from './models/beitrag';
 
 
+
 @Injectable({
   providedIn: 'root'
 })
 export class DataServiceService {
 
 
-  constructor() { }
+  constructor() {
+    this.assignAuthors();
+  }
+
+
 
   beiträge: Beitrag[] = [
-    // new Beitrag("Kirche", "Amsoldingen", "../../../assets/images/amsoldingen/amsoldingen.jpg","Nicole Hublard" , "2010", "Bern"),
+
+    new Beitrag("Berner Totentanz", "Amsoldingen", "../../../assets/images/amsoldingen/amsoldingen.jpg", "Nicole Hublard", "2010", "Bern"),
+    new Beitrag("Amsoldingen Kirche", "Amsoldingen", "../../../assets/images/amsoldingen/amsoldingen.jpg", "Nicole Hublard", "2010", "Bern"),
+    new Beitrag("Haus der Religionen", "Amsoldingen", "../../../assets/images/amsoldingen/amsoldingen.jpg", "Nicole Hublard", "2010", "Bern"),
     // new Beitrag("Cigognier-Heiligtum", "Avenches", "../../../assets/images/cigognier/avenches.jpg", "Sara Egger", "2018", "Vaud"),
     // new Beitrag("Baptisterium", "Bad Zurzach","../../../assets/images/baptisterium/bad_zurzach_baptisterium.jpg" , "Maria Lissek", "2016", "AG"),
     // new Beitrag("Kirche St.Martin", "Basel", "../../../assets/images/stmartin/martin_basel.jpg", "Angela Berlis", "2016", "BS"),
@@ -22,7 +30,7 @@ export class DataServiceService {
 
     new Beitrag("Berner Totentanz", "Bern", "../../../assets/images/totentanz/totentanz.jpg", "Matthias D. Berger", "2021", "Bern"),
     new Beitrag("Betlehem Kirche", "Bern", "../../../assets/images/betlehem/bernbetlehem.jpg", "Andreas Köhler-Andereggen", "2020", "Bern"),
-    new Beitrag("ehemaliges Bürgerspital", "Bern", "../../../assets/images/goldenenLettern/goldenenLettern.jpeg", "Matthias Käser", "2020", "Bern"),
+    new Beitrag("ehemaliges Burgerspital", "Bern", "../../../assets/images/goldenenLettern/goldenenLettern.jpeg", "Matthias Käser", "2020", "Bern"),
     new Beitrag("Dürrenmatts Mansarde", "Bern", "../../../assets/images/duerrenmattMansarde/duerrenmattMansarde.jpg", "Christoph Morgenthaler", "2020", "Bern"),
     new Beitrag("Haus der Religionen", "Europaplatz", "../../../assets/images/hausderreligionen/hausDerReligionen.jpg", "Anna-Konstanze Schröder", "2016", "Bern"),
     new Beitrag("Kindlifresserbrunnen", "Kornhausplatz", "../../../assets/images/kindlifresser/bern_kindlifresserbrunnen.jpg", "René Bloch", "2020", "Bern"),
@@ -56,6 +64,8 @@ export class DataServiceService {
 
   kacheln: any = [];
 
+  authors: { author: string, beitrag: string[] }[] = [];
+
   countArray: any = this.setDisplayLocation(this.beiträge);
 
   setDisplayLocation(beiträge: Beitrag[]) {
@@ -79,8 +89,41 @@ export class DataServiceService {
         tempArray.push({ locationCat: beiträge[x].locationCat!, count: 1, title: beiträge[x].title, image: beiträge[x].image, location: beiträge[x].location, titleArray: [beiträge[x].title] })
       }
     }
-    console.log(tempArray, "temparray")
     return tempArray;
+  }
+
+  assignAuthors() {
+    const beiträge = this.beiträge;
+    for (let x = 0; x < beiträge.length; x += 1) {
+      let obj = (this.authors.find(y => y.author === beiträge[x].author))
+      let index;
+      if (obj) {
+        index = this.authors.indexOf(obj);
+        this.authors[index].beitrag.push(beiträge[x].title);
+      } else {
+        this.authors.push({ author: beiträge[x].author, beitrag: [beiträge[x].title] })
+      }
+    }
+  }
+
+  getAuthor(name: string, title: string) {
+    let author;
+    let obj = this.authors.find(x => x.author === name);
+    if (obj) {
+      let index = this.authors.indexOf(obj);
+      author = this.authors[index];
+      author = this.filterCurrentPost(title, author);
+    }
+    return author;
+  }
+
+  filterCurrentPost(title: string, author: { author: string, beitrag: string[] }) {
+    let posts = author;
+    let index = posts.beitrag.indexOf(title);
+    if (index > -1) {
+      posts.beitrag.splice(index, 1);
+    }
+    return posts;
   }
 
 

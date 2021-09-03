@@ -10,7 +10,7 @@ interface Food {
 @Component({
   selector: 'app-ort-item',
   templateUrl: './ort-item.component.html',
-  styleUrls: ['./ort-item.component.css']
+  styleUrls: ['./ort-item.component.scss']
 })
 export class OrtItemComponent implements OnInit {
 

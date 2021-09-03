@@ -1,30 +1,29 @@
+<!-- *ngIf="hasRoute('home')"  -->
 <div class="headerWrapper">
-    <div class="leftTitle">
-        <h4></h4>
-    </div>
     <div class="titleWrapper">
+        <div class="left"></div>
         <div class="title">
-            <h1 id="title"><span style="color: red;">t</span>heos</h1>
+            <div class="vertical">
+                <h1 id="title"><span style="color: red;">T</span>heos</h1>
+                <h3 id="sub">Theologisch bedeutsame Orte der Schweiz</h3>
+            </div>
         </div>
-        <div class="subtitle">
-            <h3 id="sub">theologisch bedeutsame orte der schweiz</h3>
-        </div>
-
-    </div>
-    <div class="rightTitle">
-        <h4></h4>
+        <img class="logo" src="../../assets/logobern.png">
     </div>
 </div>
 <div class="navWrapper" ngStickyNav stickyClass="sticky">
     <nav class="nav">
-        <img class="logo" src="../../assets/images/logo_unibern.png">
         <div class="links">
             <ul class="nav_links">
-                <li><a routerLink="/home">home</a></li>
-                <li><a routerLink="/reisehinweise">orte</a></li>
-                <li><a routerLink="/beitrag">ihr beitrag</a></li>
-                <li><a routerLink="/kontakt">kontakt</a></li>
-                <li><a routerLink="/team">Team</a></li>
+                <li><a routerLink="/home" [ngClass]="router.url == '/home' ? 'active' : 'link'">Home</a></li>
+                <li><a routerLink="/reisehinweise/kacheln"
+                        [ngClass]="router.url == '/reisehinweise/kacheln' || router.url == '/reisehinweise/map' ? 'active' : 'link'">Orte</a>
+                </li>
+                <li><a routerLink="/beitrag" [ngClass]="router.url == '/beitrag' ? 'active' : 'link'">Ihr Beitrag</a>
+                </li>
+                <li><a routerLink="/team" [ngClass]="router.url == '/team' ? 'active' : 'link'">Über uns</a></li>
+                <li><a routerLink="/kontakt" [ngClass]="router.url == '/kontakt' ? 'active' : 'link'">Kontakt</a></li>
+
             </ul>
         </div>
         <div class="rightbutton">

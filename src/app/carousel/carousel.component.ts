@@ -6,11 +6,11 @@ import { Beitrag } from '../models/beitrag';
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.css']
+  styleUrls: ['./carousel.component.scss']
 })
 export class CarouselComponent implements OnInit {
 
-  items:Beitrag[] = []
+  items: Beitrag[] = []
 
   constructor(private dataSourceService: DataServiceService) { }
 
@@ -33,17 +33,23 @@ export class CarouselComponent implements OnInit {
     autoplayHoverPause: true,
     responsive: {
       0: {
+        margin: 0,
         items: 1
       },
-      400: {
+      500: {
+        items: 1
+      },
+      1000: {
         items: 2
       },
-      740: {
+      1450: {
         items: 3
       },
-      940: {
+      1700: {
         items: 4
       }
+
+
     },
     nav: true
   }

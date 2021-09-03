@@ -6,71 +6,16 @@
     </div>
   </div>
 </div>
-<div class="form">
-  <div class="input">
-    <form class="example-form">
-      <div class="angaben">
-        <table class="example-full-width" cellspacing="0">
-          <tr>
-            <td>
-              <mat-form-field class="example-full-width">
-                <mat-label>Vorname</mat-label>
-                <input matInput>
-              </mat-form-field>
-            </td>
-            <td>
-              <mat-form-field class="example-full-width">
-                <mat-label>Nachname</mat-label>
-                <input matInput>
-              </mat-form-field>
-            </td>
-          </tr>
-        </table>
-        <mat-form-field class="example-full-width">
-          <mat-label>Email</mat-label>
-          <input type="email" matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
-          <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
-            Please enter a valid email address
-          </mat-error>
-          <mat-error *ngIf="emailFormControl.hasError('required')">
-            Email is <strong>required</strong>
-          </mat-error>
-        </mat-form-field>
-        <table class="example-full-width" cellspacing="0">
-          <tr>
-            <td>
-              <mat-form-field class="example-full-width">
-                <mat-label>Institution</mat-label>
-                <input matInput>
-              </mat-form-field>
-            </td>
-          </tr>
-        </table>
-        <table class="example-full-width" cellspacing="0">
-          <tr>
-            <td>
-              <mat-form-field class="example-full-width">
-                <mat-label>Ort</mat-label>
-                <input matInput>
-              </mat-form-field>
-            </td>
-          </tr>
-        </table>
-        <table class="example-full-width" cellspacing="0">
-          <tr>
-            <td>
-              <mat-form-field class="example-full-width">
-                <mat-label>Land</mat-label>
-                <input matInput>
-              </mat-form-field>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </form>
-    <div class="text">
-      <p>Wenn Sie selbst einen Text zu einem theologisch bedeutsamen Ort in der Schweiz verfassen möchten, freuen wir
-        uns über Ihre Zusendung.</p>
+
+<div class="wrapper">
+  <div class="überschrift">Wenn Sie selbst einen Text zu einem theologisch bedeutsamen Ort in der Schweiz verfassen
+    möchten, freuen wir uns über Ihre Zusendung.</div>
+  <div class="inside">
+
+    <div class="left-richtlinien">
+      <h4>Richtlinien für einen eigenen Beitrag:</h4>
+    </div>
+    <div class="right-richtlinien">
       <ul>
         <li>5000-6000 Zeichen über einen historisch oder systematisch-theologisch bedeutsamen (nicht notwendig
           christlichen) Ort in der Schweiz</li>
@@ -79,11 +24,6 @@
         <li>1-3 Literaturhinweise zur Vertiefung</li>
         <li>Text in deutscher, französischer, italienischer oder rätischer Sprache</li>
       </ul>
-
-
-
-
-
       <p>Bitte gehen Sie in Ihrem Text auf folgende Aspekte ein:</p>
       <ul>
         <li>Was ist heute zu sehen?</li>
@@ -92,4 +32,24 @@
       </ul>
     </div>
   </div>
+  <div class="text-unten">
+    <p>
+      Wenn Sie keinen eigenen Text verfassen möchten, können Sie uns auch einfach auf interessante Orte hinweisen oder
+      uns
+      mögliche Autor_innen vorschlagen. Nennen Sie uns bitte in diesem Fall den Namen des Ortes und notieren Sie einige
+      Stichworte zu den oben genannten Aspekten. Wir werden dann Autor_innen suchen, die den Beitrag in eine
+      publikationsfertige Form bringen.
+    </p>
+    <p>Alle Einsendungen werden von Mitgliedern des Instituts für Historische Theologie der Universität Bern
+      begutachtet.
+      Senden Sie Ihren Beitrag und Ihre Fragen bitte an das Redaktionsteam (theos@redaktion.theol.unibe.ch):
+    </p>
+    <ul>
+      <li>stud. theol. Adriana Basso Schaub</li>
+      <li>Dr. Maria Lissek</li>
+    </ul>
+    <p>Wir freuen uns auf Ihren Beitrag!</p>
+
+  </div>
+
 </div>

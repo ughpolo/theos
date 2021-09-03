@@ -27,6 +27,11 @@ import { APP_BASE_HREF, LocationStrategy, HashLocationStrategy } from '@angular/
 import { MapComponent } from './map/map.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { FooterComponent } from './footer/footer.component';
+import { ReisehinweiseComponent } from './reisehinweise/reisehinweise.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MarkerService } from './marker.service';
+import { ShapeService } from './shape.service';
+import { RemoveshitespacesPipe } from './custompipe/removeshitespaces.pipe';
 
 
 
@@ -49,8 +54,11 @@ import { FooterComponent } from './footer/footer.component';
     TeamComponent,
     MapComponent,
     FooterComponent,
+    ReisehinweiseComponent,
+    RemoveshitespacesPipe,
   ],
   imports: [
+    HttpClientModule,
     MatGridListModule,
     ReactiveFormsModule,
     FormsModule,
@@ -66,6 +74,8 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule
   ],
   providers: [
+    ShapeService,
+    MarkerService,
     { provide: APP_BASE_HREF, useValue: '/' },
     { provide: LocationStrategy, useClass: HashLocationStrategy },
   ],

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataServiceService } from 'src/app/data-service.service';
+import { RemoveshitespacesPipe } from '../../custompipe/removeshitespaces.pipe';
 
 
 export interface Tile {
@@ -11,20 +13,18 @@ export interface Tile {
 @Component({
   selector: 'app-amsoldingen',
   templateUrl: './amsoldingen.component.html',
-  styleUrls: ['./amsoldingen.component.css']
+  styleUrls: ['./amsoldingen.component.scss']
 })
 export class AmsoldingenComponent implements OnInit {
 
-  constructor() { }
+  author: any;
+
+  constructor(protected dataService: DataServiceService) { }
 
   ngOnInit(): void {
+    this.author = this.dataService.getAuthor('Nicole Hublard', 'Amsoldingen Kirche')
   }
 
-  tiles: Tile[] = [
-    { text: 'One', cols: 3, rows: 1, color: 'lightblue' },
-    { text: 'Two', cols: 1, rows: 2, color: 'lightgreen' },
-    { text: 'Three', cols: 1, rows: 1, color: 'lightpink' },
-    { text: 'Four', cols: 2, rows: 1, color: '#DDBDF1' },
-  ];
+
 
 }

@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  height: 490px;
+  background-image: url("../../assets/images/kanton/Solothurn.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: block;
+}
+
+.cover {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  float: left;
+  display: block;
+  height: 100%;
+}
+
+.textWrapper {
+  text-align: center;
+  padding: 220px 0;
+  display: block;
+  line-height: 25px;
+  color: white;
+}
+
+.mat-button,
+.mat-raised-button,
+.mat-icon-button,
+.mat-stroked-button,
+.mat-flat-button,
+.mat-fab,
+.mat-mini-fab {
+  font-family: "Montserrat";
+}
+
+.mat-flat-button.mat-warn,
+.mat-raised-button.mat-warn,
+.mat-fab.mat-warn,
+.mat-mini-fab.mat-warn {
+  background-color: black;
+}
+
+.buttons {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.kacheln {
+  width: 120px;
+  margin-right: 20px;
+}
+
+.map {
+  width: 120px;
+  margin-left: 20px;
+}

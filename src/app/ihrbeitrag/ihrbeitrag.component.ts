@@ -5,7 +5,7 @@ import {FormControl, FormGroupDirective, NgForm, Validators} from '@angular/form
 @Component({
   selector: 'app-ihrbeitrag',
   templateUrl: './ihrbeitrag.component.html',
-  styleUrls: ['./ihrbeitrag.component.css']
+  styleUrls: ['./ihrbeitrag.component.scss']
 })
 export class IhrbeitragComponent {
   emailFormControl = new FormControl('', [

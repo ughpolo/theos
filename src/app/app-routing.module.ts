@@ -24,6 +24,7 @@ const routes: Routes = [
   { path: 'beitrag', component: IhrbeitragComponent },
   { path: 'map', component: MapComponent },
   { path: 'team', component: AboutComponent },
+  { path: 'test', component: TeamComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 

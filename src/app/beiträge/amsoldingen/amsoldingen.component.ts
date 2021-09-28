@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataServiceService } from 'src/app/data-service.service';
+import { MapService } from 'src/app/map.service';
 import { RemoveshitespacesPipe } from '../../custompipe/removeshitespaces.pipe';
 
 
@@ -17,13 +18,28 @@ export interface Tile {
 })
 export class AmsoldingenComponent implements OnInit {
 
+
+  map!: L.Map;
+
   author: any;
 
-  constructor(protected dataService: DataServiceService) { }
+  title!: string;
+
+  date!: string;
+
+  constructor(protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
-    this.author = this.dataService.getAuthor('Nicole Hublard', 'Amsoldingen Kirche')
+    this.assign('Nicole Hublard', 'Amsoldingen Kirche');
+    this.map = this.mapService.initMap([46.7272, 7.57891], [[46.7272, 7.57891]], 16, true);
   }
+
+  assign(author: string, beitrag: string) {
+    this.author = this.dataService.getAuthor(author, beitrag);
+    this.date = this.dataService.getDate(author, beitrag)!;
+    this.title = beitrag;
+  }
+
 
 
 

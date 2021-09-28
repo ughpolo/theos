@@ -2,6 +2,21 @@ mat-card img {
   object-fit: cover;
   height: 200px;
 }
+mat-form-field {
+  font-weight: 300;
+}
+
+.not-empty-select.mat-selected {
+  color: green !important;
+}
+
+.mat-select-value-text:host {
+  color: green !important;
+}
+
+mat-option {
+  color: #d6002b !important;
+}
 
 #title::after {
   content: "\a";
@@ -22,7 +37,7 @@ mat-label {
 }
 
 #beitrag {
-  color: rgb(212, 53, 53);
+  color: #d6002b;
 }
 
 mat-card-content {

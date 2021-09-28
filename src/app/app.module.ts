@@ -37,6 +37,7 @@ import { MarkerService } from './marker.service';
 import { ShapeService } from './shape.service';
 import { RemoveshitespacesPipe } from './custompipe/removeshitespaces.pipe';
 import { AboutComponent } from './about/about.component';
+import { TitleImageComponent } from './title-image/title-image.component';
 
 
 
@@ -63,6 +64,7 @@ import { AboutComponent } from './about/about.component';
     ReisehinweiseComponent,
     RemoveshitespacesPipe,
     AboutComponent,
+    TitleImageComponent,
   ],
   imports: [
     MatToolbarModule,

@@ -1,5 +1,8 @@
+@import "../../../styles.scss";
+
 * {
   box-sizing: border-box;
+  text-align: justify;
 }
 
 .wrapper {
@@ -103,10 +106,6 @@ a {
   margin-top: 30px;
 }
 
-#voyage-text {
-  text-align: center;
-}
-
 #author {
   font-size: small;
   text-align: center;
@@ -127,4 +126,9 @@ a {
   font-size: 16px;
   letter-spacing: 2px;
   font-weight: 200;
+}
+
+.accent {
+  color: $rot;
+  font-weight: bold;
 }

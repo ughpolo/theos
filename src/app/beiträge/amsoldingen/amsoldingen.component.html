@@ -1,22 +1,7 @@
-<div class="container">
-    <div class="cover">
-        <div class="textWrapper">
-            <div class="title">
-                <h1>Amsoldingen Kirche</h1>
-            </div>
-            <div class="author">
-                <h2 id="author">Nicole Hublard</h2>
-            </div>
-            <div class="date">
-                <h3>2020</h3>
-            </div>
-        </div>
-    </div>
-</div>
+<app-title-image [author]="author.author" [title]="title" [date]="date" [image]="'amsoldingen/amsoldingen.jpg'">
+</app-title-image>
 <div class="wrapper">
     <div class="text">
-        <div class="block1"></div>
-        <div class="block2"></div>
         <div class="innerText">
             <p id="text">
                 Die Kirche Amsoldingen schmiegt sich in eine durch Hügel und Seen geprägte Landschaft vor
@@ -27,8 +12,6 @@
                 Kantons
                 Bern,
                 sondern auch europaweit eine der besterhaltenen Kirchen der frühromanischen Epoche.</p>
-
-
             <img id="bild1" src="../../../assets/images/amsoldingen/bild1.jpg" alt="">
             <p id="imagesub">Kirche von Amsoldingen (Bild: Nicole Hublard)
 
@@ -115,10 +98,8 @@
                 eine der ältesten Berner Landorgeln. Des Weiteren sind auch der Abendmahltisch von 1668 und die drei
                 farbigen Chorfenster zum Thema
                 „werden“ von Max Brunner aus dem Jahre 1985 zu beachten, welche die Dreieinigkeit symbolisieren.</p>
-            <div class="smallimage">
-                <img id="bild1" src="../../../assets/images/amsoldingen/bild3.jpg" alt="">
 
-            </div>
+            <img id="bild1" src="../../../assets/images/amsoldingen/bild3.jpg" alt="">
             <p>
                 Innenansicht der Kirche Amsoldingen in Richtung Taufstein (Bild: Nicole Hublard)
             </p>
@@ -158,7 +139,7 @@
                     <li>Rutishauser, Samuel: Amsoldingen: Ehemalige Stiftskirche, Bauforschung, Bern 1982.</li>
                 </ul>
             </div>
-            <div class="weitere">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
                 <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
                 <ul>
                     <li *ngFor="let beitrag of author.beitrag"><a
@@ -166,7 +147,9 @@
                     </li>
                 </ul>
             </div>
-            <app-map></app-map>
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
         </div>
 
     </div>

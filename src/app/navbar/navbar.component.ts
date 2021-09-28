@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MatSidenav } from '@angular/material/sidenav';
 import { Router } from '@angular/router';
 
 
@@ -8,6 +9,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+
+  @ViewChild('sidenav') sidenav!: MatSidenav;
 
   constructor(public router: Router) { }
 
@@ -19,7 +22,9 @@ export class NavbarComponent implements OnInit {
   }
   open = false;
 
-
+  close() {
+    this.sidenav.close();
+  }
   toggleNav() {
     this.open = !this.open;
   }

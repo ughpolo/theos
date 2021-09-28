@@ -91,6 +91,10 @@ nav {
   grid-template-columns: 1fr 11fr 1fr;
 }
 
+.side {
+  min-width: 300px;
+}
+
 li,
 a {
   /* font-family: "Montserrat"; */

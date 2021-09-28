@@ -14,8 +14,12 @@
 .textWrapper h1 {
   font-family: "Playfair Display";
   color: #000000;
-  margin-bottom: 65px;
+
   font-size: 36px;
+}
+
+li {
+  list-style: none;
 }
 
 .textWrapper p {
@@ -46,7 +50,12 @@
   justify-content: center;
 }
 
+.adress {
+  justify-content: center;
+}
+
 .content {
+  text-align: center;
   line-height: 1.625;
   font-size: 1.2rem;
   font-weight: 300;

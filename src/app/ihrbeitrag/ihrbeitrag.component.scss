@@ -14,7 +14,6 @@
 .textWrapper h1 {
   font-family: "Playfair Display";
   color: #000000;
-  margin-bottom: 65px;
   font-size: 36px;
 }
 
@@ -44,10 +43,9 @@
 
 .text {
   margin-left: 10px;
-
   font-weight: 300;
   font-size: 1rem;
-  /* text-align: center; */
+  text-align: justify;
 }
 
 .wrapper {
@@ -69,6 +67,7 @@
 }
 
 .right-richtlinien {
+  text-align: justify;
   background: #f5f5f5;
   grid-column: 2/3;
 }
@@ -87,6 +86,7 @@ ul {
 .left-richtlinien {
   background: #f0efef;
   grid-column: 1/2;
+  text-align: justify;
 }
 
 .text-unten {

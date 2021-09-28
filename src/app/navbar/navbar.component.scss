@@ -1,5 +1,11 @@
+@import "../../styles.scss";
+
 * {
   box-sizing: border-box;
+}
+
+.accent {
+  color: $rot;
 }
 
 .firstPage {
@@ -28,7 +34,7 @@
   margin-top: 10px;
   display: grid;
   grid-template-columns: 1fr 11fr 1fr;
-  justify-items: center;
+  // justify-items: center;
   grid-column: 2/3;
 }
 
@@ -39,6 +45,7 @@
 }
 
 #title {
+  margin-top: 40px;
   /* font-family: "Montserrat"; */
   font-size: 2.2rem;
   font-weight: 300;
@@ -64,7 +71,7 @@
 
 .institut {
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 0;
 }
 
@@ -176,7 +183,7 @@ ul {
 }
 
 .active::after {
-  border-bottom-color: rgb(234, 22, 31);
+  border-bottom-color: $rot;
   border-bottom-style: solid;
   border-bottom-width: 2px;
   box-sizing: content-box;
@@ -190,8 +197,20 @@ ul {
   z-index: 2001;
 }
 
+.side {
+  min-width: 150px;
+}
 .dropdown {
   grid-column: 3/4;
+}
+
+.side_li {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.side_li a:hover {
+  font-size: larger;
 }
 
 @keyframes line {

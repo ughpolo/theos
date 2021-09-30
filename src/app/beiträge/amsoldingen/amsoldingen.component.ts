@@ -35,7 +35,7 @@ export class AmsoldingenComponent implements OnInit {
   }
 
   assign(author: string, beitrag: string) {
-    console.log("test")
+    console.log("a")
     this.author = this.dataService.getAuthor(author, beitrag);
     this.date = this.dataService.getDate(author, beitrag)!;
     this.title = beitrag;

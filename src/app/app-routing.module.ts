@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AmsoldingenComponent } from './beiträge/amsoldingen/amsoldingen.component';
+import { AmsoldingenKircheComponent } from './beiträge/amsoldingen-kirche/amsoldingen-kirche.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { OrteComponent } from './home/orte/orte.component';
@@ -21,7 +21,7 @@ const routes: Routes = [
       { path: 'map', component: MapComponent }
     ]
   },
-  { path: 'amsoldingen', component: AmsoldingenComponent },
+  { path: 'amsoldingen-kirche', component: AmsoldingenKircheComponent },
   { path: 'kontakt', component: ContactComponent },
   { path: 'beitrag', component: IhrbeitragComponent },
   { path: 'map', component: MapComponent },
@@ -31,7 +31,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: false })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

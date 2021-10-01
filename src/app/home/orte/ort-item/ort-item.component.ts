@@ -14,9 +14,9 @@ interface Food {
 })
 export class OrtItemComponent implements OnInit {
 
-  @Input() beitrag: {locationCat: string, count: number, title: string, image: string, location: string, titleArray: string[]} = {locationCat: "", count: 0, title: "", image: "", location: "", titleArray: []}
+  @Input() beitrag: { locationCat: string, count: number, title: string, image: string, location: string, titleArray: string[] } = { locationCat: "", count: 0, title: "", image: "", location: "", titleArray: [] }
 
-  
+
 
   location: string = "";
 
@@ -28,20 +28,22 @@ export class OrtItemComponent implements OnInit {
 
   }
 
-  
+
   allLocations: string[] = [];
 
 
-  isbe(beitrag:any){
-    if(beitrag.count > 1){
+  isbe(beitrag: any) {
+    if (beitrag.count > 1) {
       this.beitrag.image = `../../../assets/images/kanton/${this.beitrag.locationCat}.jpg`
       return true;
     }
     return false;
   }
 
-  select(event: any){
-    this.router.navigateByUrl('/amsoldingen')
+  select(event: string) {
+
+    let url = event.replace(/\s+/g, '-').toLowerCase();
+    this.router.navigateByUrl(`/${url}`)
   }
 
 }

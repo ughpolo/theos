@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataServiceService } from 'src/app/data-service.service';
 import { MapService } from 'src/app/map.service';
+import { MarkerService } from 'src/app/marker.service';
 import { RemoveshitespacesPipe } from '../../custompipe/removeshitespaces.pipe';
 
 
@@ -12,12 +13,13 @@ export interface Tile {
 }
 
 @Component({
-  selector: 'app-amsoldingen',
-  templateUrl: './amsoldingen.component.html',
-  styleUrls: ['./amsoldingen.component.scss']
+  selector: 'app-amsoldingen-kirche',
+  templateUrl: './amsoldingen-kirche.component.html',
+  styleUrls: ['./amsoldingen-kirche.component.scss']
 })
-export class AmsoldingenComponent implements OnInit {
+export class AmsoldingenKircheComponent implements OnInit {
 
+  coordinates: any;
 
   map!: L.Map;
 
@@ -27,10 +29,10 @@ export class AmsoldingenComponent implements OnInit {
 
   date!: string;
 
-  constructor(protected dataService: DataServiceService, protected mapService: MapService) { }
+  constructor(protected dataService: DataServiceService, protected mapService: MapService, protected markerService: MarkerService) { }
 
   ngOnInit(): void {
-    this.assign('Nicole Hublard', 'Solothurn Zwei Heilige', 'Zwei Heilige überblicken Solothurn');
+    this.assign('Nicole Hublard', 'Amsoldingen Kirche', 'Die Kirche Amsoldingen – ein Juwel im Berner Oberland');
     this.map = this.mapService.initMap([46.7272, 7.57891], [[46.7272, 7.57891]], 16, true);
   }
 
@@ -38,8 +40,12 @@ export class AmsoldingenComponent implements OnInit {
     this.author = this.dataService.getAuthor(author, beitrag);
     this.date = this.dataService.getDate(author, beitrag)!;
     this.title = title;
+    this.coordinates = this.dataService.getBeitrag(author, beitrag)?.markers;
   }
 
+  ngAfterViewInit(): void {
+    this.markerService.makeMarkers(this.map, this.coordinates);
+  }
 
 
 

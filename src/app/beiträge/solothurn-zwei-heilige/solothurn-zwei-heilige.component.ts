@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataServiceService } from 'src/app/data-service.service';
 import { MapService } from 'src/app/map.service';
+import { MarkerService } from 'src/app/marker.service';
 import { RemoveshitespacesPipe } from '../../custompipe/removeshitespaces.pipe';
 
 @Component({
@@ -9,6 +10,7 @@ import { RemoveshitespacesPipe } from '../../custompipe/removeshitespaces.pipe';
   styleUrls: ['./solothurn-zwei-heilige.component.scss']
 })
 export class SolothurnZweiHeiligeComponent implements OnInit {
+  coordinates!: any;
 
   map!: L.Map;
 
@@ -18,7 +20,7 @@ export class SolothurnZweiHeiligeComponent implements OnInit {
 
   date!: string;
 
-  constructor(protected dataService: DataServiceService, protected mapService: MapService) { }
+  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
     this.assign('Joël Meier', 'Solothurn Zwei Heilige', 'Zwei Heilige überblicken Solothurn');
@@ -29,7 +31,10 @@ export class SolothurnZweiHeiligeComponent implements OnInit {
     this.author = this.dataService.getAuthor(author, beitrag);
     this.date = this.dataService.getDate(author, beitrag)!;
     this.title = title;
+    this.coordinates = this.dataService.getBeitrag(author, beitrag)?.markers;
   }
 
-
+  ngAfterViewInit(): void {
+    this.markerService.makeMarkers(this.map, this.coordinates);
+  }
 }

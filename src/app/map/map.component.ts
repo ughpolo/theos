@@ -21,7 +21,6 @@ export class MapComponent implements OnInit {
 
   ngOnInit(): void {
     this.map = this.mapService.initMap([46.8182, 8.2275], [[46.7264, 7.5849], [46.9503, 7.4474]], 8, false);
-    console.log(this.map, "test");
   }
 
 

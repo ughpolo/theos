@@ -30,7 +30,7 @@ export class AmsoldingenComponent implements OnInit {
   constructor(protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
-    this.assign('Nicole Hublard', 'Amsoldingen Kirche', 'Die Kirche Amsoldingen – ein Juwel im Berner Oberland');
+    this.assign('Nicole Hublard', 'Solothurn Zwei Heilige', 'Zwei Heilige überblicken Solothurn');
     this.map = this.mapService.initMap([46.7272, 7.57891], [[46.7272, 7.57891]], 16, true);
   }
 

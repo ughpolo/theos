@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Beitrag } from './models/beitrag';
+import { Kantone } from './models/kantone';
+
 
 
 
@@ -18,12 +20,12 @@ export class DataServiceService {
 
   beiträge: Beitrag[] = [
 
-    new Beitrag("Solothurn Zwei Heilige", "Solothurn", "../../../assets/images/solothurnzweiheilige/kathedrale.jpg", "Joël Meier", "2021", [[47.209, 7.5394]], "Solothurn"),
-    new Beitrag("Amsoldingen Kirche", "Amsoldingen", "../../../assets/images/amsoldingen/amsoldingen.jpg", "Nicole Hublard", "2010", [[46.7272, 7.57891]], "Bern"),
+    new Beitrag("Solothurn Zwei Heilige", "Solothurn", "../../../assets/images/solothurnzweiheilige/kathedrale.jpg", "Joël Meier", "2021", [[47.209, 7.5394]], Kantone.Solothurn),
+    new Beitrag("Amsoldingen Kirche", "Amsoldingen", "../../../assets/images/amsoldingen/amsoldingen.jpg", "Nicole Hublard", "2010", [[46.7272, 7.57891]], Kantone.Bern),
 
-    // new Beitrag("Cigognier-Heiligtum", "Avenches", "../../../assets/images/cigognier/avenches.jpg", "Sara Egger", "2018", "Vaud"),
-    // new Beitrag("Baptisterium", "Bad Zurzach","../../../assets/images/baptisterium/bad_zurzach_baptisterium.jpg" , "Maria Lissek", "2016", "AG"),
-    // new Beitrag("Kirche St.Martin", "Basel", "../../../assets/images/stmartin/martin_basel.jpg", "Angela Berlis", "2016", "BS"),
+    new Beitrag("Cigognier-Heiligtum", "Avenches", "../../../assets/images/cigognier/avenches.jpg", "Sara Egger", "2018", [[46.88105, 7.04255]], Kantone.Wadt),
+    new Beitrag("Baptisterium", "Bad Zurzach", "../../../assets/images/baptisterium/bad_zurzach_baptisterium.jpg", "Maria Lissek", "2016", [[47.58538, 8.30063], [45.90469, 8.97087], [46.21971, 7.0037]], Kantone.Aargau),
+    new Beitrag("Kirche St.Martin", "Basel", "../../../assets/images/stmartin/martin_basel.jpg", "Angela Berlis", "2016", [[47.55906, 7.5886], [47.53126, 7.81095], [46.63447, 9.44155]], Kantone.BaselStadt),
     // new Beitrag("Kapelle", "Belalp", "../../../assets/images/belalp/belalpKapelle.jpg", "Gerd Dönni","2020", "VS" ),
     // new Beitrag("L'abbatiale", "Bellelay", "../../../assets/images/abbatiale/bellelay_abbatiale.jpg","Lara A. Kneubühler", "2016", "JU"),
     // new Beitrag("Antoniterkirche", "Bern", "../../../assets/images/antoniterkirche/antoniterkirche_heimlich.jpg", "Nadja Heimlicher", "2016", "Bern"),

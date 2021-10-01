@@ -38,6 +38,8 @@ import { ShapeService } from './shape.service';
 import { RemoveshitespacesPipe } from './custompipe/removeshitespaces.pipe';
 import { AboutComponent } from './about/about.component';
 import { TitleImageComponent } from './title-image/title-image.component';
+import { BaptisteriumComponent } from './beiträge/baptisterium/baptisterium.component';
+
 
 
 
@@ -46,7 +48,7 @@ import { TitleImageComponent } from './title-image/title-image.component';
 
 @NgModule({
   declarations: [
-
+    BaptisteriumComponent,
     AppComponent,
     CarouselComponent,
     NavbarComponent,

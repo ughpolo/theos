@@ -9,6 +9,7 @@ import { TeamComponent } from './team/team.component';
 import { MapComponent } from './map/map.component';
 import { ReisehinweiseComponent } from './reisehinweise/reisehinweise.component';
 import { AboutComponent } from './about/about.component';
+import { BaptisteriumComponent } from './beiträge/baptisterium/baptisterium.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,7 @@ const routes: Routes = [
     ]
   },
   { path: 'amsoldingen', component: AmsoldingenComponent },
+  { path: 'baptisterium', component: BaptisteriumComponent },
   { path: 'kontakt', component: ContactComponent },
   { path: 'beitrag', component: IhrbeitragComponent },
   { path: 'map', component: MapComponent },

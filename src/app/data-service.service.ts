@@ -17,16 +17,16 @@ export class DataServiceService {
 
   beiträge: Beitrag[] = [
 
-
+    new Beitrag("Solothurn Zwei Heilige", "Solothurn", "../../../assets/images/solothurnzweiheilige/kathedrale.jpg", "Joël Meier", "2021", "Solothurn"),
     new Beitrag("Amsoldingen Kirche", "Amsoldingen", "../../../assets/images/amsoldingen/amsoldingen.jpg", "Nicole Hublard", "2010", "Bern"),
 
-    // new Beitrag("Cigognier-Heiligtum", "Avenches", "../../../assets/images/cigognier/avenches.jpg", "Sara Egger", "2018", "Vaud"),
-    // new Beitrag("Baptisterium", "Bad Zurzach","../../../assets/images/baptisterium/bad_zurzach_baptisterium.jpg" , "Maria Lissek", "2016", "AG"),
-    // new Beitrag("Kirche St.Martin", "Basel", "../../../assets/images/stmartin/martin_basel.jpg", "Angela Berlis", "2016", "BS"),
-    // new Beitrag("Kapelle", "Belalp", "../../../assets/images/belalp/belalpKapelle.jpg", "Gerd Dönni","2020", "VS" ),
-    // new Beitrag("L'abbatiale", "Bellelay", "../../../assets/images/abbatiale/bellelay_abbatiale.jpg","Lara A. Kneubühler", "2016", "JU"),
-    // new Beitrag("Antoniterkirche", "Bern", "../../../assets/images/antoniterkirche/antoniterkirche_heimlich.jpg", "Nadja Heimlicher", "2016", "Bern"),
-    // new Beitrag("Antoniterkirche Antonius-Fresken", "Bern", "../../../assets/images/antoniterkirche/antoniterkirche_talking.jpg", "Katharina Heyden", "2020", "Bern" ),
+    new Beitrag("Cigognier-Heiligtum", "Avenches", "../../../assets/images/cigognier/avenches.jpg", "Sara Egger", "2018", "Vaud"),
+    new Beitrag("Baptisterium", "Bad Zurzach","../../../assets/images/baptisterium/bad_zurzach_baptisterium.jpg" , "Maria Lissek", "2016", "AG"),
+    new Beitrag("Kirche St.Martin", "Basel", "../../../assets/images/stmartin/martin_basel.jpg", "Angela Berlis", "2016", "BS"),
+    new Beitrag("Kapelle", "Belalp", "../../../assets/images/belalp/belalpKapelle.jpg", "Gerd Dönni","2020", "VS" ),
+    new Beitrag("L'abbatiale", "Bellelay", "../../../assets/images/abbatiale/bellelay_abbatiale.jpg","Lara A. Kneubühler", "2016", "JU"),
+    new Beitrag("Antoniterkirche", "Bern", "../../../assets/images/antoniterkirche/antoniterkirche_heimlich.jpg", "Nadja Heimlicher", "2016", "Bern"),
+    new Beitrag("Antoniterkirche Antonius-Fresken", "Bern", "../../../assets/images/antoniterkirche/antoniterkirche_talking.jpg", "Katharina Heyden", "2020", "Bern" ),
     new Beitrag("Berner Totentanz", "Bern", "../../../assets/images/totentanz/totentanz.jpg", "Matthias D. Berger", "2021", "Bern"),
     new Beitrag("Betlehem Kirche", "Bern", "../../../assets/images/betlehem/bernbetlehem.jpg", "Andreas Köhler-Andereggen", "2020", "Bern"),
     new Beitrag("Ehemaliges Burgerspital", "Bern", "../../../assets/images/goldenenLettern/goldenenLettern.jpeg", "Matthias Käser", "2020", "Bern"),

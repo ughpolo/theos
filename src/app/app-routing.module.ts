@@ -9,9 +9,11 @@ import { TeamComponent } from './team/team.component';
 import { MapComponent } from './map/map.component';
 import { ReisehinweiseComponent } from './reisehinweise/reisehinweise.component';
 import { AboutComponent } from './about/about.component';
+import { SolothurnZweiHeiligeComponent } from './beiträge/solothurn-zwei-heilige/solothurn-zwei-heilige.component';
 
 
 const routes: Routes = [
+  { path: 'solothurn-zwei-heilige', component: SolothurnZweiHeiligeComponent },
   { path: 'home', component: HomeComponent },
   {
     path: 'reisehinweise', component: ReisehinweiseComponent, children: [

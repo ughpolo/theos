@@ -39,6 +39,8 @@ import { RemoveshitespacesPipe } from './custompipe/removeshitespaces.pipe';
 import { AboutComponent } from './about/about.component';
 import { TitleImageComponent } from './title-image/title-image.component';
 
+import { SolothurnZweiHeiligeComponent } from './beiträge/solothurn-zwei-heilige/solothurn-zwei-heilige.component';
+
 
 
 
@@ -65,6 +67,7 @@ import { TitleImageComponent } from './title-image/title-image.component';
     RemoveshitespacesPipe,
     AboutComponent,
     TitleImageComponent,
+    SolothurnZweiHeiligeComponent,
   ],
   imports: [
     MatToolbarModule,

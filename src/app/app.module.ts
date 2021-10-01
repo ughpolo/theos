@@ -20,14 +20,14 @@ import { MatSelectModule } from '@angular/material/select';
 import { OrtItemComponent } from './home/orte/ort-item/ort-item.component';
 import { CarouselItemComponent } from './carousel/carousel-item/carousel-item.component';
 import { StickyNavModule } from 'ng2-sticky-nav';
-import { AmsoldingenComponent } from './beiträge/amsoldingen/amsoldingen.component';
+import { AmsoldingenKircheComponent } from './beiträge/amsoldingen-kirche/amsoldingen-kirche.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { IhrbeitragComponent } from './ihrbeitrag/ihrbeitrag.component';
 import { TeamComponent } from './team/team.component';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { APP_BASE_HREF, LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { APP_BASE_HREF, LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { MapComponent } from './map/map.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { FooterComponent } from './footer/footer.component';
@@ -40,6 +40,8 @@ import { AboutComponent } from './about/about.component';
 import { TitleImageComponent } from './title-image/title-image.component';
 import { BaptisteriumComponent } from './beiträge/baptisterium/baptisterium.component';
 
+
+import { SolothurnZweiHeiligeComponent } from './beiträge/solothurn-zwei-heilige/solothurn-zwei-heilige.component';
 
 
 
@@ -56,7 +58,7 @@ import { BaptisteriumComponent } from './beiträge/baptisterium/baptisterium.com
     OrteComponent,
     OrtItemComponent,
     CarouselItemComponent,
-    AmsoldingenComponent,
+    AmsoldingenKircheComponent,
     HomeComponent,
     ContactComponent,
     IhrbeitragComponent,
@@ -67,6 +69,7 @@ import { BaptisteriumComponent } from './beiträge/baptisterium/baptisterium.com
     RemoveshitespacesPipe,
     AboutComponent,
     TitleImageComponent,
+    SolothurnZweiHeiligeComponent,
   ],
   imports: [
     MatToolbarModule,
@@ -91,7 +94,7 @@ import { BaptisteriumComponent } from './beiträge/baptisterium/baptisterium.com
     ShapeService,
     MarkerService,
     { provide: APP_BASE_HREF, useValue: '/' },
-    { provide: LocationStrategy, useClass: HashLocationStrategy },
+    { provide: LocationStrategy, useClass: PathLocationStrategy },
   ],
   bootstrap: [AppComponent]
 })

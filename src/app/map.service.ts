@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import * as L from 'leaflet';
 
 import "node_modules/leaflet.tilelayer.colorfilter/src/leaflet-tilelayer-colorfilter.js"
+import { MarkerService } from './marker.service';
 
 @Injectable({
   providedIn: 'root'
@@ -20,6 +21,9 @@ export class MapService {
   ];
 
 
+  getMarker() {
+    return this.marker;
+  }
 
   iconDefault = new L.Icon({
     iconUrl: this.iconUrl,
@@ -33,7 +37,9 @@ export class MapService {
 
   marker = L.Marker.prototype.options.icon = this.iconDefault;
 
-  constructor() { }
+
+
+  constructor(private markerService: MarkerService) { }
 
   initMap(center: L.LatLngExpression, marker: L.LatLngExpression[], zoom: number, scrollWheelZoom: boolean): L.Map {
     const map = L.map('map', {
@@ -50,11 +56,17 @@ export class MapService {
     });
 
     tiles.addTo(map);
-    for (const item of marker) {
-      L.marker(item).addTo(map)
-    }
+    // for (const item of marker) {
+    //   L.marker(item).addTo(map)
+    //   L
+    // }
+
     return map;
   }
 
+  ngAfterViewInit() {
+    // this.initMap();
+    // this.markerService.capitals(this.map)
+  }
 
 }

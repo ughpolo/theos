@@ -1,7 +1,9 @@
 import { Component, AfterViewInit, OnInit } from '@angular/core';
 import * as L from 'leaflet';
 import "node_modules/leaflet.tilelayer.colorfilter/src/leaflet-tilelayer-colorfilter.js"
+import { DataServiceService } from '../data-service.service';
 import { MapService } from '../map.service';
+import { MarkerService } from '../marker.service';
 
 
 @Component({
@@ -12,20 +14,21 @@ import { MapService } from '../map.service';
 export class MapComponent implements OnInit {
 
 
-
+  markers!: any[];
 
   map!: L.Map;
 
-  constructor(protected mapService: MapService
+  constructor(private markerService: MarkerService, protected mapService: MapService, protected dataService: DataServiceService
   ) { }
 
   ngOnInit(): void {
-    this.map = this.mapService.initMap([46.8182, 8.2275], [[46.7264, 7.5849], [46.9503, 7.4474]], 8, false);
-    console.log(this.map, "test");
+    this.markers = this.dataService.markers;
+    this.map = this.mapService.initMap([46.8182, 8.2275], this.markers, 8, false);
   }
 
 
   ngAfterViewInit(): void {
+    this.markerService.makeMarkers(this.map, this.dataService.markers);
   }
 
 }

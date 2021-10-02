@@ -2,14 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { DataServiceService } from 'src/app/data-service.service';
 import { MapService } from 'src/app/map.service';
 import { MarkerService } from 'src/app/marker.service';
-import { RemoveshitespacesPipe } from '../../custompipe/removeshitespaces.pipe';
 
 @Component({
-  selector: 'app-baptisterium',
-  templateUrl: './baptisterium.component.html',
-  styleUrls: ['./baptisterium.component.scss']
+  selector: 'app-avenches-cigognier-heiligtum',
+  templateUrl: './avenches-cigognier-heiligtum.component.html',
+  styleUrls: ['./avenches-cigognier-heiligtum.component.scss']
 })
-export class BaptisteriumComponent implements OnInit {
+export class AvenchesCigognierHeiligtumComponent implements OnInit {
 
   coordinates: any;
 
@@ -21,11 +20,11 @@ export class BaptisteriumComponent implements OnInit {
 
   date!: string;
 
-  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
+  constructor(protected dataService: DataServiceService, protected mapService: MapService, protected markerService: MarkerService) { }
 
   ngOnInit(): void {
-    this.assign('Maria Lissek', 'Baptisterium', 'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz');
-    this.map = this.mapService.initMap([46.8182, 8.2275], 7, true);
+    this.assign('Sara Egger', 'Cigognier-Heiligtum', 'Das Cigognier-Heiligtum und der Kaiserkult');
+    this.map = this.mapService.initMap([46.88101, 7.04265], 16, true);
   }
 
   assign(author: string, beitrag: string, title: string) {
@@ -38,6 +37,5 @@ export class BaptisteriumComponent implements OnInit {
   ngAfterViewInit(): void {
     this.markerService.makeMarkers(this.map, this.coordinates);
   }
-
 
 }

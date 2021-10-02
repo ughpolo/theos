@@ -37,36 +37,37 @@ export class MapService {
 
   marker = L.Marker.prototype.options.icon = this.iconDefault;
 
+  corner1 = L.latLng(44.7769477403, 5.52260949059)
+  corner2 = L.latLng(48.8308275417, 11.0427014502)
+
+  bounds: L.LatLngBoundsExpression | undefined = new L.LatLngBounds(this.corner1, this.corner2);
 
 
   constructor(private markerService: MarkerService) { }
 
-  initMap(center: L.LatLngExpression, marker: L.LatLngExpression[], zoom: number, scrollWheelZoom: boolean): L.Map {
+  initMap(center: L.LatLngExpression, zoom: number, scrollWheelZoom: boolean, minZoom = 8.5): L.Map {
     const map = L.map('map', {
+      maxBounds: this.bounds,
       center: center,
       zoom: zoom,
       scrollWheelZoom: scrollWheelZoom,
+      zoomSnap: 0.1
+
     });
-    const tiles = (L.tileLayer as any).colorFilter('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    //https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+    const tiles = (L.tileLayer as any).colorFilter('https://wmts20.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg', {
       maxZoom: 18,
       className: 'tile-layer',
-      minZoom: 3,
+      minZoom: minZoom,
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       filter: this.myFilter
     });
 
     tiles.addTo(map);
-    // for (const item of marker) {
-    //   L.marker(item).addTo(map)
-    //   L
-    // }
-
     return map;
   }
 
   ngAfterViewInit() {
-    // this.initMap();
-    // this.markerService.capitals(this.map)
   }
 
 }

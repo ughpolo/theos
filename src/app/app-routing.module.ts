@@ -9,14 +9,15 @@ import { TeamComponent } from './team/team.component';
 import { MapComponent } from './map/map.component';
 import { ReisehinweiseComponent } from './reisehinweise/reisehinweise.component';
 import { AboutComponent } from './about/about.component';
-<<<<<<< HEAD
 import { BaptisteriumComponent } from './beiträge/baptisterium/baptisterium.component';
-=======
 import { SolothurnZweiHeiligeComponent } from './beiträge/solothurn-zwei-heilige/solothurn-zwei-heilige.component';
->>>>>>> d625d8b5288c1517a609ceaffd6b4f4cd1804336
+import { AvenchesCigognierHeiligtumComponent } from './beiträge/avenches-cigognier-heiligtum/avenches-cigognier-heiligtum.component';
+import { SchweizMartinskircheComponent } from './beiträge/schweiz-martinskirche/schweiz-martinskirche.component';
 
 
 const routes: Routes = [
+  { path: 'kirche-st.martin', component: SchweizMartinskircheComponent },
+  { path: 'cigognier-heiligtum', component: AvenchesCigognierHeiligtumComponent },
   { path: 'solothurn-zwei-heilige', component: SolothurnZweiHeiligeComponent },
   { path: 'home', component: HomeComponent },
   {
@@ -25,12 +26,8 @@ const routes: Routes = [
       { path: 'map', component: MapComponent }
     ]
   },
-<<<<<<< HEAD
-  { path: 'amsoldingen', component: AmsoldingenComponent },
   { path: 'baptisterium', component: BaptisteriumComponent },
-=======
   { path: 'amsoldingen-kirche', component: AmsoldingenKircheComponent },
->>>>>>> d625d8b5288c1517a609ceaffd6b4f4cd1804336
   { path: 'kontakt', component: ContactComponent },
   { path: 'beitrag', component: IhrbeitragComponent },
   { path: 'map', component: MapComponent },

@@ -42,6 +42,10 @@ import { BaptisteriumComponent } from './beiträge/baptisterium/baptisterium.com
 
 
 import { SolothurnZweiHeiligeComponent } from './beiträge/solothurn-zwei-heilige/solothurn-zwei-heilige.component';
+import { SolothurnComponent } from './beiträge/solothurn/solothurn.component';
+import { AvenchesCigognierHeiligtumComponent } from './beiträge/avenches-cigognier-heiligtum/avenches-cigognier-heiligtum.component';
+import { SchweizMartinskircheComponent } from './beiträge/schweiz-martinskirche/schweiz-martinskirche.component';
+
 
 
 
@@ -70,6 +74,10 @@ import { SolothurnZweiHeiligeComponent } from './beiträge/solothurn-zwei-heilig
     AboutComponent,
     TitleImageComponent,
     SolothurnZweiHeiligeComponent,
+    SolothurnComponent,
+    AvenchesCigognierHeiligtumComponent,
+    SchweizMartinskircheComponent,
+
   ],
   imports: [
     MatToolbarModule,

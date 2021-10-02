@@ -23,7 +23,7 @@ export class MapComponent implements OnInit {
 
   ngOnInit(): void {
     this.markers = this.dataService.markers;
-    this.map = this.mapService.initMap([46.8182, 8.2275], this.markers, 8, false);
+    this.map = this.mapService.initMap([46.8182, 8.2275], 8.5, false);
   }
 
 

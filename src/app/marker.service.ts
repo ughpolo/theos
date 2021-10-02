@@ -13,12 +13,53 @@ export class MarkerService {
   constructor(protected dataService: DataServiceService, protected popupService: PopupService) { }
 
 
-  makeMarkers(map: L.Map, markers: any): void {
-    for (const c of markers) {
-      const marker = L.marker([c[0], c[1]]);
-      marker.addTo(map);
+  iconRetinaUrl = 'assets/marker-icon-2x.png';
+  iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png';
+  shadowUrl = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png';
+
+  iconUrlRed = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png';
+
+  iconDefault = new L.Icon({
+    iconUrl: this.iconUrl,
+    shadowUrl: this.shadowUrl,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    tooltipAnchor: [16, -28],
+    shadowSize: [41, 41]
+  })
+
+  iconRed = new L.Icon({
+    iconUrl: this.iconUrlRed,
+    shadowUrl: this.shadowUrl,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    tooltipAnchor: [16, -28],
+    shadowSize: [41, 41]
+  })
+
+  marker = L.Marker.prototype.options.icon = this.iconDefault;
+
+  redMarker = L.Marker.prototype.options.icon = this.iconRed;
+
+  makeMarkers(map: L.Map, redMarkers?: any): void {
+    console.log(redMarkers, "red");
+    for (const c of this.dataService.markers) {
+      let marker;
+      if (redMarkers) {
+        if (redMarkers.includes(c)) {
+          marker = L.marker([c[0], c[1]], { icon: this.iconRed }).addTo(map);
+        } else {
+          marker = L.marker([c[0], c[1]], { icon: this.iconDefault }).addTo(map);
+        }
+      } else {
+        marker = L.marker([c[0], c[1]], { icon: this.iconRed }).addTo(map);
+      }
       marker.bindPopup(this.popupService.makeCapitalPopup(c));
+
     }
   }
+
 
 }

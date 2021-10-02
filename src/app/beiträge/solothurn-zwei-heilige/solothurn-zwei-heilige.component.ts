@@ -24,7 +24,7 @@ export class SolothurnZweiHeiligeComponent implements OnInit {
 
   ngOnInit(): void {
     this.assign('Joël Meier', 'Solothurn Zwei Heilige', 'Zwei Heilige überblicken Solothurn');
-    this.map = this.mapService.initMap([47.209, 7.5394], [[47.209, 7.5394]], 16, true);
+    this.map = this.mapService.initMap([47.209, 7.5394], 16, true);
   }
 
   assign(author: string, beitrag: string, title: string) {

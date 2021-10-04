@@ -21,10 +21,10 @@ export class DataServiceService {
   beiträge: Beitrag[] = [
 
     new Beitrag("Solothurn Zwei Heilige", "Solothurn", "../../../assets/images/solothurnzweiheilige/kathedrale.jpg", "Joël Meier", "2021", [[47.209, 7.5394]], Kantone.Solothurn),
-    new Beitrag("Amsoldingen Kirche", "Amsoldingen", "../../../assets/images/amsoldingen/amsoldingen.jpg", "Nicole Hublard", "2010", [[46.7272, 7.57891]], Kantone.Bern),
+    new Beitrag("Amsoldingen Kirche", "Amsoldingen", "../../../assets/images/amsoldingen-kirche/amsoldingen.jpg", "Nicole Hublard", "2010", [[46.7272, 7.57891]], Kantone.Bern),
 
-    new Beitrag("Cigognier-Heiligtum", "Avenches", "../../../assets/images/cigognier/avenches.jpg", "Sara Egger", "2018", [[46.881, 7.04265]], Kantone.Wadt),
-    new Beitrag("Baptisterium", "Bad Zurzach", "../../../assets/images/baptisterium/bad_zurzach_baptisterium.jpg", "Maria Lissek", "2016", [[47.58543, 8.30062], [45.90469, 8.97095], [46.2197, 7.00367]], Kantone.Aargau),
+    new Beitrag("Cigognier-Heiligtum", "Avenches", "../../../assets/images/avenches-cigognier-heiligtum/avenches.jpg", "Sara Egger", "2018", [[46.881, 7.04265]], Kantone.Wadt),
+    new Beitrag("Baptisterium", "Bad Zurzach", "../../../assets/images/badzurzach-baptisterium/bad_zurzach_baptisterium.jpg", "Maria Lissek", "2016", [[47.58543, 8.30062], [45.90469, 8.97095], [46.2197, 7.00367]], Kantone.Aargau),
     new Beitrag("Kirche St.Martin", "Basel", "../../../assets/images/schweiz-martinskirche/martin_basel.jpg", "Angela Berlis", "2016", [[47.55907, 7.58861], [47.53123, 7.8109], [46.63449, 9.44162]], Kantone.BaselStadt),
     // new Beitrag("Kapelle", "Belalp", "../../../assets/images/belalp/belalpKapelle.jpg", "Gerd Dönni", "2020", "VS"),
     // new Beitrag("L'abbatiale", "Bellelay", "../../../assets/images/abbatiale/bellelay_abbatiale.jpg", "Lara A. Kneubühler", "2016", "JU"),

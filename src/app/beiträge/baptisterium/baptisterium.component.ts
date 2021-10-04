@@ -25,7 +25,7 @@ export class BaptisteriumComponent implements OnInit {
 
   ngOnInit(): void {
     this.assign('Maria Lissek', 'Baptisterium', 'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz');
-    this.map = this.mapService.initMap([46.8182, 8.2275], 7, true);
+    this.map = this.mapService.initMap([46.8182, 8.2275], 7.5, true, 7.5);
   }
 
   assign(author: string, beitrag: string, title: string) {

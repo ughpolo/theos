@@ -15,10 +15,11 @@ export class CarouselItemComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-
+    console.log(this.beitrag.image, "imageurl");
   }
 
   route(beitrag: Beitrag) {
+
     let url = beitrag.title.replace(/\s+/g, '-').toLowerCase();
     this.router.navigateByUrl(`${url}`)
   }

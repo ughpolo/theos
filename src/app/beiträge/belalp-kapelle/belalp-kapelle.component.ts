@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { LatLngExpression } from 'leaflet';
 import { DataServiceService } from 'src/app/components/services/data-service.service';
 import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
 
 @Component({
-  selector: 'app-avenches-cigognier-heiligtum',
-  templateUrl: './avenches-cigognier-heiligtum.component.html',
-  styleUrls: ['./avenches-cigognier-heiligtum.component.scss']
+  selector: 'app-belalp-kapelle',
+  templateUrl: './belalp-kapelle.component.html',
+  styleUrls: ['./belalp-kapelle.component.scss']
 })
-export class AvenchesCigognierHeiligtumComponent implements OnInit {
+export class BelalpKapelleComponent implements OnInit {
 
   coordinates: any;
 
@@ -22,10 +23,11 @@ export class AvenchesCigognierHeiligtumComponent implements OnInit {
 
   date!: string;
 
-  constructor(protected dataService: DataServiceService, protected mapService: MapService, protected markerService: MarkerService) { }
+  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
-    this.assign('Sara Egger', 'Cigognier-Heiligtum');
+    /*Autor,          */
+    this.assign('Gerd Dönni', 'Kapelle');
     this.createIds();
   }
 
@@ -50,5 +52,6 @@ export class AvenchesCigognierHeiligtumComponent implements OnInit {
         this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
       }
     }
-  }
+  };
+
 }

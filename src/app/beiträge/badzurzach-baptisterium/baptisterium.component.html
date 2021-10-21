@@ -4,7 +4,7 @@
 <div class="wrapper">
     <div class="text">
         <div class="innerText">
-            <p id="text">
+            <p id="firstParagraph">
                 Städte wie Jerusalem und Rom bieten wichtige Informationen über die Praxis der frühen Christenheit. Um
                 etwas über die frühchristliche Taufpraxis zu erfahren, muss man aber nicht erst nach Italien oder in das
                 Heilige Land reisen. Hierzu finden sich bereits vor der Haustüre wichtige Zeugnisse: Die drei heute noch
@@ -23,7 +23,7 @@
                 Westseite führen drei Stufen hinauf und zwei hinunter. Der Täufling stand also gegen Osten gewandt. Das
                 Becken wurde im Laufe der Zeit durch Bautätigkeiten bei gleichbleibender Tiefe verkleinert.
             </p>
-            <img id="bild1" src="../../../assets/images/badzurzach-baptisterium/bad_zurzach_baptisterium.jpg" alt="">
+            <img class="bild" src="../../../assets/images/badzurzach-baptisterium/bad_zurzach_baptisterium.jpg" alt="">
             <p class="bildunterschrift">Das Baptisterium in Bad Zurzach. Das Taufbecken im Hintergrund unter dem Dach;
                 im Vordergrund die Grundstrukturen der Kastellkirche. (Bild: Maria Lissek)
             </p>
@@ -47,7 +47,8 @@
                 Testament legt dafür im sogenannten Taufbefehl Jesu an seine Jünger (Mt 28,16–20) mit der trinitarischen
                 Formel den Grundstein. Doch wie, wer und wo genau getauft wurde, ist erst durch die frühchristlichen
                 Zeugnisse bekannt.</p>
-            <img id="bild1" src="../../../assets/images/badzurzach-baptisterium/saint_maurice_baptisterium.jpg" alt="">
+            <img class="bild" src="../../../assets/images/badzurzach-baptisterium/saint_maurice_baptisterium.jpg"
+                alt="">
             <p class="bildunterschrift">Das Taufbecken von Saint Maurice. (Bild: Maria Lissek)
 
             </p>
@@ -83,11 +84,9 @@
             <p class="autor">Maria Lissek ist Assistentin am Institut für Historische Theologie an der Universität Bern.
 
             </p>
-            <div class="map-container">
-                <div id="map"></div>
+            <div *ngFor="let id of ids" class="map-container">
+                <div [id]="id" class="map"></div>
             </div>
         </div>
 
     </div>
-
-</div>

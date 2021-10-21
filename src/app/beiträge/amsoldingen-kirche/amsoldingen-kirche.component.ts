@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { DataServiceService } from 'src/app/data-service.service';
-import { MapService } from 'src/app/map.service';
-import { MarkerService } from 'src/app/marker.service';
+import { DataServiceService } from 'src/app/components/services/data-service.service';
+import { MapService } from 'src/app/components/services/map.service';
+import { MarkerService } from 'src/app/components/services/marker.service';
 
 
 @Component({
@@ -13,7 +13,9 @@ export class AmsoldingenKircheComponent implements OnInit {
 
   coordinates: any;
 
-  map!: L.Map;
+  ids: string[] = [];
+
+  maps: L.Map[] = [];
 
   author: any;
 
@@ -21,23 +23,37 @@ export class AmsoldingenKircheComponent implements OnInit {
 
   date!: string;
 
-  constructor(protected dataService: DataServiceService, protected mapService: MapService, protected markerService: MarkerService) { }
-
-  ngOnInit(): void {
-    this.assign('Nicole Hublard', 'Amsoldingen Kirche', 'Die Kirche Amsoldingen – ein Juwel im Berner Oberland');
-    this.map = this.mapService.initMap([46.7272, 7.57891], 16, true);
+  constructor(protected dataService: DataServiceService, protected mapService: MapService, protected markerService: MarkerService) {
   }
 
-  assign(author: string, beitrag: string, title: string) {
-    this.author = this.dataService.getAuthor(author, beitrag);
-    this.date = this.dataService.getDate(author, beitrag)!;
-    this.title = title;
-    this.coordinates = this.dataService.getBeitrag(author, beitrag)?.markers;
+  ngOnInit(): void {
+    this.assign('Nicole Hublard', 'Amsoldingen Kirche');
+    this.createIds();
+  }
+
+  assign(author: string, title: string) {
+    const beitrag = this.dataService.getBeitrag(author, title);
+    this.author = this.dataService.getAuthor(author, title);
+    this.date = this.dataService.getDate(author, title)!;
+    this.coordinates = beitrag!.markers;
+    this.title = beitrag!.fulltitle;
+  }
+
+  createIds() {
+    for (let i = 0; i < this.coordinates.length; i += 1) {
+      this.ids.push(`map${i}`)
+    }
   }
 
   ngAfterViewInit(): void {
-    this.markerService.makeMarkers(this.map, this.coordinates);
+    if (this.ids.length > 0) {
+      for (let i = 0; i < this.coordinates.length; i += 1) {
+        this.maps.push(this.mapService.initMap(this.coordinates[i], 16, true, 8.5, `map${i}`))
+        this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
+      }
+    }
   }
+
 
 
 

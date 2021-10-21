@@ -1,5 +1,5 @@
-#bild1 {
-  max-width: 1000px;
+.bild {
+  width: 100%;
   height: auto;
 }
 
@@ -7,11 +7,7 @@
   text-align: left;
 }
 
-#bild4 {
-  max-width: 500px;
-}
-
-#bild5 {
+.bild-klein {
   max-width: 500px;
 }
 
@@ -75,7 +71,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-#map {
+.map {
   background: white;
   height: 100%;
   min-height: 400px;

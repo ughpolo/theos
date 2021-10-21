@@ -1,5 +1,5 @@
-#bild1 {
-  width: 100%;
+.bild {
+  max-width: 1000px;
   height: auto;
 }
 
@@ -7,12 +7,17 @@
   text-align: left;
 }
 
-#bild4 {
+.bild-klein {
   max-width: 500px;
 }
 
-#bild5 {
-  max-width: 500px;
+.autor {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.bildunterschrift {
+  font-size: 1rem;
 }
 
 p {
@@ -48,7 +53,7 @@ h2 {
   font-size: 1.3rem;
 }
 
-#text::first-letter {
+#firstParagraph::first-letter {
   float: left;
   font-size: 80px;
   line-height: 40px;
@@ -66,7 +71,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-#map {
+.map {
   background: white;
   height: 100%;
   min-height: 400px;

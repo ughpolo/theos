@@ -95,8 +95,8 @@
             </div>
             <p class="autor">Dr. Angela Berlis ist Professorin für Geschichte des Altkatholizismus und Allgemeine
                 Kirchengeschichte am Institut für Christkatholische Theologie an der Universität Bern.</p>
-            <div class="map-container">
-                <div id="map"></div>
+            <div *ngFor="let id of ids" class="map-container">
+                <div [id]="id" class="map"></div>
             </div>
         </div>
 

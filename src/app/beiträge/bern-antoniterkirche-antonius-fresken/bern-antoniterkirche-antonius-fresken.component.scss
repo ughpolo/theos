@@ -1,6 +1,5 @@
 .bild {
-  max-width: 1000px;
-  height: auto;
+  width: 100%;
 }
 
 .vertiefung {
@@ -53,7 +52,7 @@ h2 {
   font-size: 1.3rem;
 }
 
-#text::first-letter {
+#firstParagraph::first-letter {
   float: left;
   font-size: 80px;
   line-height: 40px;

@@ -29,7 +29,7 @@
                 Niedergang der Stadt. Sie scheint aber dennoch immer besiedelt gewesen zu sein, denn ab dem 5.
                 Jahrhundert ist der Bau von christlichen Kirchen bezeugt und im 6. Jahrhundert war Aventicum Sitz des
                 Bischofs. Dies allerdings nur für kurze Zeit, bevor der Bischofssitz nach Lausanne verlegt wurde.</p>
-            <img id="bild1" src="../../../assets/images/avenches-cigognier-heiligtum/avenches.jpg" alt="">
+            <img class="bild" src="../../../assets/images/avenches-cigognier-heiligtum/avenches.jpg" alt="">
             <p class="bildunterschrift">Theater in Avenches (Foto: Maria Lissek)</p>
             <h2>Die sakralen Bauten in Aventicum
 
@@ -102,8 +102,8 @@
                 </ul>
             </div>
 
-            <div class="map-container">
-                <div id="map"></div>
+            <div *ngFor="let id of ids" class="map-container">
+                <div [id]="id" class="map"></div>
             </div>
         </div>
 

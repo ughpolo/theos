@@ -22,9 +22,11 @@ import { BernTotentanzComponent } from './beiträge/bern-totentanz/bern-totentan
 import { BetlehemBegegnungenBetlehemComponent } from './beiträge/betlehem-begegnungen-betlehem/betlehem-begegnungen-betlehem.component';
 import { BernBurgerspitalComponent } from './beiträge/bern-burgerspital/bern-burgerspital.component';
 import { BernDuerrenmattMansardeComponent } from './beiträge/bern-duerrenmatt-mansarde/bern-duerrenmatt-mansarde.component';
+import { HausDerReligionenComponent } from './beiträge/haus-der-religionen/haus-der-religionen.component';
 
 
 const routes: Routes = [
+  { path: 'haus-der-religionen', component: HausDerReligionenComponent },
   { path: 'dürrenmatts-mansarde', component: BernDuerrenmattMansardeComponent },
   { path: 'ehemaliges-bürgerspital', component: BernBurgerspitalComponent },
   { path: 'berner-totentanz', component: BernTotentanzComponent },

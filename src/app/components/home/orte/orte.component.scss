@@ -1,0 +1,82 @@
+.wrapper {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.firstRow {
+  display: grid;
+  grid-column: 2/3;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+app-ort-item {
+  margin-bottom: 30px;
+}
+
+app-ort-item:nth-child(4n + 1) {
+  margin-right: 10px;
+}
+
+app-ort-item:nth-child(4n + 4) {
+  margin-left: 10px;
+}
+
+app-ort-item:nth-child(4n + 2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+app-ort-item:nth-child(4n + 3) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.title h1 {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+.author h2 {
+  font-family: "Playfair Display";
+  letter-spacing: 1px;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 490px;
+  background-image: url("../../../../assets/images/kanton/Solothurn.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.textWrapper {
+  text-align: center;
+  padding: 120px 0;
+  display: block;
+  line-height: 25px;
+  color: white;
+}
+.cover {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  float: left;
+  display: block;
+  height: 100%;
+}
+
+@media (max-width: 808px) {
+  .firstRow {
+    display: grid;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

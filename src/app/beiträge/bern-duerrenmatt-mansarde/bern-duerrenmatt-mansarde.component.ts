@@ -1,16 +1,14 @@
-//Kopiere mich von hier:
 import { Component, OnInit } from '@angular/core';
 import { DataServiceService } from 'src/app/components/services/data-service.service';
 import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
-//Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die Datei mit dem Blauen A)
 
 @Component({
-  selector: 'app-bern-antoniterkirche-antonius-fresken',
-  templateUrl: './bern-antoniterkirche-antonius-fresken.component.html',
-  styleUrls: ['./bern-antoniterkirche-antonius-fresken.component.scss']
+  selector: 'app-bern-duerrenmatt-mansarde',
+  templateUrl: './bern-duerrenmatt-mansarde.component.html',
+  styleUrls: ['./bern-duerrenmatt-mansarde.component.scss']
 })
-export class BernAntoniterkircheAntoniusFreskenComponent implements OnInit {
+export class BernDuerrenmattMansardeComponent implements OnInit {
 
   //Kopiere mich von hier:
   coordinates: any;
@@ -28,8 +26,8 @@ export class BernAntoniterkircheAntoniusFreskenComponent implements OnInit {
   constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
-    /*Autor,          */
-    this.assign('Katharina Heyden', 'Antoniterkirche Antonius-Fresken');
+    //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den Karuselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
+    this.assign('Christoph Morgenthaler', 'Dürrenmatts Mansarde');
     this.createIds();
   }
 
@@ -55,6 +53,6 @@ export class BernAntoniterkircheAntoniusFreskenComponent implements OnInit {
       }
     }
   };
-  //Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die Datei mit dem Blauen A)
+  //Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die D
 
 }

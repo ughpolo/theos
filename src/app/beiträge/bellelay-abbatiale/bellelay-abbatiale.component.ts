@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { LatLngExpression } from 'leaflet';
 import { DataServiceService } from 'src/app/components/services/data-service.service';
 import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';

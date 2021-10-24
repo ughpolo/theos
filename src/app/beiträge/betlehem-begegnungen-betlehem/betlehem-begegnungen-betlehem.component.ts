@@ -6,11 +6,11 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 //Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die Datei mit dem Blauen A)
 
 @Component({
-  selector: 'app-bern-antoniterkirche-antonius-fresken',
-  templateUrl: './bern-antoniterkirche-antonius-fresken.component.html',
-  styleUrls: ['./bern-antoniterkirche-antonius-fresken.component.scss']
+  selector: 'app-betlehem-begegnungen-betlehem',
+  templateUrl: './betlehem-begegnungen-betlehem.component.html',
+  styleUrls: ['./betlehem-begegnungen-betlehem.component.scss']
 })
-export class BernAntoniterkircheAntoniusFreskenComponent implements OnInit {
+export class BetlehemBegegnungenBetlehemComponent implements OnInit {
 
   //Kopiere mich von hier:
   coordinates: any;
@@ -28,8 +28,8 @@ export class BernAntoniterkircheAntoniusFreskenComponent implements OnInit {
   constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
-    /*Autor,          */
-    this.assign('Katharina Heyden', 'Antoniterkirche Antonius-Fresken');
+    //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den Karuselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
+    this.assign('Andreas Köhler-Andereggen', 'Begegnungen in Bethlehem');
     this.createIds();
   }
 
@@ -39,6 +39,7 @@ export class BernAntoniterkircheAntoniusFreskenComponent implements OnInit {
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
     this.title = beitrag!.fulltitle;
+    console.log(beitrag, "?");
   }
 
   createIds() {
@@ -56,5 +57,4 @@ export class BernAntoniterkircheAntoniusFreskenComponent implements OnInit {
     }
   };
   //Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die Datei mit dem Blauen A)
-
 }

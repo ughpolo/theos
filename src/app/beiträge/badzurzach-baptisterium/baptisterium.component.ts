@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as L from 'leaflet';
 import { LatLngExpression } from 'leaflet';
 import { DataServiceService } from 'src/app/components/services/data-service.service';
 import { MapService } from 'src/app/components/services/map.service';
@@ -30,6 +31,11 @@ export class BaptisteriumComponent implements OnInit {
     /*Autor,          */
     this.assign('Maria Lissek', 'Baptisterium');
     this.createIds();
+    for (let x = 0; x < 3; x += 1) {
+      let container: any = L.DomUtil.get(`map${x}`)
+      if (container) container['_leaflet_id'] = null
+    }
+
   }
 
   assign(author: string, title: string) {
@@ -42,14 +48,14 @@ export class BaptisteriumComponent implements OnInit {
 
   createIds() {
     for (let i = 0; i < this.coordinates.length; i += 1) {
-      this.ids.push(`map${i}`)
+      this.ids.push(`${this.title}${i}`)
     }
   }
 
   ngAfterViewInit(): void {
     if (this.ids.length > 0) {
       for (let i = 0; i < this.coordinates.length; i += 1) {
-        this.maps.push(this.mapService.initMap(this.coordinates[i], 16, true, 8.5, `map${i}`))
+        this.maps.push(this.mapService.initMap(this.coordinates[i], 16, true, 8.5, `${this.title}${i}`))
         this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
       }
     }

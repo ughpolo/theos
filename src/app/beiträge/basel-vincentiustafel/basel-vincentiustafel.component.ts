@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as L from 'leaflet';
 import { LatLngExpression } from 'leaflet';
 import { DataServiceService } from 'src/app/components/services/data-service.service';
 import { MapService } from 'src/app/components/services/map.service';
@@ -24,7 +25,8 @@ export class BaselVincentiustafelComponent implements OnInit {
 
   date!: string;
 
-  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
+  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) {
+  }
 
   ngOnInit(): void {
     /*Autor,          */
@@ -38,20 +40,22 @@ export class BaselVincentiustafelComponent implements OnInit {
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
     this.title = beitrag!.fulltitle;
+
   }
 
   createIds() {
     for (let i = 0; i < this.coordinates.length; i += 1) {
-      this.ids.push(`map${i}`)
+      this.ids.push(`${this.title}${i}`)
     }
   }
 
   ngAfterViewInit(): void {
     if (this.ids.length > 0) {
       for (let i = 0; i < this.coordinates.length; i += 1) {
-        this.maps.push(this.mapService.initMap(this.coordinates[i], 16, true, 8.5, `map${i}`))
+        this.maps.push(this.mapService.initMap(this.coordinates[i], 16, true, 8.5, `${this.title}${i}`))
         this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
       }
     }
+
   };
 }

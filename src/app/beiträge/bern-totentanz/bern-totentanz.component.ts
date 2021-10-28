@@ -40,14 +40,14 @@ export class BernTotentanzComponent implements OnInit {
 
   createIds() {
     for (let i = 0; i < this.coordinates.length; i += 1) {
-      this.ids.push(`map${i}`)
+      this.ids.push(`${this.title}${i}`)
     }
   }
 
   ngAfterViewInit(): void {
     if (this.ids.length > 0) {
       for (let i = 0; i < this.coordinates.length; i += 1) {
-        this.maps.push(this.mapService.initMap(this.coordinates[i], 16, true, 8.5, `map${i}`))
+        this.maps.push(this.mapService.initMap(this.coordinates[i], 16, true, 8.5, `${this.title}${i}`))
         this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
       }
     }

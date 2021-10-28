@@ -7,11 +7,12 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 //Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die Datei mit dem Blauen A)
 
 @Component({
-  selector: 'app-freiburg-zentrum',
-  templateUrl: './freiburg-zentrum.component.html',
-  styleUrls: ['./freiburg-zentrum.component.scss']
+  selector: 'app-gottlieben-schloss',
+  templateUrl: './gottlieben-schloss.component.html',
+  styleUrls: ['./gottlieben-schloss.component.scss']
 })
-export class FreiburgZentrumComponent implements OnInit {
+export class GottliebenSchlossComponent implements OnInit {
+
 
   coordinates: any;
 
@@ -29,7 +30,7 @@ export class FreiburgZentrumComponent implements OnInit {
 
   ngOnInit(): void {
     //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den Karuselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
-    this.assign('Stefan Constantinescu', 'Studium der Ostkirchen');
+    this.assign('Zbynek Kindschi Garsky', 'Schloss Gottlieben');
     this.createIds();
   }
 
@@ -63,8 +64,4 @@ export class FreiburgZentrumComponent implements OnInit {
       }
     }
   };
-
-  changeRoute() {
-    this.router.navigate(['/centre-dorient'])
-  }
 }

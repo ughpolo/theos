@@ -7,11 +7,11 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 //Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die Datei mit dem Blauen A)
 
 @Component({
-  selector: 'app-freiburg-zentrum',
-  templateUrl: './freiburg-zentrum.component.html',
-  styleUrls: ['./freiburg-zentrum.component.scss']
+  selector: 'app-centre-dorient',
+  templateUrl: './centre-dorient.component.html',
+  styleUrls: ['./centre-dorient.component.scss']
 })
-export class FreiburgZentrumComponent implements OnInit {
+export class CentreDorientComponent implements OnInit {
 
   coordinates: any;
 
@@ -21,7 +21,7 @@ export class FreiburgZentrumComponent implements OnInit {
 
   author: any;
 
-  title!: string;
+  title = "Centre d’études des Églises d’Orient à l’Université de Fribourg La spiritualité orthodoxe dans une université à caractère catholique";
 
   date!: string;
 
@@ -65,6 +65,7 @@ export class FreiburgZentrumComponent implements OnInit {
   };
 
   changeRoute() {
-    this.router.navigate(['/centre-dorient'])
+    this.router.navigate(['/studium-der-ostkirchen'])
   }
+
 }

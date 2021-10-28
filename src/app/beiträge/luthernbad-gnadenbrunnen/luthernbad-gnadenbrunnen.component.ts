@@ -1,18 +1,19 @@
 //Kopiere mich von hier:
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { DataServiceService } from 'src/app/components/services/data-service.service';
 import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
 //Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die Datei mit dem Blauen A)
 
-@Component({
-  selector: 'app-freiburg-zentrum',
-  templateUrl: './freiburg-zentrum.component.html',
-  styleUrls: ['./freiburg-zentrum.component.scss']
-})
-export class FreiburgZentrumComponent implements OnInit {
 
+@Component({
+  selector: 'app-luthernbad-gnadenbrunnen',
+  templateUrl: './luthernbad-gnadenbrunnen.component.html',
+  styleUrls: ['./luthernbad-gnadenbrunnen.component.scss']
+})
+export class LuthernbadGnadenbrunnenComponent implements OnInit {
+
+  //Kopiere mich von hier:
   coordinates: any;
 
   ids: string[] = [];
@@ -25,11 +26,11 @@ export class FreiburgZentrumComponent implements OnInit {
 
   date!: string;
 
-  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService, private router: Router) { }
+  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
     //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den Karuselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
-    this.assign('Stefan Constantinescu', 'Studium der Ostkirchen');
+    this.assign('Hans Herrmann', 'Gnadenbrunnen');
     this.createIds();
   }
 
@@ -64,7 +65,4 @@ export class FreiburgZentrumComponent implements OnInit {
     }
   };
 
-  changeRoute() {
-    this.router.navigate(['/centre-dorient'])
-  }
 }

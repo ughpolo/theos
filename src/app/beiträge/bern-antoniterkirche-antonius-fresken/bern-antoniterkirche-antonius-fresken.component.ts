@@ -36,9 +36,17 @@ export class BernAntoniterkircheAntoniusFreskenComponent implements OnInit {
   assign(author: string, title: string) {
     const beitrag = this.dataService.getBeitrag(author, title);
     this.author = this.dataService.getAuthor(author, title);
+
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
     this.title = beitrag!.fulltitle;
+    this.replaceWhiteSpace();
+  }
+
+  replaceWhiteSpace() {
+    for (let i = 0; i < this.author.beitrag.length; i += 1) {
+      this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
+    }
   }
 
   createIds() {

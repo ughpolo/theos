@@ -1,61 +1,62 @@
+KOPIERE DIESEN BLOCK(ZEILE 3 - 6):
+
 import { Component, OnInit } from '@angular/core';
 import { DataServiceService } from 'src/app/components/services/data-service.service';
 import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
-import { RemoveshitespacesPipe } from '../../components/custompipe/removeshitespaces.pipe';
 
-@Component({
-  selector: 'app-solothurn-zwei-heilige',
-  templateUrl: './solothurn-zwei-heilige.component.html',
-  styleUrls: ['./solothurn-zwei-heilige.component.scss']
-})
-export class SolothurnZweiHeiligeComponent implements OnInit {
+BIS HIER.
 
-  ngOnInit(): void {
+
+KOPIERE DEN REST VON ZEILE 13 BIS AM SCHLUSS(ZEILE 59):
+
+ngOnInit(): void {
     this.assign('Joël Meier', 'Solothurn Zwei Heilige');
     this.createIds();
-  }
+}
 
-  coordinates: any;
+coordinates: any;
 
-  ids: string[] = [];
+ids: string[] = [];
 
-  maps: L.Map[] = [];
+maps: L.Map[] = [];
 
-  author: any;
+author: any;
 
-  title!: string;
+title!: string;
 
-  date!: string;
+date!: string;
 
-  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
+constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
-  assign(author: string, title: string) {
+assign(author: string, title: string) {
     const beitrag = this.dataService.getBeitrag(author, title);
     this.author = this.dataService.getAuthor(author, title);
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
     this.title = beitrag!.fulltitle;
     this.replaceWhiteSpace();
-  }
+}
 
-  replaceWhiteSpace() {
+replaceWhiteSpace() {
     for (let i = 0; i < this.author.beitrag.length; i += 1) {
-      this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
+        this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
     }
-  }
-  createIds() {
+}
+createIds() {
     for (let i = 0; i < this.coordinates.length; i += 1) {
-      this.ids.push(`${this.title}${i}`)
+        this.ids.push(`${this.title}${i}`)
     }
-  }
+}
 
-  ngAfterViewInit(): void {
-    if (this.ids.length > 0) {
-      for (let i = 0; i < this.coordinates.length; i += 1) {
+ngAfterViewInit(): void {
+    if(this.ids.length > 0) {
+    for (let i = 0; i < this.coordinates.length; i += 1) {
         this.maps.push(this.mapService.initMap(this.coordinates[i], 16, true, 8.5, `${this.title}${i}`))
         this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
-      }
     }
-  }
 }
+  }
+
+  
+  BIS HIER.

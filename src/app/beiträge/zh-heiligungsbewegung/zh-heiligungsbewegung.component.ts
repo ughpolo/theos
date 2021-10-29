@@ -4,11 +4,17 @@ import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
 
 @Component({
-  selector: 'app-schweiz-martinskirche',
-  templateUrl: './schweiz-martinskirche.component.html',
-  styleUrls: ['./schweiz-martinskirche.component.scss']
+  selector: 'app-zh-heiligungsbewegung',
+  templateUrl: './zh-heiligungsbewegung.component.html',
+  styleUrls: ['./zh-heiligungsbewegung.component.scss']
 })
-export class SchweizMartinskircheComponent implements OnInit {
+export class ZhHeiligungsbewegungComponent implements OnInit {
+
+
+  ngOnInit(): void {
+    this.assign('Gergely Csuká', 'Zentrum der Heiligungsbewegung');
+    this.createIds();
+  }
 
   coordinates: any;
 
@@ -22,17 +28,11 @@ export class SchweizMartinskircheComponent implements OnInit {
 
   date!: string;
 
-  constructor(protected dataService: DataServiceService, protected mapService: MapService, protected markerService: MarkerService) { }
-
-  ngOnInit(): void {
-    this.assign('Angela Berlis', 'Kirche St.Martin');
-    this.createIds();
-  }
+  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
   assign(author: string, title: string) {
     const beitrag = this.dataService.getBeitrag(author, title);
     this.author = this.dataService.getAuthor(author, title);
-
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
     this.title = beitrag!.fulltitle;
@@ -44,7 +44,6 @@ export class SchweizMartinskircheComponent implements OnInit {
       this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
     }
   }
-
   createIds() {
     for (let i = 0; i < this.coordinates.length; i += 1) {
       this.ids.push(`${this.title}${i}`)
@@ -59,5 +58,4 @@ export class SchweizMartinskircheComponent implements OnInit {
       }
     }
   }
-
 }

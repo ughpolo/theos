@@ -23,8 +23,7 @@ export enum Kantone {
     Wallis = "Valais",
     Neuenburg = "Neuchâtel",
     Genf = "Genève",
-    Jura = "Jura"
-
-
-
+    Jura = "Jura",
+    Thurgau = "Thurgau",
+    London = "London"
 }

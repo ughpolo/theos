@@ -54,6 +54,36 @@ import { BetlehemBegegnungenBetlehemComponent } from './beiträge/betlehem-begeg
 import { BernBurgerspitalComponent } from './beiträge/bern-burgerspital/bern-burgerspital.component';
 import { BernDuerrenmattMansardeComponent } from './beiträge/bern-duerrenmatt-mansarde/bern-duerrenmatt-mansarde.component';
 import { HausDerReligionenComponent } from './beiträge/haus-der-religionen/haus-der-religionen.component';
+import { BernKindlifresserbrunnenComponent } from './beiträge/bern-kindlifresserbrunnen/bern-kindlifresserbrunnen.component';
+import { BernMuensterPortalComponent } from './beiträge/bern-muenster-portal/bern-muenster-portal.component';
+import { BernHebammenpforteComponent } from './beiträge/bern-hebammenpforte/bern-hebammenpforte.component';
+import { BernVinzenzComponent } from './beiträge/bern-vinzenz/bern-vinzenz.component';
+import { BernTaeufergeschichteComponent } from './beiträge/bern-taeufergeschichte/bern-taeufergeschichte.component';
+import { BernPaulKleeComponent } from './beiträge/bern-paul-klee/bern-paul-klee.component';
+import { BielFilmpodiumComponent } from './beiträge/biel-filmpodium/biel-filmpodium.component';
+import { BaselKraftwerkBirsfeldenComponent } from './beiträge/basel-kraftwerk-birsfelden/basel-kraftwerk-birsfelden.component';
+import { BosseyOekumenischesInstitutComponent } from './beiträge/bossey-oekumenisches-institut/bossey-oekumenisches-institut.component';
+import { BrigKollegiumskircheComponent } from './beiträge/brig-kollegiumskirche/brig-kollegiumskirche.component';
+import { BuerenFederComponent } from './beiträge/bueren-feder/bueren-feder.component';
+import { GraubuendenBenediktinerklosterComponent } from './beiträge/graubuenden-benediktinerkloster/graubuenden-benediktinerkloster.component';
+import { EinsiedelnMadonnaComponent } from './beiträge/einsiedeln-madonna/einsiedeln-madonna.component';
+import { EndingenFriedhofComponent } from './beiträge/endingen-friedhof/endingen-friedhof.component';
+import { FreiburgZentrumComponent } from './beiträge/freiburg-zentrum/freiburg-zentrum.component';
+import { CentreDorientComponent } from './beiträge/centre-dorient/centre-dorient.component';
+import { GottliebenSchlossComponent } from './beiträge/gottlieben-schloss/gottlieben-schloss.component';
+import { HindelbankKircheComponent } from './beiträge/hindelbank-kirche/hindelbank-kirche.component';
+import { LuthernbadGnadenbrunnenComponent } from './beiträge/luthernbad-gnadenbrunnen/luthernbad-gnadenbrunnen.component';
+import { LuzernSpreuerbrueckeComponent } from './beiträge/luzern-spreuerbruecke/luzern-spreuerbruecke.component';
+import { ZhHeiligungsbewegungComponent } from './beiträge/zh-heiligungsbewegung/zh-heiligungsbewegung.component';
+import { SoKlosterortComponent } from './beiträge/so-klosterort/so-klosterort.component';
+import { RueggisbergMartinskircheComponent } from './beiträge/rueggisberg-martinskirche/rueggisberg-martinskirche.component';
+import { SoVerenaschluchtComponent } from './beiträge/so-verenaschlucht/so-verenaschlucht.component';
+import { ScherzlingenKircheComponent } from './beiträge/scherzlingen-kirche/scherzlingen-kirche.component';
+import { SchoenewerdStiftskircheComponent } from './beiträge/schoenewerd-stiftskirche/schoenewerd-stiftskirche.component';
+import { SimplonHospizComponent } from './beiträge/simplon-hospiz/simplon-hospiz.component';
+import { SulzigWeitblickComponent } from './beiträge/sulzig-weitblick/sulzig-weitblick.component';
+import { LondonChurchComponent } from './beiträge/london-church/london-church.component';
+import { ZhBlindekuhComponent } from './beiträge/zh-blindekuh/zh-blindekuh.component';
 
 
 
@@ -96,6 +126,36 @@ import { HausDerReligionenComponent } from './beiträge/haus-der-religionen/haus
     BernBurgerspitalComponent,
     BernDuerrenmattMansardeComponent,
     HausDerReligionenComponent,
+    BernKindlifresserbrunnenComponent,
+    BernMuensterPortalComponent,
+    BernHebammenpforteComponent,
+    BernVinzenzComponent,
+    BernTaeufergeschichteComponent,
+    BernPaulKleeComponent,
+    BielFilmpodiumComponent,
+    BaselKraftwerkBirsfeldenComponent,
+    BosseyOekumenischesInstitutComponent,
+    BrigKollegiumskircheComponent,
+    BuerenFederComponent,
+    GraubuendenBenediktinerklosterComponent,
+    EinsiedelnMadonnaComponent,
+    EndingenFriedhofComponent,
+    FreiburgZentrumComponent,
+    CentreDorientComponent,
+    GottliebenSchlossComponent,
+    HindelbankKircheComponent,
+    LuthernbadGnadenbrunnenComponent,
+    LuzernSpreuerbrueckeComponent,
+    ZhHeiligungsbewegungComponent,
+    SoKlosterortComponent,
+    RueggisbergMartinskircheComponent,
+    SoVerenaschluchtComponent,
+    ScherzlingenKircheComponent,
+    SchoenewerdStiftskircheComponent,
+    SimplonHospizComponent,
+    SulzigWeitblickComponent,
+    LondonChurchComponent,
+    ZhBlindekuhComponent,
   ],
   imports: [
     MatToolbarModule,

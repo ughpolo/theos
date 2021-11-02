@@ -22,6 +22,7 @@ export class MapService {
   ];
 
 
+
   getMarker() {
     return this.marker;
   }
@@ -47,9 +48,7 @@ export class MapService {
   constructor(private markerService: MarkerService) { }
 
   initMap(center: L.LatLngExpression, zoom: number, scrollWheelZoom: boolean, minZoom = 8.5, mapname = 'map'): L.Map {
-    console.log(mapname, "?");
     const map = L.map(mapname, {
-      maxBounds: this.bounds,
       center: center,
       zoom: zoom,
       scrollWheelZoom: scrollWheelZoom,

@@ -20,6 +20,7 @@ export class CarouselItemComponent implements OnInit {
   route(beitrag: Beitrag) {
     let temp = beitrag.title.replace(/\s+/g, '-').toLowerCase();
     let url = temp.replace(/\’+/g, '');
+    console.log(url, "url")
     this.router.navigateByUrl(`${url}`)
   }
 }

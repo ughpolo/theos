@@ -133,7 +133,7 @@ export class DataServiceService {
     let obj = this.authors.find(x => x.author === name);
     if (obj) {
       let index = this.authors.indexOf(obj);
-      author = this.authors[index];
+      author = { ...this.authors[index] }
       author = this.filterCurrentPost(title, author);
     }
     return author;
@@ -145,7 +145,8 @@ export class DataServiceService {
   }
 
   filterCurrentPost(title: string, author: { author: string, beitrag: string[] }) {
-    let posts = author;
+
+    let posts = JSON.parse(JSON.stringify(author));
     let index = posts.beitrag.indexOf(title);
     if (index > -1) {
       posts.beitrag.splice(index, 1);

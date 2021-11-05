@@ -1,6 +1,17 @@
 import { Kantone } from "src/app/components/models/kantone";
 
+
 export const Beiträge = {
+  "Solothurn Spitalkirche": {
+    karuselltitel: "Spitalkirche",
+    beitragtitel: "Spitalkirche zum Heiligen Geist in Solothurn",
+    ort: "Solothurn",
+    bild: "solothurn-spitalkirche/bild1.jpg",
+    autor: "Deborah Finger",
+    jahr: "2021",
+    markierungen: [[47.20506,7.53587]],
+    kanton: Kantone.Solothurn
+  },
   "Restaurant Blinde Kuh": {
     karuselltitel: "Restaurant Blinde Kuh",
     beitragtitel: "Blinde Kuh – mehr als ein Restaurant",

@@ -84,6 +84,7 @@ import { SimplonHospizComponent } from './beiträge/simplon-hospiz/simplon-hospi
 import { SulzigWeitblickComponent } from './beiträge/sulzig-weitblick/sulzig-weitblick.component';
 import { LondonChurchComponent } from './beiträge/london-church/london-church.component';
 import { ZhBlindekuhComponent } from './beiträge/zh-blindekuh/zh-blindekuh.component';
+import { SolothurnSpitalkircheComponent } from './beiträge/solothurn-spitalkirche/solothurn-spitalkirche.component';
 
 
 
@@ -156,6 +157,7 @@ import { ZhBlindekuhComponent } from './beiträge/zh-blindekuh/zh-blindekuh.comp
     SulzigWeitblickComponent,
     LondonChurchComponent,
     ZhBlindekuhComponent,
+    SolothurnSpitalkircheComponent,
   ],
   imports: [
     MatToolbarModule,

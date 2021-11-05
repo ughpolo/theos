@@ -53,9 +53,11 @@ import { SimplonHospizComponent } from './beiträge/simplon-hospiz/simplon-hospi
 import { SulzigWeitblickComponent } from './beiträge/sulzig-weitblick/sulzig-weitblick.component';
 import { LondonChurchComponent } from './beiträge/london-church/london-church.component';
 import { ZhBlindekuhComponent } from './beiträge/zh-blindekuh/zh-blindekuh.component';
+import { SolothurnSpitalkircheComponent } from './beiträge/solothurn-spitalkirche/solothurn-spitalkirche.component';
 
 
 const routes: Routes = [
+  { path: 'spitalkirche', component: SolothurnSpitalkircheComponent },
   { path: 'restaurant-blinde-kuh', component: ZhBlindekuhComponent },
   { path: 'swiss-church-in-london', component: LondonChurchComponent },
   { path: 'weitblick-und-enge', component: SulzigWeitblickComponent },

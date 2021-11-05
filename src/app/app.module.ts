@@ -85,6 +85,7 @@ import { SulzigWeitblickComponent } from './beiträge/sulzig-weitblick/sulzig-we
 import { LondonChurchComponent } from './beiträge/london-church/london-church.component';
 import { ZhBlindekuhComponent } from './beiträge/zh-blindekuh/zh-blindekuh.component';
 import { SolothurnSpitalkircheComponent } from './beiträge/solothurn-spitalkirche/solothurn-spitalkirche.component';
+import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletscher-arme-seelen/aletschgletscher-arme-seelen.component';
 
 
 
@@ -158,6 +159,7 @@ import { SolothurnSpitalkircheComponent } from './beiträge/solothurn-spitalkirc
     LondonChurchComponent,
     ZhBlindekuhComponent,
     SolothurnSpitalkircheComponent,
+    AletschgletscherArmeSeelenComponent,
   ],
   imports: [
     MatToolbarModule,

@@ -54,20 +54,30 @@ import { SulzigWeitblickComponent } from './beiträge/sulzig-weitblick/sulzig-we
 import { LondonChurchComponent } from './beiträge/london-church/london-church.component';
 import { ZhBlindekuhComponent } from './beiträge/zh-blindekuh/zh-blindekuh.component';
 import { SolothurnSpitalkircheComponent } from './beiträge/solothurn-spitalkirche/solothurn-spitalkirche.component';
-
+import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletscher-arme-seelen/aletschgletscher-arme-seelen.component';
 
 const routes: Routes = [
+  { path: 'gletschersage', component: AletschgletscherArmeSeelenComponent },
   { path: 'spitalkirche', component: SolothurnSpitalkircheComponent },
   { path: 'restaurant-blinde-kuh', component: ZhBlindekuhComponent },
   { path: 'swiss-church-in-london', component: LondonChurchComponent },
   { path: 'weitblick-und-enge', component: SulzigWeitblickComponent },
   { path: 'simplon-hospiz', component: SimplonHospizComponent },
-  { path: 'stiftskirche-st.-leodegar', component: SchoenewerdStiftskircheComponent },
+  {
+    path: 'stiftskirche-st.-leodegar',
+    component: SchoenewerdStiftskircheComponent,
+  },
   { path: 'scherzlingen-kirche', component: ScherzlingenKircheComponent },
   { path: 'verenaschlucht', component: SoVerenaschluchtComponent },
-  { path: 'martinskirche-rüeggisberg', component: RueggisbergMartinskircheComponent },
+  {
+    path: 'martinskirche-rüeggisberg',
+    component: RueggisbergMartinskircheComponent,
+  },
   { path: 'klosterort', component: SoKlosterortComponent },
-  { path: 'zentrum-der-heiligungsbewegung', component: ZhHeiligungsbewegungComponent },
+  {
+    path: 'zentrum-der-heiligungsbewegung',
+    component: ZhHeiligungsbewegungComponent,
+  },
   { path: 'spreuerbrücke', component: LuzernSpreuerbrueckeComponent },
   { path: 'gnadenbrunnen', component: LuthernbadGnadenbrunnenComponent },
   { path: 'hindelbank-kirche', component: HindelbankKircheComponent },
@@ -76,38 +86,67 @@ const routes: Routes = [
   { path: 'studium-der-ostkirchen', component: FreiburgZentrumComponent },
   { path: 'synagogen-und-friedhof', component: EndingenFriedhofComponent },
   { path: 'schwarze-madonna', component: EinsiedelnMadonnaComponent },
-  { path: 'benediktinerkloster', component: GraubuendenBenediktinerklosterComponent },
+  {
+    path: 'benediktinerkloster',
+    component: GraubuendenBenediktinerklosterComponent,
+  },
   { path: 'feder', component: BuerenFederComponent },
   { path: 'kollegiumskirche', component: BrigKollegiumskircheComponent },
-  { path: 'ökumenisches-institut', component: BosseyOekumenischesInstitutComponent },
-  { path: 'kraftwerk-birsfelden', component: BaselKraftwerkBirsfeldenComponent },
+  {
+    path: 'ökumenisches-institut',
+    component: BosseyOekumenischesInstitutComponent,
+  },
+  {
+    path: 'kraftwerk-birsfelden',
+    component: BaselKraftwerkBirsfeldenComponent,
+  },
   { path: 'filmpodium', component: BielFilmpodiumComponent },
   { path: 'zentrum-paul-klee', component: BernPaulKleeComponent },
-  { path: 'stationenweg-zur-täufergeschichte', component: BernTaeufergeschichteComponent },
+  {
+    path: 'stationenweg-zur-täufergeschichte',
+    component: BernTaeufergeschichteComponent,
+  },
   { path: 'münster-st.-vinzenz', component: BernVinzenzComponent },
-  { path: 'hebammenpforte-des-berner-münsters', component: BernHebammenpforteComponent },
+  {
+    path: 'hebammenpforte-des-berner-münsters',
+    component: BernHebammenpforteComponent,
+  },
   { path: 'münster-portal', component: BernMuensterPortalComponent },
-  { path: 'kindlifresserbrunnen', component: BernKindlifresserbrunnenComponent },
+  {
+    path: 'kindlifresserbrunnen',
+    component: BernKindlifresserbrunnenComponent,
+  },
   { path: 'haus-der-religionen', component: HausDerReligionenComponent },
   { path: 'dürrenmatts-mansarde', component: BernDuerrenmattMansardeComponent },
   { path: 'ehemaliges-bürgerspital', component: BernBurgerspitalComponent },
   { path: 'berner-totentanz', component: BernTotentanzComponent },
-  { path: 'begegnungen-in-bethlehem', component: BetlehemBegegnungenBetlehemComponent },
+  {
+    path: 'begegnungen-in-bethlehem',
+    component: BetlehemBegegnungenBetlehemComponent,
+  },
   { path: 'berner-totentanz', component: BernTotentanzComponent },
-  { path: 'antoniterkirche-antonius-fresken', component: BernAntoniterkircheAntoniusFreskenComponent },
+  {
+    path: 'antoniterkirche-antonius-fresken',
+    component: BernAntoniterkircheAntoniusFreskenComponent,
+  },
   { path: 'antoniterkirche', component: BernAntoniterkircheComponent },
   { path: 'labbatiale', component: BellelayAbbatialeComponent },
   { path: 'kapelle', component: BelalpKapelleComponent },
   { path: 'vincentiustafel', component: BaselVincentiustafelComponent },
   { path: 'kirche-st.martin', component: SchweizMartinskircheComponent },
-  { path: 'cigognier-heiligtum', component: AvenchesCigognierHeiligtumComponent },
+  {
+    path: 'cigognier-heiligtum',
+    component: AvenchesCigognierHeiligtumComponent,
+  },
   { path: 'solothurn-zwei-heilige', component: SolothurnZweiHeiligeComponent },
   { path: 'home', component: HomeComponent },
   {
-    path: 'reisehinweise', component: ReisehinweiseComponent, children: [
+    path: 'reisehinweise',
+    component: ReisehinweiseComponent,
+    children: [
       { path: 'kacheln', component: OrteComponent },
-      { path: 'map', component: MapComponent }
-    ]
+      { path: 'map', component: MapComponent },
+    ],
   },
   { path: 'baptisterium', component: BaptisteriumComponent },
   { path: 'amsoldingen-kirche', component: AmsoldingenKircheComponent },
@@ -121,6 +160,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { useHash: false })],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

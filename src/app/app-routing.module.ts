@@ -153,8 +153,8 @@ const routes: Routes = [
   { path: 'kontakt', component: ContactComponent },
   { path: 'beitrag', component: IhrbeitragComponent },
   { path: 'map', component: MapComponent },
-  { path: 'team', component: AboutComponent },
-  { path: 'test', component: TeamComponent },
+  // { path: 'team', component: AboutComponent },
+  { path: 'team', component: TeamComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 

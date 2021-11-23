@@ -153,9 +153,12 @@ ul {
 .logo {
   margin: 0;
   grid-column: 3/4;
-  width: 130px;
-  position: absolute;
+  grid-row: 1/2;
   right: 0;
+}
+
+#uniLogo{
+  max-width: 20vh;
 }
 
 .institut {

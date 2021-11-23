@@ -5,6 +5,8 @@
 
 .vertiefung {
   text-align: left;
+  overflow-wrap: break-word;
+  display: inline-block;
 }
 
 .bild-klein {
@@ -97,5 +99,25 @@ h2 {
   .text {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .innerText {
+    padding: 0;
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 1.5;
   }
 }

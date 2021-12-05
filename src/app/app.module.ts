@@ -86,6 +86,7 @@ import { LondonChurchComponent } from './beiträge/london-church/london-church.c
 import { ZhBlindekuhComponent } from './beiträge/zh-blindekuh/zh-blindekuh.component';
 import { SolothurnSpitalkircheComponent } from './beiträge/solothurn-spitalkirche/solothurn-spitalkirche.component';
 import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletscher-arme-seelen/aletschgletscher-arme-seelen.component';
+import { BaselJuedischesMuseumComponent } from './beiträge/basel-juedisches-museum/basel-juedisches-museum.component';
 
 
 
@@ -160,6 +161,7 @@ import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletsche
     ZhBlindekuhComponent,
     SolothurnSpitalkircheComponent,
     AletschgletscherArmeSeelenComponent,
+    BaselJuedischesMuseumComponent,
   ],
   imports: [
     MatToolbarModule,

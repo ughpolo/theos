@@ -1,6 +1,20 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Basel Jüdisches Museum': {
+    karuselltitel: 'Jüdisches Museum',
+    beitragtitel: 'Kulturhistorisches Schaufenster der jüdischen Schweiz',
+    ort: 'Basel',
+    bild: 'basel-juedisches-museum/bild3.tiff',
+    autor: 'David Zimmer',
+    jahr: '2021',
+    markierungen: [
+      [47.55652, 7.58335],
+      [47, 5576245, 7, 5830794],
+    ],
+    kanton: Kantone.BaselStadt,
+  },
+
   'Aletschgletscher Arme Seelen': {
     karuselltitel: 'Gletschersage',
     beitragtitel: 'Von den Armen Seelen im Gletscher',

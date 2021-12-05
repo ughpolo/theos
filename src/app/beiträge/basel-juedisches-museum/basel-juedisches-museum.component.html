@@ -1,0 +1,46 @@
+<p>basel-juedisches-museum works!</p>
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'basel-juedisches-museum/bild3.tiff'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p id="firstParagraph">firstParagraph</p>
+
+      <img class="bild" src="../../../assets/images/ordner/bild1.jpg" alt="" />
+      <p class="bildunterschrift">bildunterschrift</p>
+
+      <p class="autor">autor</p>
+
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            textb4link
+            <a href="websitelink">text</a>
+          </li>
+        </ul>
+      </div>
+
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
+        <ul>
+          <li *ngFor="let beitrag of author.beitrag">
+            <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
+              beitrag
+            }}</a>
+          </li>
+        </ul>
+      </div>
+
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

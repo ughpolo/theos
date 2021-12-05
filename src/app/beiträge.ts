@@ -221,8 +221,8 @@ export const Beiträge = {
     markierungen: [[46.9495, 7.3927]],
     kanton: Kantone.Bern,
   },
-  'Ehemaliges Bürgerspital': {
-    karuselltitel: 'Ehemaliges Bürgerspital',
+  'Ehemaliges Burgerspital': {
+    karuselltitel: 'Ehemaliges Burgerspital',
     beitragtitel: 'Von goldenen Lettern und der Fremdheit ihrer Hoffnung',
     bild: 'bern-burgerspital/burgerspital2.jpeg',
     ort: 'Bern',

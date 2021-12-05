@@ -7,10 +7,9 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 @Component({
   selector: 'app-bern-burgerspital',
   templateUrl: './bern-burgerspital.component.html',
-  styleUrls: ['./bern-burgerspital.component.scss']
+  styleUrls: ['./bern-burgerspital.component.scss'],
 })
 export class BernBurgerspitalComponent implements OnInit {
-
   //Kopiere mich von hier:
   coordinates: any;
 
@@ -24,11 +23,15 @@ export class BernBurgerspitalComponent implements OnInit {
 
   date!: string;
 
-  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
+  constructor(
+    protected markerService: MarkerService,
+    protected dataService: DataServiceService,
+    protected mapService: MapService
+  ) {}
 
   ngOnInit(): void {
     //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den Karuselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
-    this.assign('Matthias Käser', 'Ehemaliges Bürgerspital');
+    this.assign('Matthias Käser', 'Ehemaliges Burgerspital');
     this.createIds();
   }
 
@@ -44,23 +47,33 @@ export class BernBurgerspitalComponent implements OnInit {
 
   replaceWhiteSpace() {
     for (let i = 0; i < this.author.beitrag.length; i += 1) {
-      this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
+      this.author.beitrag[i] = this.author.beitrag[i]
+        .replace(/\s+/g, '-')
+        .toLowerCase();
     }
   }
 
   createIds() {
     for (let i = 0; i < this.coordinates.length; i += 1) {
-      this.ids.push(`${this.title}${i}`)
+      this.ids.push(`${this.title}${i}`);
     }
   }
 
   ngAfterViewInit(): void {
     if (this.ids.length > 0) {
       for (let i = 0; i < this.coordinates.length; i += 1) {
-        this.maps.push(this.mapService.initMap(this.coordinates[i], 16, true, 8.5, `${this.title}${i}`))
-        this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
+        this.maps.push(
+          this.mapService.initMap(
+            this.coordinates[i],
+            16,
+            true,
+            8.5,
+            `${this.title}${i}`
+          )
+        );
+        this.markerService.makeMarkers(this.maps[i], this.coordinates[i]);
       }
     }
-  };
+  }
   //Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die Datei mit dem Blauen A)
 }

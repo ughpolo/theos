@@ -5,7 +5,7 @@ export const Beiträge = {
     karuselltitel: 'Jüdisches Museum',
     beitragtitel: 'Kulturhistorisches Schaufenster der jüdischen Schweiz',
     ort: 'Basel',
-    bild: 'basel-juedisches-museum/bild3.tiff',
+    bild: 'basel-juedisches-museum/bild3.jpg',
     autor: 'David Zimmer',
     jahr: '2021',
     markierungen: [

@@ -58,7 +58,7 @@ import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletsche
 import { BaselJuedischesMuseumComponent } from './beiträge/basel-juedisches-museum/basel-juedisches-museum.component';
 
 const routes: Routes = [
-  { path: 'juedisches-museum', component: BaselJuedischesMuseumComponent },
+  { path: 'jüdisches-museum', component: BaselJuedischesMuseumComponent },
   { path: 'gletschersage', component: AletschgletscherArmeSeelenComponent },
   { path: 'spitalkirche', component: SolothurnSpitalkircheComponent },
   { path: 'restaurant-blinde-kuh', component: ZhBlindekuhComponent },

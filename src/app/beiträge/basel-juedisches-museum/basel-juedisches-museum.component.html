@@ -198,11 +198,12 @@
             >
             (08.05.2021).
           </li>
+          <li></li>
         </ul>
       </div>
-      <br />
+
       <div *ngIf="author.beitrag.length > 0" class="weitere">
-        <h2>Weitere Artikel von David Zimmer finden Sie hier:</h2>
+        <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
         <ul>
           <li *ngFor="let beitrag of author.beitrag">
             <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
@@ -212,7 +213,7 @@
         </ul>
       </div>
 
-      <h2>Lageplan: aktueller und neuer Standort</h2>
+      <h2>Lageplan:</h2>
       <div *ngFor="let id of ids" class="map-container">
         <div [id]="id" class="map"></div>
       </div>

@@ -1,3 +1,9 @@
+@import "../../../styles.scss";
+
+.accent {
+  color: $rot;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;

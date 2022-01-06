@@ -87,6 +87,7 @@ import { ZhBlindekuhComponent } from './beiträge/zh-blindekuh/zh-blindekuh.comp
 import { SolothurnSpitalkircheComponent } from './beiträge/solothurn-spitalkirche/solothurn-spitalkirche.component';
 import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletscher-arme-seelen/aletschgletscher-arme-seelen.component';
 import { BaselJuedischesMuseumComponent } from './beiträge/basel-juedisches-museum/basel-juedisches-museum.component';
+import { RueegsauReformierteKircheComponent } from './beiträge/rueegsau-reformierte-kirche/rueegsau-reformierte-kirche.component';
 
 
 
@@ -162,6 +163,7 @@ import { BaselJuedischesMuseumComponent } from './beiträge/basel-juedisches-mus
     SolothurnSpitalkircheComponent,
     AletschgletscherArmeSeelenComponent,
     BaselJuedischesMuseumComponent,
+    RueegsauReformierteKircheComponent,
   ],
   imports: [
     MatToolbarModule,

@@ -1,6 +1,20 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+
+  'Rüegsau Reformierte Kirche': {
+    karuselltitel: 'Reformierte Kirche',
+    beitragtitel: 'Reformierte Kirche Rüegsau',
+    ort: 'Rüegsau',
+    bild: 'rueegsau-kirche/bild1.jpg',
+    autor: 'Rolf Weibel',
+    jahr: '2021',
+    markierungen: [
+      [47.02472,7.67451],
+    ],
+    kanton: Kantone.Bern,
+  },
+
   'Basel Jüdisches Museum': {
     karuselltitel: 'Jüdisches Museum',
     beitragtitel: 'Kulturhistorisches Schaufenster der jüdischen Schweiz',

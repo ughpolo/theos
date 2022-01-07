@@ -22,7 +22,7 @@ export class DataServiceService {
   assignBeiträge() {
     for (const beitrag in this.alle) {
       const obj = this.alle[beitrag];
-      this.beiträge.push(new Beitrag(obj.karuselltitel, obj.ort, `../../../../assets/images/${obj.bild}`, obj.autor, obj.jahr, obj.markierungen, obj.beitragtitel, obj.kanton))
+      this.beiträge.push(new Beitrag(obj.karusselltitel, obj.ort, `../../../../assets/images/${obj.bild}`, obj.autor, obj.jahr, obj.markierungen, obj.beitragtitel, obj.kanton))
     }
     this.assignAuthors();
     this.mergeMarkers();

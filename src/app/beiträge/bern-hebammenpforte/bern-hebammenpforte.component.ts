@@ -26,7 +26,7 @@ export class BernHebammenpforteComponent implements OnInit {
   constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
-    //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den Karuselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
+    //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den karusselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
     this.assign('Adrienne Shannon Grossenbacher', 'Hebammenpforte des Berner Münsters');
     this.createIds();
   }

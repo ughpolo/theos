@@ -5,11 +5,11 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 
 
 @Component({
-  selector: 'app-schoenewerd-stiftskirche',
-  templateUrl: './schoenewerd-stiftskirche.component.html',
-  styleUrls: ['./schoenewerd-stiftskirche.component.scss']
+  selector: 'app-schoenenwerd-stiftskirche',
+  templateUrl: './schoenenwerd-stiftskirche.component.html',
+  styleUrls: ['./schoenenwerd-stiftskirche.component.scss']
 })
-export class SchoenewerdStiftskircheComponent implements OnInit {
+export class schoenenwerdStiftskircheComponent implements OnInit {
 
   ngOnInit(): void {
     this.assign('Adrian Suter', 'Stiftskirche St. Leodegar');

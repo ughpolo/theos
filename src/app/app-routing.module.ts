@@ -48,7 +48,7 @@ import { SoKlosterortComponent } from './beiträge/so-klosterort/so-klosterort.c
 import { RueggisbergMartinskircheComponent } from './beiträge/rueggisberg-martinskirche/rueggisberg-martinskirche.component';
 import { SoVerenaschluchtComponent } from './beiträge/so-verenaschlucht/so-verenaschlucht.component';
 import { ScherzlingenKircheComponent } from './beiträge/scherzlingen-kirche/scherzlingen-kirche.component';
-import { SchoenewerdStiftskircheComponent } from './beiträge/schoenewerd-stiftskirche/schoenewerd-stiftskirche.component';
+import { schoenenwerdStiftskircheComponent } from './beiträge/schoenenwerd-stiftskirche/schoenenwerd-stiftskirche.component';
 import { SimplonHospizComponent } from './beiträge/simplon-hospiz/simplon-hospiz.component';
 import { SulzigWeitblickComponent } from './beiträge/sulzig-weitblick/sulzig-weitblick.component';
 import { LondonChurchComponent } from './beiträge/london-church/london-church.component';
@@ -57,8 +57,11 @@ import { SolothurnSpitalkircheComponent } from './beiträge/solothurn-spitalkirc
 import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletscher-arme-seelen/aletschgletscher-arme-seelen.component';
 import { BaselJuedischesMuseumComponent } from './beiträge/basel-juedisches-museum/basel-juedisches-museum.component';
 import { RueegsauReformierteKircheComponent } from './beiträge/rueegsau-reformierte-kirche/rueegsau-reformierte-kirche.component';
+import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-martinskirche.component';
+
 
 const routes: Routes = [
+  { path: 'st.-martinskirche-visp', component: VispMartinskircheComponent },
   { path: 'reformierte-kirche', component: RueegsauReformierteKircheComponent },
   { path: 'jüdisches-museum', component: BaselJuedischesMuseumComponent },
   { path: 'gletschersage', component: AletschgletscherArmeSeelenComponent },
@@ -69,7 +72,7 @@ const routes: Routes = [
   { path: 'simplon-hospiz', component: SimplonHospizComponent },
   {
     path: 'stiftskirche-st.-leodegar',
-    component: SchoenewerdStiftskircheComponent,
+    component: schoenenwerdStiftskircheComponent,
   },
   { path: 'scherzlingen-kirche', component: ScherzlingenKircheComponent },
   { path: 'verenaschlucht', component: SoVerenaschluchtComponent },

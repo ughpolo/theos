@@ -79,7 +79,7 @@ import { SoKlosterortComponent } from './beiträge/so-klosterort/so-klosterort.c
 import { RueggisbergMartinskircheComponent } from './beiträge/rueggisberg-martinskirche/rueggisberg-martinskirche.component';
 import { SoVerenaschluchtComponent } from './beiträge/so-verenaschlucht/so-verenaschlucht.component';
 import { ScherzlingenKircheComponent } from './beiträge/scherzlingen-kirche/scherzlingen-kirche.component';
-import { SchoenewerdStiftskircheComponent } from './beiträge/schoenewerd-stiftskirche/schoenewerd-stiftskirche.component';
+import { schoenenwerdStiftskircheComponent } from './beiträge/schoenenwerd-stiftskirche/schoenenwerd-stiftskirche.component';
 import { SimplonHospizComponent } from './beiträge/simplon-hospiz/simplon-hospiz.component';
 import { SulzigWeitblickComponent } from './beiträge/sulzig-weitblick/sulzig-weitblick.component';
 import { LondonChurchComponent } from './beiträge/london-church/london-church.component';
@@ -88,6 +88,8 @@ import { SolothurnSpitalkircheComponent } from './beiträge/solothurn-spitalkirc
 import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletscher-arme-seelen/aletschgletscher-arme-seelen.component';
 import { BaselJuedischesMuseumComponent } from './beiträge/basel-juedisches-museum/basel-juedisches-museum.component';
 import { RueegsauReformierteKircheComponent } from './beiträge/rueegsau-reformierte-kirche/rueegsau-reformierte-kirche.component';
+import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-martinskirche.component';
+
 
 
 
@@ -155,7 +157,7 @@ import { RueegsauReformierteKircheComponent } from './beiträge/rueegsau-reformi
     RueggisbergMartinskircheComponent,
     SoVerenaschluchtComponent,
     ScherzlingenKircheComponent,
-    SchoenewerdStiftskircheComponent,
+    schoenenwerdStiftskircheComponent,
     SimplonHospizComponent,
     SulzigWeitblickComponent,
     LondonChurchComponent,
@@ -164,6 +166,7 @@ import { RueegsauReformierteKircheComponent } from './beiträge/rueegsau-reformi
     AletschgletscherArmeSeelenComponent,
     BaselJuedischesMuseumComponent,
     RueegsauReformierteKircheComponent,
+    VispMartinskircheComponent,
   ],
   imports: [
     MatToolbarModule,

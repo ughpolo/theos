@@ -1,9 +1,21 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Visp St. Martinskirche': {
+    karusselltitel: 'St. Martinskirche Visp',
+    beitragtitel: 'Die St. Martinskirche Visp',
+    ort: 'Visp',
+    bild: 'visp-martinskirche/bild1.jpeg',
+    autor: 'Damian Pfammatter',
+    jahr: '2021',
+    markierungen: [
+      [46.28911,7.88096],
+    ],
+    kanton: Kantone.Wallis,
+  },
 
   'Rüegsau Reformierte Kirche': {
-    karuselltitel: 'Reformierte Kirche',
+    karusselltitel: 'Reformierte Kirche',
     beitragtitel: 'Reformierte Kirche Rüegsau',
     ort: 'Rüegsau',
     bild: 'rueegsau-kirche/bild1.jpg',
@@ -16,7 +28,7 @@ export const Beiträge = {
   },
 
   'Basel Jüdisches Museum': {
-    karuselltitel: 'Jüdisches Museum',
+    karusselltitel: 'Jüdisches Museum',
     beitragtitel: 'Kulturhistorisches Schaufenster der jüdischen Schweiz',
     ort: 'Basel',
     bild: 'basel-juedisches-museum/bild3.jpg',
@@ -30,7 +42,7 @@ export const Beiträge = {
   },
 
   'Aletschgletscher Arme Seelen': {
-    karuselltitel: 'Gletschersage',
+    karusselltitel: 'Gletschersage',
     beitragtitel: 'Von den Armen Seelen im Gletscher',
     ort: 'Aletschgletscher',
     bild: 'aletschgletscher-arme-seelen/bild1.JPG',
@@ -40,7 +52,7 @@ export const Beiträge = {
     kanton: Kantone.Wallis,
   },
   'Solothurn Spitalkirche': {
-    karuselltitel: 'Spitalkirche',
+    karusselltitel: 'Spitalkirche',
     beitragtitel: 'Spitalkirche zum Heiligen Geist in Solothurn',
     ort: 'Solothurn',
     bild: 'solothurn-spitalkirche/bild1.jpg',
@@ -50,7 +62,7 @@ export const Beiträge = {
     kanton: Kantone.Solothurn,
   },
   'Restaurant Blinde Kuh': {
-    karuselltitel: 'Restaurant Blinde Kuh',
+    karusselltitel: 'Restaurant Blinde Kuh',
     beitragtitel: 'Blinde Kuh – mehr als ein Restaurant',
     ort: 'Zürich',
     bild: 'zh-blindekuh/bild1.jpg',
@@ -60,7 +72,7 @@ export const Beiträge = {
     kanton: Kantone.Zürich,
   },
   'Swiss Church in London': {
-    karuselltitel: 'Swiss Church in London',
+    karusselltitel: 'Swiss Church in London',
     beitragtitel: 'The Swiss Church in London',
     ort: 'London',
     bild: 'london-church/bild1.jpg',
@@ -70,7 +82,7 @@ export const Beiträge = {
     kanton: Kantone.London,
   },
   'Weitblick und Enge': {
-    karuselltitel: 'Weitblick und Enge',
+    karusselltitel: 'Weitblick und Enge',
     beitragtitel: 'Weitblick und Enge im Luzerner Hinterland',
     ort: 'Sulzig/Werthenstein',
     bild: 'sulzig-weitblick/bild1.jpg',
@@ -80,7 +92,7 @@ export const Beiträge = {
     kanton: Kantone.Luzern,
   },
   'Simplon Hospiz': {
-    karuselltitel: 'Simplon Hospiz',
+    karusselltitel: 'Simplon Hospiz',
     beitragtitel: 'Simplon Hospiz',
     ort: 'Simplon Pass',
     bild: 'simplon-pass-hospiz/bild1.jpg',
@@ -91,7 +103,7 @@ export const Beiträge = {
   },
 
   'Stiftskirche St. Leodegar': {
-    karuselltitel: 'Stiftskirche St. Leodegar',
+    karusselltitel: 'Stiftskirche St. Leodegar',
     beitragtitel: 'Zwischen Marienwallfahrt und Kulturkampf',
     ort: 'Schönenwerd',
     bild: 'so-stiftskirche/bild1.jpg',
@@ -101,7 +113,7 @@ export const Beiträge = {
     kanton: Kantone.Solothurn,
   },
   'Solothurn zwei Heilige': {
-    karuselltitel: 'Solothurn Zwei Heilige',
+    karusselltitel: 'Solothurn Zwei Heilige',
     beitragtitel: 'Zwei Heilige überblicken Solothurn',
     ort: 'Solothurn',
     bild: 'solothurn-solothurn-zwei-heilige/kathedrale.jpg',
@@ -111,7 +123,7 @@ export const Beiträge = {
     kanton: Kantone.Solothurn,
   },
   'Amsoldingen Kirche': {
-    karuselltitel: 'Amsoldingen Kirche',
+    karusselltitel: 'Amsoldingen Kirche',
     beitragtitel: 'Die Kirche Amsoldingen – ein Juwel im Berner Oberland',
     bild: 'amsoldingen-kirche/amsoldingen.jpg',
     ort: 'Bern',
@@ -121,7 +133,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   Baptisterium: {
-    karuselltitel: 'Baptisterium',
+    karusselltitel: 'Baptisterium',
     beitragtitel:
       'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz',
     bild: 'badzurzach-baptisterium/bad_zurzach_baptisterium.jpg',
@@ -136,7 +148,7 @@ export const Beiträge = {
     kanton: Kantone.Aargau,
   },
   'Cigognier-Heiligtum': {
-    karuselltitel: 'Cigognier-Heiligtum',
+    karusselltitel: 'Cigognier-Heiligtum',
     beitragtitel:
       'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz',
     bild: 'avenches-cigognier-heiligtum/avenches.jpg',
@@ -147,7 +159,7 @@ export const Beiträge = {
     kanton: Kantone.Wadt,
   },
   'Kirche St.Martin': {
-    karuselltitel: 'Kirche St.Martin',
+    karusselltitel: 'Kirche St.Martin',
     beitragtitel:
       'Spuren eines vielfachen Erinnerungsträgers – Martin von Tours und seine Kultorte',
     bild: 'schweiz-martinskirche/martin_basel.jpg',
@@ -162,7 +174,7 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },
   Vincentiustafel: {
-    karuselltitel: 'Vincentiustafel',
+    karusselltitel: 'Vincentiustafel',
     beitragtitel:
       'Von Engeln getragen. Der Märtyrer Vincentius von Saragossa im Basler Münster',
     bild: 'basel-vincentiustafel/vincentiustafel.jpg',
@@ -173,7 +185,7 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },
   Kapelle: {
-    karuselltitel: 'Kapelle',
+    karusselltitel: 'Kapelle',
     beitragtitel: 'Die Kapelle auf der Belalp/Lüsga',
     bild: 'belalp-kapelle/belalpKapelle.jpg',
     ort: 'Belalp',
@@ -183,7 +195,7 @@ export const Beiträge = {
     kanton: Kantone.Wallis,
   },
   'L’abbatiale': {
-    karuselltitel: 'L’abbatiale',
+    karusselltitel: 'L’abbatiale',
     beitragtitel:
       'L’abbatiale de Bellelay – échos du passé et musique d’avenir',
     bild: 'bellelay-abbatiale/abbatiale.jpg',
@@ -194,7 +206,7 @@ export const Beiträge = {
     kanton: Kantone.Jura,
   },
   Antoniterkirche: {
-    karuselltitel: 'Antoniterkirche',
+    karusselltitel: 'Antoniterkirche',
     beitragtitel:
       'Himmel, Erde, West und Ost – Die Antoniterkirche in der Berner Altstadt',
     bild: 'bern-antoniterkirche/antoniterkirche_heimlich.jpg',
@@ -205,7 +217,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Antoniterkirche Antonius-Fresken': {
-    karuselltitel: 'Antoniterkirche Antonius-Fresken',
+    karusselltitel: 'Antoniterkirche Antonius-Fresken',
     beitragtitel:
       'Die Antonius-Fresken von Fritz Pauli – ein reformiertes Bildprogramm',
     bild: 'bern-antoniterkirche-antonius-fresken/antonbild3.jpg',
@@ -216,7 +228,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Berner Totentanz': {
-    karuselltitel: 'Berner Totentanz',
+    karusselltitel: 'Berner Totentanz',
     beitragtitel: 'Berner Totentanz',
     bild: 'bern-totentanz/bild1.jpg',
     ort: 'Bern',
@@ -226,7 +238,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Begegnungen in Bethlehem': {
-    karuselltitel: 'Begegnungen in Bethlehem',
+    karusselltitel: 'Begegnungen in Bethlehem',
     beitragtitel: 'Begegnungen in Bethlehem',
     bild: 'bethlehem-kirche/bernbetlehem.jpg',
     ort: 'Bethlehem',
@@ -236,7 +248,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Ehemaliges Burgerspital': {
-    karuselltitel: 'Ehemaliges Burgerspital',
+    karusselltitel: 'Ehemaliges Burgerspital',
     beitragtitel: 'Von goldenen Lettern und der Fremdheit ihrer Hoffnung',
     bild: 'bern-burgerspital/burgerspital2.jpeg',
     ort: 'Bern',
@@ -246,7 +258,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Dürrenmatts Mansarde': {
-    karuselltitel: 'Dürrenmatts Mansarde',
+    karusselltitel: 'Dürrenmatts Mansarde',
     beitragtitel: 'Dürrenmatts Mansarde',
     bild: 'bern-duerrenmatt-mansarde/bild2.jpg',
     ort: 'Bern',
@@ -256,7 +268,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Haus der Religionen': {
-    karuselltitel: 'Haus der Religionen',
+    karusselltitel: 'Haus der Religionen',
     beitragtitel: 'Haus der Religionen: Das Mit- und Nebeneinander gestalten',
     bild: 'europaplatz-haus-der-religionen/bild1.jpg',
     ort: 'Bern',
@@ -266,7 +278,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   Kindlifresserbrunnen: {
-    karuselltitel: 'Kindlifresserbrunnen',
+    karusselltitel: 'Kindlifresserbrunnen',
     beitragtitel:
       'Von Kinderfressern und der Relevanz der Juden für die Christen',
     bild: 'bern-kindlifresser/bild1.jpg',
@@ -277,7 +289,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Münster Portal': {
-    karuselltitel: 'Münster Portal',
+    karusselltitel: 'Münster Portal',
     beitragtitel:
       'Vom Wiegen des Herzens und Feuerseen – Altägyptische Unterweltsvorstellungen am Portal des Berner Münsters?',
     bild: 'bern-muenster-portal/bild1.jpg',
@@ -288,7 +300,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Hebammenpforte des Berner Münsters': {
-    karuselltitel: 'Hebammenpforte des Berner Münsters',
+    karusselltitel: 'Hebammenpforte des Berner Münsters',
     beitragtitel: 'Hebammenpforte des Berner Münsters',
     bild: 'bern-hebammenpforte/bild1.jpg',
     ort: 'Bern',
@@ -298,7 +310,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Der Heilige Vinzenz als Kirchenpatron des Berner Münsters': {
-    karuselltitel: 'Münster St. Vinzenz',
+    karusselltitel: 'Münster St. Vinzenz',
     beitragtitel: 'Der Heilige Vinzenz als Kirchenpatron des Berner Münsters',
     bild: 'bern-muenster-vinzenz/bild1.jpg',
     ort: 'Bern',
@@ -308,7 +320,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Stationenweg zur Täufergeschichte': {
-    karuselltitel: 'Stationenweg zur Täufergeschichte',
+    karusselltitel: 'Stationenweg zur Täufergeschichte',
     beitragtitel: 'Stationenweg zur Täufergeschichte',
     bild: 'bern-taeufergeschichte/bild1.jpg',
     ort: 'Bern',
@@ -318,7 +330,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Zentrum Paul Klee': {
-    karuselltitel: 'Zentrum Paul Klee',
+    karusselltitel: 'Zentrum Paul Klee',
     beitragtitel: 'Ein Ort für Transzendenzerfahrungen?',
     bild: 'bern-paul-klee/bild1.jpg',
     ort: 'Bern',
@@ -328,7 +340,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   Filmpodium: {
-    karuselltitel: 'Filmpodium',
+    karusselltitel: 'Filmpodium',
     beitragtitel: 'C’est où, le Filmpodium?',
     bild: 'biel-filmpodium/bild1.jpg',
     ort: 'Biel',
@@ -338,7 +350,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   'Kraftwerk Birsfelden': {
-    karuselltitel: 'Kraftwerk Birsfelden',
+    karusselltitel: 'Kraftwerk Birsfelden',
     beitragtitel:
       'Das Kraftwerk Birsfelden – ein theologischer Erinnerungsort?',
     bild: 'birsfelden-kraftwerk/bild1.jpg',
@@ -349,7 +361,7 @@ export const Beiträge = {
     kanton: Kantone.BaselLand,
   },
   'Ökumenisches Institut': {
-    karuselltitel: 'Ökumenisches Institut',
+    karusselltitel: 'Ökumenisches Institut',
     beitragtitel:
       'Ökumenisches Institut Bossey – einzigartiges Laboratorium der ökumenischen Bewegung',
     bild: 'bossey-institut/bild1.jpg',
@@ -360,7 +372,7 @@ export const Beiträge = {
     kanton: Kantone.Wadt,
   },
   Kollegiumskirche: {
-    karuselltitel: 'Kollegiumskirche',
+    karusselltitel: 'Kollegiumskirche',
     beitragtitel: 'Die Kollegiumskirche zum Heiligen Geist in Brig',
     bild: 'brig-kollegiumskirche/bild2.jpg',
     ort: 'Brig',
@@ -370,7 +382,7 @@ export const Beiträge = {
     kanton: Kantone.Wallis,
   },
   Feder: {
-    karuselltitel: 'Feder',
+    karusselltitel: 'Feder',
     beitragtitel: 'Eine bewegende Feder als Wallfahrtsziel?',
     bild: 'bueren-feder/bild1.jpg',
     ort: 'Büren an der Aare',
@@ -380,7 +392,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   Benediktinerkloster: {
-    karuselltitel: 'Benediktinerkloster',
+    karusselltitel: 'Benediktinerkloster',
     beitragtitel: 'Benediktinerkloster Disentis',
     bild: 'disentis-benedikt/bild2.jpg',
     ort: 'Disentis',
@@ -390,7 +402,7 @@ export const Beiträge = {
     kanton: Kantone.Graubünden,
   },
   'Schwarze Madonna': {
-    karuselltitel: 'Schwarze Madonna',
+    karusselltitel: 'Schwarze Madonna',
     beitragtitel: 'Wenn die „heilige Kranke“ zur schwarzen Madonna geht...',
     bild: 'einsiedeln-madonna/bild1.jpg',
     ort: 'Einsiedeln',
@@ -400,7 +412,7 @@ export const Beiträge = {
     kanton: Kantone.Schwyz,
   },
   'Synagogen und Friedhof': {
-    karuselltitel: 'Synagogen und Friedhof',
+    karusselltitel: 'Synagogen und Friedhof',
     beitragtitel: 'Der «gute Ort», ein Haus für die Ewigkeit',
     bild: 'endingen-friedhof/bild2.jpg',
     ort: 'Endingen',
@@ -410,7 +422,7 @@ export const Beiträge = {
     kanton: Kantone.Aargau,
   },
   'Studium der Ostkirchen': {
-    karuselltitel: 'Studium der Ostkirchen',
+    karusselltitel: 'Studium der Ostkirchen',
     beitragtitel:
       'Zentrum für das Studium der Ostkirchen an der Universität Freiburg Schweiz Orthodoxe Spiritualität in einer Universität katholischer Prägung',
     bild: 'freiburg-zentrum/bild3.jpg',
@@ -421,7 +433,7 @@ export const Beiträge = {
     kanton: Kantone.Fribourg,
   },
   'Schloss Gottlieben': {
-    karuselltitel: 'Schloss Gottlieben',
+    karusselltitel: 'Schloss Gottlieben',
     beitragtitel: 'Gefängnis des Reformators Jan Hus',
     bild: 'tg-gottlieben/bild1.jpg',
     ort: 'Gottlieben',
@@ -431,7 +443,7 @@ export const Beiträge = {
     kanton: Kantone.Thurgau,
   },
   'Hindelbank Kirche': {
-    karuselltitel: 'Hindelbank Kirche',
+    karusselltitel: 'Hindelbank Kirche',
     beitragtitel: 'Die Kraft der Auferstehung in Stein gemeisselt',
     bild: 'hindelbank-kirche/bild1.jpg',
     ort: 'Hindelbank',
@@ -441,7 +453,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   Gnadenbrunnen: {
-    karuselltitel: 'Gnadenbrunnen',
+    karusselltitel: 'Gnadenbrunnen',
     beitragtitel: 'Das Wunderwasser der Luzerner Bauern',
     bild: 'luthernbad-gnadenbrunnen/bild1.jpg',
     ort: 'Luthernbad',
@@ -451,7 +463,7 @@ export const Beiträge = {
     kanton: Kantone.Luzern,
   },
   Spreuerbrücke: {
-    karuselltitel: 'Spreuerbrücke',
+    karusselltitel: 'Spreuerbrücke',
     beitragtitel: 'Die Spreuerbrücke in Luzern',
     bild: 'luzern-spreuerbruecke/bild1.jpg',
     ort: 'Luzern',
@@ -461,7 +473,7 @@ export const Beiträge = {
     kanton: Kantone.Luzern,
   },
   'Zentrum der Heiligungsbewegung': {
-    karuselltitel: 'Zentrum der Heiligungsbewegung',
+    karusselltitel: 'Zentrum der Heiligungsbewegung',
     beitragtitel: 'Zentrum der Heiligungsbewegung',
     bild: 'zh-heiligungsbewegung/bild1.jpg',
     ort: 'Männerdorf',
@@ -471,7 +483,7 @@ export const Beiträge = {
     kanton: Kantone.Luzern,
   },
   Klosterort: {
-    karuselltitel: 'Klosterort',
+    karusselltitel: 'Klosterort',
     beitragtitel: 'Mariastein, ein Wallfahrts- und Klosterort',
     bild: 'so-klosterort/bild1.jpg',
     ort: 'Mariastein',
@@ -481,7 +493,7 @@ export const Beiträge = {
     kanton: Kantone.Solothurn,
   },
   'Martinskirche Rüeggisberg': {
-    karuselltitel: 'Martinskirche Rüeggisberg',
+    karusselltitel: 'Martinskirche Rüeggisberg',
     beitragtitel: 'Martinskirche Rüeggisberg',
     bild: 'rueggisberg-martinskirche/bild3.jpg',
     ort: 'Luthernbad',
@@ -491,7 +503,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
   Verenaschlucht: {
-    karuselltitel: 'Verenaschlucht',
+    karusselltitel: 'Verenaschlucht',
     beitragtitel: 'Die Heilige Verena bei Solothurn',
     bild: 'so-verenaschlucht/bild1.jpg',
     ort: 'Rüttenen',
@@ -502,7 +514,7 @@ export const Beiträge = {
   },
 
   'Scherzlingen Kirche': {
-    karuselltitel: 'Scherzlingen Kirche',
+    karusselltitel: 'Scherzlingen Kirche',
     beitragtitel: '"Early Adopter"am Ausfluss des Thunersees',
     bild: 'scherzlingen-kirche/bild1.jpg',
     ort: 'Thun',

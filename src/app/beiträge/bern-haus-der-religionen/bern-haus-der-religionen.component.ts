@@ -12,7 +12,13 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 })
 export class BernHausDerReligionenComponent implements OnInit {
 
-  //Kopiere mich von hier:
+
+  ngOnInit(): void {
+    //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den karusselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
+    this.assign('Anna-Konstanze Schröder', 'Haus der Religionen');
+    this.createIds();
+  }
+  
   coordinates: any;
 
   ids: string[] = [];
@@ -27,16 +33,9 @@ export class BernHausDerReligionenComponent implements OnInit {
 
   constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
-  ngOnInit(): void {
-    //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den karusselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
-    this.assign('Anna-Konstanze Schröder', 'Haus der Religionen');
-    this.createIds();
-  }
-
   assign(author: string, title: string) {
     const beitrag = this.dataService.getBeitrag(author, title);
     this.author = this.dataService.getAuthor(author, title);
-
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
     this.title = beitrag!.fulltitle;
@@ -48,7 +47,6 @@ export class BernHausDerReligionenComponent implements OnInit {
       this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
     }
   }
-
   createIds() {
     for (let i = 0; i < this.coordinates.length; i += 1) {
       this.ids.push(`${this.title}${i}`)
@@ -62,6 +60,6 @@ export class BernHausDerReligionenComponent implements OnInit {
         this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
       }
     }
-  };
-  //Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die Datei mit dem Blauen A)
+  }
+
 }

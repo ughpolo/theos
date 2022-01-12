@@ -22,7 +22,7 @@ export const Beiträge = {
     markierungen: [[46.881, 7.04265]],
     kanton: Kantone.Waadt,
   },
-  Baptisterium: {
+  'Baptisterium': {
     karusselltitel: 'Baptisterium',
     beitragtitel:
       'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz',
@@ -65,7 +65,7 @@ export const Beiträge = {
     ],
     kanton: Kantone.BaselStadt,
   },
-  Vincentiustafel: {
+  'Vincentiustafel': {
     karusselltitel: 'Vincentiustafel',
     beitragtitel:
       'Von Engeln getragen. Der Märtyrer Vincentius von Saragossa im Basler Münster',
@@ -88,7 +88,7 @@ export const Beiträge = {
     markierungen: [[47.26409, 7.16869]],
     kanton: Kantone.Bern,
   },
-  Kapelle: {
+  'Kapelle': {
     karusselltitel: 'Kapelle',
     beitragtitel: 'Die Kapelle auf der Belalp/Lüsga',
     bild: 'belalp-kapelle/belalpKapelle.jpg',
@@ -108,7 +108,7 @@ export const Beiträge = {
     markierungen: [[46.7272, 7.57891]],
     kanton: Kantone.Bern,
   },
-  Antoniterkirche: {
+  'Antoniterkirche': {
     karusselltitel: 'Antoniterkirche',
     beitragtitel:
       'Himmel, Erde, West und Ost – Die Antoniterkirche in der Berner Altstadt',
@@ -170,7 +170,7 @@ export const Beiträge = {
     markierungen: [[46.94362, 7.40597]],
     kanton: Kantone.Bern,
   },
-  Kindlifresserbrunnen: {
+  'Kindlifresserbrunnen': {
     karusselltitel: 'Kindlifresserbrunnen',
     beitragtitel:
       'Von Kinderfressern und der Relevanz der Juden für die Christen',
@@ -242,7 +242,7 @@ export const Beiträge = {
     markierungen: [[46.9495, 7.3927]],
     kanton: Kantone.Bern,
   },
-  Filmpodium: {
+  'Filmpodium': {
     karusselltitel: 'Filmpodium',
     beitragtitel: 'C’est où, le Filmpodium?',
     bild: 'biel-filmpodium/bild1.jpg',
@@ -274,7 +274,7 @@ export const Beiträge = {
     markierungen: [[46.34756, 6.18565]],
     kanton: Kantone.Waadt,
   },
-  Kollegiumskirche: {
+  'Kollegiumskirche': {
     karusselltitel: 'Kollegiumskirche',
     beitragtitel: 'Die Kollegiumskirche zum Heiligen Geist in Brig',
     bild: 'brig-kollegiumskirche/bild2.jpg',
@@ -284,7 +284,7 @@ export const Beiträge = {
     markierungen: [[46.3153, 7.99214]],
     kanton: Kantone.Wallis,
   },
-  Feder: {
+  'Feder': {
     karusselltitel: 'Feder',
     beitragtitel: 'Eine bewegende Feder als Wallfahrtsziel?',
     bild: 'bueren-feder/bild1.jpg',
@@ -294,7 +294,7 @@ export const Beiträge = {
     markierungen: [[47.13749, 7.38003]],
     kanton: Kantone.Bern,
   },
-  Benediktinerkloster: {
+  'Benediktinerkloster': {
     karusselltitel: 'Benediktinerkloster',
     beitragtitel: 'Benediktinerkloster Disentis',
     bild: 'disentis-benedikt/bild2.jpg',
@@ -375,7 +375,7 @@ export const Beiträge = {
     markierungen: [[46.8215, 7.4387]],
     kanton: Kantone.Bern,
   },
-  Gnadenbrunnen: {
+  'Gnadenbrunnen': {
     karusselltitel: 'Gnadenbrunnen',
     beitragtitel: 'Das Wunderwasser der Luzerner Bauern',
     bild: 'luthernbad-gnadenbrunnen/bild1.jpg',
@@ -385,7 +385,7 @@ export const Beiträge = {
     markierungen: [[47.02541, 7.92512]],
     kanton: Kantone.Luzern,
   },
-  Spreuerbrücke: {
+  'Spreuerbrücke': {
     karusselltitel: 'Spreuerbrücke',
     beitragtitel: 'Die Spreuerbrücke in Luzern',
     bild: 'luzern-spreuerbruecke/bild1.jpg',
@@ -405,7 +405,7 @@ export const Beiträge = {
     markierungen: [[47.25591, 8.69311]],
     kanton: Kantone.Luzern,
   },
-  Klosterort: {
+  'Klosterort': {
     karusselltitel: 'Klosterort',
     beitragtitel: 'Mariastein, ein Wallfahrts- und Klosterort',
     bild: 'solothurn-klosterort/bild1.jpg',
@@ -427,7 +427,7 @@ export const Beiträge = {
     ],
     kanton: Kantone.Bern,
   },
-  Verenaschlucht: {
+  'Verenaschlucht': {
     karusselltitel: 'Verenaschlucht',
     beitragtitel: 'Die Heilige Verena bei Solothurn',
     bild: 'solothurn-verenaschlucht/bild1.jpg',

@@ -78,7 +78,38 @@ h2 {
   min-height: 400px;
 }
 
-@media (max-width: 1317px) {
+@media (min-width: 3000px) {
+  
+
+  .wrapper {
+    text-align: justify;
+    display: grid;
+  }
+
+  .text {
+    display: grid;
+    grid-template-columns: 600px 1800px 600px;
+  }
+}
+
+
+@media (min-width: 1317px) {
+  
+  .bild {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: min(1000px, 100%);
+    height: auto;
+  }
+
+  .bildunterschrift{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: min(1000px, 100%);
+  }
+
   .wrapper {
     text-align: justify;
     display: grid;
@@ -90,6 +121,20 @@ h2 {
   }
 }
 
+
+@media (max-width: 1317px) {
+  
+
+  .wrapper {
+    text-align: justify;
+    display: grid;
+  }
+
+  .text {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+}
 
 @media (max-width: 1253px) {
   

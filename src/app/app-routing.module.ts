@@ -137,7 +137,7 @@ const routes: Routes = [
     component: BernAntoniterkircheAntoniusFreskenComponent,
   },
   { path: 'antoniterkirche', component: BernAntoniterkircheComponent },
-  { path: 'labbatiale', component: BellelayAbbatialeComponent },
+  { path: 'abbatiale', component: BellelayAbbatialeComponent },
   { path: 'kapelle', component: BelalpKapelleComponent },
   { path: 'vincentiustafel', component: BaselVincentiustafelComponent },
   { path: 'kirche-st.martin', component: BaselMartinskircheComponent },

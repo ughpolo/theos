@@ -77,8 +77,8 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },
   
-  'L’abbatiale': {
-    karusselltitel: 'Labbatiale',
+  'Abbatiale': {
+    karusselltitel: 'Abbatiale',
     beitragtitel:
       'L’abbatiale de Bellelay – échos du passé et musique d’avenir',
     bild: 'bellelay-abbatiale/abbatiale.jpg',

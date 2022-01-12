@@ -27,7 +27,7 @@ export class BellelayAbbatialeComponent implements OnInit {
 
   ngOnInit(): void {
     /*Autor,          */
-    this.assign('Lara A. Kneubühler', 'L’abbatiale');
+    this.assign('Lara A. Kneubühler', 'Abbatiale');
     this.createIds();
   }
 

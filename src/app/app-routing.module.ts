@@ -123,9 +123,9 @@ const routes: Routes = [
     path: 'kindlifresserbrunnen',
     component: BernKindlifresserbrunnenComponent,
   },
-  { path: 'bern-haus-der-religionen', component: BernHausDerReligionenComponent },
+  { path: 'haus-der-religionen', component: BernHausDerReligionenComponent },
   { path: 'dürrenmatts-mansarde', component: BernDuerrenmattMansardeComponent },
-  { path: 'ehemaliges-bürgerspital', component: BernBurgerspitalComponent },
+  { path: 'ehemaliges-burgerspital', component: BernBurgerspitalComponent },
   { path: 'berner-totentanz', component: BernTotentanzComponent },
   {
     path: 'begegnungen-in-bethlehem',

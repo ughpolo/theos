@@ -78,7 +78,7 @@ export const Beiträge = {
   },
   
   'L’abbatiale': {
-    karusselltitel: 'L’abbatiale',
+    karusselltitel: 'Labbatiale',
     beitragtitel:
       'L’abbatiale de Bellelay – échos du passé et musique d’avenir',
     bild: 'bellelay-abbatiale/abbatiale.jpg',

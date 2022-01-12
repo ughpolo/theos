@@ -182,30 +182,37 @@
 
 
 
-            <div class="vertiefung">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div> <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
                     <li>Michael Dähler, Die Kirche Scherzligen, Schweizerischer Kunstführer GSK, Bern 2004
                     </li>
-                    <li>Markus Nägeli, <a
+                    <li>Markus Nägeli, <a target="_blank"
                             href="https://www.theos.unibe.ch/orte/pdf/lichtkirche_scherzligen_version_april_2020.pdf">"Lichtkirche
                             Scherzligen".</a>Zu den Scherzliger Lichtphänomenen um Johanni und Maria Himmelfahrt. 2017
                         (ergänzte Version April 2020)
                     </li>
-                    <li>Markus Nägeli, <a
+                    <li>Markus Nägeli, <a target="_blank"
                             href="https://www.theos.unibe.ch/orte/pdf/scherzliger_passionswand_version_april_2020.pdf">Das
                             Scherzliger Passionspanorama</a> – Hintergründe und Bedeutung, 2017 (stark ergänzte Version
                         April 2020)</li>
-                    <li>mit Anhang: Christoph Jungen,<a
+                    <li>mit Anhang: Christoph Jungen,<a target="_blank"
                             href="http://www.scherzligen.ch/fileadmin/user_upload/PDF/Anhang_Chr._Jungen.pdf">Jerusalem
                             in Scherzligen - eine Entdeckung</a> , Sommer 2017
                     </li>
-                    <li>Weitere Materialien zur Vertiefung auf <a href="www.scherzligen.ch"></a>www.scherzligen.ch
+                    <li>Weitere Materialien zur Vertiefung auf <a target="_blank" href="www.scherzligen.ch"></a>www.scherzligen.ch
                     </li>
-                    <li>Das gesamte Passionspanorama findet sich <a
+                    <li>Das gesamte Passionspanorama findet sich <a target="_blank"
                             href="http://www.scherzligen.ch/fileadmin/map/">hier</a>
                     </li>
-                    <li><a
+                    <li><a target="_blank"
                             href="https://www.srf.ch/audio/perspektiven/jerusalem-am-thunersee-eine-reise-zu-religioesen-begegnungsorten?id=11966882">SRF-Podcast</a>
                         über die Kirche Scherzligen und das Projekt theos
                     </li>
@@ -213,18 +220,12 @@
             </div>
 
 
-            <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div>
+       
 
             <h2>Lageplan: Kirche Scherzligen
             </h2>
-            <div *ngFor="let id of ids" class="map-container">
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

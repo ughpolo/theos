@@ -1,5 +1,5 @@
 <app-title-image [author]="author.author" [title]="title" [date]="date"
-    [image]="'solothurn-solothurn-zwei-heilige/kathedrale.jpg'">
+    [image]="'solothurn-zwei-heilige/bild1.jpg'">
 </app-title-image>
 <div class="wrapper">
     <div class="text">
@@ -28,7 +28,7 @@
                 Unterhalb der goldenen Inschrift sind drei Reliefs zu erkennen. In der Mitte ist die Schlüsselübergabe
                 des Erlösers, Jesus Christus, an Petrus. Mit der Betrachtung der beiden äusseren Reliefs, wird bereits
                 die Geschichte berührt, die sich um die Stadt Solothurn und insbesondere um die Kathedrale ranken.</p>
-            <img id="bild1" src="../../../assets/images/solothurn-solothurn-zwei-heilige/kathedrale.jpg" alt="">
+            <img id="bild1" src="../../../assets/images/solothurn-zwei-heilige/bild1.jpg" alt="">
             <p id="imagesub">Die St. Ursen-Kathedrale. (Bild: Adriana Basso Schaub)
             </p>
 
@@ -51,7 +51,7 @@
                 trifft. Da er sich weigerte, mitzufeiern und sich als Christ zu erkennen gab, fand er bei der Feier den
                 Tod. Dem Legionär Viktor jedenfalls, gelang zusammen mit Urs die Flucht. In Solothurn wurden sie von den
                 Römern wieder aufgegriffen.</p>
-            <img class="bild" src="../../../assets/images/solothurn-solothurn-zwei-heilige/solothurn_relief_rechts.jpg"
+            <img class="bild" src="../../../assets/images/solothurn-zwei-heilige/bild2.jpg"
                 alt="">
             <p>Relief rechts: Verwehrung der Götzenanbetung. (Bild: Joël Meier)
 
@@ -79,7 +79,7 @@
                 Erzählungen die historisch-faktische, wird unscharf und sie verschwimmen zur Legende. Sicher ist jedoch,
                 dass in der St. Ursen-Kathedrale Reliquien der – oder zumindest: als diejenigen der – Stadtheiligen
                 verehrt wurden.</p>
-            <img class="bild" src="../../../assets/images/solothurnzweiheilige/solothurn_relief_links.jpg" alt="">
+            <img class="bild" src="../../../assets/images/solothurn-zwei-heilige/bild3.jpg" alt="">
             <p>Relief links: Köpfungsszene. (Bild: Joël Meier)
 
 
@@ -99,7 +99,14 @@
 
                 </i></p>
 
-            <div class="vertiefung">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div> <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
                     <li>Haefliger, Eduard: «Urs und Viktor und die thebäische Legion», in: Jahrbuch für solothurnische
@@ -108,15 +115,9 @@
 
                 </ul>
             </div>
-            <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div>
-            <div *ngFor="let id of ids" class="map-container">
+       
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

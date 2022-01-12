@@ -139,7 +139,14 @@
 
 
 
-            <div class="vertiefung">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div> <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
 
@@ -162,16 +169,10 @@
             </div>
 
 
-            <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div>
+       
 
-            <div *ngFor="let id of ids" class="map-container">
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

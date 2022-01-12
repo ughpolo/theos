@@ -1,4 +1,4 @@
-<app-title-image [author]="author.author" [title]="title" [date]="date" [image]="'tg-gottlieben/bild1.jpg'">
+<app-title-image [author]="author.author" [title]="title" [date]="date" [image]="'gottlieben-schloss/bild1.jpg'">
 </app-title-image>
 <div class="wrapper">
     <div class="text">
@@ -19,7 +19,7 @@
                 ist Gottlieben vor allem als Gefängnis der Diener Gottes eingegangen.
             </p>
 
-            <img class="bild" src="../../../assets/images/tg-gottlieben/bild1.jpg" alt="">
+            <img class="bild" src="../../../assets/images/gottlieben-schloss/bild1.jpg" alt="">
             <p class="bildunterschrift">Schloss Gottlieben. (Bild: © 2016 Adobe Stock/groeche)
             </p>
             <h2>Bischofsburg
@@ -106,7 +106,14 @@
 
 
 
-            <div class="vertiefung">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div> <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
 
@@ -115,24 +122,18 @@
                         Konstanzer Konzils (Der Thurgau im späten Mittelalter 1), Zürich 2014, 131–134.</li>
 
                     <li>
-                        <a href="www.gottlieben.ch">www.gottlieben.ch</a>
+                        <a target="_blank" href="https://www.gottlieben.ch">www.gottlieben.ch</a>
                     </li>
 
                 </ul>
             </div>
 
 
-            <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div>
+       
             <h2>Lageplan:
             </h2>
-            <div *ngFor="let id of ids" class="map-container">
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

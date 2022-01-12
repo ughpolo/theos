@@ -65,7 +65,14 @@
                 aufgenommen und nahmen demzufolge das erste Mal auch am Abendmahl im Kirchraum teil.
                 Über diesen Vorgang geben die beschriebenen Orte in der Schweiz heute noch lebhaft Auskunft und bilden
                 somit ein wichtiges Zeugnis für die Taufpraxis im frühen Christentum.</p>
-            <div class="vertiefung">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div> <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
                     <li>Othmar Perler: Frühchristliche Baptisterien in der Schweiz, in: Zeitschrift für Schweizerische
@@ -74,7 +81,7 @@
                 </ul>
             </div>
             <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
+                <p class="autor"> Weitere Artikel von {{author.author}} finden Sie hier:</p>
                 <ul>
                     <li *ngFor="let beitrag of author.beitrag"><a
                             routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
@@ -84,7 +91,8 @@
             <p class="autor">Maria Lissek ist Assistentin am Institut für Historische Theologie an der Universität Bern.
 
             </p>
-            <div *ngFor="let id of ids" class="map-container">
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

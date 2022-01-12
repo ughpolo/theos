@@ -65,6 +65,6 @@ export class FreiburgZentrumComponent implements OnInit {
   };
 
   changeRoute() {
-    this.router.navigate(['/centre-dorient'])
+    this.router.navigate(['/freiburg-centre-dorient'])
   }
 }

@@ -23,6 +23,7 @@
 p {
   margin: 0 0 10px;
   margin-bottom: 25px;
+  hyphens: auto;
 }
 
 .text {
@@ -89,7 +90,26 @@ h2 {
   }
 }
 
+
 @media (max-width: 1253px) {
+  
+
+  .innerText {
+    padding: 0;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
   .innerText {
     padding: 0;
   }
@@ -97,5 +117,14 @@ h2 {
   .text {
     display: flex;
     justify-content: center;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5;
   }
 }

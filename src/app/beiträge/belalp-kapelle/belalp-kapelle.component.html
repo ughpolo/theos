@@ -93,7 +93,14 @@
             <p>Die lichtdurchflutete Kapelle – in der nie eine Beerdigung, wohl aber viele Hochzeiten und früher auch
                 Taufen stattfanden – schenkt jedem Besucher Kraft und öffnet das Herz wie auch die Augen, welche das
                 atemberaubende Panorama zahlreicher Viertausender geniessen dürfen.</p>
-            <div class="vertiefung">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div> <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
                     <li>Jossen Erwin: Naters. Das grosse Dorf im Wallis, Visp 2000.
@@ -101,18 +108,12 @@
 
                 </ul>
             </div>
-            <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div>
+       
             <p class="autor">Dr. Gerd Dönni ist Prorektor am Kollegium Spiritus Sanctus in Brig
 
             </p>
-            <div *ngFor="let id of ids" class="map-container">
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

@@ -66,30 +66,31 @@
                 Pour conclure, nous pouvons dire que, s’étant enracinée dans la région et dans la conscience de ses
                 habitants, souligner le carac­ tère international que l’abbatiale de Bellelay a eu, et présente
                 toujours, pourrait être une mis­ sion d’avenir.</p>
-            <div class="vertiefung">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div> <div class="vertiefung">
                 <h2>Pour aller plus loin:
 
                 </h2>
                 <ul>
-                    <li><a href="www.abbatialebellelay.ch">www.abbatialebellelay.ch</a>
+                    <li><a target="_blank" href="http://www.abbatialebellelay.ch">www.abbatialebellelay.ch</a>
                     </li>
                     <li>Catherine Schmutz Nicod: L’ancienne abbaye de Bellelay, en: Guides de monuments suisses 74
                         (2003).</li>
 
                 </ul>
             </div>
-            <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div>
+       
             <p class="autor">Lara Kneubühler est étudiante en théologie à l'université de Berne, niveau Master.
 
             </p>
-            <div *ngFor="let id of ids" class="map-container">
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

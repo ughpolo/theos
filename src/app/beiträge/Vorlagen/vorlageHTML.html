@@ -9,37 +9,29 @@
 
             <img class="bild" src="../../../assets/images/ordner/bild1.jpg" alt="">
             <p class="bildunterschrift">bildunterschrift</p>
-
-
             <p class="autor">autor</p>
-
-
-
-            <div class="vertiefung">
-                <h2>Zur Vertiefung:</h2>
-                <ul>
-
-                    <li>textb4link
-                        <a target="_blank" href="websitelink">text</a>
-                    </li>
-
-                </ul>
-            </div>
-
-
             <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
                 <ul>
                     <li *ngFor="let beitrag of author.beitrag"><a
                             routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
                     </li>
                 </ul>
-            </div>
+            </div> <div class="vertiefung">
+                <h2>Zur Vertiefung:</h2>
+                <ul>
 
-            <h2>Lageplan:</h2>
-            <div *ngFor="let id of ids" class="map-container">
-                <div [id]="id" class="map"></div>
+                    <li>textb4link
+                        <a target="_blank" href="https://websitelink">text</a>
+                    </li>
+
+                </ul>
+            </div>
+             <br />
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+                <div [id]="id" class="map">
+                </div>
             </div>
         </div>
-
     </div>

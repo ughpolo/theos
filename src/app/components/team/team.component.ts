@@ -19,7 +19,7 @@ export class TeamComponent implements OnInit {
     setTimeout(() => {
       this.scrollToTarget(target);
     }, 20)
-    console.log("yo");
+    
 
   }
 

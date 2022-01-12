@@ -70,7 +70,14 @@
                 Gottesdienstbesuchern und -besucherinnen in der damaligen Zeit vor Augen geführt, dass Gott auch im
                 Leiden wirkt und die Menschen begleitet, und dass es gute Gründe gibt, im christlichen Glauben standhaft
                 zu sein. Dafür kann das Martyrium des Vincentius von Saragossa ein Vorbild sein.</p>
-            <div class="vertiefung">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div> <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
                     <li>Maurer, François, Zu den Fragmenten des Vincentius-Reliefs im Basler Münster, Zeitschrift für
@@ -78,18 +85,12 @@
 
                 </ul>
             </div>
-            <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div>
+       
             <p class="autor">Maria Lissek ist Assistentin am Institut für Historische Theologie an der Universität Bern.
 
             </p>
-            <div *ngFor="let id of ids" class="map-container">
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

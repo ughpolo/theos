@@ -109,36 +109,37 @@
 
 
 
-            <div class="vertiefung">
-                <h2>Zur Vertiefung:</h2>
-                <ul>
-
-                    <li>Website des Stationenwegs:
-                        <a href="https://stationenweg-bern.ch/">https://stationenweg-bern.ch/</a>
-                    </li>
-                    <li>Mennonitisches Lexikon
-                        <a href=" www.mennlex.de">www.mennlex.de</a>
-                    </li>
-                    <li>Schweizerischer Verein für Täufergeschichte
-                        <a href=" www.mennonitica.ch">www.mennonitica.ch</a>
-                    </li>
-
-                </ul>
-            </div>
-
-
             <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
                 <ul>
                     <li *ngFor="let beitrag of author.beitrag"><a
                             routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
                     </li>
                 </ul>
+            </div> <div class="vertiefung">
+                <h2>Zur Vertiefung:</h2>
+                <ul>
+
+                    <li>Website des Stationenwegs:
+                        <a target="_blank" href="https://stationenweg-bern.ch/">https://stationenweg-bern.ch/</a>
+                    </li>
+                    <li>Mennonitisches Lexikon
+                        <a target="_blank" href=" https://www.mennlex.de">www.mennlex.de</a>
+                    </li>
+                    <li>Schweizerischer Verein für Täufergeschichte
+                        <a target="_blank" href=" https://www.mennonitica.ch">www.mennonitica.ch</a>
+                    </li>
+
+                </ul>
             </div>
+
+
+       
 
             <h2>Lageplan: Berner Münster
             </h2>
-            <div *ngFor="let id of ids" class="map-container">
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

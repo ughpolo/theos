@@ -18,7 +18,7 @@ export class TitleImageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.author, this.date, this.image);
+    
 
   }
 

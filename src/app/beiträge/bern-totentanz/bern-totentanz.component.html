@@ -130,7 +130,14 @@
 
 
             </p>
-            <div class="vertiefung">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div> <div class="vertiefung">
                 <h2>Zur Vertiefung:
 
 
@@ -147,26 +154,20 @@
                         Bern. Antonierkirche, Französische Kirche, Heiliggeistkirche und Nydeggkirche. Basel: Birkhäuser
                         Verlag, 1969. 70–83.
                     </li>
-                    <li>Hugger Paul, «Tod.» Historisches Lexikon der Schweiz. <a
+                    <li>Hugger Paul, «Tod.» Historisches Lexikon der Schweiz. <a target="_blank"
                             href="https://hls-dhs-dss.ch/de/articles/027291/2015-02-10/">https://hls-dhs-dss.ch/de/articles/027291/2015-02-10/</a>.
                         Zugriff 7.1.2021.</li>
                     <li>Schulte Brigitte, Die deutschsprachigen spätmittelalterlichen Totentänze. Unter besonderer
                         Berücksichtigung der Inkunabel «Des dodes dantz». Lübeck 1489. Köln: Böhlau, 1990.</li>
                 </ul>
             </div>
-            <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div>
+       
 
             <h2>Lageplan: Französische Kirche Bern
 
             </h2>
-            <div *ngFor="let id of ids" class="map-container">
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

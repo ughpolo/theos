@@ -19,7 +19,7 @@ export enum Kantone {
     Graubünden = "Graubünden",
     Aargau = "Aargau",
     Tessin = "Ticino",
-    Wadt = "Vaud",
+    Waadt = "Vaud",
     Wallis = "Valais",
     Neuenburg = "Neuchâtel",
     Genf = "Genève",

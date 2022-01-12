@@ -9,7 +9,7 @@ import { MarkerService } from 'src/app/components/services/marker.service';
   templateUrl: './schoenenwerd-stiftskirche.component.html',
   styleUrls: ['./schoenenwerd-stiftskirche.component.scss']
 })
-export class schoenenwerdStiftskircheComponent implements OnInit {
+export class SchoenenwerdStiftskircheComponent implements OnInit {
 
   ngOnInit(): void {
     this.assign('Adrian Suter', 'Stiftskirche St. Leodegar');

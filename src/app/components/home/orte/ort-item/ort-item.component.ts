@@ -34,7 +34,6 @@ export class OrtItemComponent implements OnInit {
 
   isbe(beitrag: any) {
     if (beitrag.count > 1) {
-      console.log(this.beitrag.locationCat);
       this.beitrag.image = `../../../assets/images/kanton/${this.beitrag.locationCat}.jpg`
       return true;
     }

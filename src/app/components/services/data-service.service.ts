@@ -36,9 +36,9 @@ export class DataServiceService {
     // new Beitrag("Solothurn Zwei Heilige", "Solothurn", "../../../assets/images/solothurnzweiheilige/kathedrale.jpg", "Joël Meier", "2021", [[47.209, 7.5394]], Kantone.Solothurn),
     // new Beitrag("Amsoldingen Kirche", "Amsoldingen", "../../../assets/images/amsoldingen-kirche/amsoldingen.jpg", "Nicole Hublard", "2010", [[46.7272, 7.57891]], Kantone.Bern),
 
-    // new Beitrag("Cigognier-Heiligtum", "Avenches", "../../../assets/images/avenches-cigognier-heiligtum/avenches.jpg", "Sara Egger", "2018", [[46.881, 7.04265]], Kantone.Wadt),
+    // new Beitrag("Cigognier-Heiligtum", "Avenches", "../../../assets/images/avenches-cigognier-heiligtum/avenches.jpg", "Sara Egger", "2018", [[46.881, 7.04265]], Kantone.Waadt),
     // new Beitrag("Baptisterium", "Bad Zurzach", "../../../assets/images/badzurzach-baptisterium/bad_zurzach_baptisterium.jpg", "Maria Lissek", "2016", [[47.58543, 8.30062], [45.90469, 8.97095], [46.2197, 7.00367]], Kantone.Aargau),
-    // new Beitrag("Kirche St.Martin", "Basel", "../../../assets/images/schweiz-martinskirche/martin_basel.jpg", "Angela Berlis", "2016", [[47.55907, 7.58861], [47.53123, 7.8109], [46.63449, 9.44162]], Kantone.BaselStadt),
+    // new Beitrag("Kirche St.Martin", "Basel", "../../../assets/images/basel-martinskirche/martin_basel.jpg", "Angela Berlis", "2016", [[47.55907, 7.58861], [47.53123, 7.8109], [46.63449, 9.44162]], Kantone.BaselStadt),
     // new Beitrag("Kapelle", "Belalp", "../../../assets/images/belalp/belalpKapelle.jpg", "Gerd Dönni", "2020", "VS"),
     // new Beitrag("L'abbatiale", "Bellelay", "../../../assets/images/abbatiale/bellelay_abbatiale.jpg", "Lara A. Kneubühler", "2016", "JU"),
     // new Beitrag("Antoniterkirche", "Bern", "../../../assets/images/antoniterkirche/antoniterkirche_heimlich.jpg", "Nadja Heimlicher", "2016", "Bern"),
@@ -47,7 +47,7 @@ export class DataServiceService {
     // new Beitrag("Betlehem Kirche", "Bern", "../../../assets/images/betlehem/bernbetlehem.jpg", "Andreas Köhler-Andereggen", "2020", "Bern"),
     // new Beitrag("Ehemaliges Burgerspital", "Bern", "../../../assets/images/goldenenLettern/goldenenLettern.jpeg", "Matthias Käser", "2020", "Bern"),
     // new Beitrag("Dürrenmatts Mansarde", "Bern", "../../../assets/images/duerrenmattMansarde/duerrenmattMansarde.jpg", "Christoph Morgenthaler", "2020", "Bern"),
-    // new Beitrag("Haus der Religionen", "Europaplatz", "../../../assets/images/hausderreligionen/hausDerReligionen.jpg", "Anna-Konstanze Schröder", "2016", "Bern"),
+    // new Beitrag("Haus der Religionen", "Europaplatz", "../../../assets/images/BernHausDerReligionen/BernHausDerReligionen.jpg", "Anna-Konstanze Schröder", "2016", "Bern"),
     // new Beitrag("Kindlifresserbrunnen", "Kornhausplatz", "../../../assets/images/kindlifresser/bern_kindlifresserbrunnen.jpg", "René Bloch", "2020", "Bern"),
 
     // new Beitrag("Kraftwerk Birsfelden", "Birsfelden", "../../../assets/images/birsfelden/birsfelden_kraftwerk.jpg", "Georg Kreis", "2020", "Basel"),
@@ -92,7 +92,7 @@ export class DataServiceService {
         let found = false;
         const length = tempArray.length;
         for (let y = 0; y < length; y += 1) {
-          if (tempArray[y].locationCat === beiträge[x].locationCat!) {
+          if (tempArray[y].location === beiträge[x].location!) {
             tempArray[y].count += 1;
             tempArray[y].titleArray.push(beiträge[x].title);
             found = true;

@@ -1,4 +1,4 @@
-<app-title-image [author]="author.author" [title]="title" [date]="date" [image]="'so-stiftskirche/bild1.jpg'">
+<app-title-image [author]="author.author" [title]="title" [date]="date" [image]="'schoenenwerd-stiftskirche/bild1.jpg'">
 </app-title-image>
 <div class="wrapper">
     <div class="text">
@@ -15,7 +15,7 @@
                 Gemeinschaft von Priestern ohne Mönchsgelübde.
             </p>
 
-            <img class="bild" src="../../../assets/images/so-stiftskirche/bild1.jpg" alt="">
+            <img class="bild" src="../../../assets/images/schoenenwerd-stiftskirche/bild1.jpg" alt="">
             <p class="bildunterschrift">Büste von Carl Franz Bally mit dem Turm der Stiftskirche. (Bild: Adrian Suter)
             </p>
             <h2>Kleinod mit Geschichte
@@ -95,10 +95,17 @@
             </p>
 
 
-            <div class="vertiefung">
+            <div *ngIf="author.beitrag.length > 0" class="weitere">
+                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+                <ul>
+                    <li *ngFor="let beitrag of author.beitrag"><a
+                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    </li>
+                </ul>
+            </div> <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
-                    <li><a href="http://www.stiftskirche.ch/">www.stiftskirche.ch</a></li>
+                    <li><a target="_blank" href="https://www.stiftskirche.ch/">www.stiftskirche.ch</a></li>
                     <li>Clauspeter Scalabrin (Hg.): Pionier und Pfaffenschreck. Die Memoiren des Carl Franz Bally,
                         Baden 2009.</li>
                     <li>Gottlieb Loertscher: Stiftskirche Schönenwerd SO (Schweizerische Kunstführer, 44 / 434), Bern
@@ -108,17 +115,11 @@
             </div>
 
 
-            <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <h2>Weitere Artikel des/der Autor/in finden Sie hier:</h2>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div>
+       
 
             <h2>Lageplan:</h2>
-            <div *ngFor="let id of ids" class="map-container">
+             <br />
+      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

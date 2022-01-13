@@ -145,15 +145,6 @@
         alt=""
       />
       <p class="bildunterschrift">
-        Dauerausstellung 1966 (Bild: Wikimedia Commons/Moeschlin).
-      </p>
-
-      <img
-        class="bild"
-        src="../../../assets/images/basel-juedisches-museum/bild2.jpg"
-        alt=""
-      />
-      <p class="bildunterschrift">
         Der künftige Museumsstandort an der Vesalgasse 5 vor dem Umbau (Bild:
         David Zimmer).
       </p>
@@ -163,19 +154,24 @@
       </p>
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div> <div class="vertiefung">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul>
+          <li *ngFor="let beitrag of author.beitrag">
+            <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
+              beitrag
+            }}</a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
         <h2>Zur Vertiefung:</h2>
         <ul>
           <li>
             Website des Jüdischen Museums der Schweiz, verfügbar unter:
             <a href="https://www.juedisches-museum.ch/de/"
-              >"https://www.juedisches-museum.ch/de/".</a
+              >"https://www.juedisches-museum.ch/de/" </a
             >(08.05.2021).
           </li>
 
@@ -205,24 +201,11 @@
             >
             (08.05.2021).
           </li>
-          <li></li>
-        </ul>
-      </div>
-
-      <div *ngIf="author.beitrag.length > 0" class="weitere">
-        <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
-        <ul>
-          <li *ngFor="let beitrag of author.beitrag">
-            <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
-              beitrag
-            }}</a>
-          </li>
         </ul>
       </div>
 
       <h2>Lageplan:</h2>
-       <br />
-      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
+      <div *ngFor="let id of ids" class="map-container">
         <div [id]="id" class="map"></div>
       </div>
     </div>

@@ -1,6 +1,16 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Erlenbach St. Michaelskirche': {
+    karusselltitel: 'St. Michaelskirche',
+    beitragtitel: 'Die Sankt Michaelskirche von Erlenbach im Simmental',
+    bild: 'erlenbach-michaelskirche/bild0.jpeg',
+    ort: 'Erlenbach im Simmental (BE)',
+    autor: 'Hans Hofer',
+    jahr: '2021',
+    markierungen: [[46.66087, 7.55191]],
+    kanton: Kantone.Bern,
+  },
   'Aletschgletscher Arme Seelen': {
     karusselltitel: 'Gletschersage',
     beitragtitel: 'Von den Armen Seelen im Gletscher',
@@ -22,7 +32,7 @@ export const Beiträge = {
     markierungen: [[46.881, 7.04265]],
     kanton: Kantone.Waadt,
   },
-  'Baptisterium': {
+  Baptisterium: {
     karusselltitel: 'Baptisterium',
     beitragtitel:
       'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz',
@@ -46,7 +56,7 @@ export const Beiträge = {
     jahr: '2021',
     markierungen: [
       [47.55652, 7.58335],
-      [47, 5576245, 7, 5830794],
+      [47.5576245, 7.5830794],
     ],
     kanton: Kantone.BaselStadt,
   },
@@ -65,7 +75,7 @@ export const Beiträge = {
     ],
     kanton: Kantone.BaselStadt,
   },
-  'Vincentiustafel': {
+  Vincentiustafel: {
     karusselltitel: 'Vincentiustafel',
     beitragtitel:
       'Von Engeln getragen. Der Märtyrer Vincentius von Saragossa im Basler Münster',
@@ -76,8 +86,8 @@ export const Beiträge = {
     markierungen: [[47.5565, 7.5925]],
     kanton: Kantone.BaselStadt,
   },
-  
-  'Abbatiale': {
+
+  Abbatiale: {
     karusselltitel: 'Abbatiale',
     beitragtitel:
       'L’abbatiale de Bellelay – échos du passé et musique d’avenir',
@@ -88,7 +98,7 @@ export const Beiträge = {
     markierungen: [[47.26409, 7.16869]],
     kanton: Kantone.Bern,
   },
-  'Kapelle': {
+  Kapelle: {
     karusselltitel: 'Kapelle',
     beitragtitel: 'Die Kapelle auf der Belalp/Lüsga',
     bild: 'belalp-kapelle/belalpKapelle.jpg',
@@ -108,7 +118,7 @@ export const Beiträge = {
     markierungen: [[46.7272, 7.57891]],
     kanton: Kantone.Bern,
   },
-  'Antoniterkirche': {
+  Antoniterkirche: {
     karusselltitel: 'Antoniterkirche',
     beitragtitel:
       'Himmel, Erde, West und Ost – Die Antoniterkirche in der Berner Altstadt',
@@ -170,7 +180,7 @@ export const Beiträge = {
     markierungen: [[46.94362, 7.40597]],
     kanton: Kantone.Bern,
   },
-  'Kindlifresserbrunnen': {
+  Kindlifresserbrunnen: {
     karusselltitel: 'Kindlifresserbrunnen',
     beitragtitel:
       'Von Kinderfressern und der Relevanz der Juden für die Christen',
@@ -242,7 +252,7 @@ export const Beiträge = {
     markierungen: [[46.9495, 7.3927]],
     kanton: Kantone.Bern,
   },
-  'Filmpodium': {
+  Filmpodium: {
     karusselltitel: 'Filmpodium',
     beitragtitel: 'C’est où, le Filmpodium?',
     bild: 'biel-filmpodium/bild1.jpg',
@@ -274,7 +284,7 @@ export const Beiträge = {
     markierungen: [[46.34756, 6.18565]],
     kanton: Kantone.Waadt,
   },
-  'Kollegiumskirche': {
+  Kollegiumskirche: {
     karusselltitel: 'Kollegiumskirche',
     beitragtitel: 'Die Kollegiumskirche zum Heiligen Geist in Brig',
     bild: 'brig-kollegiumskirche/bild2.jpg',
@@ -284,7 +294,7 @@ export const Beiträge = {
     markierungen: [[46.3153, 7.99214]],
     kanton: Kantone.Wallis,
   },
-  'Feder': {
+  Feder: {
     karusselltitel: 'Feder',
     beitragtitel: 'Eine bewegende Feder als Wallfahrtsziel?',
     bild: 'bueren-feder/bild1.jpg',
@@ -294,7 +304,7 @@ export const Beiträge = {
     markierungen: [[47.13749, 7.38003]],
     kanton: Kantone.Bern,
   },
-  'Benediktinerkloster': {
+  Benediktinerkloster: {
     karusselltitel: 'Benediktinerkloster',
     beitragtitel: 'Benediktinerkloster Disentis',
     bild: 'disentis-benedikt/bild2.jpg',
@@ -311,7 +321,7 @@ export const Beiträge = {
     ort: 'Einsiedeln (SZ)',
     autor: 'Ulrike Münger',
     jahr: '2015',
-    markierungen: [[47.1267,8.7523]],
+    markierungen: [[47.1267, 8.7523]],
     kanton: Kantone.Schwyz,
   },
   'Synagogen und Friedhof': {
@@ -332,7 +342,7 @@ export const Beiträge = {
     ort: 'Freiburg',
     autor: 'Stefan Constantinescu',
     jahr: '2020',
-    markierungen: [[47.9979, 7.8390]],
+    markierungen: [[47.9979, 7.839]],
     kanton: Kantone.Fribourg,
   },
   'Schloss Gottlieben': {
@@ -375,7 +385,7 @@ export const Beiträge = {
     markierungen: [[46.8215, 7.4387]],
     kanton: Kantone.Bern,
   },
-  'Gnadenbrunnen': {
+  Gnadenbrunnen: {
     karusselltitel: 'Gnadenbrunnen',
     beitragtitel: 'Das Wunderwasser der Luzerner Bauern',
     bild: 'luthernbad-gnadenbrunnen/bild1.jpg',
@@ -385,7 +395,7 @@ export const Beiträge = {
     markierungen: [[47.02541, 7.92512]],
     kanton: Kantone.Luzern,
   },
-  'Spreuerbrücke': {
+  Spreuerbrücke: {
     karusselltitel: 'Spreuerbrücke',
     beitragtitel: 'Die Spreuerbrücke in Luzern',
     bild: 'luzern-spreuerbruecke/bild1.jpg',
@@ -405,7 +415,7 @@ export const Beiträge = {
     markierungen: [[47.25591, 8.69311]],
     kanton: Kantone.Luzern,
   },
-  'Klosterort': {
+  Klosterort: {
     karusselltitel: 'Klosterort',
     beitragtitel: 'Mariastein, ein Wallfahrts- und Klosterort',
     bild: 'solothurn-klosterort/bild1.jpg',
@@ -422,12 +432,10 @@ export const Beiträge = {
     bild: 'rueegsau-kirche/bild1.jpg',
     autor: 'Rolf Weibel',
     jahr: '2021',
-    markierungen: [
-      [47.02472,7.67451],
-    ],
+    markierungen: [[47.02472, 7.67451]],
     kanton: Kantone.Bern,
   },
-  'Verenaschlucht': {
+  Verenaschlucht: {
     karusselltitel: 'Verenaschlucht',
     beitragtitel: 'Die Heilige Verena bei Solothurn',
     bild: 'solothurn-verenaschlucht/bild1.jpg',
@@ -462,7 +470,7 @@ export const Beiträge = {
     beitragtitel: 'Spitalkirche zum Heiligen Geist in Solothurn',
     ort: 'Solothurn',
     bild: 'solothurn-spitalkirche/bild1.jpg',
-    autor: 'Deborah Finger',
+    autor: 'Deborah Finger-Oppliger',
     jahr: '2021',
     markierungen: [[47.20506, 7.53587]],
     kanton: Kantone.Solothurn,
@@ -501,12 +509,10 @@ export const Beiträge = {
     karusselltitel: 'St. Martinskirche Visp',
     beitragtitel: 'Die St. Martinskirche Visp',
     ort: 'Visp (VS)',
-    bild: 'visp-martinskirche/bild1.jpeg',
+    bild: 'visp-martinskirche/bild0.jpeg',
     autor: 'Damian Pfammatter',
     jahr: '2021',
-    markierungen: [
-      [46.28911,7.88096],
-    ],
+    markierungen: [[46.28911, 7.88096]],
     kanton: Kantone.Wallis,
   },
   'Restaurant Blinde Kuh': {

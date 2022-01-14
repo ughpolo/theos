@@ -89,12 +89,6 @@ import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletsche
 import { BaselJuedischesMuseumComponent } from './beiträge/basel-juedisches-museum/basel-juedisches-museum.component';
 import { RueegsauReformierteKircheComponent } from './beiträge/rueegsau-reformierte-kirche/rueegsau-reformierte-kirche.component';
 import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-martinskirche.component';
-import { St } from './st.-michaelskirche/st.-michaelskirche.component';
-import { ErlenbachSt } from './erlenbach-st.-michaelskirche/erlenbach-st.-michaelskirche.component';
-import { ErlenbachImSimmentalSt } from './erlenbach-im-simmental-st.michaeskirche/erlenbach-im-simmental-st.michaeskirche.component';
-import { ErlenbachImSimmentalSt } from './erlenbach-im-simmental-st.-michaelskirche/erlenbach-im-simmental-st.-michaelskirche.component';
-import { ErlenbachMichaelskircheComponent } from './erlenbach-michaelskirche/erlenbach-michaelskirche.component';
-import { ErlenbachStMichaelskircheComponent } from './beiträge/erlenbach-st-michaelskirche/erlenbach-st-michaelskirche.component';
 
 
 
@@ -173,12 +167,6 @@ import { ErlenbachStMichaelskircheComponent } from './beiträge/erlenbach-st-mic
     BaselJuedischesMuseumComponent,
     RueegsauReformierteKircheComponent,
     VispMartinskircheComponent,
-    St.MichaelskircheComponent,
-    ErlenbachSt.MichaelskircheComponent,
-    ErlenbachImSimmentalSt.MichaeskircheComponent,
-    ErlenbachImSimmentalSt.MichaelskircheComponent,
-    ErlenbachMichaelskircheComponent,
-    ErlenbachStMichaelskircheComponent,
   ],
   imports: [
     MatToolbarModule,

@@ -58,10 +58,10 @@ import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletsche
 import { BaselJuedischesMuseumComponent } from './beiträge/basel-juedisches-museum/basel-juedisches-museum.component';
 import { RueegsauReformierteKircheComponent } from './beiträge/rueegsau-reformierte-kirche/rueegsau-reformierte-kirche.component';
 import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-martinskirche.component';
-import { ErlenbachStMichaelskircheComponent } from './beiträge/erlenbach-st-michaelskirche/erlenbach-st-michaelskirche.component';
+
 
 const routes: Routes = [
-  { path: 'st.-michaelskirche', component: ErlenbachStMichaelskircheComponent },
+  { path: 'st.-martinskirche-visp', component: VispMartinskircheComponent },
   { path: 'reformierte-kirche', component: RueegsauReformierteKircheComponent },
   { path: 'jüdisches-museum', component: BaselJuedischesMuseumComponent },
   { path: 'gletschersage', component: AletschgletscherArmeSeelenComponent },
@@ -89,10 +89,7 @@ const routes: Routes = [
   { path: 'gnadenbrunnen', component: LuthernbadGnadenbrunnenComponent },
   { path: 'hindelbank-kirche', component: HindelbankKircheComponent },
   { path: 'schloss-gottlieben', component: GottliebenSchlossComponent },
-  {
-    path: 'freiburg-centre-dorient',
-    component: FreiburgCentreDorientComponent,
-  },
+  { path: 'freiburg-centre-dorient', component: FreiburgCentreDorientComponent },
   { path: 'studium-der-ostkirchen', component: FreiburgZentrumComponent },
   { path: 'synagogen-und-friedhof', component: EndingenFriedhofComponent },
   { path: 'schwarze-madonna', component: EinsiedelnMadonnaComponent },

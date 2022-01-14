@@ -79,8 +79,6 @@ h2 {
 }
 
 @media (min-width: 3000px) {
-  
-
   .wrapper {
     text-align: justify;
     display: grid;
@@ -92,9 +90,7 @@ h2 {
   }
 }
 
-
 @media (min-width: 1317px) {
-  
   .bild {
     display: block;
     margin-left: auto;
@@ -103,7 +99,7 @@ h2 {
     height: auto;
   }
 
-  .bildunterschrift{
+  .bildunterschrift {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -121,10 +117,7 @@ h2 {
   }
 }
 
-
 @media (max-width: 1317px) {
-  
-
   .wrapper {
     text-align: justify;
     display: grid;
@@ -137,8 +130,6 @@ h2 {
 }
 
 @media (max-width: 1253px) {
-  
-
   .innerText {
     padding: 0;
   }

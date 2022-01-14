@@ -9,6 +9,7 @@
   <div class="text">
     <div class="innerText">
       <h2>Ihr Standort in der «minderen Stadt»</h2>
+      <br />
       <p id="firstParagraph">
         Das Stadtbild von Solothurn wird durch viele Kirchen geprägt. Eine davon
         steht auf der rechten Seite der Aare in der Vorstadt: die Spitalkirche.
@@ -81,6 +82,15 @@
         selbstverschuldet ansah, wurden von der Fürsorge ausgeschlossen und
         zunehmend stigmatisiert.
       </p>
+      <img
+        class="bild"
+        src="../../../assets/images/solothurn-spitalkirche/bild1.jpg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Blick auf die Spitalkirche in der Vorstadt, vom anderen Aareufer aus
+        aufgenommen. (Bild: Deborah Finger-Oppliger)
+      </p>
       <h2>Ein Spital mit integrierter Kapelle</h2>
       <p>
         Um 1418 initiierte die Bürgerschaft den Neubau des Spitals mitsamt einer
@@ -145,7 +155,7 @@
       />
       <p class="bildunterschrift">
         Verzeichnis der Schwestern, die in der Spitalkirche begraben wurden.
-        (Bild: Deborah Finger).
+        (Bild: Deborah Finger-Oppliger).
       </p>
 
       <h2>Die Spitalkirche heute als Anfrage an uns</h2>
@@ -172,19 +182,32 @@
       />
       <p class="bildunterschrift">
         Der Balkon mit direktem Anschluss zum ehemaligen Krankensaal. (Bild:
-        Deborah Finger).
+        Deborah Finger-Oppliger).
+        <a
+          target="_blank"
+          href="https://www.gsk.ch/sites/default/files/360/vr-spitalkirche-zum-heiligen-geist-solothurn/"
+          >Rundsicht</a
+        >
       </p>
 
-      <p class="autor">Deborah Finger ist Theologiestudentin</p>
+      <p class="autor">
+        Deborah Finger ist Theologiestudentin im Bachelor an der Universität
+        Bern
+      </p>
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div> <div class="vertiefung">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul>
+          <li *ngFor="let beitrag of author.beitrag">
+            <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
+              beitrag
+            }}</a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
         <h2>Zur Vertiefung:</h2>
         <ul>
           <li>
@@ -196,11 +219,19 @@
             Johanna Strübin/Christine Zürcher: Die Stadt Solothurn III.
             Sakralbauten (Die Kunstdenkmäler der Schweiz 4), Bern 2017.
           </li>
+          <li>
+            Christine Zürcher/Claudia Hermann/Peter Keller/Ursula Hinter-Trüb:
+            Das Alte Spital und die Spitalapotheke in Solothurn, Schweizerische
+            Kunstführer, Gesellschaft für Schweizerische Kunstgeschichte GSK,
+            Bern 2021.
+          </li>
         </ul>
       </div>
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
-        <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
         <ul>
           <li *ngFor="let beitrag of author.beitrag">
             <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
@@ -211,8 +242,7 @@
       </div>
 
       <h2>Lageplan:</h2>
-       <br />
-      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
+      <div *ngFor="let id of ids" class="map-container">
         <div [id]="id" class="map"></div>
       </div>
     </div>

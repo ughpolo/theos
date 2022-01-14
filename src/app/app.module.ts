@@ -89,6 +89,7 @@ import { AletschgletscherArmeSeelenComponent } from './beiträge/aletschgletsche
 import { BaselJuedischesMuseumComponent } from './beiträge/basel-juedisches-museum/basel-juedisches-museum.component';
 import { RueegsauReformierteKircheComponent } from './beiträge/rueegsau-reformierte-kirche/rueegsau-reformierte-kirche.component';
 import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-martinskirche.component';
+import { ErlenbachSanktMichaelskircheComponent } from './beiträge/erlenbach-sankt-michaelskirche/erlenbach-sankt-michaelskirche.component';
 
 
 
@@ -167,6 +168,7 @@ import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp
     BaselJuedischesMuseumComponent,
     RueegsauReformierteKircheComponent,
     VispMartinskircheComponent,
+    ErlenbachSanktMichaelskircheComponent,
   ],
   imports: [
     MatToolbarModule,

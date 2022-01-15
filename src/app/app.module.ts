@@ -90,6 +90,8 @@ import { BaselJuedischesMuseumComponent } from './beiträge/basel-juedisches-mus
 import { RueegsauReformierteKircheComponent } from './beiträge/rueegsau-reformierte-kirche/rueegsau-reformierte-kirche.component';
 import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-martinskirche.component';
 import { ErlenbachSanktMichaelskircheComponent } from './beiträge/erlenbach-sankt-michaelskirche/erlenbach-sankt-michaelskirche.component';
+import { RivaSanVitaleBaptisteriumComponent } from './beiträge/riva-san-vitale-baptisterium/riva-san-vitale-baptisterium.component';
+import { SaintMauriceBaptisteriumComponent } from './beiträge/saint-maurice-baptisterium/saint-maurice-baptisterium.component';
 
 
 
@@ -169,6 +171,8 @@ import { ErlenbachSanktMichaelskircheComponent } from './beiträge/erlenbach-san
     RueegsauReformierteKircheComponent,
     VispMartinskircheComponent,
     ErlenbachSanktMichaelskircheComponent,
+    RivaSanVitaleBaptisteriumComponent,
+    SaintMauriceBaptisteriumComponent,
   ],
   imports: [
     MatToolbarModule,

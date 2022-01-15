@@ -1,6 +1,36 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Saint Maurice Baptisterium': {
+    karusselltitel: 'Baptisterium',
+    beitragtitel:
+      'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz',
+    ort: 'Saint Maurice (VS)',
+    bild: 'saint-maurice-baptisterium/bild0.jpeg',
+    autor: 'Maria Lissek',
+    jahr: '2016',
+    markierungen: [
+      [47.58543, 8.30062],
+      [45.90469, 8.97095],
+      [46.2197, 7.00367],
+    ],
+    kanton: Kantone.Tessin,
+  },
+  'Riva San Vitale Baptisterium': {
+    karusselltitel: 'Baptisterium',
+    beitragtitel:
+      'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz',
+    ort: 'Riva San Vitale (TI)',
+    bild: 'riva-san-vitale-baptisterium/bild0.jpeg',
+    autor: 'Maria Lissek',
+    jahr: '2016',
+    markierungen: [
+      [47.58543, 8.30062],
+      [45.90469, 8.97095],
+      [46.2197, 7.00367],
+    ],
+    kanton: Kantone.Tessin,
+  },
   'Erlenbach Sankt Michaelskirche': {
     karusselltitel: 'Sankt Michaelskirche',
     beitragtitel: 'Die Sankt Michaelskirche von Erlenbach im Simmental',

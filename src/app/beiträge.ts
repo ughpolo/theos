@@ -53,8 +53,7 @@ export const Beiträge = {
   },
   'Cigognier-Heiligtum': {
     karusselltitel: 'Cigognier-Heiligtum',
-    beitragtitel:
-      'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz',
+    beitragtitel: 'Das Cigognier-Heiligtum und der Kaiserkult',
     bild: 'avenches-cigognier-heiligtum/avenches.jpg',
     ort: 'Avenches (VD)',
     autor: 'Sara Egger',

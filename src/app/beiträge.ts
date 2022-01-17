@@ -1,6 +1,17 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Kleinhöchstetten evangelisch-reformierte Kirche': {
+    karusselltitel: 'Die evangelisch-reformierte Kirche',
+    beitragtitel:
+      'Ältester erhaltener frühromanischer Sakralbau im Bernbiet und Ausgangspunkt der Berner Reformation ',
+    ort: 'Kleinhöchstetten (BE)',
+    bild: 'kleinhoechstetten-kirche/bild0.jpeg',
+    autor: 'Miriam Löhr',
+    jahr: '2022',
+    markierungen: [[46.90329, 7.53132]],
+    kanton: Kantone.Bern,
+  },
   'Saint Maurice Baptisterium': {
     karusselltitel: 'Baptisterium',
     beitragtitel:

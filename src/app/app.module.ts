@@ -92,6 +92,7 @@ import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp
 import { ErlenbachSanktMichaelskircheComponent } from './beiträge/erlenbach-sankt-michaelskirche/erlenbach-sankt-michaelskirche.component';
 import { RivaSanVitaleBaptisteriumComponent } from './beiträge/riva-san-vitale-baptisterium/riva-san-vitale-baptisterium.component';
 import { SaintMauriceBaptisteriumComponent } from './beiträge/saint-maurice-baptisterium/saint-maurice-baptisterium.component';
+import { KleinhoechstettenKircheComponent } from './beiträge/kleinhoechstetten-kirche/kleinhoechstetten-kirche.component';
 
 
 
@@ -173,6 +174,7 @@ import { SaintMauriceBaptisteriumComponent } from './beiträge/saint-maurice-bap
     ErlenbachSanktMichaelskircheComponent,
     RivaSanVitaleBaptisteriumComponent,
     SaintMauriceBaptisteriumComponent,
+    KleinhoechstettenKircheComponent,
   ],
   imports: [
     MatToolbarModule,

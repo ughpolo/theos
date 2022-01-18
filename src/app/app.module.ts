@@ -93,6 +93,7 @@ import { ErlenbachSanktMichaelskircheComponent } from './beiträge/erlenbach-san
 import { RivaSanVitaleBaptisteriumComponent } from './beiträge/riva-san-vitale-baptisterium/riva-san-vitale-baptisterium.component';
 import { SaintMauriceBaptisteriumComponent } from './beiträge/saint-maurice-baptisterium/saint-maurice-baptisterium.component';
 import { KleinhoechstettenKircheComponent } from './beiträge/kleinhoechstetten-kirche/kleinhoechstetten-kirche.component';
+import { BernOekumenischeKircheHdrComponent } from './beiträge/bern-oekumenische-kirche-hdr/bern-oekumenische-kirche-hdr.component';
 
 
 
@@ -175,6 +176,7 @@ import { KleinhoechstettenKircheComponent } from './beiträge/kleinhoechstetten-
     RivaSanVitaleBaptisteriumComponent,
     SaintMauriceBaptisteriumComponent,
     KleinhoechstettenKircheComponent,
+    BernOekumenischeKircheHdrComponent,
   ],
   imports: [
     MatToolbarModule,

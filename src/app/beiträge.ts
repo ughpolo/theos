@@ -145,6 +145,16 @@ export const Beiträge = {
     markierungen: [[46.2467, 8.0293]],
     kanton: Kantone.Wallis,
   },
+  'Bern Ökumenische Kirche im Haus der Religionen': {
+    karusselltitel: 'Ökumenische Kirche im Haus der Religionen',
+    beitragtitel: 'Ökumenische Kirche im Haus der Religionen',
+    bild: 'bern-oekumenische-kirche-hdr/bild0.jpeg',
+    ort: 'Bern',
+    autor: 'Angela Büchel Sladkovic, Frieder Vollprecht, Christian Walti ',
+    jahr: '2021',
+    markierungen: [[46.94362, 7.40597]],
+    kanton: Kantone.Bern,
+  },
   'Berner Totentanz': {
     karusselltitel: 'Berner Totentanz',
     beitragtitel: 'Berner Totentanz',

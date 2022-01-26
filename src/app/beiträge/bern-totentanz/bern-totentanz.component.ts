@@ -20,7 +20,9 @@ export class BernTotentanzComponent implements OnInit {
 
   title!: string;
 
-  date!: string;
+    date!: string;
+
+   
 
   constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
@@ -33,6 +35,7 @@ export class BernTotentanzComponent implements OnInit {
   assign(author: string, title: string) {
     const beitrag = this.dataService.getBeitrag(author, title);
     this.author = this.dataService.getAuthor(author, title);
+     
 
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;

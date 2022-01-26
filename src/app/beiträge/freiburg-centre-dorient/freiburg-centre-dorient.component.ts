@@ -23,7 +23,9 @@ export class FreiburgCentreDorientComponent implements OnInit {
 
   title = "Centre d’études des Églises d’Orient à l’Université de Fribourg La spiritualité orthodoxe dans une université à caractère catholique";
 
-  date!: string;
+    date!: string;
+
+   
 
   constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService, private router: Router) { }
 
@@ -36,6 +38,7 @@ export class FreiburgCentreDorientComponent implements OnInit {
   assign(author: string, title: string) {
     const beitrag = this.dataService.getBeitrag(author, title);
     this.author = this.dataService.getAuthor(author, title);
+     
 
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;

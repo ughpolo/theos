@@ -403,7 +403,7 @@ export const Beiträge = {
     kanton: Kantone.Waadt,
   },
   'Riva San Vitale Baptisterium': {
-    karusselltitel: 'Baptisterium',
+    karusselltitel: 'San Vitale Baptisterium',
     beitragtitel:
       'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz',
     ort: 'Riva San Vitale (TI)',
@@ -438,7 +438,7 @@ export const Beiträge = {
     kanton: Kantone.Aargau,
   },
   'Saint Maurice Baptisterium': {
-    karusselltitel: 'Baptisterium',
+    karusselltitel: 'Saint Maurice Baptisterium',
     beitragtitel:
       'Baptisterien aus dem 5. und 6. Jahrhundert in der heutigen Schweiz',
     ort: 'Saint Maurice (VS)',

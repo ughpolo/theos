@@ -158,7 +158,10 @@
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
         <ul>
-          <li *ngFor="let beitrag of author.beitrag">
+          <li *ngFor="let beitrag of author.beitrag; let i = index ">
+           
+            {{author.location[i]}}: 
+            {{author.fulltitle[i]}}  
             <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
               beitrag
             }}</a>

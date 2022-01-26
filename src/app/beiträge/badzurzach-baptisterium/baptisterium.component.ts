@@ -25,6 +25,8 @@ export class BaptisteriumComponent implements OnInit {
 
   date!: string;
 
+   
+
   constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
@@ -41,7 +43,7 @@ export class BaptisteriumComponent implements OnInit {
   assign(author: string, title: string) {
     const beitrag = this.dataService.getBeitrag(author, title);
     this.author = this.dataService.getAuthor(author, title);
-
+     
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
     this.title = beitrag!.fulltitle;

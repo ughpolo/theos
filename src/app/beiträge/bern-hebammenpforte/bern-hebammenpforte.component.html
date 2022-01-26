@@ -138,11 +138,15 @@
             <div *ngIf="author.beitrag.length > 0" class="weitere">
                 <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
                 <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
+                    <li *ngFor="let beitrag of author.beitrag; let i = index ">
+
+                        {{author.location[i]}}:
+                        {{author.fulltitle[i]}} <a
                             routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
                     </li>
                 </ul>
-            </div> <div class="vertiefung">
+            </div>
+            <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
 
@@ -153,41 +157,39 @@
                             Eingänge ins
                             Berner Münster</a> von Tedy Hubschmid
                     </li>
-                    <li><a target="_blank" href="https://www.e-periodica.ch/cntmng?pid=zfk-002:2004:98::299">Schweizerische Zeitschrift
+                    <li><a target="_blank"
+                            href="https://www.e-periodica.ch/cntmng?pid=zfk-002:2004:98::299">Schweizerische Zeitschrift
                             für Religions- und Kulturgeschichte = Revue suisse d'histoire religieuse et culturelle =
                             Rivista svizzera di storia religiosa e culturale Band 98, Der versperrte Himmel: das
                             Phänomen der sanctuaires à répit
                             aus theologiegeschichtlicher Perspektive </a>von Elke Pahud de Mortanges. Stand: 29.6.2019
                     </li>
-                    <li><a target="_blank" href="https://hls-dhs-dss.ch/de/articles/000209/2016-11-10/">Historisches Lexikon der
+                    <li><a target="_blank" href="https://hls-dhs-dss.ch/de/articles/000209/2016-11-10/">Historisches
+                            Lexikon der
                             Schweiz, Bern (Gemeinde) unbekannter Autor </a>
                     </li>
-                    <li><a
-                        target="_blank" href="http://www.bernermuensterstiftung.ch/schulenarbeitsmaterialien/dokumente/Muenster_Grundlagentext_02.pdf">Berner
+                    <li><a target="_blank"
+                            href="http://www.bernermuensterstiftung.ch/schulenarbeitsmaterialien/dokumente/Muenster_Grundlagentext_02.pdf">Berner
                             Münster-Stiftung,
                             Bern im Mittelalter und im Übergang zur Frühen Neuzeit von Birgit Stalder. </a>Stand:
                         20.6.2019
                     </li>
-                    <li><a target="_blank" href="https://www.e-periodica.ch/cntmng?pid=ges-001:1974:31::378">Gesnerus: Swiss Journal of
+                    <li><a target="_blank" href="https://www.e-periodica.ch/cntmng?pid=ges-001:1974:31::378">Gesnerus:
+                            Swiss Journal of
                             the history of medicine and sciences Band 31, Zur Geschichte der Hebammen</a> von Erwin H.
                         Ackerknecht. Stand: 20.6.2019</li>
-                    <li><a target="_blank" href="https://www.e-periodica.ch/cntmng?pid=wig-001:2013:70::254">Heimatkunde Wiggertal band
+                    <li><a target="_blank" href="https://www.e-periodica.ch/cntmng?pid=wig-001:2013:70::254">Heimatkunde
+                            Wiggertal band
                             70, Kindertod, Mütterleid und ewige Seligkeit von Pius Schwyzer. </a> Stand: 20.06.2019</li>
-                    <li><a target="_blank" href="http://othes.univie.ac.at/20592/1/2012-05-19_9603171.pdf">„Traufkinder“ – Ein
+                    <li><a target="_blank" href="http://othes.univie.ac.at/20592/1/2012-05-19_9603171.pdf">„Traufkinder“
+                            – Ein
                             besonderer Umgang mit ungetauft verstorbenen Kindern in der Frühen Neuzeit, Diplomarbeit
                             Universität
                             Wien von Petra Lindenhofer.</a> Stand: 29.10.2019</li>
                 </ul>
             </div>
-
-
-       
-
-
-            <h2>Lageplan: Hebammenpforte des Berner Münsters
-            </h2>
-             <br />
-      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
+            <h2>Lageplan:</h2>
+            <div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

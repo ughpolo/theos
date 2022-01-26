@@ -159,7 +159,10 @@
             <div *ngIf="author.beitrag.length > 0" class="weitere">
                 <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
                 <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
+                    <li *ngFor="let beitrag of author.beitrag; let i = index ">
+           
+            {{author.location[i]}}: 
+            {{author.fulltitle[i]}}  <a
                             routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
                     </li>
                 </ul>

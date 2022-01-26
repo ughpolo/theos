@@ -117,7 +117,10 @@
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
         <ul>
-          <li *ngFor="let beitrag of author.beitrag">
+          <li *ngFor="let beitrag of author.beitrag; let i = index ">
+           
+            {{author.location[i]}}: 
+            {{author.fulltitle[i]}}  
             <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
               beitrag
             }}</a>
@@ -145,8 +148,7 @@
         </ul>
       </div>
 
-      <br />
-      <h2>Lageplan:</h2>
+           <h2>Lageplan:</h2>
       <div *ngFor="let id of ids" class="map-container">
         <div [id]="id" class="map"></div>
       </div>

@@ -25,11 +25,12 @@ export class BaselVincentiustafelComponent implements OnInit {
 
   date!: string;
 
+   
+
   constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) {
   }
 
   ngOnInit(): void {
-    /*Autor,          */
     this.assign('Maria Lissek', 'Vincentiustafel');
     this.createIds();
   }
@@ -37,19 +38,20 @@ export class BaselVincentiustafelComponent implements OnInit {
   assign(author: string, title: string) {
     const beitrag = this.dataService.getBeitrag(author, title);
     this.author = this.dataService.getAuthor(author, title);
-
+     
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
     this.title = beitrag!.fulltitle;
     this.replaceWhiteSpace();
-  }
 
+  }
+  
   replaceWhiteSpace() {
     for (let i = 0; i < this.author.beitrag.length; i += 1) {
       this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
     }
   }
-
+ 
   createIds() {
     for (let i = 0; i < this.coordinates.length; i += 1) {
       this.ids.push(`${this.title}${i}`)
@@ -63,6 +65,7 @@ export class BaselVincentiustafelComponent implements OnInit {
         this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
       }
     }
-
+  
   };
+ 
 }

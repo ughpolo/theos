@@ -198,11 +198,15 @@
             <div *ngIf="author.beitrag.length > 0" class="weitere">
                 <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
                 <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
+                    <li *ngFor="let beitrag of author.beitrag; let i = index ">
+
+                        {{author.location[i]}}:
+                        {{author.fulltitle[i]}} <a
                             routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
                     </li>
                 </ul>
-            </div> <div class="vertiefung">
+            </div>
+            <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
 
@@ -227,14 +231,8 @@
                         Eine Religionsgeschichte in Bildern, Band 3. Die Spätbronzezeit, Freiburg (CH) 2011.</li>
                 </ul>
             </div>
-
-
-       
-
-            <h2>Lageplan: Berner Münster
-            </h2>
-             <br />
-      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
+            <h2>Lageplan:</h2>
+            <div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

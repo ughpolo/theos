@@ -10,7 +10,7 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 })
 export class RivaSanVitaleBaptisteriumComponent implements OnInit {
   ngOnInit(): void {
-    this.assign('Maria Lissek', 'Baptisterium');
+    this.assign('Maria Lissek', 'San Vitale Baptisterium');
     this.createIds();
   }
 
@@ -26,6 +26,8 @@ export class RivaSanVitaleBaptisteriumComponent implements OnInit {
 
   date!: string;
 
+   
+
   constructor(
     protected markerService: MarkerService,
     protected dataService: DataServiceService,
@@ -35,10 +37,12 @@ export class RivaSanVitaleBaptisteriumComponent implements OnInit {
   assign(author: string, title: string) {
     const beitrag = this.dataService.getBeitrag(author, title);
     this.author = this.dataService.getAuthor(author, title);
+     
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
     this.title = beitrag!.fulltitle;
     this.replaceWhiteSpace();
+    
   }
 
   replaceWhiteSpace() {

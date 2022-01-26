@@ -1,9 +1,4 @@
-<app-title-image
-  [author]="author.author"
-  [title]="title"
-  [date]="date"
-  [image]="'birsfelden-kraftwerk/bild1.jpg'"
->
+<app-title-image [author]="author.author" [title]="title" [date]="date" [image]="'birsfelden-kraftwerk/bild1.jpg'">
 </app-title-image>
 <div class="wrapper">
   <div class="text">
@@ -30,11 +25,7 @@
       </p>
       <h2>Persönlicher Erinnerungsort</h2>
 
-      <img
-        class="bild"
-        src="../../../assets/images/birsfelden-kraftwerk/bild1.jpg"
-        alt=""
-      />
+      <img class="bild" src="../../../assets/images/birsfelden-kraftwerk/bild1.jpg" alt="" />
       <p class="bildunterschrift">
         Kraftwerk Birsfelden (1950–1954) von Hans Hofmann – ein Kraftort zu
         jeder Tages- und Nachtzeit. Bild: IWB, Christian Flierl
@@ -58,11 +49,7 @@
         Schweizerischen Vereinigung für Heimatschutz war.
       </p>
       <h2>Kraftwerk als Kraftort</h2>
-      <img
-        class="bild"
-        src="../../../assets/images/birsfelden-kraftwerk/bild2.jpg"
-        alt=""
-      />
+      <img class="bild" src="../../../assets/images/birsfelden-kraftwerk/bild2.jpg" alt="" />
       <p class="bildunterschrift">
         Kraftwerk Birsfelden (1950–1954) von Hans Hofmann – ein Kraftort zu
         jeder Tages- und Nachtzeit. Bild: IWB, Christian Flierl
@@ -129,11 +116,7 @@
         Legende daran erinnert, dass man ohne Rücksicht auf das eigene Leben
         dafür einstehen muss, was das Gewissen uns heisst.
       </p>
-      <img
-        class="bild"
-        src="../../../assets/images/birsfelden-kraftwerk/bild3.jpg"
-        alt=""
-      />
+      <img class="bild" src="../../../assets/images/birsfelden-kraftwerk/bild3.jpg" alt="" />
       <p class="bildunterschrift">
         Wilder Wirbel, nachdem sich das genutzte Oberwasser wieder mit dem
         Unterwasser vereinigt. Bild: Georg Kreis
@@ -147,13 +130,16 @@
       </p>
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
-                <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
-                <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
-                    </li>
-                </ul>
-            </div> <div class="vertiefung">
+        <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
+        <ul>
+          <li *ngFor="let beitrag of author.beitrag; let i = index ">
+
+            {{author.location[i]}}:
+            {{author.fulltitle[i]}} <a routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
         <h2>Zur Vertiefung:</h2>
         <ul>
           <li>
@@ -169,17 +155,6 @@
             Hans-Peter Bärtschi, Industriekultur beider Basel. Unterwegs zu 333
             Schauplätzen des produktiven Schaffens. Zürich Rotpunkt Verlag 2014.
             S. 30.
-          </li>
-        </ul>
-      </div>
-
-      <div *ngIf="author.beitrag.length > 0" class="weitere">
-        <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
-        <ul>
-          <li *ngFor="let beitrag of author.beitrag">
-            <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
-              beitrag
-            }}</a>
           </li>
         </ul>
       </div>

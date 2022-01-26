@@ -125,11 +125,15 @@
             <div *ngIf="author.beitrag.length > 0" class="weitere">
                 <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
                 <ul>
-                    <li *ngFor="let beitrag of author.beitrag"><a
+                    <li *ngFor="let beitrag of author.beitrag; let i = index ">
+
+                        {{author.location[i]}}:
+                        {{author.fulltitle[i]}} <a
                             routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
                     </li>
                 </ul>
-            </div> <div class="vertiefung">
+            </div>
+            <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
 
@@ -155,17 +159,13 @@
                         Geneva: WCC Publications 1996.</li>
                     <li>Williams, Peter: The Bossey experience: the Ecumenical Institute of the World Council of
                         Churches
-                        <a target="_blank" href="https://www.youtube.com/watch?v=ZEG2GqvR5yw">[11-minütiger Videofilm]</a>, 2014.
+                        <a target="_blank" href="https://www.youtube.com/watch?v=ZEG2GqvR5yw">[11-minütiger
+                            Videofilm]</a>, 2014.
                     </li>
                 </ul>
             </div>
-
-
-       
-            <h2>Lageplan: Bogis Bossey Ökumenisches Institut
-            </h2>
-             <br />
-      <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
+            <h2>Lageplan:</h2>
+            <div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

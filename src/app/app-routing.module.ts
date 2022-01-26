@@ -74,11 +74,11 @@ const routes: Routes = [
     component: KleinhoechstettenKircheComponent,
   },
   {
-    path: 'baptisterium',
+    path: 'saint-maurice-baptisterium',
     component: SaintMauriceBaptisteriumComponent,
   },
   {
-    path: 'baptisterium',
+    path: 'san-vitale-baptisterium',
     component: RivaSanVitaleBaptisteriumComponent,
   },
   {

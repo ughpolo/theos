@@ -158,10 +158,9 @@
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
         <ul>
-          <li *ngFor="let beitrag of author.beitrag; let i = index ">
-           
-            {{author.location[i]}}: 
-            {{author.fulltitle[i]}}  
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            {{ author.location[i] }}:
+            {{ author.fulltitle[i] }}
             <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
               beitrag
             }}</a>
@@ -198,8 +197,8 @@
 
           <li>
             Kugelmann, Yves: «Museen ohne Publikum»: im Gespräch mit Naomi
-            Lubrich, in: Tachles Podcast, 23:32 Minuten, verfügbar unter:<a
-              href="https://www.tachles.ch/podcasts/museen-ohne-publikum"
+            Lubrich, in: Tachles Podcast, 23:32 Minuten, verfügbar unter:
+            <a href="https://www.tachles.ch/podcasts/museen-ohne-publikum"
               >https://www.tachles.ch/podcasts/museen-ohne-publikum</a
             >
             (08.05.2021).

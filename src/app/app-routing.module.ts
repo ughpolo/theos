@@ -63,8 +63,13 @@ import { RivaSanVitaleBaptisteriumComponent } from './beiträge/riva-san-vitale-
 import { SaintMauriceBaptisteriumComponent } from './beiträge/saint-maurice-baptisterium/saint-maurice-baptisterium.component';
 import { KleinhoechstettenKircheComponent } from './beiträge/kleinhoechstetten-kirche/kleinhoechstetten-kirche.component';
 import { BernOekumenischeKircheHdrComponent } from './beiträge/bern-oekumenische-kirche-hdr/bern-oekumenische-kirche-hdr.component';
+import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschiavo-friedhof-hildesheimers-grab/poschiavo-friedhof-hildesheimers-grab.component';
 
 const routes: Routes = [
+  {
+    path: 'friedhof:-hildesheimers-grab',
+    component: PoschiavoFriedhofHildesheimersGrabComponent,
+  },
   {
     path: 'ökumenische-kirche-im-haus-der-religionen',
     component: BernOekumenischeKircheHdrComponent,

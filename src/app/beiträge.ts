@@ -1,6 +1,16 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Poschiavo Friedhof Hildesheimers Grab': {
+    karusselltitel: 'Friedhof: Hildesheimers Grab',
+    beitragtitel: 'Auf den Spuren der Steinchen auf den Grabsteinen',
+    ort: 'Poschiavo (GR)',
+    bild: 'poschiavo-friedhof-hildesheimers-grab/bild4.jpeg',
+    autor: 'Valérie Rhein',
+    jahr: '2022',
+    markierungen: [[46.32675, 10.0591]],
+    kanton: Kantone.Graubünden,
+  },
   'Kleinhöchstetten evangelisch-reformierte Kirche': {
     karusselltitel: 'Die evangelisch-reformierte Kirche',
     beitragtitel:

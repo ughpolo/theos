@@ -67,7 +67,7 @@ import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschia
 
 const routes: Routes = [
   {
-    path: 'friedhof:-hildesheimers-grab',
+    path: 'friedhof-hildesheimers-grab',
     component: PoschiavoFriedhofHildesheimersGrabComponent,
   },
   {

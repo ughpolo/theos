@@ -10,7 +10,7 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 })
 export class PoschiavoFriedhofHildesheimersGrabComponent implements OnInit {
   ngOnInit(): void {
-    this.assign('Valérie Rhein', 'Friedhof: Hildesheimers Grab');
+    this.assign('Valérie Rhein', 'Friedhof Hildesheimers Grab');
     this.createIds();
   }
 

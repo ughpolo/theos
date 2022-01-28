@@ -2,7 +2,7 @@ import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
   'Poschiavo Friedhof Hildesheimers Grab': {
-    karusselltitel: 'Friedhof: Hildesheimers Grab',
+    karusselltitel: 'Friedhof Hildesheimers Grab',
     beitragtitel: 'Auf den Spuren der Steinchen auf den Grabsteinen',
     ort: 'Poschiavo (GR)',
     bild: 'poschiavo-friedhof-hildesheimers-grab/bild4.jpeg',

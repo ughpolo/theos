@@ -88,7 +88,7 @@ export const Beiträge = {
     bild: 'biel-filmpodium/bild1.jpg',
     ort: 'Biel (BE)',
     autor: 'Sina von Aesch',
-    jahr: '2016',
+    jahr: '2021',
     markierungen: [[47.1389, 7.2397]],
     kanton: Kantone.Bern,
   },
@@ -292,7 +292,7 @@ export const Beiträge = {
   'Stationenweg zur Täufergeschichte': {
     karusselltitel: 'Stationenweg zur Täufergeschichte',
     beitragtitel: 'Stationenweg zur Täufergeschichte',
-    bild: 'bern-taeufergeschichte/bild1.jpg',
+    bild: 'bern-taeufergeschichte/bild2.jpg',
     ort: 'Bern',
     autor: 'Dorothea Loosli-Amstutz',
     jahr: '2020',
@@ -576,7 +576,7 @@ export const Beiträge = {
   },
   'Schwarze Madonna': {
     karusselltitel: 'Schwarze Madonna',
-    beitragtitel: 'Wenn die „heilige Kranke“ zur schwarzen Madonna geht...',
+    beitragtitel: 'Wenn die «heilige Kranke» zur schwarzen Madonna geht...',
     bild: 'einsiedeln-madonna/bild1.jpg',
     ort: 'Einsiedeln (SZ)',
     autor: 'Ulrike Münger',

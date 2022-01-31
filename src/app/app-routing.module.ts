@@ -34,7 +34,6 @@ import { BaselKraftwerkBirsfeldenComponent } from './beiträge/birsfelden-kraftw
 import { BosseyOekumenischesInstitutComponent } from './beiträge/bossey-oekumenisches-institut/bossey-oekumenisches-institut.component';
 import { BrigKollegiumskircheComponent } from './beiträge/brig-kollegiumskirche/brig-kollegiumskirche.component';
 import { BuerenFederComponent } from './beiträge/bueren-feder/bueren-feder.component';
-import { GraubuendenBenediktinerklosterComponent } from './beiträge/graubuenden-benediktinerkloster/graubuenden-benediktinerkloster.component';
 import { EinsiedelnMadonnaComponent } from './beiträge/einsiedeln-madonna/einsiedeln-madonna.component';
 import { EndingenFriedhofComponent } from './beiträge/endingen-friedhof/endingen-friedhof.component';
 import { FreiburgZentrumComponent } from './beiträge/freiburg-zentrum/freiburg-zentrum.component';
@@ -64,8 +63,13 @@ import { SaintMauriceBaptisteriumComponent } from './beiträge/saint-maurice-bap
 import { KleinhoechstettenKircheComponent } from './beiträge/kleinhoechstetten-kirche/kleinhoechstetten-kirche.component';
 import { BernOekumenischeKircheHdrComponent } from './beiträge/bern-oekumenische-kirche-hdr/bern-oekumenische-kirche-hdr.component';
 import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschiavo-friedhof-hildesheimers-grab/poschiavo-friedhof-hildesheimers-grab.component';
+import { DisentisBenediktinerklosterComponent } from './beiträge/disentis-benediktinerkloster/disentis-benediktinerkloster.component';
 
 const routes: Routes = [
+  {
+    path: 'benediktinerkloster',
+    component: DisentisBenediktinerklosterComponent,
+  },
   {
     path: 'friedhof-hildesheimers-grab',
     component: PoschiavoFriedhofHildesheimersGrabComponent,
@@ -125,10 +129,6 @@ const routes: Routes = [
   { path: 'studium-der-ostkirchen', component: FreiburgZentrumComponent },
   { path: 'synagogen-und-friedhof', component: EndingenFriedhofComponent },
   { path: 'schwarze-madonna', component: EinsiedelnMadonnaComponent },
-  {
-    path: 'benediktinerkloster',
-    component: GraubuendenBenediktinerklosterComponent,
-  },
   { path: 'feder', component: BuerenFederComponent },
   { path: 'kollegiumskirche', component: BrigKollegiumskircheComponent },
   {

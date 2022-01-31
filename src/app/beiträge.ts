@@ -138,13 +138,14 @@ export const Beiträge = {
   Benediktinerkloster: {
     karusselltitel: 'Benediktinerkloster',
     beitragtitel: 'Benediktinerkloster Disentis',
-    bild: 'disentis-benedikt/bild2.jpg',
+    bild: 'disentis-benediktinerkloster/bild2.jpeg',
     ort: 'Disentis (GR)',
     autor: 'Jan Peter Lang',
     jahr: '2021',
     markierungen: [[46.7071, 8.8563]],
     kanton: Kantone.Graubünden,
   },
+
   'Simplon Hospiz': {
     karusselltitel: 'Simplon Hospiz',
     beitragtitel: 'Simplon Hospiz',

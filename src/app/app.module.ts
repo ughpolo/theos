@@ -12,7 +12,6 @@ import { OrteComponent } from './components/home/orte/orte.component';
 import { MatListModule } from '@angular/material/list';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
-
 import { MatButtonModule } from '@angular/material/button';
 import { VoyageComponent } from './components/home/voyage/voyage.component';
 import { MatCardModule } from '@angular/material/card';
@@ -27,7 +26,11 @@ import { IhrbeitragComponent } from './components/ihrbeitrag/ihrbeitrag.componen
 import { TeamComponent } from './components/team/team.component';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { APP_BASE_HREF, LocationStrategy, PathLocationStrategy } from '@angular/common';
+import {
+  APP_BASE_HREF,
+  LocationStrategy,
+  PathLocationStrategy,
+} from '@angular/common';
 import { MapComponent } from './components/map/map.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { FooterComponent } from './components/footer/footer.component';
@@ -39,7 +42,6 @@ import { RemoveshitespacesPipe } from './components/custompipe/removeshitespaces
 import { AboutComponent } from './components/about/about.component';
 import { TitleImageComponent } from './components/title-image/title-image.component';
 import { BaptisteriumComponent } from './beiträge/badzurzach-baptisterium/baptisterium.component';
-
 
 import { SolothurnZweiHeiligeComponent } from './beiträge/solothurn-zwei-heilige/solothurn-zwei-heilige.component';
 import { AvenchesCigognierHeiligtumComponent } from './beiträge/avenches-cigognier-heiligtum/avenches-cigognier-heiligtum.component';
@@ -65,7 +67,6 @@ import { BaselKraftwerkBirsfeldenComponent } from './beiträge/birsfelden-kraftw
 import { BosseyOekumenischesInstitutComponent } from './beiträge/bossey-oekumenisches-institut/bossey-oekumenisches-institut.component';
 import { BrigKollegiumskircheComponent } from './beiträge/brig-kollegiumskirche/brig-kollegiumskirche.component';
 import { BuerenFederComponent } from './beiträge/bueren-feder/bueren-feder.component';
-import { GraubuendenBenediktinerklosterComponent } from './beiträge/graubuenden-benediktinerkloster/graubuenden-benediktinerkloster.component';
 import { EinsiedelnMadonnaComponent } from './beiträge/einsiedeln-madonna/einsiedeln-madonna.component';
 import { EndingenFriedhofComponent } from './beiträge/endingen-friedhof/endingen-friedhof.component';
 import { FreiburgZentrumComponent } from './beiträge/freiburg-zentrum/freiburg-zentrum.component';
@@ -95,14 +96,7 @@ import { SaintMauriceBaptisteriumComponent } from './beiträge/saint-maurice-bap
 import { KleinhoechstettenKircheComponent } from './beiträge/kleinhoechstetten-kirche/kleinhoechstetten-kirche.component';
 import { BernOekumenischeKircheHdrComponent } from './beiträge/bern-oekumenische-kirche-hdr/bern-oekumenische-kirche-hdr.component';
 import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschiavo-friedhof-hildesheimers-grab/poschiavo-friedhof-hildesheimers-grab.component';
-
-
-
-
-
-
-
-
+import { DisentisBenediktinerklosterComponent } from './beiträge/disentis-benediktinerkloster/disentis-benediktinerkloster.component';
 
 @NgModule({
   declarations: [
@@ -149,7 +143,6 @@ import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschia
     BosseyOekumenischesInstitutComponent,
     BrigKollegiumskircheComponent,
     BuerenFederComponent,
-    GraubuendenBenediktinerklosterComponent,
     EinsiedelnMadonnaComponent,
     EndingenFriedhofComponent,
     FreiburgZentrumComponent,
@@ -179,6 +172,7 @@ import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschia
     KleinhoechstettenKircheComponent,
     BernOekumenischeKircheHdrComponent,
     PoschiavoFriedhofHildesheimersGrabComponent,
+    DisentisBenediktinerklosterComponent,
   ],
   imports: [
     MatToolbarModule,
@@ -197,7 +191,7 @@ import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschia
     CarouselModule,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [
     ShapeService,
@@ -205,6 +199,6 @@ import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschia
     { provide: APP_BASE_HREF, useValue: '/' },
     { provide: LocationStrategy, useClass: PathLocationStrategy },
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

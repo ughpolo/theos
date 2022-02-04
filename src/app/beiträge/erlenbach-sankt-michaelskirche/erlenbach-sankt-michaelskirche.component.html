@@ -40,7 +40,7 @@
         alt=""
       />
       <p class="bildunterschrift">
-        Kirche Erlenbach, Simmental (Bild: Hans Hofer).
+        Aussenansicht der Kirche Erlenbach im Simmental. (Bild: Hans Hofer).
       </p>
       <h2>Ein regionaler Reformator und ein berühmter Heiliger</h2>
       <p>
@@ -127,7 +127,7 @@
         alt=""
       />
       <p class="bildunterschrift">
-        Kirche Erlenbach, Simmental (Bild: Hans Hofer).
+        Innenansicht der Kirche Erlenbach im Simmental. (Bild: Hans Hofer).
       </p>
       <h2>Ein Allerheiligstes mit Überraschungen</h2>
       <p>
@@ -149,7 +149,7 @@
         alt=""
       />
       <p class="bildunterschrift">
-        Chor, Kirche Erlenbach, Simmental (Bild: Hans Hofer).
+        Chor der Kirche Erlenbach in Simmental. (Bild: Hans Hofer).
       </p>
       <h2>Ein Spätscholastiker und Weinrebenbesitzer als Stifter</h2>
       <p>
@@ -173,17 +173,16 @@
 
       <p class="autor">
         Hans Hofer ist Regionalhistoriker und Musiklehrer in Erlenbach im
-        Simmental
+        Simmental.
       </p>
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
         <ul>
-          <li *ngFor="let beitrag of author.beitrag; let i = index ">
-           
-            {{author.location[i]}}: 
-            {{author.fulltitle[i]}}  
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            {{ author.location[i] }}:
+            {{ author.fulltitle[i] }}
             <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
               beitrag
             }}</a>
@@ -194,16 +193,16 @@
         <h2>Zur Vertiefung:</h2>
         <ul>
           <li>
-            Verena Stähli-Lüthi und Ernst von Känel: Die Kirche von Erlenbach
+            Stähli-Lüthi, Verena und von Känel, Ernst: Die Kirche von Erlenbach
             i.S.: ihre Geschichte und ihre Wandmalereien, Historischer Verein
             des Kantons Bern 1979.
           </li>
           <li>
-            Verena Stähli-Lüthi: Die Wandmalereien in der Kirche von Erlenbach
+            Stähli-Lüthi, Verena: Die Wandmalereien in der Kirche von Erlenbach
             im Simmental, Kirchgemeinde 1981.
           </li>
           <li>
-            Hans-Peter Ryser: Der heilige Christophorus im Berner Oberland,
+            Ryser, Hans-Peter: Der heilige Christophorus im Berner Oberland,
             Spiez 1991.
           </li>
           <li>
@@ -213,7 +212,7 @@
           <li>Siegel mit Erzengel Michael: Staatsarchiv Fontes VIII Nr. 894</li>
         </ul>
       </div>
-           <h2>Lageplan:</h2>
+      <h2>Lageplan:</h2>
       <div *ngFor="let id of ids" class="map-container">
         <div [id]="id" class="map"></div>
       </div>

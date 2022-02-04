@@ -260,7 +260,7 @@ export const Beiträge = {
   'Studium der Ostkirchen': {
     karusselltitel: 'Studium der Ostkirchen',
     beitragtitel:
-      'Zentrum für das Studium der Ostkirchen an der Universität Freiburg Schweiz Orthodoxe Spiritualität in einer Universität katholischer Prägung',
+      'Zentrum für das Studium der Ostkirchen an der Universität Freiburg Orthodoxe Spiritualität in einer Universität katholischer Prägung',
     bild: 'freiburg-zentrum/bild3.jpg',
     ort: 'Freiburg',
     autor: 'Stefan Constantinescu',

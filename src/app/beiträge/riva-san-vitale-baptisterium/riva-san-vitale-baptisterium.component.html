@@ -134,10 +134,10 @@
         </p>
         <ul>
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            {{author.location[i]}}: 
-            {{author.fulltitle[i]}} 
-            <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}"> {{beitrag}}
-             
+            {{ author.location[i] }}:
+            {{ author.fulltitle[i] }}
+            <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">
+              {{ beitrag }}
             </a>
           </li>
         </ul>
@@ -146,7 +146,7 @@
         <h2>Zur Vertiefung:</h2>
         <ul>
           <li>
-            Othmar Perler: Frühchristliche Baptisterien in der Schweiz, in:
+            Perler, Otmar: «Frühchristliche Baptisterien in der Schweiz»:
             Zeitschrift für Schweizerische Kirchengeschichte 51 (1957), 81–100.
           </li>
         </ul>

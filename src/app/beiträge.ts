@@ -545,6 +545,17 @@ export const Beiträge = {
     markierungen: [[47.66405, 9.13602]],
     kanton: Kantone.Thurgau,
   },
+  'Maennedorf Zentrum der Heiligungsbewegung': {
+    karusselltitel: 'Zentrum der Heiligungsbewegung',
+    beitragtitel: 'Zentrum der Heiligungsbewegung',
+    bild: 'maennedorf-zentrum-der-heiligungsbewegung/bild1.jpg',
+    ort: 'Männedorf (ZH)',
+    autor: 'Gergely Csukás',
+    jahr: '2016',
+    markierungen: [[47.25591, 8.69311]],
+    kanton: Kantone.Zürich,
+  },
+
   'Zentrum der Heiligungsbewegung': {
     karusselltitel: 'Zentrum der Heiligungsbewegung',
     beitragtitel: 'Zentrum der Heiligungsbewegung',

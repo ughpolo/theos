@@ -64,8 +64,13 @@ import { KleinhoechstettenKircheComponent } from './beiträge/kleinhoechstetten-
 import { BernOekumenischeKircheHdrComponent } from './beiträge/bern-oekumenische-kirche-hdr/bern-oekumenische-kirche-hdr.component';
 import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschiavo-friedhof-hildesheimers-grab/poschiavo-friedhof-hildesheimers-grab.component';
 import { DisentisBenediktinerklosterComponent } from './beiträge/disentis-benediktinerkloster/disentis-benediktinerkloster.component';
+import { MaennedorfZentrumDerHeiligungsbewegungComponent } from './beiträge/maennedorf-zentrum-der-heiligungsbewegung/maennedorf-zentrum-der-heiligungsbewegung.component';
 
 const routes: Routes = [
+  {
+    path: 'zentrum-der-heiligungsbewegung',
+    component: MaennedorfZentrumDerHeiligungsbewegungComponent,
+  },
   {
     path: 'benediktinerkloster',
     component: DisentisBenediktinerklosterComponent,

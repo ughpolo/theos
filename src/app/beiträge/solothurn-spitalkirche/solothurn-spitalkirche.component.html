@@ -192,7 +192,7 @@
 
       <p class="autor">
         Deborah Finger ist Theologiestudentin im Bachelor an der Universität
-        Bern
+        Bern.
       </p>
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
@@ -200,10 +200,9 @@
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
         <ul>
-          <li *ngFor="let beitrag of author.beitrag; let i = index ">
-           
-            {{author.location[i]}}: 
-            {{author.fulltitle[i]}}  
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            {{ author.location[i] }}:
+            {{ author.fulltitle[i] }}
             <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
               beitrag
             }}</a>
@@ -214,19 +213,19 @@
         <h2>Zur Vertiefung:</h2>
         <ul>
           <li>
-            Ferdinand Schubiger: «Aus der Geschichte des Bürgerspitals
+            Schubiger, Ferdinand: «Aus der Geschichte des Bürgerspitals
             Solothurn», in: Jahrbuch für solothurnische Geschichte, Heft 1,
             Solothurn 1928, 231-254.
           </li>
           <li>
-            Johanna Strübin/Christine Zürcher: Die Stadt Solothurn III.
+            Strübin, Johanna / Zürcher, Christine: Die Stadt Solothurn III.
             Sakralbauten (Die Kunstdenkmäler der Schweiz 4), Bern 2017.
           </li>
           <li>
-            Christine Zürcher/Claudia Hermann/Peter Keller/Ursula Hinter-Trüb:
-            Das Alte Spital und die Spitalapotheke in Solothurn, Schweizerische
-            Kunstführer, Gesellschaft für Schweizerische Kunstgeschichte GSK,
-            Bern 2021.
+            Zürcher, Christine / Hermann, Claudia/ KellerPeter / Hinter-Trüb,
+            Ursula : Das Alte Spital und die Spitalapotheke in Solothurn,
+            Schweizerische Kunstführer, Gesellschaft für Schweizerische
+            Kunstgeschichte GSK, Bern 2021.
           </li>
         </ul>
       </div>

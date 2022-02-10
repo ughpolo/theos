@@ -75,7 +75,6 @@ import { GottliebenSchlossComponent } from './beiträge/gottlieben-schloss/gottl
 import { HindelbankKircheComponent } from './beiträge/hindelbank-kirche/hindelbank-kirche.component';
 import { LuthernbadGnadenbrunnenComponent } from './beiträge/luthernbad-gnadenbrunnen/luthernbad-gnadenbrunnen.component';
 import { LuzernSpreuerbrueckeComponent } from './beiträge/luzern-spreuerbruecke/luzern-spreuerbruecke.component';
-import { ZuerichHeiligungsbewegungComponent } from './beiträge/zuerich-heiligungsbewegung/zuerich-heiligungsbewegung.component';
 import { SolothurnKlosterortComponent } from './beiträge/solothurn-klosterort/solothurn-klosterort.component';
 import { RueggisbergMartinskircheComponent } from './beiträge/rueggisberg-martinskirche/rueggisberg-martinskirche.component';
 import { SolothurnVerenaschluchtComponent } from './beiträge/solothurn-verenaschlucht/solothurn-verenaschlucht.component';
@@ -152,7 +151,6 @@ import { MaennedorfZentrumDerHeiligungsbewegungComponent } from './beiträge/mae
     HindelbankKircheComponent,
     LuthernbadGnadenbrunnenComponent,
     LuzernSpreuerbrueckeComponent,
-    ZuerichHeiligungsbewegungComponent,
     SolothurnKlosterortComponent,
     RueggisbergMartinskircheComponent,
     SolothurnVerenaschluchtComponent,

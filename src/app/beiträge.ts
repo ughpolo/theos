@@ -555,17 +555,6 @@ export const Beiträge = {
     markierungen: [[47.25591, 8.69311]],
     kanton: Kantone.Zürich,
   },
-
-  'Zentrum der Heiligungsbewegung': {
-    karusselltitel: 'Zentrum der Heiligungsbewegung',
-    beitragtitel: 'Zentrum der Heiligungsbewegung',
-    bild: 'zuerich-heiligungsbewegung/bild1.jpg',
-    ort: 'Männerdorf (LU)',
-    autor: 'Gergely Csuká',
-    jahr: '2016',
-    markierungen: [[47.25591, 8.69311]],
-    kanton: Kantone.Luzern,
-  },
   'Stiftskirche St. Leodegar': {
     karusselltitel: 'Stiftskirche St. Leodegar',
     beitragtitel: 'Zwischen Marienwallfahrt und Kulturkampf',

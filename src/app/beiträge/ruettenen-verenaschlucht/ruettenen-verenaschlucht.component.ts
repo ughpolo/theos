@@ -3,11 +3,11 @@ import { DataServiceService } from 'src/app/components/services/data-service.ser
 import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
 @Component({
-  selector: 'app-solothurn-verenaschlucht',
-  templateUrl: './solothurn-verenaschlucht.component.html',
-  styleUrls: ['./solothurn-verenaschlucht.component.scss']
+  selector: 'app-ruettenen-verenaschlucht',
+  templateUrl: './ruettenen-verenaschlucht.component.html',
+  styleUrls: ['./ruettenen-verenaschlucht.component.scss']
 })
-export class SolothurnVerenaschluchtComponent implements OnInit {
+export class RuettenenVerenaschluchtComponent implements OnInit {
 
   ngOnInit(): void {
     this.assign('Raphael Hadorn', 'Verenaschlucht');

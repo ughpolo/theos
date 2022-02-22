@@ -84,7 +84,7 @@
         quasiment disparu. Le tricentenaire ayant été une occasion de lancer une
         offensive de charme, de nouveaux efforts ont toutefois été entrepris
         pour essayer d’attirer les touristes et promeneurs sur le site de
-        Bellelay: l’offre cultu­ relle s’étoffe, les différents sites
+        Bellelay: l’offre cultu­relle s’étoffe, les différents sites
         collaborent et les infrastructures sont remises à neuf. En plus de son
         influence régionale, l’abba­ tiale fait tout de même référence à son
         ancien rayonnement international. L’architecture, de Franz Beer,
@@ -96,8 +96,7 @@
         montrés lors du tricentenaire a symbolique­ ment renforcé le lien entre
         l’abbatiale et ses origines religieuses, qui viennent plutôt de la
         Normandie. Pour conclure, nous pouvons dire que, s’étant enracinée dans
-        la région et dans la conscience de ses habitants, souligner le carac­
-        tère international que l’abbatiale de Bellelay a eu, et présente
+        la région et dans la conscience de ses habitants, souligner le carac­tère international que l’abbatiale de Bellelay a eu, et présente
         toujours, pourrait être une mis­ sion d’avenir.
       </p>
 
@@ -110,13 +109,11 @@
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
         <ul>
-          <li *ngFor="let beitrag of author.beitrag; let i = index ">
-           
-            {{author.location[i]}}: 
-            {{author.fulltitle[i]}}  
-            <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
-              beitrag
-            }}</a>
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a style="color: black" routerLink="/{{ beitrag | removeshitespaces | lowercase }}">
+              {{author.location[i]}}: 
+              {{author.shorttitle[i]}} 
+            </a>
           </li>
         </ul>
       </div>

@@ -1,9 +1,5 @@
-<app-title-image
-  [author]="author.author"
-  [title]="title"
-  [date]="date"
-  [image]="'aletschgletscher-arme-seelen/bild1.JPG'"
->
+<app-title-image [author]="author.author" [title]="title" [date]="date"
+  [image]="'aletschgletscher-arme-seelen/bild1.JPG'">
 </app-title-image>
 <div class="wrapper">
   <div class="text">
@@ -23,11 +19,7 @@
         Sommerfrischler (Touristen) und die uralten Volkserzählungen, in denen
         der Gletscher als der Ort der Läuterung für die Seelen Verstobener galt.
       </p>
-      <img
-        class="bild"
-        src="../../../assets/images/aletschgletscher-arme-seelen/bild1.JPG"
-        alt=""
-      />
+      <img class="bild" src="../../../assets/images/aletschgletscher-arme-seelen/bild1.JPG" alt="" />
       <p class="bildunterschrift">
         Sicht auf den schwindenden Aletschgletscher und die Streusiedlung der
         Alpe Aletschji. (Bild: Andreas Weissen)
@@ -46,11 +38,7 @@
         die 1917 errichtet wurde und in keinem Kunstführer erwähnt wird.
       </p>
 
-      <img
-        class="bild"
-        src="../../../assets/images/aletschgletscher-arme-seelen/bild2.JPG"
-        alt=""
-      />
+      <img class="bild" src="../../../assets/images/aletschgletscher-arme-seelen/bild2.JPG" alt="" />
 
       <p class="bildunterschrift">
         Kapelle von 1917 zwischen Belalp und Riederalp. (Bild: Andreas Weissen)
@@ -69,11 +57,7 @@
         anderweitig korrigiert haben.
       </p>
 
-      <img
-        class="bild"
-        src="../../../assets/images/aletschgletscher-arme-seelen/bild3.JPG"
-        alt=""
-      />
+      <img class="bild" src="../../../assets/images/aletschgletscher-arme-seelen/bild3.JPG" alt="" />
 
       <p class="bildunterschrift">
         Das Bild ist weder signiert noch datiert. Vom Stil her, der Tracht der
@@ -101,11 +85,7 @@
         Seelen beizufügen, ihr ja nichts anzutun.
       </p>
 
-      <img
-        class="bild"
-        src="../../../assets/images/aletschgletscher-arme-seelen/bild4.JPG"
-        alt=""
-      />
+      <img class="bild" src="../../../assets/images/aletschgletscher-arme-seelen/bild4.JPG" alt="" />
 
       <p class="bildunterschrift">
         «d’alt Schmittja im Aletschji», unterer Teil des Altarbildes in der
@@ -168,30 +148,29 @@
         <p class="autor">
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-        <ul>
-          <li *ngFor="let beitrag of author.beitrag; let i = index ">
-           
-            {{author.location[i]}}: 
-            {{author.fulltitle[i]}}  
-            <a routerLink="/{{ beitrag | removeshitespaces | lowercase }}">{{
-              beitrag
-            }}</a>
+         <ul>
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a style="color: black" routerLink="/{{ beitrag | removeshitespaces | lowercase }}">
+              {{author.location[i]}}: 
+              {{author.shorttitle[i]}} 
+            </a>
           </li>
         </ul>
       </div>
       <div class="vertiefung">
         <h2>Zur Vertiefung:</h2>
-
-        <li>
-          Guntern, Josef: Volkserzählungen aus dem Oberwallis. 2344 Sagen,
-          Legenden, Märchen, Anekdoten aus dem deutschsprachigen Wallis, Basel
-          1978.
-        </li>
-        <li>
-          Pfammatter, Rainer A.: Der Armenseelenglauben in der Walliser Sage.
-          Lizenziatsarbeit über das Leben zwischen Zeit und Ewigkeit in den
-          Oberwalliser Volkserzählungen, Freiburg i. Ue. 1991.
-        </li>
+        <ul>
+          <li>
+            Guntern, Josef: Volkserzählungen aus dem Oberwallis. 2344 Sagen,
+            Legenden, Märchen, Anekdoten aus dem deutschsprachigen Wallis, Basel
+            1978.
+          </li>
+          <li>
+            Pfammatter, Rainer A.: Der Armenseelenglauben in der Walliser Sage.
+            Lizenziatsarbeit über das Leben zwischen Zeit und Ewigkeit in den
+            Oberwalliser Volkserzählungen, Freiburg i. Ue. 1991.
+          </li>
+        </ul>
       </div>
 
       <h2>Lageplan:</h2>

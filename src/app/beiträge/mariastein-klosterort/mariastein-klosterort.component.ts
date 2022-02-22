@@ -4,11 +4,11 @@ import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
 
 @Component({
-  selector: 'app-solothurn-klosterort',
-  templateUrl: './solothurn-klosterort.component.html',
-  styleUrls: ['./solothurn-klosterort.component.scss']
+  selector: 'app-mariastein-klosterort',
+  templateUrl: './mariastein-klosterort.component.html',
+  styleUrls: ['./mariastein-klosterort.component.scss']
 })
-export class SolothurnKlosterortComponent implements OnInit {
+export class MariasteinKlosterortComponent implements OnInit {
 
   ngOnInit(): void {
     this.assign('Pater Lukas Schenker', 'Klosterort');

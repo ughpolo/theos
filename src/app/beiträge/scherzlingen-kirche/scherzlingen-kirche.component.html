@@ -185,14 +185,15 @@
             <div *ngIf="author.beitrag.length > 0" class="weitere">
                 <p class="autor">Weitere Artikel von {{author.author}} finden Sie hier:</p>
                 <ul>
-                    <li *ngFor="let beitrag of author.beitrag; let i = index ">
-           
-            {{author.location[i]}}: 
-            {{author.fulltitle[i]}}  <a
-                            routerLink="/{{beitrag | removeshitespaces | lowercase}}">{{beitrag}}</a>
+                    <li *ngFor="let beitrag of author.beitrag; let i = index">
+                        <a style="color: black" routerLink="/{{ beitrag | removeshitespaces | lowercase }}">
+                            {{author.location[i]}}:
+                            {{author.fulltitle[i]}}
+                        </a>
                     </li>
                 </ul>
-            </div> <div class="vertiefung">
+            </div>
+            <div class="vertiefung">
                 <h2>Zur Vertiefung:</h2>
                 <ul>
                     <li>Michael Dähler, Die Kirche Scherzligen, Schweizerischer Kunstführer GSK, Bern 2004
@@ -210,7 +211,8 @@
                             href="http://www.scherzligen.ch/fileadmin/user_upload/PDF/Anhang_Chr._Jungen.pdf">Jerusalem
                             in Scherzligen - eine Entdeckung</a> , Sommer 2017
                     </li>
-                    <li>Weitere Materialien zur Vertiefung auf <a target="_blank" href="www.scherzligen.ch"></a>www.scherzligen.ch
+                    <li>Weitere Materialien zur Vertiefung auf <a target="_blank"
+                            href="www.scherzligen.ch"></a>www.scherzligen.ch
                     </li>
                     <li>Das gesamte Passionspanorama findet sich <a target="_blank"
                             href="http://www.scherzligen.ch/fileadmin/map/">hier</a>
@@ -223,10 +225,11 @@
             </div>
 
 
-       
 
-         
-                  <h2>Lageplan:</h2><div *ngFor="let id of ids" class="map-container">
+
+
+            <h2>Lageplan:</h2>
+            <div *ngFor="let id of ids" class="map-container">
                 <div [id]="id" class="map"></div>
             </div>
         </div>

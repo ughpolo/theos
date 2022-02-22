@@ -118,7 +118,7 @@ export const Beiträge = {
   Klosterort: {
     karusselltitel: 'Klosterort',
     beitragtitel: 'Mariastein, ein Wallfahrts- und Klosterort',
-    bild: 'solothurn-klosterort/bild1.jpg',
+    bild: 'mariastein-klosterort/bild1.jpg',
     ort: 'Mariastein (SO)',
     autor: 'Pater Lukas Schenker',
     jahr: '2021',
@@ -179,7 +179,7 @@ export const Beiträge = {
   Verenaschlucht: {
     karusselltitel: 'Verenaschlucht',
     beitragtitel: 'Die Heilige Verena bei Solothurn',
-    bild: 'solothurn-verenaschlucht/bild1.jpg',
+    bild: 'ruettenen-verenaschlucht/bild1.jpg',
     ort: 'Rüttenen (SO)',
     autor: 'Raphael Hadorn',
     jahr: '2021',

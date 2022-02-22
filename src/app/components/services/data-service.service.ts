@@ -36,7 +36,7 @@ export class DataServiceService {
 
   kacheln: any = [];
 
-  authors: { author: string, beitrag: string[],fulltitle: string[], location: string[] }[] = [];
+  authors: { author: string, beitrag: string[],shorttitle: string[], fulltitle: string[], location: string[] }[] = [];
 
   countArray: any = this.setDisplayLocation(this.beiträge);
 
@@ -74,11 +74,12 @@ export class DataServiceService {
       if (obj) {
         index = this.authors.indexOf(obj);
         this.authors[index].beitrag.push(beiträge[x].title);
+        this.authors[index].shorttitle.push(beiträge[x].title);
         this.authors[index].fulltitle.push(beiträge[x].fulltitle);
         this.authors[index].location.push(beiträge[x].location);  
       } 
       else {
-        this.authors.push({ author: beiträge[x].author, beitrag: [beiträge[x].title], location: [beiträge[x].location], fulltitle: [beiträge[x].fulltitle] })
+        this.authors.push({ author: beiträge[x].author, beitrag: [beiträge[x].title], location: [beiträge[x].location], shorttitle: [beiträge[x].title], fulltitle: [beiträge[x].fulltitle] })
       }
      
     }
@@ -106,7 +107,7 @@ export class DataServiceService {
     return beitrag;
   }
 
-  filterCurrentPost(title: string, author: { author: string, beitrag: string[], location: string[], fulltitle: string[] }) {
+  filterCurrentPost(title: string, author: { author: string, beitrag: string[], location: string[], shorttitle: string[], fulltitle: string[] }) {
 
     let posts = JSON.parse(JSON.stringify(author));
     let index = posts.beitrag.indexOf(title);
@@ -114,6 +115,7 @@ export class DataServiceService {
       posts.beitrag.splice(index, 1);
       posts.location.splice(index, 1);
       posts.fulltitle.splice(index, 1);
+      posts.shorttitle.splice(index, 1);
     }
     return posts;
   }

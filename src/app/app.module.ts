@@ -75,9 +75,9 @@ import { GottliebenSchlossComponent } from './beiträge/gottlieben-schloss/gottl
 import { HindelbankKircheComponent } from './beiträge/hindelbank-kirche/hindelbank-kirche.component';
 import { LuthernbadGnadenbrunnenComponent } from './beiträge/luthernbad-gnadenbrunnen/luthernbad-gnadenbrunnen.component';
 import { LuzernSpreuerbrueckeComponent } from './beiträge/luzern-spreuerbruecke/luzern-spreuerbruecke.component';
-import { SolothurnKlosterortComponent } from './beiträge/solothurn-klosterort/solothurn-klosterort.component';
+import { MariasteinKlosterortComponent } from './beiträge/mariastein-klosterort/mariastein-klosterort.component';
 import { RueggisbergMartinskircheComponent } from './beiträge/rueggisberg-martinskirche/rueggisberg-martinskirche.component';
-import { SolothurnVerenaschluchtComponent } from './beiträge/solothurn-verenaschlucht/solothurn-verenaschlucht.component';
+import { RuettenenVerenaschluchtComponent } from './beiträge/ruettenen-verenaschlucht/ruettenen-verenaschlucht.component';
 import { ScherzlingenKircheComponent } from './beiträge/scherzlingen-kirche/scherzlingen-kirche.component';
 import { SchoenenwerdStiftskircheComponent } from './beiträge/schoenenwerd-stiftskirche/schoenenwerd-stiftskirche.component';
 import { SimplonHospizComponent } from './beiträge/simplon-hospiz/simplon-hospiz.component';
@@ -151,9 +151,9 @@ import { MaennedorfZentrumDerHeiligungsbewegungComponent } from './beiträge/mae
     HindelbankKircheComponent,
     LuthernbadGnadenbrunnenComponent,
     LuzernSpreuerbrueckeComponent,
-    SolothurnKlosterortComponent,
+    MariasteinKlosterortComponent,
     RueggisbergMartinskircheComponent,
-    SolothurnVerenaschluchtComponent,
+    RuettenenVerenaschluchtComponent,
     ScherzlingenKircheComponent,
     SchoenenwerdStiftskircheComponent,
     SimplonHospizComponent,

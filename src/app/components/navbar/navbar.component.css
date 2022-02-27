@@ -4,14 +4,14 @@
 
 .firstPage {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: 100px 1fr 1fr 2fr;
 }
 
 .headerWrapper {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
 }
 
 .left {
@@ -119,7 +119,7 @@ a {
   display: grid;
   /* justify-items: center; */
   /* align-items: center; */
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
 }
 
 .nav_links {

@@ -31,7 +31,7 @@ p {
 .text {
   text-align: justify;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
   padding-left: 50px;
   padding-right: 50px;
   grid-column: 2/3;
@@ -119,7 +119,7 @@ h2 {
 
   .text {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
   }
 }
 
@@ -134,7 +134,7 @@ h2 {
 
   .text {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
   }
 }
 

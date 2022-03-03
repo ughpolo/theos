@@ -67,6 +67,10 @@ import { MaennedorfZentrumDerHeiligungsbewegungComponent } from './beiträge/mae
 
 const routes: Routes = [
   {
+    path: 'etudes-des-eglises-dorient',
+    component: FreiburgCentreDorientComponent,
+  },
+  {
     path: 'zentrum-der-heiligungsbewegung',
     component: MaennedorfZentrumDerHeiligungsbewegungComponent,
   },

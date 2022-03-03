@@ -1,6 +1,17 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Etudes des Eglises dOrient': {
+    karusselltitel: 'Etudes des Eglises dOrient',
+    beitragtitel:
+      "Centre d’études des Églises d’Orient à l’Université de Fribourg La spiritualité orthodoxe dans une université à caractère catholique",
+    bild: 'freiburg-centre-dorient/bild3.jpg',
+    ort: 'Freiburg',
+    autor: 'Stefan Constantinescu',
+    jahr: '2020',
+    markierungen: [[46.80643,7.15137]],
+    kanton: Kantone.Fribourg,
+  },
   'Poschiavo Friedhof Hildesheimers Grab': {
     karusselltitel: 'Friedhof Hildesheimers Grab',
     beitragtitel: 'Auf den Spuren der Steinchen auf den Grabsteinen',
@@ -265,7 +276,7 @@ export const Beiträge = {
     ort: 'Freiburg',
     autor: 'Stefan Constantinescu',
     jahr: '2020',
-    markierungen: [[47.9979, 7.839]],
+    markierungen: [[46.80643,7.15137]],
     kanton: Kantone.Fribourg,
   },
   'Antoniterkirche Antonius-Fresken': {

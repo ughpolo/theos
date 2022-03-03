@@ -1,11 +1,8 @@
-//Kopiere mich von hier:
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+
 import { DataServiceService } from 'src/app/components/services/data-service.service';
 import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
-//Bis hier und setze mich an den gleichen Ort im neuen Beitrag. (Die Datei mit dem Blauen A)
-
 @Component({
   selector: 'app-freiburg-centre-dorient',
   templateUrl: './freiburg-centre-dorient.component.html',
@@ -21,17 +18,20 @@ export class FreiburgCentreDorientComponent implements OnInit {
 
   author: any;
 
-  title = "Centre d’études des Églises d’Orient à l’Université de Fribourg La spiritualité orthodoxe dans une université à caractère catholique";
+  title!: string;
 
     date!: string;
+ 
 
    
 
-  constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService, private router: Router) { }
+  constructor(
+    protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService, 
+  
+    ) { }
 
   ngOnInit(): void {
-    //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den karusselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
-    this.assign('Stefan Constantinescu', 'Studium der Ostkirchen');
+    this.assign('Stefan Constantinescu', 'Etudes des Eglises dOrient');
     this.createIds();
   }
 
@@ -49,6 +49,7 @@ export class FreiburgCentreDorientComponent implements OnInit {
   replaceWhiteSpace() {
     for (let i = 0; i < this.author.beitrag.length; i += 1) {
       this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
+   
     }
   }
 
@@ -61,14 +62,19 @@ export class FreiburgCentreDorientComponent implements OnInit {
   ngAfterViewInit(): void {
     if (this.ids.length > 0) {
       for (let i = 0; i < this.coordinates.length; i += 1) {
-        this.maps.push(this.mapService.initMap(this.coordinates[i], 16, true, 8.5, `${this.title}${i}`))
+        this.maps.push(
+          this.mapService.initMap(
+            this.coordinates[i],
+             16, 
+             true, 
+             8.5, 
+             `${this.title}${i}`
+             )
+             );
         this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
       }
     }
-  };
-
-  changeRoute() {
-    this.router.navigate(['/studium-der-ostkirchen'])
   }
 
+  
 }

@@ -1,16 +1,16 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
-  'Etudes des Eglises dOrient': {
-    karusselltitel: 'Etudes des Eglises dOrient',
+  'Die Soeurs grises von Solothurn': {
+    karusselltitel: 'Die Soeurs grises von Solothurn',
     beitragtitel:
-      "Centre d’études des Églises d’Orient à l’Université de Fribourg La spiritualité orthodoxe dans une université à caractère catholique",
-    bild: 'freiburg-centre-dorient/bild3.jpg',
-    ort: 'Freiburg',
-    autor: 'Stefan Constantinescu',
-    jahr: '2020',
-    markierungen: [[46.80643,7.15137]],
-    kanton: Kantone.Fribourg,
+      'Krankenpflege in der frühen Neuzeit - Die Soeurs grises von Solothurn',
+    ort: 'Solothurn)',
+    bild: 'solothurn-soeurs-grises/bild2.jpeg',
+    autor: 'Ulrike Münger',
+    jahr: '2022',
+    markierungen: [[47.20506, 7.53587]],
+    kanton: Kantone.Solothurn,
   },
   'Poschiavo Friedhof Hildesheimers Grab': {
     karusselltitel: 'Friedhof Hildesheimers Grab',
@@ -276,7 +276,7 @@ export const Beiträge = {
     ort: 'Freiburg',
     autor: 'Stefan Constantinescu',
     jahr: '2020',
-    markierungen: [[46.80643,7.15137]],
+    markierungen: [[46.80643, 7.15137]],
     kanton: Kantone.Fribourg,
   },
   'Antoniterkirche Antonius-Fresken': {
@@ -402,6 +402,17 @@ export const Beiträge = {
     jahr: '2019',
     markierungen: [[47.04184, 7.54023]],
     kanton: Kantone.Bern,
+  },
+  'Etudes des Eglises dOrient': {
+    karusselltitel: 'Etudes des Eglises dOrient',
+    beitragtitel:
+      'Centre d’études des Églises d’Orient à l’Université de Fribourg La spiritualité orthodoxe dans une université à caractère catholique',
+    bild: 'freiburg-centre-dorient/bild3.jpg',
+    ort: 'Freiburg',
+    autor: 'Stefan Constantinescu',
+    jahr: '2020',
+    markierungen: [[46.80643, 7.15137]],
+    kanton: Kantone.Fribourg,
   },
   Vincentiustafel: {
     karusselltitel: 'Vincentiustafel',

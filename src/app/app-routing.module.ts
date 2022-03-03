@@ -64,8 +64,13 @@ import { BernOekumenischeKircheHdrComponent } from './beiträge/bern-oekumenisch
 import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschiavo-friedhof-hildesheimers-grab/poschiavo-friedhof-hildesheimers-grab.component';
 import { DisentisBenediktinerklosterComponent } from './beiträge/disentis-benediktinerkloster/disentis-benediktinerkloster.component';
 import { MaennedorfZentrumDerHeiligungsbewegungComponent } from './beiträge/maennedorf-zentrum-der-heiligungsbewegung/maennedorf-zentrum-der-heiligungsbewegung.component';
+import { SolothurnSoeursGrisesComponent } from './beiträge/solothurn-soeurs-grises/solothurn-soeurs-grises.component';
 
 const routes: Routes = [
+  {
+    path: 'die-soeurs-grises-von-solothurn',
+    component: SolothurnSoeursGrisesComponent,
+  },
   {
     path: 'etudes-des-eglises-dorient',
     component: FreiburgCentreDorientComponent,

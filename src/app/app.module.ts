@@ -97,6 +97,7 @@ import { BernOekumenischeKircheHdrComponent } from './beiträge/bern-oekumenisch
 import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschiavo-friedhof-hildesheimers-grab/poschiavo-friedhof-hildesheimers-grab.component';
 import { DisentisBenediktinerklosterComponent } from './beiträge/disentis-benediktinerkloster/disentis-benediktinerkloster.component';
 import { MaennedorfZentrumDerHeiligungsbewegungComponent } from './beiträge/maennedorf-zentrum-der-heiligungsbewegung/maennedorf-zentrum-der-heiligungsbewegung.component';
+import { SolothurnSoeursGrisesComponent } from './beiträge/solothurn-soeurs-grises/solothurn-soeurs-grises.component';
 
 @NgModule({
   declarations: [
@@ -173,6 +174,7 @@ import { MaennedorfZentrumDerHeiligungsbewegungComponent } from './beiträge/mae
     PoschiavoFriedhofHildesheimersGrabComponent,
     DisentisBenediktinerklosterComponent,
     MaennedorfZentrumDerHeiligungsbewegungComponent,
+    SolothurnSoeursGrisesComponent,
   ],
   imports: [
     MatToolbarModule,

@@ -13,18 +13,7 @@ export const Beiträge = {
     markierungen: [[47.20506, 7.53587]],
     kanton: Kantone.Solothurn,
   },
-  'Études des Églises d’Orient': {
-    karusselltitel: 'Centre d’études des Églises d’Orient',
-    verzeichnispfad: 'Etudes des Eglises dOrient',
-    beitragtitel:
-      "Centre d’études des Églises d’Orient à l’Université de Fribourg La spiritualité orthodoxe dans une université à caractère catholique",
-    bild: 'freiburg-centre-dorient/bild3.jpg',
-    ort: 'Freiburg',
-    autor: 'Stefan Constantinescu',
-    jahr: '2020',
-    markierungen: [[46.80643,7.15137]],
-    kanton: Kantone.Fribourg,
-  },
+
   'Poschiavo Friedhof Hildesheimers Grab': {
     karusselltitel: 'Friedhof Hildesheimers Grab',
     verzeichnispfad: 'Friedhof Hildesheimers Grab',
@@ -315,7 +304,19 @@ export const Beiträge = {
     ort: 'Freiburg',
     autor: 'Stefan Constantinescu',
     jahr: '2020',
-    markierungen: [[46.80643,7.15137]],
+    markierungen: [[46.80643, 7.15137]],
+    kanton: Kantone.Fribourg,
+  },
+  'Études des Églises d’Orient': {
+    karusselltitel: 'Centre d’études des Églises d’Orient',
+    verzeichnispfad: 'Etudes des Eglises dOrient',
+    beitragtitel:
+      'Centre d’études des Églises d’Orient à l’Université de Fribourg La spiritualité orthodoxe dans une université à caractère catholique',
+    bild: 'freiburg-centre-dorient/bild3.jpg',
+    ort: 'Freiburg',
+    autor: 'Stefan Constantinescu',
+    jahr: '2020',
+    markierungen: [[46.80643, 7.15137]],
     kanton: Kantone.Fribourg,
   },
   'Antoniterkirche Antonius-Fresken': {

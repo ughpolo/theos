@@ -2,7 +2,7 @@
   [author]="author.author"
   [title]="title"
   [date]="date"
-  [image]="'disentis-benedikt/bild2.jpeg'"
+  [image]="'disentis-benediktinerkloster/bild2.jpeg'"
 >
 </app-title-image>
 <div class="wrapper">
@@ -21,7 +21,7 @@
 
       <img
         class="bild"
-        src="../../../assets/images/disentis-benedikt/bild1.jpeg"
+        src="../../../assets/images/disentis-benediktinerkloster/bild1.jpeg"
         alt=""
       />
       <p class="bildunterschrift">
@@ -90,7 +90,7 @@
       <p>
         <img
           class="bild"
-          src="../../../assets/images/disentis-benedikt/bild2.jpeg"
+          src="../../../assets/images/disentis-benediktinerkloster/bild2.jpeg"
           alt=""
         />
       </p>
@@ -141,11 +141,16 @@
         <p class="autor">
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul>
+        <ul>
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>

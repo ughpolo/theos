@@ -10,7 +10,7 @@ import { Beitrag } from 'src/app/components/models/beitrag';
 })
 export class CarouselItemComponent implements OnInit {
 
-  @Input() beitrag: Beitrag = new Beitrag("", "", "", "", "", [[]], "");
+  @Input() beitrag: Beitrag = new Beitrag("", "", "", "", "", "", [[]], "");
 
   constructor(private router: Router) { }
 
@@ -18,7 +18,7 @@ export class CarouselItemComponent implements OnInit {
   }
 
   route(beitrag: Beitrag) {
-    let temp = beitrag.title.replace(/\s+/g, '-').toLowerCase();
+    let temp = beitrag.pathname.replace(/\s+/g, '-').toLowerCase();
     let url = temp.replace(/\’+|\'+/g, '');
     this.router.navigateByUrl(`${url}`)
   }

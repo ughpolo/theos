@@ -11,9 +11,9 @@ export class PopupService {
 
   makeCapitalPopup(data: any) {
     const beitrag = this.dataService.beiträge.find(beitrag => beitrag.markers.includes(data))
-    const link = `/${beitrag!.title.replace(/\s+/g, '-').toLowerCase()}`
+    const link = `/${beitrag!.pathname}`
     return `<div> ${beitrag?.author}</div>` +
-      `<div><a href="${link}">${beitrag?.title}</a></div>`
+      `<div><a href="${link}">${beitrag?.pathname}</a></div>`
   }
 
 

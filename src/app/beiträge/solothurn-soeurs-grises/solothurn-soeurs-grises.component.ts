@@ -10,7 +10,7 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 })
 export class SolothurnSoeursGrisesComponent implements OnInit {
   ngOnInit(): void {
-    this.assign('Ulrike Münger', 'Die Soeurs grises von Solothurn');
+    this.assign('Ulrike Münger', 'Die Sœurs grises von Solothurn');
     this.createIds();
   }
 

@@ -12,7 +12,7 @@
   </mat-card-content>
 </mat-card>
 
-<mat-card *ngIf="!isbe(beitrag)" class="card" (click)="select(beitrag.title)">
+<mat-card *ngIf="!isbe(beitrag)" class="card" (click)="select(beitrag.pathname)">
   <img mat-card-image [src]="beitrag.image" alt="not working">
   <mat-card-content>
     <div class="text">

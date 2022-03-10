@@ -21,6 +21,9 @@ export class BellelayAbbatialeComponent implements OnInit {
 
   title!: string;
 
+pathname!: string;
+
+
     date!: string;
 
    
@@ -28,8 +31,7 @@ export class BellelayAbbatialeComponent implements OnInit {
   constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
-    /*Autor,          */
-    this.assign('Lara A. Kneubühler', 'Abbatiale');
+    this.assign('Lara A. Kneubühler', 'L’abbatiale de Bellelay');
     this.createIds();
   }
 
@@ -40,13 +42,14 @@ export class BellelayAbbatialeComponent implements OnInit {
 
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
-    this.title = beitrag!.fulltitle;
+    this.title = beitrag!.fulltitle; this.pathname = beitrag!.pathname;
+
     this.replaceWhiteSpace();
   }
 
   replaceWhiteSpace() {
     for (let i = 0; i < this.author.beitrag.length; i += 1) {
-      this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
+      this.author.pathname[i] = this.author.pathname[i].replace(/\s+/g, '-').toLowerCase();
     }
   }
 

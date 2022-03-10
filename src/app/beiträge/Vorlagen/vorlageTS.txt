@@ -25,6 +25,9 @@ author: any;
 
 title!: string;
 
+pathname!: string;
+
+
   date!: string;
 
    
@@ -37,13 +40,14 @@ assign(author: string, title: string) {
      
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
-    this.title = beitrag!.fulltitle;
+    this.title = beitrag!.fulltitle; this.pathname = beitrag!.pathname;
+
     this.replaceWhiteSpace();
 }
 
 replaceWhiteSpace() {
     for (let i = 0; i < this.author.beitrag.length; i += 1) {
-        this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
+        this.author.pathname[i] = this.author.pathname[i].replace(/\s+/g, '-').toLowerCase();
     }
 }
 createIds() {

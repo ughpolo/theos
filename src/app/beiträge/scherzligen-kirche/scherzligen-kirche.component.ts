@@ -4,14 +4,14 @@ import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
 
 @Component({
-  selector: 'app-scherzlingen-kirche',
-  templateUrl: './scherzlingen-kirche.component.html',
-  styleUrls: ['./scherzlingen-kirche.component.scss']
+  selector: 'app-scherzligen-kirche',
+  templateUrl: './scherzligen-kirche.component.html',
+  styleUrls: ['./scherzligen-kirche.component.scss']
 })
-export class ScherzlingenKircheComponent implements OnInit {
+export class ScherzligenKircheComponent implements OnInit {
 
   ngOnInit(): void {
-    this.assign('Markus Nägeli', 'Scherzlingen Kirche');
+    this.assign('Markus Nägeli', 'Scherzligen Kirche');
     this.createIds();
   }
 
@@ -25,6 +25,9 @@ export class ScherzlingenKircheComponent implements OnInit {
 
   title!: string;
 
+pathname!: string;
+
+
     date!: string;
 
    
@@ -37,13 +40,14 @@ export class ScherzlingenKircheComponent implements OnInit {
      
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
-    this.title = beitrag!.fulltitle;
+    this.title = beitrag!.fulltitle; this.pathname = beitrag!.pathname;
+
     this.replaceWhiteSpace();
   }
 
   replaceWhiteSpace() {
     for (let i = 0; i < this.author.beitrag.length; i += 1) {
-      this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
+      this.author.pathname[i] = this.author.pathname[i].replace(/\s+/g, '-').toLowerCase();
     }
   }
   createIds() {

@@ -78,7 +78,7 @@ import { LuzernSpreuerbrueckeComponent } from './beiträge/luzern-spreuerbruecke
 import { MariasteinKlosterortComponent } from './beiträge/mariastein-klosterort/mariastein-klosterort.component';
 import { RueggisbergMartinskircheComponent } from './beiträge/rueggisberg-martinskirche/rueggisberg-martinskirche.component';
 import { RuettenenVerenaschluchtComponent } from './beiträge/ruettenen-verenaschlucht/ruettenen-verenaschlucht.component';
-import { ScherzlingenKircheComponent } from './beiträge/scherzlingen-kirche/scherzlingen-kirche.component';
+import { ScherzligenKircheComponent } from './beiträge/scherzligen-kirche/scherzligen-kirche.component';
 import { SchoenenwerdStiftskircheComponent } from './beiträge/schoenenwerd-stiftskirche/schoenenwerd-stiftskirche.component';
 import { SimplonHospizComponent } from './beiträge/simplon-hospiz/simplon-hospiz.component';
 import { SulzigWeitblickComponent } from './beiträge/sulzig-weitblick/sulzig-weitblick.component';
@@ -98,7 +98,6 @@ import { PoschiavoFriedhofHildesheimersGrabComponent } from './beiträge/poschia
 import { DisentisBenediktinerklosterComponent } from './beiträge/disentis-benediktinerkloster/disentis-benediktinerkloster.component';
 import { MaennedorfZentrumDerHeiligungsbewegungComponent } from './beiträge/maennedorf-zentrum-der-heiligungsbewegung/maennedorf-zentrum-der-heiligungsbewegung.component';
 import { SolothurnSoeursGrisesComponent } from './beiträge/solothurn-soeurs-grises/solothurn-soeurs-grises.component';
-
 @NgModule({
   declarations: [
     BaptisteriumComponent,
@@ -155,7 +154,7 @@ import { SolothurnSoeursGrisesComponent } from './beiträge/solothurn-soeurs-gri
     MariasteinKlosterortComponent,
     RueggisbergMartinskircheComponent,
     RuettenenVerenaschluchtComponent,
-    ScherzlingenKircheComponent,
+    ScherzligenKircheComponent,
     SchoenenwerdStiftskircheComponent,
     SimplonHospizComponent,
     SulzigWeitblickComponent,

@@ -10,7 +10,7 @@ import { Beitrag } from '../../models/beitrag';
 })
 export class OrteComponent implements OnInit {
 
-  kacheln: { locationCat: string, count: number, title: string, image: string, location: string, titleArray: string[] }[] = [];
+  kacheln: { pathname:string, locationCat: string, count: number, title: string, image: string, location: string, titleArray: string[] }[] = [];
 
 
 
@@ -38,7 +38,7 @@ export class OrteComponent implements OnInit {
   }
 
   route(beitrag: any) {
-    this.router.navigateByUrl(`/${beitrag}`)
+    this.router.navigateByUrl(`/${beitrag.pathname}`)
   }
 
 

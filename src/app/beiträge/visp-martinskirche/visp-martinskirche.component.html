@@ -216,7 +216,7 @@
         </p>
          <ul>
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ beitrag | removeshitespaces | lowercase }}">
+            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
               {{author.location[i]}}: 
               {{author.shorttitle[i]}} 
             </a>

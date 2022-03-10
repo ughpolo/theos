@@ -21,6 +21,9 @@ export class BernBurgerspitalComponent implements OnInit {
 
   title!: string;
 
+pathname!: string;
+
+
     date!: string;
 
    
@@ -32,7 +35,7 @@ export class BernBurgerspitalComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den karusselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
+    
     this.assign('Matthias Käser', 'Ehemaliges Burgerspital');
     this.createIds();
   }
@@ -44,13 +47,14 @@ export class BernBurgerspitalComponent implements OnInit {
 
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
-    this.title = beitrag!.fulltitle;
+    this.title = beitrag!.fulltitle; this.pathname = beitrag!.pathname;
+
     this.replaceWhiteSpace();
   }
 
   replaceWhiteSpace() {
     for (let i = 0; i < this.author.beitrag.length; i += 1) {
-      this.author.beitrag[i] = this.author.beitrag[i]
+      this.author.pathname[i] = this.author.pathname[i]
         .replace(/\s+/g, '-')
         .toLowerCase();
     }

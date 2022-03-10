@@ -23,6 +23,9 @@ export class BielFilmpodiumComponent implements OnInit {
 
   title!: string;
 
+pathname!: string;
+
+
     date!: string;
 
    
@@ -30,7 +33,7 @@ export class BielFilmpodiumComponent implements OnInit {
   constructor(protected markerService: MarkerService, protected dataService: DataServiceService, protected mapService: MapService) { }
 
   ngOnInit(): void {
-    //Setze hier den Namen des Autors (Gleich wie im beiträge.ts file) und dann den karusselltitel. WICHTIG: Müssen jeweils zwischen den zwei ' ' stehen.
+    
     this.assign('Sina von Aesch', 'Filmpodium');
     this.createIds();
   }
@@ -42,13 +45,14 @@ export class BielFilmpodiumComponent implements OnInit {
 
     this.date = this.dataService.getDate(author, title)!;
     this.coordinates = beitrag!.markers;
-    this.title = beitrag!.fulltitle;
+    this.title = beitrag!.fulltitle; this.pathname = beitrag!.pathname;
+
     this.replaceWhiteSpace();
   }
 
   replaceWhiteSpace() {
     for (let i = 0; i < this.author.beitrag.length; i += 1) {
-      this.author.beitrag[i] = this.author.beitrag[i].replace(/\s+/g, '-').toLowerCase();
+      this.author.pathname[i] = this.author.pathname[i].replace(/\s+/g, '-').toLowerCase();
     }
   }
 

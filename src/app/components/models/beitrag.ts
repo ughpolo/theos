@@ -1,5 +1,6 @@
 export class Beitrag {
     constructor(
+        public pathname: string,
         public title: string,
         public location: string,
         public image: string,

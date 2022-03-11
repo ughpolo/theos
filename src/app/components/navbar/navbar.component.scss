@@ -33,7 +33,7 @@
 .titleWrapper {
   margin-top: 10px;
   display: grid;
-  grid-template-columns: 1fr 11fr 1fr;
+  grid-template-columns: 2fr 11fr 2fr;
   // justify-items: center;
   grid-column: 2/3;
 }
@@ -73,7 +73,10 @@
 }
 
 .institut {
-  margin-top: 10px;
+  width: 142.8px;
+  height: 142.8px;
+  padding-top: 20px;
+  padding-left: 10px;
   font-weight: 300;
   font-size: 1rem;
   margin: 0;
@@ -264,4 +267,28 @@ ul {
   .sidenav-container {
     display: none;
   }
+}
+
+@media (max-width: 600px) {
+  .titleWrapper {
+    margin-top: 10px;
+    display: grid;
+  grid-template-areas: 
+    "institut institut logo"
+    "titel titel titel";
+    grid-column: 2/3;
+  }
+
+.institut{
+  grid-area: institut;
+}
+
+.logo{
+  grid-area: logo;
+}
+
+.title{
+  grid-area: titel;
+}
+
 }

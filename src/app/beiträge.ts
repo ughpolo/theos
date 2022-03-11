@@ -436,7 +436,7 @@ export const Beiträge = {
   'Scherzligen Kirche': {
     karusselltitel: 'Scherzligen Kirche',
     verzeichnispfad: 'Scherzligen Kirche',
-    beitragtitel: '"Early Adopter"am Ausfluss des Thunersees',
+    beitragtitel: '"Early Adopter" am Ausfluss des Thunersees',
     bild: 'scherzligen-kirche/bild1.jpg',
     ort: 'Thun (BE)',
     autor: 'Markus Nägeli',

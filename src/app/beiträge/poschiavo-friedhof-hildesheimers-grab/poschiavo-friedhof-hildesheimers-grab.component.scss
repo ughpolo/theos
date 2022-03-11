@@ -62,7 +62,7 @@ h2 {
 }
 
 #poem {
-  margin-left: 80%;
+  padding-left: calc(100% - 180px);
 text-align: left;
 font-size: 1rem;
 }
@@ -85,6 +85,7 @@ font-size: 1rem;
 }
 
 @media (min-width: 3000px) {
+  
   .wrapper {
     text-align: justify;
     display: grid;
@@ -169,4 +170,5 @@ font-size: 1rem;
     padding-right: 5%;
     line-height: 1.5;
   }
+  
 }

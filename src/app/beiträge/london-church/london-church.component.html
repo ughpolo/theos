@@ -223,11 +223,16 @@
         <p class="autor">
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul>
+        <ul>
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>
@@ -236,8 +241,8 @@
         <h2>Zur Vertiefung:</h2>
         <ul>
           <li>
-            Roehrich/Reverdin/Beguin: «The Swiss Church In London», London 2012
-            (direkt bei der Swiss Church in London zu beziehen).
+            Roehrich / Reverdin / Beguin: «The Swiss Church In London», London
+            2012 (direkt bei der Swiss Church in London zu beziehen).
           </li>
           <li>
             Barber, Peter: «A Curious Colony: Leicester Square and the Swiss»,

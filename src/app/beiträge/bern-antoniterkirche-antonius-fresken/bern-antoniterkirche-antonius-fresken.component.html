@@ -237,9 +237,14 @@
         </p>
         <ul>
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>
@@ -257,8 +262,8 @@
             Legende. München: Beck 2013.
           </li>
           <li>
-            Kurzmeyer Roman (Hg.): Fritz Pauli. Maler und Radierer, Basel: Roter
-            Stern 1994.
+            Kurzmeyer, Roman (Hg.): Fritz Pauli. Maler und Radierer, Basel:
+            Roter Stern 1994.
           </li>
           <li>
             Schulz-Wackerbarth, Yorick: Die Vita Pauli des Hieronymus.
@@ -279,7 +284,7 @@
         </ul>
       </div>
 
-           <h2>Lageplan:</h2>
+      <h2>Lageplan:</h2>
       <div *ngFor="let id of ids" class="map-container">
         <div [id]="id" class="map"></div>
       </div>

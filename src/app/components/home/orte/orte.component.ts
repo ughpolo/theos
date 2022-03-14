@@ -10,7 +10,7 @@ import { Beitrag } from '../../models/beitrag';
 })
 export class OrteComponent implements OnInit {
 
-  kacheln: { pathname:string, locationCat: string, count: number, title: string, image: string, location: string, titleArray: string[] }[] = [];
+  kacheln: { pathname:string, locationCat: string, count: number, title: string, image: string, location: string, titleArray: string[], pathnameArray: string[]  }[] = [];
 
 
 

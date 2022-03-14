@@ -43,7 +43,7 @@ export class DataServiceService {
   markers: any[][] = [];
 
   setDisplayLocation(beiträge: Beitrag[]) {
-    let tempArray: { pathname: string,locationCat: string, count: number, title: string, image: string, location: string, titleArray: string[] }[] = [];
+    let tempArray: { pathname: string,locationCat: string, count: number, title: string, image: string, location: string, titleArray: string[], pathnameArray: string[]  }[] = [];
     for (let x = 0; x < beiträge.length; x += 1) {
       if (tempArray.length > 0) {
         let found = false;
@@ -52,15 +52,16 @@ export class DataServiceService {
           if (tempArray[y].location === beiträge[x].location!) {
             tempArray[y].count += 1;
             tempArray[y].titleArray.push(beiträge[x].title);
+            tempArray[y].pathnameArray.push(beiträge[x].pathname);
             found = true;
           }
         }
         if (!found) {
-          tempArray.push({ pathname: beiträge[x].pathname,locationCat: beiträge[x].locationCat!, count: 1, title: beiträge[x].title, image: beiträge[x].image, location: beiträge[x].location, titleArray: [beiträge[x].title] });
+          tempArray.push({ pathname: beiträge[x].pathname,locationCat: beiträge[x].locationCat!, count: 1, title: beiträge[x].title, image: beiträge[x].image, location: beiträge[x].location, titleArray: [beiträge[x].title], pathnameArray: [beiträge[x].pathname]  });
           found = true;
         }
       } else {
-        tempArray.push({ pathname: beiträge[x].pathname, locationCat: beiträge[x].locationCat!, count: 1, title: beiträge[x].title, image: beiträge[x].image, location: beiträge[x].location, titleArray: [beiträge[x].title] })
+        tempArray.push({ pathname: beiträge[x].pathname, locationCat: beiträge[x].locationCat!, count: 1, title: beiträge[x].title, image: beiträge[x].image, location: beiträge[x].location, titleArray: [beiträge[x].title],  pathnameArray: [beiträge[x].pathname]  })
       }
     }
     this.orte = tempArray;

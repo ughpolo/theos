@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.wrapper {
+  background-color: blue;
+}
+
 .vertiefung {
   text-align: left;
 }
@@ -27,6 +31,7 @@ p {
 }
 
 .text {
+  background-color: red;
   text-align: justify;
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
@@ -37,6 +42,7 @@ p {
 }
 
 .innerText {
+  background-color: pink;
   grid-column: 2/3;
   margin: 30px;
   padding-left: 100px;
@@ -61,6 +67,9 @@ h2 {
   padding-right: 8px;
 }
 
+#firstParagraph{
+  background-color: violet;
+}
 
 .map-container {
   margin-top: 30px;

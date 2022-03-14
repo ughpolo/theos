@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 import { DataServiceService } from 'src/app/components/services/data-service.service';
 import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
@@ -28,12 +29,18 @@ pathname!: string;
 
    
 
-  constructor(protected dataService: DataServiceService, protected mapService: MapService, protected markerService: MarkerService) {
+  constructor(protected dataService: DataServiceService, protected mapService: MapService, protected markerService: MarkerService, private router: Router) {
   }
 
   ngOnInit(): void {
     this.assign('Nicole Hublard', 'Amsoldingen Kirche');
     this.createIds();
+    this.router.events.subscribe((evt) => {
+      // if (!(evt instanceof NavigationEnd)) {
+
+      //     return;
+      // }
+  });
   }
 
   assign(author: string, title: string) {
@@ -67,6 +74,7 @@ pathname!: string;
         this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
       }
     }
+    window.scrollTo(0, 0)
   }
 
 

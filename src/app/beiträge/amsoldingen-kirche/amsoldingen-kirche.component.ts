@@ -35,12 +35,6 @@ pathname!: string;
   ngOnInit(): void {
     this.assign('Nicole Hublard', 'Amsoldingen Kirche');
     this.createIds();
-    this.router.events.subscribe((evt) => {
-      // if (!(evt instanceof NavigationEnd)) {
-
-      //     return;
-      // }
-  });
   }
 
   assign(author: string, title: string) {
@@ -74,7 +68,6 @@ pathname!: string;
         this.markerService.makeMarkers(this.maps[i], this.coordinates[i])
       }
     }
-    window.scrollTo(0, 0)
   }
 
 

@@ -13,7 +13,7 @@ export class PopupService {
     const beitrag = this.dataService.beiträge.find(beitrag => beitrag.markers.includes(data))
     const link = `/${beitrag!.pathname}`
     return `<div> ${beitrag?.author}</div>` +
-      `<div><a href="${link}">${beitrag?.pathname}</a></div>`
+      `<div><a style="color: black" target="_self" href="${link}">${beitrag?.title}</a></div>`
   }
 
 

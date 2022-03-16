@@ -61,7 +61,7 @@
         bei.
       </p>
       <img
-        id="bild1"
+        class="bild"
         src="../../../assets/images/basel-martinskirche/bild1.jpg"
         alt=""
       />
@@ -121,7 +121,7 @@
         <p class="autor">
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-        <ul>
+        <ul style="margin-top:0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
             <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
               {{author.location[i]}}: 

@@ -8,7 +8,7 @@
 <div class="wrapper">
   <div class="text">
     <div class="innerText">
-      <p id="text">
+      <p id="firstParagraph">
         Die Kirche Amsoldingen schmiegt sich in eine durch Hügel und Seen
         geprägte Landschaft vor beeindruckender Bergkulisse und bildet mit den
         dazu gehörenden Gebäuden – Pfrundscheune, Pfarrhaus, Turmhaus und
@@ -18,7 +18,7 @@
         eine der besterhaltenen Kirchen der frühromanischen Epoche.
       </p>
       <img
-        class="bild responsive"
+        class="bild"
         src="../../../assets/images/amsoldingen-kirche/bild1.jpg"
         alt=""
       />
@@ -76,7 +76,7 @@
         und Gefängnis benutzt wurde.
       </p>
       <img
-        class="bild responsive"
+        class="bild"
         src="../../../assets/images/amsoldingen-kirche/bild2.jpg"
         alt=""
       />
@@ -110,7 +110,7 @@
       </p>
 
       <img
-        class="bild responsive"
+        class="bild"
         src="../../../assets/images/amsoldingen-kirche/bild3.jpg"
         alt=""
       />
@@ -130,18 +130,19 @@
         de Compostela versinnbildlicht dabei ihre hohe theologisch-historische
         Bedeutung.
       </p>
-      <div class="smallimage">
+      
         <img
-          class="bild-klein responsive"
+        style="padding-right: 1%"
+          class="bild-klein"
           src="../../../assets/images/amsoldingen-kirche/bild4.jpg"
           alt=""
         />
         <img
-          class="bild-klein responsive"
+          class="bild-klein"
           src="../../../assets/images/amsoldingen-kirche/bild5.jpg"
           alt=""
         />
-      </div>
+     
       <p class="bildunterschrift">
         Pilgerstempel der Kirche Amsoldingen (Bild: Nicole Hublard)
       </p>
@@ -154,7 +155,7 @@
         <p class="autor">
           Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul>
+         <ul style="margin-top:0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
             <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
               {{author.location[i]}}: 
@@ -175,8 +176,8 @@
               href="https://biblio.unibe.ch/digibern/jahrbuch_schloss_thun/jahrbuch_schloss_thun_2003.pdf"
               >
               https://biblio.unibe.ch/digibern/jahrbuch_schloss_thun/jahrbuch_schloss_thun_2003.pdf 
-            (10.06.2020).
             </a>
+            (10.06.2020).
           </li>
           <li>
             Rutishauser, Samuel: Kirche Amsoldingen: Schweizerischer Kunstführer

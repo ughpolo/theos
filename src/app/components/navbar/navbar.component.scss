@@ -27,6 +27,7 @@
 
 .vertical {
   display: table-cell;
+  width: 100%;
   vertical-align: middle;
 }
 
@@ -40,6 +41,7 @@
 
 .title {
   display: table;
+  margin: auto;
   text-align: center;
   grid-column: 2/3;
 }
@@ -291,5 +293,36 @@ ul {
 .title{
   grid-area: titel;
 }
+
+}
+
+@media (min-width: 1700px) {
+
+  #title {
+    font-size: 2.1vw;
+    line-height: 2.1vw;
+    font-weight: 300;
+  }
+  
+  #sub {
+    font-weight: 300;
+    font-size: 1.4vw;
+    line-height: 1.4vw;
+    letter-spacing: 0.1rem;
+  }
+
+  a {
+    font-size: 1.13vw;
+    line-height: 1.13vw;
+  }
+
+  #uniLogo{
+    width: 11vw;
+  }
+
+  #firstParagraph::first-letter {
+    font-size: 3.6vw;
+    line-height: 1.8vw;
+  }
 
 }

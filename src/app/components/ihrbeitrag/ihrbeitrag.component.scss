@@ -148,3 +148,44 @@ ul {
     grid-column: 1/2;
 }
 }
+
+@media (min-width: 1700px) {
+
+  //individuelles css:
+
+
+  //gemeinsames css:
+
+
+.wrapper {
+  font-size: 0.95vw;
+}
+
+.textWrapper h1 {
+  font-size: 2vw;
+  line-height: 2vw;
+}
+
+.überschrift {
+  font-size: 1vw;
+  line-height: 1vw;
+}
+
+.container {
+  height: 12vw;
+}
+
+}
+
+@media (max-width: 1000px) {
+
+  //individuelles css:
+
+  
+  //gemeinsames css:
+
+  .text {
+    grid-template-columns: 0fr 1fr 0fr;
+  } 
+
+}

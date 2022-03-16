@@ -28,6 +28,7 @@
   font-family: "Playfair Display";
   font-size: 36px;
   line-height: 120%;
+  hyphens: auto;
 }
 
 .date h3 {
@@ -35,9 +36,45 @@
 }
 
 .textWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  padding: 200px 0;
+  padding: 2%;
   display: block;
   line-height: 25px;
   color: white;
+}
+
+@media (min-width: 1700px) {
+
+  .title h1 {
+    font-size: 2.1vw;
+    line-height: 2.1vw;
+    font-weight: 300;
+  }
+  
+  #author {
+    font-weight: 300;
+    font-size: 1.18vw;
+    line-height: 2vw;
+    letter-spacing: 0.1rem;
+  }
+
+  .date h3 {
+    font-size: 0.94vw;
+    line-height: 1.5vw;
+  }
+
+  .container {
+    height: 30vw;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .textWrapper {
+    width: 98%;
+  }
 }

@@ -1,5 +1,9 @@
 //individuelles css:
-
+.bild-sehr-klein{
+  display: block;
+  width: 25%;
+  margin: auto;
+}
 
 //gemeinsames css:
 
@@ -124,4 +128,12 @@ a:hover {
     grid-template-columns: 0fr 1fr 0fr;
   } 
 
+}
+
+@media (max-width: 500px) {
+
+  //individuelles css:
+  .bild-sehr-klein{
+    width: 50%;
+  }
 }

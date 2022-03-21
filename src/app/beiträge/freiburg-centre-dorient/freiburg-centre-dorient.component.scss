@@ -1,5 +1,9 @@
 //individuelles css:
-
+.bild-sehr-klein{
+  display: block;
+  width: 25%;
+  margin: auto;
+}
 
 //gemeinsames css:
 
@@ -116,7 +120,9 @@ a:hover {
 @media (max-width: 1000px) {
 
   //individuelles css:
-
+  .bild-sehr-klein{
+    width: 50%;
+  }
   
   //gemeinsames css:
 

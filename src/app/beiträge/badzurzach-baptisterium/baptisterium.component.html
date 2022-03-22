@@ -87,7 +87,9 @@
         der Nord­ und Südseite Stufen aufweist. Dieses befindet sich heute im
         Kreuzgang der Abtei.
       </p>
-      <p>«Darum gehet hin und machet zu Jüngern alle Völker ...» (Mt 28,19)</p>
+      <h2>
+        «Darum gehet hin und machet zu Jüngern alle Völker ...» (Mt 28,19)
+      </h2>
       <p>
         Das bis heute über alle Konfessionsgrenzen hinaus Verbindende der
         Christenheit ist die Taufe. Das Neue Testament legt dafür im sogenannten
@@ -129,13 +131,18 @@
       </p>
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-        <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>

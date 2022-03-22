@@ -61,13 +61,17 @@
         src="../../../assets/images/rueggisberg-martinskirche/bild1.jpg"
         alt=""
       />
-      <p class="bildunterschrift">(Bild: Ruth Rohrbach-Schütz)</p>
+      <p class="bildunterschrift">
+        Barocker Taufstein von 1688. (Bild: Ruth Rohrbach-Schütz)
+      </p>
       <img
         class="bild"
         src="../../../assets/images/rueggisberg-martinskirche/bild2.jpg"
         alt=""
       />
-      <p class="bildunterschrift">(Bild: Ruth Rohrbach-Schütz)</p>
+      <p class="bildunterschrift">
+        Innenansicht in Richtung Chor. (Bild: Ruth Rohrbach-Schütz)
+      </p>
       <p>
         Etwas seltsam mutet der recht grosse Abstand zwischen den beiden
         östlichen Chorfenstern an. Mit der Umgestaltung von Apsis zu
@@ -97,7 +101,10 @@
         src="../../../assets/images/rueggisberg-martinskirche/bild3.jpg"
         alt=""
       />
-      <p class="bildunterschrift">Foto: Ruth Rohrbach-Schütz</p>
+      <p class="bildunterschrift">
+        Glasmalereien von Felix Hoffman und Emil Reich. (Bild: Ruth
+        Rohrbach-Schütz)
+      </p>
       <p class="autor">
         Elisabeth Willen-Lanzrein ist Architekturhistorikerin und bietet
         Führungen in Rüeggisberg an.
@@ -105,13 +112,18 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>

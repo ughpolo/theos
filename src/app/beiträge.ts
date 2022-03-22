@@ -1,6 +1,18 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Kunstprojekt Cantus firmus': {
+    karusselltitel: 'Kunstprojekt Cantus firmus',
+    verzeichnispfad: 'Kunstprojekt Cantus firmus',
+    beitragtitel:
+      'Cantus firmus - Kommunikation zwischen Mikrokosmos und Makrokosmos',
+    ort: 'Solothurn',
+    bild: 'solothurn-cantus-firmus/bild5.jpeg',
+    autor: 'Adriana Basso Schaub',
+    jahr: '2022',
+    markierungen: [[47.209, 7.53763]],
+    kanton: Kantone.Solothurn,
+  },
   'Die Soeurs grises von Solothurn': {
     karusselltitel: 'Die Sœurs grises von Solothurn',
     verzeichnispfad: 'Die Soeurs grises von Solothurn',
@@ -100,7 +112,7 @@ export const Beiträge = {
     bild: 'solothurn-zwei-heilige/bild1.jpg',
     autor: 'Joël Meier',
     jahr: '2021',
-    markierungen: [[47.209, 7.5394]],
+    markierungen: [[47.2083, 7.53934]],
     kanton: Kantone.Solothurn,
   },
   Filmpodium: {
@@ -327,7 +339,7 @@ export const Beiträge = {
     bild: 'bern-antoniterkirche-antonius-fresken/antonbild3.jpg',
     ort: 'Bern',
     autor: 'Katharina Heyden',
-    jahr: '2016',
+    jahr: '2020',
     markierungen: [[46.94895, 7.45359]],
     kanton: Kantone.Bern,
   },

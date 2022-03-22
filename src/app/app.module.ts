@@ -98,6 +98,7 @@ import { DisentisBenediktinerklosterComponent } from './beiträge/disentis-bened
 import { MaennedorfZentrumDerHeiligungsbewegungComponent } from './beiträge/maennedorf-zentrum-der-heiligungsbewegung/maennedorf-zentrum-der-heiligungsbewegung.component';
 import { SolothurnSoeursGrisesComponent } from './beiträge/solothurn-soeurs-grises/solothurn-soeurs-grises.component';
 import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-martinskirche.component';
+import { SolothurnCantusFirmusComponent } from './beiträge/solothurn-cantus-firmus/solothurn-cantus-firmus.component';
 @NgModule({
   declarations: [
     BaptisteriumComponent,
@@ -174,6 +175,7 @@ import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-
     DisentisBenediktinerklosterComponent,
     MaennedorfZentrumDerHeiligungsbewegungComponent,
     SolothurnSoeursGrisesComponent,
+    SolothurnCantusFirmusComponent,
   ],
   imports: [
     MatToolbarModule,

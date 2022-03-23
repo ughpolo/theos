@@ -120,9 +120,7 @@ a:hover {
 @media (max-width: 1000px) {
 
   //individuelles css:
-  .bild-sehr-klein{
-    width: 50%;
-  }
+
   
   //gemeinsames css:
 
@@ -130,4 +128,12 @@ a:hover {
     grid-template-columns: 0fr 1fr 0fr;
   } 
 
+}
+
+@media (max-width: 500px) {
+
+  //individuelles css:
+  .bild-sehr-klein{
+    width: 50%;
+  }
 }

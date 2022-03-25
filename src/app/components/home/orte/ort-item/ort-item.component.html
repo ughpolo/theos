@@ -1,13 +1,16 @@
 <mat-card *ngIf="isbe(beitrag)" class="dropdown">
   <img mat-card-image [src]="beitrag.image" alt="not working">
   <mat-card-content>
-    <mat-form-field appearance="fill">
+    <mat-form-field appearance="fill" style="padding-top:4px">
       <mat-label>{{beitrag.location}}</mat-label>
-      <mat-select>
-        <mat-option *ngFor="let title of allLocations; let i=index" (click)="select(beitrag.pathnameArray[i])" [value]="">
+      <mat-select id="title">
+        <mat-option *ngFor="let title of allLocations; let i=index" (click)="select(beitrag.pathnameArray[i])" [value]="" >
           {{title}}
         </mat-option>
       </mat-select>
+      <div class="text" style="margin: -6px 18px 0 0">
+        <span id="beitrag">Orte</span>
+      </div>
     </mat-form-field>
   </mat-card-content>
 </mat-card>

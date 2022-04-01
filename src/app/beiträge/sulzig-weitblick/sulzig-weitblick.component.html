@@ -171,13 +171,18 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>
@@ -197,6 +202,10 @@
           <li>
             Mattioli, Aram: «Durch göttliche Güte erwürgt», in: Die Zeit, Nr.
             16, 11.04.2001.
+          </li>
+          <li>
+            Schwingruber, Anton: «Jakob Schmidlin (genannt Sulzig Joggeli)», in:
+            Blätter für Heimatkunde aus dem Entlebuch 51 (1978) 81-120.
           </li>
         </ul>
       </div>

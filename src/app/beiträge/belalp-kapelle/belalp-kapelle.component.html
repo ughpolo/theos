@@ -29,8 +29,8 @@
         Touristen an. Gervas Klingele, ein Pionier des Tourismus, baute daher
         auf dem Aletschbord ein Hotel (1856/1857), das heute noch den Charme
         dieser «Engländer-Zeit» verströmt. Auf zwei Dinge konnte die British
-        upper-class dieser Jahre nicht verzichten: Auf ihren Tennis und
-        natürlich auch auf den anglikanischen Gottesdienst.
+        upper-class dieser Jahre nicht verzichten: Auf ihr Tennis und natürlich
+        auch auf den anglikanischen Gottesdienst.
       </p>
       <img
         class="bild"
@@ -136,13 +136,18 @@
       </p>
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>

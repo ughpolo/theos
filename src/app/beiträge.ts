@@ -134,7 +134,7 @@ export const Beiträge = {
     bild: 'sulzig-weitblick/bild1.jpg',
     autor: 'Gregor Emmenegger, David Neuhold, Anton Schwingruber',
     jahr: '2021',
-    markierungen: [[47.0535, 8.1031]],
+    markierungen: [[47.0445, 8.08993]],
     kanton: Kantone.Luzern,
   },
   'Basel Jüdisches Museum': {

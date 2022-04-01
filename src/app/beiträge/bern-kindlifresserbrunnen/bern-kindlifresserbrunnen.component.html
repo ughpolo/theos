@@ -129,7 +129,7 @@
         Ritualmordvorwurf wird auf Schweizer Boden zum Ende des 13. Jahrhunderts
         zum ersten Mal in Bern erhoben: Berner Juden hätten den christlichen
         Knaben Rudolf ermordet. Die angeblichen Mörder werden hingerichtet und
-        den Juden wird das Bleiberecht entzogen (und mit ihnen den Schulden, die
+        den Juden wird das Bleiberecht entzogen (und mit ihnen die Schulden, die
         die Christen bei ihnen in finanziell schwierigen Zeiten der Stadt
         hatten). Der Berner Pfarrer und Chronist Karl Howald (1796–1869) hatte
         1847 vermutet, der Brunnen würde den angeblichen Ritualmord aus dem 13.
@@ -198,20 +198,24 @@
       </p>
 
       <p class="autor">
-        Prof. Dr. René Bloch ist Professor für Judaistik am Institut für
-        Judaistik und am Institut für Klassische Philologie an der Universität
-        in Bern.
+        Dr. René Bloch ist Professor für Judaistik am Institut für Judaistik und
+        am Institut für Klassische Philologie an der Universität in Bern.
       </p>
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>

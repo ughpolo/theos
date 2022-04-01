@@ -32,7 +32,7 @@
         der Begriff «Hospitale» andeutet, ein Haus der Gastfreundschaft für
         Fremde, für Kriegsflüchtlinge, für Hilfsbedürftige und für Pilgernde.
         Die Lage an der Durchfahrt von Bern nach Basel und an der schiffbaren
-        Aare ideal war. Spitäler wurden meist auch aus Gründen der Hygiene vor
+        Aare war ideal. Spitäler wurden meist auch aus Gründen der Hygiene vor
         dem Stadttor, an einem fliessenden Gewässer errichtet. Das Spital war
         ebenso für bedürftige Einheimische Zufluchtsstätte: Menschen, deren Haus
         abgebrannt war, Waisen, Behinderte, arme Wöchnerinnen, Bettlerinnen und
@@ -182,7 +182,7 @@
       />
       <p class="bildunterschrift">
         Der Balkon mit direktem Anschluss zum ehemaligen Krankensaal. (Bild:
-        Deborah Finger-Oppliger). 
+        Deborah Finger-Oppliger).
         <a
           target="_blank"
           href="https://www.gsk.ch/sites/default/files/360/vr-spitalkirche-zum-heiligen-geist-solothurn/"
@@ -197,13 +197,18 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>

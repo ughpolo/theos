@@ -67,7 +67,12 @@ import { MaennedorfZentrumDerHeiligungsbewegungComponent } from './beiträge/mae
 import { SolothurnSoeursGrisesComponent } from './beiträge/solothurn-soeurs-grises/solothurn-soeurs-grises.component';
 import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-martinskirche.component';
 import { SolothurnCantusFirmusComponent } from './beiträge/solothurn-cantus-firmus/solothurn-cantus-firmus.component';
+import { KirchenthurnenBahaiComponent } from './beiträge/kirchenthurnen-bahai/kirchenthurnen-bahai.component';
 const routes: Routes = [
+  {
+    path: 'tempelland-der-schweizer-bahai-gemeinde',
+    component: KirchenthurnenBahaiComponent,
+  },
   {
     path: 'kunstprojekt-cantus-firmus',
     component: SolothurnCantusFirmusComponent,

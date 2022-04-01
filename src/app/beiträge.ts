@@ -1,6 +1,20 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+
+  'Tempelland der Schweizer Bahai-Gemeinde': {
+    karusselltitel: 'Tempelland der Schweizer Bahai-Gemeinde',
+    verzeichnispfad: 'Tempelland der Schweizer Bahai-Gemeinde',
+    beitragtitel: 'Haus der Andacht mit Blick auf die Berge',
+    ort: 'Kirchenthurnen',
+    bild: 'kirchenthurnen-bahai/bild1.jpg',
+    autor: 'Ruth Merz',
+    jahr: '2022',
+    markierungen: [[46.8219, 7.5007]],
+    kanton: Kantone.Bern,
+  },
+
+
   'Kunstprojekt Cantus firmus': {
     karusselltitel: 'Kunstprojekt Cantus firmus',
     verzeichnispfad: 'Kunstprojekt Cantus firmus',

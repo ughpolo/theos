@@ -26,7 +26,7 @@
         vorkarolingischer Zeit ist durch Grabungen belegt. Beachtung findet auch
         der alte Friedhof mit seiner ursprünglichen Ummauerung und seinen
         Eingangspforten. Das westlich gelegene barocke Pfarrhaus stammt von
-        1776. Der fünfachsige Bau mit angehängter geschlossener Laube in
+        1776. Der fünfachsige Bau, mit angehängter geschlossener Laube in
         Fachwerk, wurde vom Bernischen Stadtarchitekten Niklaus Sprüngli
         (1725–1802) gezeichnet und mit Steinen der oberhalb gelegenen Burgruine
         erbaut. Die zum Kirchgemeindehaus umgebaute Pfrundscheune gehört
@@ -156,7 +156,7 @@
         Man fragt sich, wer alle diese Kunstwerke in Auftrag gegeben hat. Es ist
         Peter Bremgarter, ein Augustiner Chorherr aus Interlaken und Oberhofen,
         welcher 1417 sein Amt hier antrat. Er hat sich an der nördlichen
-        Chorwand unter seinem Namensvetter Petrus kniend, als Stifter verewigen
+        Chorwand, unter seinem Namensvetter Petrus kniend, als Stifter verewigen
         lassen. Möglicherweise ist der Grund für das Projekt dieses begüterten
         Bernburgers einem Votivgedanken zuzuschreiben. Seine Darstellung im
         kleinen Format gründet wohl auf der damaligen Rechtfertigungslehre. Nach
@@ -177,13 +177,18 @@
       </p>
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>

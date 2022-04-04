@@ -21,7 +21,7 @@
         Heilsgegenständen zuzuwenden, kamen die Menschen und versprachen sich
         besondere Kräfte von dieser Madonna. Noch heute zieren Dankesbriefe,
         sogenannte Votivtafeln, die Kirchenwand und die Marienfigur besitzt
-        bereits so viele verschiedene Kleider, dass ein Pater bereits eine
+        inzwischen so viele verschiedene Kleider, dass ein Pater bereits eine
         Modenschau veranstalten konnte.
       </p>
       <h2>Die «Heilige Krankheit»</h2>
@@ -62,7 +62,9 @@
         src="../../../assets/images/einsiedeln-madonna/bild1.jpg"
         alt=""
       />
-      <p class="bildunterschrift">Bildquelle: www.wallfahrt-einsiedeln.ch</p>
+      <p class="bildunterschrift">
+        Die schwarze Madonna. Bildquelle: www.wallfahrt-einsiedeln.ch
+      </p>
       <h2>Gesundheit durch Religion?</h2>
       <p>
         Behandlungsweisen oder Wunderheilungen wie die der Maria Elisabetha
@@ -114,14 +116,14 @@
       </p>
       <h2>Visionen und Medizinpfarrer</h2>
       <p>
-        Nach der Karolingischen Reform im frühen Mittelalter musste die antike
-        Medizin dann eine christliche Rechtfertigung finden und allzu heidnische
-        Passagen umgedeutet werden. Im neuen christlichen Gewand fand sie
-        zusammen mit der regionalen Kräuterkunde Einzug in die Kloster- und
-        Stiftsschulen. So manche Regeln innerhalb der Mönchsgemeinschaften und
-        auch ihr asketisches Ideal erinnern an die Diätetik des Hippokrates oder
-        die Vorschriften der hellenistischen Philosophenschulen zur Zeit des
-        frühen Christentums. Eine der berühmtesten Vertreterin der Heilkunde im
+        Nach der Karolingischen Reform im frühen Mittelalter mussten die antike
+        Medizin christlich gerechtfertigt und allzu heidnische Passagen
+        umgedeutet werden. Im neuen christlichen Gewand fand sie zusammen mit
+        der regionalen Kräuterkunde Einzug in die Kloster- und Stiftsschulen. So
+        manche Regeln innerhalb der Mönchsgemeinschaften und auch ihr
+        asketisches Ideal erinnern an die Diätetik des Hippokrates oder die
+        Vorschriften der hellenistischen Philosophenschulen zur Zeit des frühen
+        Christentums. Eine der berühmtesten Vertreterin der Heilkunde im
         Hochmittelalter ist zweifelsohne die Benediktinerin Hildegard von Bingen
         (1098-1179). Geschickt verband sie mystische und volksheilkundliche
         Elemente. Visionen und Kräutergarten lebten in friedlicher Koexistenz.
@@ -156,13 +158,18 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>

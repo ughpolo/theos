@@ -34,7 +34,7 @@
         Auf ihrer Wanderschaft für Christus gelangten sie ins Urserntal, wo
         Columban Sigisbert auf eigenen Wunsch zurückliess und mit Gallus weiter
         nach Schwaben zog. Sigisbert fand derweil einen abgeschiedenen Ort,
-        Desertina (heute Disentis), begann dessen Land zu bewirtschaften und
+        Desertina (heute Disentis) und begann dessen Land zu bewirtschaften und
         eine Gebetsstätte zu errichten. Die Gründungserzählung berichtet weiter,
         dass Sigisbert schon bald darauf Anhänger um sich gesammelt haben soll,
         unter ihnen auch einen gottesfürchtigen Mann namens Placidus. Dieser
@@ -87,15 +87,7 @@
         Region Surselva gewinnt.
       </p>
       <h2>Kulturgut mit Bedeutung</h2>
-        <img
-          class="bild"
-          src="../../../assets/images/disentis-benediktinerkloster/bild2.jpeg"
-          alt=""
-        />
-      <p class="bildunterschrift">
-        Das Kirchenschiff der Klosterkirche St. Martin zu Disentis. (Bild:
-        Bruder Martin Hieronymi OSB)
-      </p>
+
       <p>
         Neben der Placikrypta und der Marienkirche ist die Klosterkirche St.
         Martin zu Disentis als besonders beeindruckender Teil der Klosteranlage
@@ -110,6 +102,15 @@
         ältesten ihrer Art. So wurden Bildinhalt, Stil und Arbeitstechnik als
         frühbyzantinisch identifiziert. Sie sind heute im Klostermuseum zu
         betrachten.
+      </p>
+      <img
+        class="bild"
+        src="../../../assets/images/disentis-benediktinerkloster/bild2.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Das Kirchenschiff der Klosterkirche St. Martin zu Disentis. (Bild:
+        Bruder Martin Hieronymi OSB)
       </p>
       <h2>
         Das Kloster heute – Ein Gemeinschaft zwischen Innovation und Tradition
@@ -137,9 +138,9 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-        <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
             <a
               style="color: black"

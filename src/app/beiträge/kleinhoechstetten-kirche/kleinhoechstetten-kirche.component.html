@@ -18,10 +18,7 @@
         die weithin hörbare Autobahn A6. Östlich verläuft die Thunstrasse nach
         Rubigen. Die Kirche ist somit von hochfrequentierten Strassen umgeben,
         selbst jedoch kaum in den Öffentlichen Verkehr eingebunden. Im Süden
-        eröffnet sich der Blick auf die Berner Alpen.
-      </p>
-
-      <p>
+        eröffnet sich der Blick auf die Berner Alpen. <br />
         Die Kirche befindet sich, von den wenigen Gebäuden des Weilers umgeben,
         an einem kleinen Platz, und kann zu Fuss umrundet werden. Ausser einem
         Hinweis auf der Wanderbeschilderung deutet wenig auf die Existenz eines
@@ -44,7 +41,7 @@
       <p>
         Das Aaretal war mutmasslich bereits in vorchristlicher Zeit keltisch
         besiedelt. Für den Ort Kleinhöchstetten lässt sich keine vorrömische
-        Besiedelung nachweisen, von einer römischen Ansiedelung ist jedoch
+        Besiedlung nachweisen, von einer römischen Ansiedlung ist jedoch
         auszugehen. Zum einen lag der Ort verkehrsgünstig zwischen römischen
         Ortschaften, zum anderen lassen Mauerrestfunde unter der Kirche darauf
         schliessen. Unterschiedlich zu datierende Grabfunde um die Kirche herum
@@ -57,7 +54,7 @@
         Neben römischen Mauerresten wurde unter dem heutigen Grundriss das
         weitgehend analoge Fundament einer kleineren, frühmittelalterlichen
         Saalkirche gefunden. Dieser ältere Bau stammt mutmasslich aus der Zeit
-        der Wende des 7. zum 8. Jahrhundert, in der weitere Kirchbauten am
+        der Wende vom 7. zum 8. Jahrhundert, in der weitere Kirchbauten am
         Thunersee und in der Aaretal-Region zu den ersten steinernen
         christlichen Manifestierungen gehören. Die heutige Kirche, die im
         Wesentlichen aus dem vergrösserten Neubau besteht, misst knapp 20x10m.
@@ -143,6 +140,14 @@
         älter. Die Kirche steht mit dem Nischenkranz mutmasslich mit
         italienischen Baustilen der Zeit in Beziehung.
       </p>
+      <img
+        class="bild"
+        src="../../../assets/images/kleinhoechstetten-kirche/bild4.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Schiff mit Blick auf Triumphbogen und Chor. (Bild: Miriam Löhr)
+      </p>
       <p>
         Mit der Lage an einer wichtigen historischen Verkehrsachse zwischen dem
         Norden und dem Süden der Alpen, unter keltischem, alemannischem,
@@ -154,27 +159,25 @@
         bewegte Geschichte mit der Gegenwart.
       </p>
       <p>Die Kirche gehört heute als Gotteshaus zur Kirchgemeinde Münsingen.</p>
-      <img
-        class="bild"
-        src="../../../assets/images/kleinhoechstetten-kirche/bild4.jpeg"
-        alt=""
-      />
-      <p class="bildunterschrift">
-        Schiff mit Blick auf Triumphbogen und Chor. (Bild: Miriam Löhr)
-      </p>
+
       <p class="autor">
         Miriam Löhr ist Postdoktorandin am Institut für Praktische Theologie an
         der Theologischen Fakultät der Universität Bern.
       </p>
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-        <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>
@@ -189,22 +192,26 @@
           <li>
             Dubler, Anne-Marie: Artikel Kleinhöchstetten (Version vom
             21.10.2008), in: Historisches Lexikon der Schweiz HLS, verfügbar
-            unter: <a target="_blank"
+            unter:
+            <a
+              target="_blank"
               href="https://hls-dhs-dss.ch/de/articles/008339/2008-10-21/"
               >https://hls-dhs-dss.ch</a
             >(27.12.2021).
           </li>
 
           <li>
-            Website der Reformierten Kirche Münsingen: 
-            <a target="_blank" href="https://www.ref-muensingen.ch/Geschichte_Kleinhoechstetten"
+            Website der Reformierten Kirche Münsingen:
+            <a
+              target="_blank"
+              href="https://www.ref-muensingen.ch/Geschichte_Kleinhoechstetten"
               >https://www.ref-muensingen.ch</a
             >
             (28.12.2021).
           </li>
         </ul>
       </div>
-           <h2>Lageplan:</h2>
+      <h2>Lageplan:</h2>
       <div *ngFor="let id of ids" class="map-container">
         <div [id]="id" class="map"></div>
       </div>

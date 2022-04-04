@@ -6,22 +6,25 @@
 >
 </app-title-image>
 <div class="wrapper">
-  
   <div class="text">
     <div class="innerText">
-      <img class="bild-sehr-klein" src="../../../assets/images/freiburg-zentrum/bild1.jpg" alt="" />
+      <img
+        class="bild-sehr-klein"
+        src="../../../assets/images/freiburg-zentrum/bild1.jpg"
+        alt=""
+      />
       <br />
       <p class="bildunterschrift">
         Das Logo des Zentrums: Die Darstellung des fleischgewordenen,
         gekreuzigten, auferstandenen und erhöhten Jesus Christus mit den
         Wundmalen ist dem Portal der Freiburger Nikolaus-Kathedrale entnommen.
-        Die Brücke symbolisiert unsere Arbeit im Bau von «Brücken» zwischen Ost
-        und West. Die Segenshand stellt das Reliquiar des heiligen Nikolaus in
-        der Freiburger Kathedrale dar. Als Zeichen unserer Publikationsreihe
-        Epiphania weist der Stern den Weg zur Krippe Christi und begleitet mit
-        seinem Licht die Verkündigung der Menschenfreundlichkeit Gottes. Die am
-        Zentrum für das Studium der Ostkirchen verliehene Silberne Rose des
-        heiligen Nikolaus verweist auf die Schönheit und Herrlichkeit Gottes.
+        Die Brücke symbolisiert die Arbeit im Bau von «Brücken» zwischen Ost und
+        West. Die Segenshand stellt das Reliquiar des heiligen Nikolaus in der
+        Freiburger Kathedrale dar. Als Zeichen der Publikationsreihe Epiphania
+        weist der Stern den Weg zur Krippe Christi und begleitet mit seinem
+        Licht die Verkündigung der Menschenfreundlichkeit Gottes. Die am Zentrum
+        für das Studium der Ostkirchen verliehene Silberne Rose des heiligen
+        Nikolaus verweist auf die Schönheit und Herrlichkeit Gottes.
       </p>
       <h2>Kontextualisierung</h2>
       <br />
@@ -192,13 +195,18 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>
@@ -207,8 +215,8 @@
         <h2>Zur Vertiefung:</h2>
         <ul>
           <li>
-            Webseite des Zentrum St. Nikolaus für das Studium der Ostkirchen an
-            der Uni Fribourg, verfügbar unter: 
+            Webseite des Zentrums St. Nikolaus für das Studium der Ostkirchen an
+            der Uni Fribourg, verfügbar unter:
             <a target="_blank" href="https://www.unifr.ch/orthodoxia"
               >https://www.unifr.ch</a
             >
@@ -222,7 +230,7 @@
           <li>
             Ein Interview mit Barbara Hallensleben in: Foi, revue de la
             communauté «Chemin neuf», Nr. 58, September – Oktober - November
-            2018, S. 19, verfügbar unter: 
+            2018, S. 19, verfügbar unter:
             <a
               target="_blank"
               href="https://www3.unifr.ch/webnews/content/200/file/Interview_Chemin-neuf.pdf"
@@ -232,7 +240,7 @@
           </li>
           <li>
             Ein Interview mit Stefan Constantinescu in: Schweizerische
-            Kirchenzeitung 186 (2018), Nr. 19, S. 404-405, verfügbar unter: 
+            Kirchenzeitung 186 (2018), Nr. 19, S. 404-405, verfügbar unter:
             <a
               target="_blank"
               href="https://www3.unifr.ch/webnews/content/200/file/SKZ_Ostkirchen.pdf"
@@ -243,7 +251,7 @@
           <li>
             Ein Intervies mit Stefan Constantinescu in: Alma&Georges, Das
             Online-Magazin der Universität Freiburg (30.10.2018), verfügbar
-            unter: 
+            unter:
             <a
               target="_blank"
               href="https://www.unifr.ch/alma-georges/articles/2018/enfant-je-voulais-toujours-voir-le-saint-nicolas"

@@ -110,6 +110,15 @@
         wieder eine Einheit, die eigentlich schon seit 1941 bestand und von der
         römisch-katholischen Bevölkerung stets schon so verstanden wurde.
       </p>
+      <img
+        class="bild"
+        src="../../../assets/images/mariastein-klosterort/bild2.jpg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Blick auf die Votivtafeln, die zeigen, wie international die
+        Pilgerschaft nach Mariastein ist. (Bild: Pater Notker Strässle).
+      </p>
       <p>
         Die Mönche leben hier ihre benediktinische Berufung, sind als Seelsorger
         tätig und betreuen die Wallfahrt. Diese hat heute eine internationale
@@ -121,15 +130,7 @@
         Jugendherberge (Burg Rotberg). Daneben ist Mariastein auch ein beliebtes
         Ausflugsziel mit vielseiteigen Wandermöglichkeiten.
       </p>
-      <img
-        class="bild"
-        src="../../../assets/images/mariastein-klosterort/bild2.jpg"
-        alt=""
-      />
-      <p class="bildunterschrift">
-        Blick auf die Votivtafeln, die zeigen, wie international die
-        Pilgerschaft nach Mariastein ist. (Bild: Pater Notker Strässle).
-      </p>
+
       <p class="autor">
         Pater Dr. phil. Lukas Schenker, Benediktiner von Mariastein, ist
         Historiker und Archivar im Klosterarchiv in Mariastein.
@@ -137,13 +138,18 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>
@@ -157,7 +163,8 @@
           </li>
           <li>
             Schenker, Lukas: Mariastein. Führer durch Wallfahrt und Kloster.
-            Einsiedeln, 2010, (auch franz., ital., engl., span., tamil.).
+            Einsiedeln, 2010, (auch französisch, italienisch, englisch, spanisch
+            und tamilisch).
           </li>
           <li>
             Schenker, Lukas: Exil und Rückkehr des Mariasteiner Konvents

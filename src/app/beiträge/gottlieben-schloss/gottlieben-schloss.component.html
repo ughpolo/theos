@@ -100,20 +100,25 @@
         ist, lohnt sich aber auf jeden Fall – und das nicht nur für Hussiten.
       </p>
       <p class="autor">
-        Dr. Zbynek Kindschi Garsky ist Assistent am Institut für
+        Dr. Zbyněk Kindschi Garský ist Assistent am Institut für
         Bibelwissenschaft (Neues Testament) an der Theologischen Fakultät der
         Universität Bern.
       </p>
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>
@@ -128,7 +133,7 @@
           </li>
 
           <li>
-            Webseite zu Gottlieben, verfügbar unter: 
+            Webseite zu Gottlieben, verfügbar unter:
             <a target="_blank" href="https://www.gottlieben.ch"
               >https://www.gottlieben.ch</a
             >

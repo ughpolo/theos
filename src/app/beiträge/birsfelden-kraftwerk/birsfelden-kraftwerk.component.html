@@ -18,16 +18,19 @@
         unterscheiden: solche, die zum Zweck des gemeinsamen Gedenkens
         geschaffen worden sind (all die Kirchen in der bereits bestehenden
         Liste), und solche, die sich scheinbar ergeben haben (auf der Liste am
-        ehesten der Gnadenbrunnen im luzernischen Luthernbad), letztlich aber
-        doch auch – wie alle Erinnerungsorte – gemacht worden sind. Klassische
-        Erinnerungsorte theologischer Natur sind Orte, die von Angehörigen der
-        gleichen Glaubensgemeinde aufgesucht und genutzt werden (die Schwarze
-        Madonna von Einsiedeln zum Beispiel als eingeführter Bezugspunkt eines
-        gegebenen Glaubens). Teilhabe an Gemeinsamem ist eine wichtige Dimension
-        der Religiosität.
+        ehesten der
+        <a href="https://theos.unibe.ch/gnadenbrunnen"
+          >Gnadenbrunnen im luzernischen Luthernbad</a
+        >
+        ), letztlich aber doch auch – wie alle Erinnerungsorte – gemacht worden
+        sind. Klassische Erinnerungsorte theologischer Natur sind Orte, die von
+        Angehörigen der gleichen Glaubensgemeinde aufgesucht und genutzt werden
+        (<a href="https://theos.unibe.ch/schwarze-madonna"
+          >die Schwarze Madonna von Einsiedeln</a
+        >
+        zum Beispiel als eingeführter Bezugspunkt eines gegebenen Glaubens).
+        Teilhabe an Gemeinsamem ist eine wichtige Dimension der Religiosität.
       </p>
-
-      <h2>Persönlicher Erinnerungsort</h2>
 
       <img
         class="bild"
@@ -38,6 +41,9 @@
         Kraftwerk Birsfelden (1950–1954) von Hans Hofmann – ein Kraftort zu
         jeder Tages- und Nachtzeit. (Bild: IWB, Christian Flierl)
       </p>
+
+      <h2>Persönlicher Erinnerungsort</h2>
+
       <p>
         Dennoch kann es sehr persönliche und individuelle Erinnerungsorte des
         Glaubens geben, bloss ein bestimmter Baum oder eben ein Kraftwerk – als
@@ -56,15 +62,7 @@
       </p>
 
       <h2>Kraftwerk als Kraftort</h2>
-      <img
-        class="bild"
-        src="../../../assets/images/birsfelden-kraftwerk/bild2.jpg"
-        alt=""
-      />
-      <p class="bildunterschrift">
-        Kraftwerk Birsfelden (1950–1954) von Hans Hofmann – ein Kraftort zu
-        jeder Tages- und Nachtzeit. (Bild: IWB, Christian Flierl)
-      </p>
+
       <p>
         Das Elektrizitätswerk ist primär im physikalischen-materiellen Sinn ein
         Kraftort, weil er als Niederdruck-Laufkraftwerk Energie erzeugt, die in
@@ -80,6 +78,15 @@
         in unserem Innern spüren: die Sturzfluten des überschüssigen Oberwassers
         und im Unterwasser die wilden Wirbel, die das genutzte und von unten
         wieder eingeleitete Wasser erzeugt.
+      </p>
+      <img
+        class="bild"
+        src="../../../assets/images/birsfelden-kraftwerk/bild3.jpg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Wilder Wirbel, nachdem sich das genutzte Oberwasser wieder mit dem
+        Unterwasser vereinigt. (Bild: Georg Kreis)
       </p>
       <h2>Plötzlich diese Agnostik</h2>
       <p>
@@ -101,6 +108,15 @@
         Transzendenzahnung hat nicht die Qualität einer göttlichen Lehre und
         kann darum auch nicht Basis einer wissenschaftlichen Auseinandersetzung
         sein.
+      </p>
+      <img
+        class="bild"
+        src="../../../assets/images/birsfelden-kraftwerk/bild2.jpg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Kraftwerk Birsfelden (1950–1954) von Hans Hofmann – ein Kraftort zu
+        jeder Tages- und Nachtzeit. (Bild: IWB, Christian Flierl)
       </p>
       <h2>Nur ein Beispiel</h2>
       <p>
@@ -126,15 +142,6 @@
         eigene Leben dafür einstehen muss, was das Gewissen uns heisst.
       </p>
 
-      <img
-        class="bild"
-        src="../../../assets/images/birsfelden-kraftwerk/bild3.jpg"
-        alt=""
-      />
-      <p class="bildunterschrift">
-        Wilder Wirbel, nachdem sich das genutzte Oberwasser wieder mit dem
-        Unterwasser vereinigt. (Bild: Georg Kreis)
-      </p>
       <p class="autor">
         Prof. em. Dr. Georg Kreis war bis 2010 Ordinarius für Neuere Allgemeine
         Geschichte und Schweizergeschichte an der Universität Basel und
@@ -145,13 +152,18 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>

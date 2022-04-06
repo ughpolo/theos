@@ -28,7 +28,6 @@
   font-family: "Playfair Display";
   font-size: 36px;
   line-height: 120%;
-  hyphens: auto;
 }
 
 .date h3 {
@@ -76,5 +75,8 @@
 @media (max-width: 1000px) {
   .textWrapper {
     width: 98%;
+  }
+  .title h1 {
+   hyphens: auto;
   }
 }

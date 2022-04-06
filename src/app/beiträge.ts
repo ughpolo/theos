@@ -325,7 +325,7 @@ export const Beiträge = {
     karusselltitel: 'Studium der Ostkirchen',
     verzeichnispfad: 'Studium der Ostkirchen',
     beitragtitel:
-      'Zentrum für das Studium der Ostkirchen an der Universität Freiburg Orthodoxe Spiritualität in einer Universität katholischer Prägung',
+      'Zentrum für das Studium der Ostkirchen an der Universität Freiburg: Orthodoxe Spiritualität in einer Universität katholischer Prägung',
     bild: 'freiburg-zentrum/bild3.jpg',
     ort: 'Freiburg',
     autor: 'Stefan Constantinescu',
@@ -337,7 +337,7 @@ export const Beiträge = {
     karusselltitel: 'Centre d’études des Églises d’Orient',
     verzeichnispfad: 'Etudes des Eglises dOrient',
     beitragtitel:
-      'Centre d’études des Églises d’Orient à l’Université de Fribourg La spiritualité orthodoxe dans une université à caractère catholique',
+      'Centre d’études des Églises d’Orient à l’Université de Fribourg: La spiritualité orthodoxe dans une université à caractère catholique',
     bild: 'freiburg-centre-dorient/bild3.jpg',
     ort: 'Freiburg',
     autor: 'Stefan Constantinescu',

@@ -1,6 +1,18 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Totentanz Basel': {
+    karusselltitel: 'Totentanz',
+    verzeichnispfad: 'Totentanz',
+    beitragtitel: 'Vom tanzenden Tod ...',
+    ort: 'Basel',
+    bild: 'basel-totentanz/bild1.jpeg',
+    autor: 'Michael Bangert',
+    jahr: '2022',
+    markierungen: [[47, 5620685, 7, 5851834]],
+    kanton: Kantone.BaselStadt,
+  },
+
   'Tempelland der Schweizer Bahai-Gemeinde': {
     karusselltitel: 'Tempelland der Schweizer Bahai-Gemeinde',
     verzeichnispfad: 'Tempelland der Schweizer Bahai-Gemeinde',

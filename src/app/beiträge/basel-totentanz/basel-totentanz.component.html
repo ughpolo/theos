@@ -1,0 +1,63 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'basel-totentanz/bild1.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p id="firstParagraph">
+        Nichts erinnert heute auf den ersten Blick an einen «Totentanz», wenn
+        man den Platz mit diesem Namen betritt. Eher beiläufig gepflegt liegt
+        der Kleinstpark am Rande der Altstadt. Kaum jemand sitzt unter den
+        Linden, der nicht auf ein Tram wartet. Und kommt das Tram, ist alles
+        wieder leer. Ein seltsam unbehauster Platz, – wo einst der Tod getanzt
+        hat. Nicht einmal die Tramhaltestelle trägt seinen Namen, sondern musste
+        nach einigem politischen Gezerre dem «Universitätsspital» den Vorrang
+        lassen.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/basel-totentanz/bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">bildunterschrift</p>
+
+      <p class="autor">autor</p>
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            textb4link (Leerzeichen am Schluss)
+            <a target="_blank" href="https://websitelink">text</a>
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

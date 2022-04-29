@@ -100,6 +100,7 @@ import { SolothurnSoeursGrisesComponent } from './beiträge/solothurn-soeurs-gri
 import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-martinskirche.component';
 import { SolothurnCantusFirmusComponent } from './beiträge/solothurn-cantus-firmus/solothurn-cantus-firmus.component';
 import { KirchenthurnenBahaiComponent } from './beiträge/kirchenthurnen-bahai/kirchenthurnen-bahai.component';
+import { BaselTotentanzComponent } from './beiträge/basel-totentanz/basel-totentanz.component';
 @NgModule({
   declarations: [
     BaptisteriumComponent,
@@ -178,6 +179,7 @@ import { KirchenthurnenBahaiComponent } from './beiträge/kirchenthurnen-bahai/k
     SolothurnSoeursGrisesComponent,
     SolothurnCantusFirmusComponent,
     KirchenthurnenBahaiComponent,
+    BaselTotentanzComponent,
   ],
   imports: [
     MatToolbarModule,

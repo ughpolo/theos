@@ -68,7 +68,12 @@ import { SolothurnSoeursGrisesComponent } from './beiträge/solothurn-soeurs-gri
 import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-martinskirche.component';
 import { SolothurnCantusFirmusComponent } from './beiträge/solothurn-cantus-firmus/solothurn-cantus-firmus.component';
 import { KirchenthurnenBahaiComponent } from './beiträge/kirchenthurnen-bahai/kirchenthurnen-bahai.component';
+import { BaselTotentanzComponent } from './beiträge/basel-totentanz/basel-totentanz.component';
 const routes: Routes = [
+  {
+    path: 'totentanz',
+    component: BaselTotentanzComponent,
+  },
   {
     path: 'tempelland-der-schweizer-bahai-gemeinde',
     component: KirchenthurnenBahaiComponent,
@@ -218,7 +223,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
+  imports: [
+    RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' }),
+  ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

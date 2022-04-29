@@ -9,7 +9,7 @@ export const Beiträge = {
     bild: 'basel-totentanz/bild1.jpeg',
     autor: 'Michael Bangert',
     jahr: '2022',
-    markierungen: [[47, 5620685, 7, 5851834]],
+    markierungen: [[47.56201, 7.58523]],
     kanton: Kantone.BaselStadt,
   },
 

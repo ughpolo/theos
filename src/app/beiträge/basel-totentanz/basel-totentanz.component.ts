@@ -10,7 +10,7 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 })
 export class BaselTotentanzComponent implements OnInit {
   ngOnInit(): void {
-    this.assign('Michael Bangert ', 'Totentanz');
+    this.assign('Michael Bangert', 'Totentanz');
     this.createIds();
   }
 

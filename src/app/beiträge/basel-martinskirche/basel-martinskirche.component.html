@@ -71,7 +71,7 @@
       </p>
       <h2>Wandlungen der Erinnerungspolitik</h2>
       <p>
-        Vom wundertätigen Mönchsbischof eines Sulpi­ cius Severus über den
+        Vom wundertätigen Mönchsbischof eines Sulpi­cius Severus über den
         rechtgläubigen Bekenner und den militarisierten Martin der Merowinger
         wurde Martin ab dem 12.Jahrhundert zum sozialen Heiligen und zum
         Sinnbild der christlichen Nächstenliebe. Die Mantelspende ist die am
@@ -119,13 +119,18 @@
       </p>
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-        <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>
@@ -144,7 +149,7 @@
         </ul>
       </div>
 
-           <h2>Lageplan:</h2>
+      <h2>Lageplan:</h2>
       <div *ngFor="let id of ids" class="map-container">
         <div [id]="id" class="map"></div>
       </div>

@@ -69,7 +69,12 @@ import { VispMartinskircheComponent } from './beiträge/visp-martinskirche/visp-
 import { SolothurnCantusFirmusComponent } from './beiträge/solothurn-cantus-firmus/solothurn-cantus-firmus.component';
 import { KirchenthurnenBahaiComponent } from './beiträge/kirchenthurnen-bahai/kirchenthurnen-bahai.component';
 import { BaselTotentanzComponent } from './beiträge/basel-totentanz/basel-totentanz.component';
+import { WindischDasAmphitheaterVindonissaComponent } from './beiträge/windisch-das-amphitheater-vindonissa/windisch-das-amphitheater-vindonissa.component';
 const routes: Routes = [
+  {
+    path: 'das-amphitheater-vindonissa',
+    component: WindischDasAmphitheaterVindonissaComponent,
+  },
   {
     path: 'totentanz',
     component: BaselTotentanzComponent,

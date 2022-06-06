@@ -1,6 +1,17 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Das Amphitheater Vindonissa': {
+    karusselltitel: 'Das Amphitheater Vindonissa',
+    verzeichnispfad: 'Das Amphitheater Vindonissa',
+    beitragtitel: 'Vom Kultort zur Kulturstätte: Das Amphitheater Vindonissa',
+    ort: 'Windisch',
+    bild: 'windisch-das-amphitheater-vindonissa/bild1.jpg',
+    autor: 'Tabea Stauffer',
+    jahr: '2022',
+    markierungen: [[47.47628, 8.21373]],
+    kanton: Kantone.Aargau,
+  },
   'Totentanz Basel': {
     karusselltitel: 'Totentanz',
     verzeichnispfad: 'Totentanz',

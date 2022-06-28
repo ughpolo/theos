@@ -102,6 +102,7 @@ import { SolothurnCantusFirmusComponent } from './beiträge/solothurn-cantus-fir
 import { KirchenthurnenBahaiComponent } from './beiträge/kirchenthurnen-bahai/kirchenthurnen-bahai.component';
 import { BaselTotentanzComponent } from './beiträge/basel-totentanz/basel-totentanz.component';
 import { WindischDasAmphitheaterVindonissaComponent } from './beiträge/windisch-das-amphitheater-vindonissa/windisch-das-amphitheater-vindonissa.component';
+import { OberdorfWallfahrtskircheComponent } from './beiträge/oberdorf-wallfahrtskirche/oberdorf-wallfahrtskirche.component';
 @NgModule({
   declarations: [
     BaptisteriumComponent,
@@ -182,6 +183,7 @@ import { WindischDasAmphitheaterVindonissaComponent } from './beiträge/windisch
     KirchenthurnenBahaiComponent,
     BaselTotentanzComponent,
     WindischDasAmphitheaterVindonissaComponent,
+    OberdorfWallfahrtskircheComponent,
   ],
   imports: [
     MatToolbarModule,

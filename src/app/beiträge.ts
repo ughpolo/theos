@@ -1,6 +1,18 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
+  'Wallfahrtskirche Mariä Himmelfahrt': {
+    karusselltitel: 'Wallfahrtskirche Mariä Himmelfahrt',
+    verzeichnispfad: 'Wallfahrtskirche Mariä Himmelfahrt',
+    beitragtitel: 'Wallfahrtskirche Mariä Himmelfahrt in Oberdorf',
+    ort: 'Oberdorf',
+    bild: 'oberdorf-wallfahrtskirche/Bild1.jpg',
+    autor: 'Peter Widmer',
+    jahr: '2022',
+    markierungen: [[47.2293, 7.503]],
+    kanton: Kantone.Solothurn,
+  },
+
   'Das Amphitheater Vindonissa': {
     karusselltitel: 'Das Amphitheater Vindonissa',
     verzeichnispfad: 'Das Amphitheater Vindonissa',

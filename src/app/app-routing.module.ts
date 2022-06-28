@@ -70,7 +70,12 @@ import { SolothurnCantusFirmusComponent } from './beiträge/solothurn-cantus-fir
 import { KirchenthurnenBahaiComponent } from './beiträge/kirchenthurnen-bahai/kirchenthurnen-bahai.component';
 import { BaselTotentanzComponent } from './beiträge/basel-totentanz/basel-totentanz.component';
 import { WindischDasAmphitheaterVindonissaComponent } from './beiträge/windisch-das-amphitheater-vindonissa/windisch-das-amphitheater-vindonissa.component';
+import { OberdorfWallfahrtskircheComponent } from './beiträge/oberdorf-wallfahrtskirche/oberdorf-wallfahrtskirche.component';
 const routes: Routes = [
+  {
+    path: 'wallfahrtskirche-mariä-himmelfahrt',
+    component: OberdorfWallfahrtskircheComponent,
+  },
   {
     path: 'das-amphitheater-vindonissa',
     component: WindischDasAmphitheaterVindonissaComponent,

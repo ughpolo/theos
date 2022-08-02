@@ -103,6 +103,9 @@ import { KirchenthurnenBahaiComponent } from './beiträge/kirchenthurnen-bahai/k
 import { BaselTotentanzComponent } from './beiträge/basel-totentanz/basel-totentanz.component';
 import { WindischDasAmphitheaterVindonissaComponent } from './beiträge/windisch-das-amphitheater-vindonissa/windisch-das-amphitheater-vindonissa.component';
 import { OberdorfWallfahrtskircheComponent } from './beiträge/oberdorf-wallfahrtskirche/oberdorf-wallfahrtskirche.component';
+import { TrouvaillenPraeludiumComponent } from './beiträge/trouvaillen-praeludium/trouvaillen-praeludium.component';
+import { TrouvaillenChristusunddiekircheComponent } from './beiträge/trouvaillen-christusunddiekirche/trouvaillen-christusunddiekirche.component';
+
 @NgModule({
   declarations: [
     BaptisteriumComponent,
@@ -184,6 +187,9 @@ import { OberdorfWallfahrtskircheComponent } from './beiträge/oberdorf-wallfahr
     BaselTotentanzComponent,
     WindischDasAmphitheaterVindonissaComponent,
     OberdorfWallfahrtskircheComponent,
+    TrouvaillenPraeludiumComponent,
+    TrouvaillenChristusunddiekircheComponent,
+
   ],
   imports: [
     MatToolbarModule,

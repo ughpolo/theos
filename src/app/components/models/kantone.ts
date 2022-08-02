@@ -25,5 +25,6 @@ export enum Kantone {
     Genf = "Genève",
     Jura = "Jura",
     Thurgau = "Thurgau",
-    London = "London"
+    London = "London",
+    Trouvaillen = "Trouvaillen"
 }

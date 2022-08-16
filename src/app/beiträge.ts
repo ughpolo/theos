@@ -29,7 +29,7 @@ export const Beiträge = {
     karusselltitel: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',
     verzeichnispfad: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',
     beitragtitel: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',
-    ort: 'St.Gallen',
+    ort: 'St. Gallen',
     bild: 'st-mangen-wiborada/Bild1.jpeg',
     autor: 'Ann-Katrin Gässlein',
     jahr: '2022',

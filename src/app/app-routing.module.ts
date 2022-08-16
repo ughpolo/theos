@@ -73,15 +73,20 @@ import { WindischDasAmphitheaterVindonissaComponent } from './beiträge/windisch
 import { OberdorfWallfahrtskircheComponent } from './beiträge/oberdorf-wallfahrtskirche/oberdorf-wallfahrtskirche.component';
 import { TrouvaillenPraeludiumComponent } from './beiträge/trouvaillen-praeludium/trouvaillen-praeludium.component';
 import { TrouvaillenChristusunddiekircheComponent } from './beiträge/trouvaillen-christusunddiekirche/trouvaillen-christusunddiekirche.component';
+import { StMangenWiboradaComponent } from './beiträge/st-mangen-wiborada/st-mangen-wiborada.component';
 const routes: Routes = [
   {
     path: 'christusunddiekirche',
-     component: TrouvaillenChristusunddiekircheComponent,
-   }, 
+    component: TrouvaillenChristusunddiekircheComponent,
+  },
   {
-   path: 'praeludium',
+    path: 'praeludium',
     component: TrouvaillenPraeludiumComponent,
-  }, 
+  },
+  {
+    path: 'st.-mangen-die älteste-kirche-der-stadt-st.-gallen',
+    component: StMangenWiboradaComponent,
+  },
   {
     path: 'wallfahrtskirche-mariä-himmelfahrt',
     component: OberdorfWallfahrtskircheComponent,

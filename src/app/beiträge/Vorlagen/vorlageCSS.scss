@@ -1,6 +1,5 @@
 //individuelles css:
 
-
 //gemeinsames css:
 
 .wrapper {
@@ -16,7 +15,7 @@
   line-height: 1.625;
   font-weight: 300;
   font-size: 1.1em;
-} 
+}
 
 .innerText {
   grid-column: 2/3;
@@ -89,17 +88,14 @@ a:hover {
   padding-top: 50%;
 }
 
-
 @media (min-width: 1700px) {
-
   //individuelles css:
-
 
   //gemeinsames css:
 
   .text {
     font-size: 0.9vw;
-  } 
+  }
 
   h2 {
     font-size: 1.5vw;
@@ -110,18 +106,14 @@ a:hover {
     font-size: 3.6vw;
     line-height: 1.8vw;
   }
-
 }
 
 @media (max-width: 1000px) {
-
   //individuelles css:
 
-  
   //gemeinsames css:
 
   .text {
     grid-template-columns: 0fr 1fr 0fr;
-  } 
-
+  }
 }

@@ -1,8 +1,6 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
-
-  
   /*'0 Präludium: «Man muss sie spielen …» ': {
     karusselltitel: '0 Präludium: «Man muss sie spielen …» ',
     verzeichnispfad: 'Praeludium',
@@ -26,7 +24,18 @@ export const Beiträge = {
     markierungen: [[46.80787, 7.15951]],
     kanton: Kantone.Trouvaillen,
   },*/
- 
+
+  'St. Mangen - Die älteste Kirche der Stadt St. Gallen': {
+    karusselltitel: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',
+    verzeichnispfad: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',
+    beitragtitel: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',
+    ort: 'St.Gallen',
+    bild: 'st-mangen-wiborada/Bild1.jpeg',
+    autor: 'Ann-Katrin Gässlein',
+    jahr: '2022',
+    markierungen: [[47.42775, 9.37616]],
+    kanton: Kantone.SanktGallen,
+  },
 
   'Wallfahrtskirche Mariä Himmelfahrt': {
     karusselltitel: 'Wallfahrtskirche Mariä Himmelfahrt',

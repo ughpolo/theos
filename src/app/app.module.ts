@@ -105,6 +105,7 @@ import { WindischDasAmphitheaterVindonissaComponent } from './beiträge/windisch
 import { OberdorfWallfahrtskircheComponent } from './beiträge/oberdorf-wallfahrtskirche/oberdorf-wallfahrtskirche.component';
 import { TrouvaillenPraeludiumComponent } from './beiträge/trouvaillen-praeludium/trouvaillen-praeludium.component';
 import { TrouvaillenChristusunddiekircheComponent } from './beiträge/trouvaillen-christusunddiekirche/trouvaillen-christusunddiekirche.component';
+import { StMangenWiboradaComponent } from './beiträge/st-mangen-wiborada/st-mangen-wiborada.component';
 
 @NgModule({
   declarations: [
@@ -189,6 +190,7 @@ import { TrouvaillenChristusunddiekircheComponent } from './beiträge/trouvaille
     OberdorfWallfahrtskircheComponent,
     TrouvaillenPraeludiumComponent,
     TrouvaillenChristusunddiekircheComponent,
+    StMangenWiboradaComponent,
 
   ],
   imports: [

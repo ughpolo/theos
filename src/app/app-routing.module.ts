@@ -84,7 +84,7 @@ const routes: Routes = [
     component: TrouvaillenPraeludiumComponent,
   },
   {
-    path: 'st.-mangen-die älteste-kirche-der-stadt-st.-gallen',
+    path: 'st.-mangen---die-älteste-kirche-der-stadt-st.-gallen',
     component: StMangenWiboradaComponent,
   },
   {

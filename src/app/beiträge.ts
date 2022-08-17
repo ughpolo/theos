@@ -31,9 +31,9 @@ export const Beiträge = {
     beitragtitel: 'Die Galluspforte am Basler Münster',
     ort: 'Basel',
     bild: 'basel-galluspforte/Bild0.jpeg',
-    autor: 'Silvan Beer ',
+    autor: 'Silvan Beer',
     jahr: '2022',
-    markierungen: [[47.55622, 7.59226]],
+    markierungen: [[47.55621, 7.59225]],
     kanton: Kantone.BaselStadt,
   },
 

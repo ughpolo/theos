@@ -37,6 +37,18 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },*/
 
+  'Église Saint-Jean-Baptiste': {
+    karusselltitel: 'Église Saint-Jean-Baptiste',
+    verzeichnispfad: 'Église Saint-Jean-Baptiste',
+    beitragtitel: 'Prädikat: «Mérite un détour»',
+    ort: 'Gland',
+    bild: 'gland-saint-jean-baptiste/Bild1.jpeg',
+    autor: 'David Zimmer',
+    jahr: '2022',
+    markierungen: [[46.42244, 6.26538]],
+    kanton: Kantone.Waadt,
+  },
+
   'St. Mangen - Die älteste Kirche der Stadt St. Gallen': {
     karusselltitel: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',
     verzeichnispfad: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',

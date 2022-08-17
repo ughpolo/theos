@@ -107,6 +107,7 @@ import { TrouvaillenPraeludiumComponent } from './beiträge/trouvaillen-praeludi
 import { TrouvaillenChristusunddiekircheComponent } from './beiträge/trouvaillen-christusunddiekirche/trouvaillen-christusunddiekirche.component';
 import { StMangenWiboradaComponent } from './beiträge/st-mangen-wiborada/st-mangen-wiborada.component';
 import { BaselGalluspforteComponent } from './beiträge/basel-galluspforte/basel-galluspforte.component';
+import { GlandSaintJeanBaptisteComponent } from './beiträge/gland-saint-jean-baptiste/gland-saint-jean-baptiste.component';
 
 @NgModule({
   declarations: [
@@ -193,6 +194,7 @@ import { BaselGalluspforteComponent } from './beiträge/basel-galluspforte/basel
     TrouvaillenChristusunddiekircheComponent,
     StMangenWiboradaComponent,
     BaselGalluspforteComponent,
+    GlandSaintJeanBaptisteComponent,
 
   ],
   imports: [

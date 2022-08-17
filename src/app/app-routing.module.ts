@@ -75,6 +75,7 @@ import { TrouvaillenPraeludiumComponent } from './beiträge/trouvaillen-praeludi
 import { TrouvaillenChristusunddiekircheComponent } from './beiträge/trouvaillen-christusunddiekirche/trouvaillen-christusunddiekirche.component';
 import { StMangenWiboradaComponent } from './beiträge/st-mangen-wiborada/st-mangen-wiborada.component';
 import { BaselGalluspforteComponent } from './beiträge/basel-galluspforte/basel-galluspforte.component';
+import { GlandSaintJeanBaptisteComponent } from './beiträge/gland-saint-jean-baptiste/gland-saint-jean-baptiste.component';
 const routes: Routes = [
   {
     path: 'christusunddiekirche',
@@ -83,6 +84,10 @@ const routes: Routes = [
   {
     path: 'praeludium',
     component: TrouvaillenPraeludiumComponent,
+  },
+  {
+    path: 'église-saint---jean---baptiste',
+    component: GlandSaintJeanBaptisteComponent,
   },
   {
     path: 'die-galluspforte-am-basler-münster',

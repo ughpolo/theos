@@ -23,7 +23,7 @@ export const Beiträge = {
     jahr: '2006',
     markierungen: [[46.80787, 7.15951]],
     kanton: Kantone.Trouvaillen,
-  },*/
+  },
 
   'Basel Galluspforte': {
     karusselltitel: 'Die Galluspforte am Basler Münster',
@@ -35,7 +35,7 @@ export const Beiträge = {
     jahr: '2022',
     markierungen: [[47.55621, 7.59225]],
     kanton: Kantone.BaselStadt,
-  },
+  },*/
 
   'St. Mangen - Die älteste Kirche der Stadt St. Gallen': {
     karusselltitel: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',

@@ -74,6 +74,7 @@ import { OberdorfWallfahrtskircheComponent } from './beiträge/oberdorf-wallfahr
 import { TrouvaillenPraeludiumComponent } from './beiträge/trouvaillen-praeludium/trouvaillen-praeludium.component';
 import { TrouvaillenChristusunddiekircheComponent } from './beiträge/trouvaillen-christusunddiekirche/trouvaillen-christusunddiekirche.component';
 import { StMangenWiboradaComponent } from './beiträge/st-mangen-wiborada/st-mangen-wiborada.component';
+import { BaselGalluspforteComponent } from './beiträge/basel-galluspforte/basel-galluspforte.component';
 const routes: Routes = [
   {
     path: 'christusunddiekirche',
@@ -82,6 +83,10 @@ const routes: Routes = [
   {
     path: 'praeludium',
     component: TrouvaillenPraeludiumComponent,
+  },
+  {
+    path: 'die-galluspforte-am-basler-münster',
+    component: BaselGalluspforteComponent,
   },
   {
     path: 'st.-mangen---die-älteste-kirche-der-stadt-st.-gallen',

@@ -106,6 +106,7 @@ import { OberdorfWallfahrtskircheComponent } from './beiträge/oberdorf-wallfahr
 import { TrouvaillenPraeludiumComponent } from './beiträge/trouvaillen-praeludium/trouvaillen-praeludium.component';
 import { TrouvaillenChristusunddiekircheComponent } from './beiträge/trouvaillen-christusunddiekirche/trouvaillen-christusunddiekirche.component';
 import { StMangenWiboradaComponent } from './beiträge/st-mangen-wiborada/st-mangen-wiborada.component';
+import { BaselGalluspforteComponent } from './beiträge/basel-galluspforte/basel-galluspforte.component';
 
 @NgModule({
   declarations: [
@@ -191,6 +192,7 @@ import { StMangenWiboradaComponent } from './beiträge/st-mangen-wiborada/st-man
     TrouvaillenPraeludiumComponent,
     TrouvaillenChristusunddiekircheComponent,
     StMangenWiboradaComponent,
+    BaselGalluspforteComponent,
 
   ],
   imports: [

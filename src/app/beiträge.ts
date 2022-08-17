@@ -25,6 +25,18 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },*/
 
+  'Basel Galluspforte': {
+    karusselltitel: 'Die Galluspforte am Basler Münster',
+    verzeichnispfad: 'Die Galluspforte am Basler Münster',
+    beitragtitel: 'Die Galluspforte am Basler Münster',
+    ort: 'Basel',
+    bild: 'basel-galluspforte/Bild0.jpeg',
+    autor: 'Silvan Beer ',
+    jahr: '2022',
+    markierungen: [[47.55622, 7.59226]],
+    kanton: Kantone.BaselStadt,
+  },
+
   'St. Mangen - Die älteste Kirche der Stadt St. Gallen': {
     karusselltitel: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',
     verzeichnispfad: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',

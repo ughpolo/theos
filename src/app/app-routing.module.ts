@@ -86,7 +86,7 @@ const routes: Routes = [
     component: TrouvaillenPraeludiumComponent,
   },
   {
-    path: 'église-saint---jean---baptiste',
+    path: 'saint-jean-baptiste',
     component: GlandSaintJeanBaptisteComponent,
   },
   {

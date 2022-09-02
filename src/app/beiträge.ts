@@ -25,17 +25,7 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },
 
-  'Église Saint-Jean-Baptiste': {
-    karusselltitel: 'Église Saint-Jean-Baptiste',
-    verzeichnispfad: 'Saint-Jean-Baptiste',
-    beitragtitel: 'Prädikat: «Mérite un détour»',
-    ort: 'Gland',
-    bild: 'gland-saint-jean-baptiste/Bild1.jpeg',
-    autor: 'David Zimmer',
-    jahr: '2022',
-    markierungen: [[46.42244, 6.26538]],
-    kanton: Kantone.Waadt,
-  },
+
 
   'Basel Galluspforte': {
     karusselltitel: 'Die Galluspforte am Basler Münster',
@@ -48,6 +38,18 @@ export const Beiträge = {
     markierungen: [[47.55621, 7.59225]],
     kanton: Kantone.BaselStadt,
   },*/
+
+  'Église Saint-Jean-Baptiste': {
+    karusselltitel: 'Église Saint-Jean-Baptiste',
+    verzeichnispfad: 'Saint-Jean-Baptiste',
+    beitragtitel: 'Prädikat: «Mérite un détour»',
+    ort: 'Gland',
+    bild: 'gland-saint-jean-baptiste/Bild1.jpeg',
+    autor: 'David Zimmer',
+    jahr: '2022',
+    markierungen: [[46.42244, 6.26538]],
+    kanton: Kantone.Waadt,
+  },
 
   'St. Mangen - Die älteste Kirche der Stadt St. Gallen': {
     karusselltitel: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',

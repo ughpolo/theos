@@ -24,7 +24,7 @@ export const Beiträge = {
     markierungen: [[46.80787, 7.15951]],
     kanton: Kantone.Trouvaillen,
   },
-*/
+
   'Église Saint-Jean-Baptiste': {
     karusselltitel: 'Église Saint-Jean-Baptiste',
     verzeichnispfad: 'Saint-Jean-Baptiste',
@@ -36,7 +36,7 @@ export const Beiträge = {
     markierungen: [[46.42244, 6.26538]],
     kanton: Kantone.Waadt,
   },
-/*
+
   'Basel Galluspforte': {
     karusselltitel: 'Die Galluspforte am Basler Münster',
     verzeichnispfad: 'Die Galluspforte am Basler Münster',

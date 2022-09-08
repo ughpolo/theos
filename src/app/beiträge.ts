@@ -1,7 +1,20 @@
 import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
-  /*'0 Präludium: «Man muss sie spielen …» ': {
+  /*
+'Église Saint-Jean-Baptiste': {
+    karusselltitel: 'Église Saint-Jean-Baptiste',
+    verzeichnispfad: 'Saint-Jean-Baptiste',
+    beitragtitel: 'Prädikat: «Mérite un détour»',
+    ort: 'Gland',
+    bild: 'gland-saint-jean-baptiste/Bild1.jpeg',
+    autor: 'David Zimmer',
+    jahr: '2022',
+    markierungen: [[46.42244, 6.26538]],
+    kanton: Kantone.Waadt,
+  },
+
+  '0 Präludium: «Man muss sie spielen …» ': {
     karusselltitel: '0 Präludium: «Man muss sie spielen …» ',
     verzeichnispfad: 'Praeludium',
     beitragtitel: '0 Präludium: «Man muss sie spielen …» ',
@@ -9,7 +22,7 @@ export const Beiträge = {
     bild: 'trouvaillen/bild1.jpg',
     autor: 'Rudolf Dellsberger',
     jahr: '2006',
-    markierungen: [[45.13332, 10.02400]],
+    markierungen: [[45.13332, 10.024]],
     kanton: Kantone.Trouvaillen,
   },
 
@@ -24,19 +37,6 @@ export const Beiträge = {
     markierungen: [[46.80787, 7.15951]],
     kanton: Kantone.Trouvaillen,
   },
-
-'Église Saint-Jean-Baptiste': {
-    karusselltitel: 'Église Saint-Jean-Baptiste',
-    verzeichnispfad: 'Saint-Jean-Baptiste',
-    beitragtitel: 'Prädikat: «Mérite un détour»',
-    ort: 'Gland',
-    bild: 'gland-saint-jean-baptiste/Bild1.jpeg',
-    autor: 'David Zimmer',
-    jahr: '2022',
-    markierungen: [[46.42244, 6.26538]],
-    kanton: Kantone.Waadt,
-  },
-
 
   'Basel Galluspforte': {
     karusselltitel: 'Die Galluspforte am Basler Münster',

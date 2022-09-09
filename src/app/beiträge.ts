@@ -50,6 +50,18 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },*/
 
+  '1 Christus und die Kirche': {
+    karusselltitel: '1 Christus und die Kirche',
+    verzeichnispfad: 'christusunddiekirche',
+    beitragtitel: '1 Christus und die Kirche',
+    ort: 'Trouvaille Münchenwiler (BE)',
+    bild: 'muenchenwiler-christus-kirche/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2007)',
+    markierungen: [[46.9122, 7.127]],
+    kanton: Kantone.Trouvaillen,
+  },
+
   'St. Mangen - Die älteste Kirche der Stadt St. Gallen': {
     karusselltitel: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',
     verzeichnispfad: 'St. Mangen - Die älteste Kirche der Stadt St. Gallen',

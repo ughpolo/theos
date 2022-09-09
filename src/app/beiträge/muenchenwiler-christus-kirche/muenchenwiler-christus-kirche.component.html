@@ -1,0 +1,103 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'muenchenwiler-christus-kirche/Bild0.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+
+      <p id="firstParagraph">
+        Dieses Relief befindet sich im Museum für Kunst und Geschichte in
+        Freiburg. Es stammt vermutlich aus der Mitte des 11. Jahrhunderts und
+        wurde im ehemaligen Kluniazenserkloster Münchenwiler gefunden.
+      </p>
+      <p>
+        Dargestellt ist Christus am Kreuz. Mit weit ausgebreiteten Armen hängt
+        er da. Seine Zehenspitzen erreichen das schmale Podest gerade noch. Am
+        gemarterten Leib treten die Rippen hervor. Der Mund ist offen, der Kopf
+        im Verhältnis zum Körper gross. Unter den Kreuzesbalken stehen Maria und
+        Johannes. Ihre Gestik verrät Schmerz. Von oben leuchten Sonne und Mond.
+        Dazwischen ein Fingerzeig. <br />Der unbekannte Künstler hat die drei
+        Gestalten umrahmt. Die Umrisse ergeben den Plan einer romanischen
+        Kirche: Zu Füssen Christi der Eingang, dann Mittelschiff und
+        Seitenschiffe, die Vierung, das Querschiff und, ums Haupt, die Apsis.
+        <br />So eng sind Christus und die Kirche aufeinander bezogen? Ich weiss
+        nicht, ob der Künstler es so gemeint hat. Aber sein Bild bringt mich auf
+        diesen Gedanken. Christus erfüllt mit Haupt und Gliedern seine Kirche.
+        Ohne ihn und sein Kreuz ergäbe sich der Entwurf von Kirche nicht. Sie
+        ist sein Wirkungsraum. Im Schnittpunkt der Vertikalen und der
+        Horizontalen, dort, wo das Evangelium verkündigt wird und Brot und Wein
+        gereicht werden, öffnet sich sein Mund. Die Kirche ist sein Auditorium.
+        Sie trägt den Klang seines Wortes weiter. <br />Der Plan erweckt den
+        Eindruck, als befänden sich Maria und Johannes in der Kirche. In
+        Wirklichkeit sind sie zusammen mit Christus, ihrer Mitte, die Kirche.
+        Sie bilden als lebendige Bausteine Gottes Tempel. <br />
+        Kreuzigungsbild und Architekturplan sind ineinander verwoben. Kirche
+        läuft oft Gefahr, Christus nicht Raum zu geben, sondern ihn zu
+        vereinnahmen, das Monopol auf ihn zu erheben und ihn festzunageln. Sie
+        kann ihm zum Kreuz werden, während ihr das Kreuz doch zugrunde liegt.
+        <br />Sonne und Mond deuten an, dass der Tod und mit ihm die
+        Auferstehung und die Geburt Christi universale Bedeutung haben. Die
+        Kirche wird sich deshalb um das Wohl aller Menschen und der gesamten
+        Schöpfung kümmern. Wo Menschen und die Kreatur leiden, ist sie gefordert
+        – freilich oft auch überfordert. Als «Kreuzkirche» bleibt ihr das nicht
+        erspart. Über allem schliesslich dieser Fingerzeig: Gottes Hand. Sie
+        steht nicht für ein Happy End, ist aber ein klares Zeichen. Sie sprengt
+        das Bild, befindet sich jenseits, ausserhalb und vor der Kirche. Sie
+        weist auf Christus hin – aber über ihn, in ihm und durch ihn auch auf
+        die Kirche.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/muenchenwiler-christus-kirche/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Relief aus Münchenwiler: Kreuzigung und Architekturplan in einem,
+        Kalkstein, Mitte des 11. Jahrhunderts, Museum für Kunst und Geschichte,
+        Fribourg. (Bild: Gregor von Kerssenbrock-von Krosigk)
+      </p>
+
+      <p class="autor">
+        Dr. Rudolf Dellsperger ist ein Schweizer Theologe und emeritierter
+        Professor für Neuere Kirchengeschichte, Konfessionskunde und
+        Theologiegeschichte an der Universität Bern.
+      </p>
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

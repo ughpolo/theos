@@ -109,6 +109,7 @@ import { StMangenWiboradaComponent } from './beiträge/st-mangen-wiborada/st-man
 import { BaselGalluspforteComponent } from './beiträge/basel-galluspforte/basel-galluspforte.component';
 import { GlandSaintJeanBaptisteComponent } from './beiträge/gland-saint-jean-baptiste/gland-saint-jean-baptiste.component';
 import { MuenchenwilerChristusKircheComponent } from './beiträge/muenchenwiler-christus-kirche/muenchenwiler-christus-kirche.component';
+import { TrouvaillenMuenchenwilerchristusundkircheComponent } from './beiträge/trouvaillen-muenchenwilerchristusundkirche/trouvaillen-muenchenwilerchristusundkirche.component';
 
 @NgModule({
   declarations: [
@@ -197,6 +198,7 @@ import { MuenchenwilerChristusKircheComponent } from './beiträge/muenchenwiler-
     BaselGalluspforteComponent,
     GlandSaintJeanBaptisteComponent,
     MuenchenwilerChristusKircheComponent,
+    TrouvaillenMuenchenwilerchristusundkircheComponent,
 
   ],
   imports: [

@@ -38,6 +38,18 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },
 
+   '1 Christus und die Kirche': {
+    karusselltitel: '1 Christus und die Kirche',
+    verzeichnispfad: 'christusunddiekirche',
+    beitragtitel: '1 Christus und die Kirche',
+    ort: 'Trouvaille: Münchenwiler (BE)',
+    bild: 'muenchenwiler-christus-kirche/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2007)',
+    markierungen: [[46.9122, 7.127]],
+    kanton: Kantone.Trouvaillen,
+  },
+
   'Basel Galluspforte': {
     karusselltitel: 'Die Galluspforte am Basler Münster',
     verzeichnispfad: 'Die Galluspforte am Basler Münster',
@@ -52,10 +64,10 @@ export const Beiträge = {
 
   '1 Christus und die Kirche': {
     karusselltitel: '1 Christus und die Kirche',
-    verzeichnispfad: 'christusunddiekirche',
+    verzeichnispfad: 'muenchenwilerchristusundkirche',
     beitragtitel: '1 Christus und die Kirche',
-    ort: 'Trouvaille Münchenwiler (BE)',
-    bild: 'muenchenwiler-christus-kirche/Bild0.jpeg',
+    ort: 'Trouvaille: Münchenwiler (BE)',
+    bild: 'trouvaille-muenchenwiler-christus-kirche/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',
     jahr: '2022 (2007)',
     markierungen: [[46.9122, 7.127]],

@@ -14,41 +14,6 @@ export const Beiträge = {
     kanton: Kantone.Waadt,
   },
 
-  '0 Präludium: «Man muss sie spielen …» ': {
-    karusselltitel: '0 Präludium: «Man muss sie spielen …» ',
-    verzeichnispfad: 'Praeludium',
-    beitragtitel: '0 Präludium: «Man muss sie spielen …» ',
-    ort: 'Trouvaillen',
-    bild: 'trouvaillen/bild1.jpg',
-    autor: 'Rudolf Dellsberger',
-    jahr: '2006',
-    markierungen: [[45.13332, 10.024]],
-    kanton: Kantone.Trouvaillen,
-  },
-
-  '1 Christus und die Kirche': {
-    karusselltitel: '1 Christus und die Kirche',
-    verzeichnispfad: 'christusunddiekirche',
-    beitragtitel: '1 Christus und die Kirche',
-    ort: 'Trouvaillen',
-    bild: 'trouvaillen/bild1.jpg',
-    autor: 'Rudolf Dellsberger',
-    jahr: '2006',
-    markierungen: [[46.80787, 7.15951]],
-    kanton: Kantone.Trouvaillen,
-  },
-
-   '1 Christus und die Kirche': {
-    karusselltitel: '1 Christus und die Kirche',
-    verzeichnispfad: 'christusunddiekirche',
-    beitragtitel: '1 Christus und die Kirche',
-    ort: 'Trouvaille: Münchenwiler (BE)',
-    bild: 'muenchenwiler-christus-kirche/Bild0.jpeg',
-    autor: 'Rudolf Dellsperger',
-    jahr: '2022 (2007)',
-    markierungen: [[46.9122, 7.127]],
-    kanton: Kantone.Trouvaillen,
-  },
 
   'Basel Galluspforte': {
     karusselltitel: 'Die Galluspforte am Basler Münster',

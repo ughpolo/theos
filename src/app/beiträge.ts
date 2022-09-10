@@ -62,7 +62,19 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },*/
 
-  '1 Beatus lacht': {
+  '3 "unserer frauen bruderschaft"': {
+    karusselltitel: '3 Berner Münster: "unserer frauen bruderschaft"',
+    verzeichnispfad: 'unsererfrauenbruderschaft',
+    beitragtitel: '"unserer frauen bruderschaft"',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-unsererfrauenbruderschaft/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2006)',
+    markierungen: [[46.9473, 7.45186]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '2 Beatus lacht': {
     karusselltitel:
       '2 Dreifaltigkeitkirche Bern / Kirche Einigen: Beatus lacht',
     verzeichnispfad: 'beatuslacht',

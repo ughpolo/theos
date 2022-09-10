@@ -1,0 +1,133 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-unsererfrauenbruderschaft/Bild0.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+
+      <p id="firstParagraph">
+        Man übergeht und übersieht sie meist, die kleine Bronzetafel, die im
+        fünften nördlichen Joch des Berner Münsters nahe beim Pfeiler in den
+        Boden eingelassen ist. Sie stellt eine Schriftrolle mit der Aufschrift
+        «unser frauen bruderschaft» dar. Zwei stilisierte Rosenblüten verraten,
+        welche Frau die Bruderschaft verehrte: Maria, welche die ökumenische
+        Christenheit im Weihnachtslied «Es ist ein Ros entsprungen» besingt. Die
+        Plakette weist auf den Marienaltar hin, der an der gegenüberliegenden
+        Seitenwand der Chorschranke stand. Er wurde an dieser Stelle im Jahr
+        1500 von der Bruderschaft «Unser Frauen Empfängnis» errichtet. Religiöse
+        Bruderschaften waren im Mittelalter weit verbreitet. In ihnen schlossen
+        sich Frauen und Männer – Geistliche und Laien – zum Zweck eines
+        gottgefälligen Lebens zusammen. Sie standen einander in Gesundheit und
+        Krankheit, im Leben und im Sterben bei. Sie begleiteten die Verstorbenen
+        in der Fürbitte und stifteten für das Heil ihrer Seelen Messen und
+        Gedenktage. <br />
+        An der durch die Bronzetafel bezeichneten Stelle versammelten sich also
+        die Mitglieder der Marienbruderschaft und wohnten – auf ihren Schemeln
+        sitzend, stehend oder an den Pfeiler angelehnt – ihren Messfeiern bei.
+        Sie bildeten eine verbindende und verbindliche Gemeinschaft, die im
+        geistlichen und sozialen Leben am Ort einen wichtigen Platz einnahm. In
+        den Städten, wo die Mitglieder oft derselben Zunft angehörten, nahm der
+        Anteil an Frauen allerdings mit der Zeit ab. Dafür gewann neben (oder
+        gar an Stelle) der gottesdienstlichen Gemeinschaft das gesellige
+        Zusammensein an Bedeutung. <br />
+        Hier setzte die reformatorische Kritik an: Luther geisselte 1519 üppige
+        Gelage von Bruderschaften und erinnerte sie daran, dass wahre
+        Gemeinschaft nicht in «parteiischen Bruderschaften» bestehe, sondern in
+        der «Gemeinschaft aller Heiligen, (…) in welcher wir allesamt Brüder und
+        Schwestern sind, so nah, dass nimmermehr kein nähere mag erdacht
+        werden». Zwingli hatte 1523 nichts dagegen einzuwenden, «wenn ein
+        bekümmerter Mensch Gott für die Verstorbenen um Gnade anruft». Aber so
+        wenig nach ihm die Heilige Schrift etwas vom Fegefeuer wusste, so wenig
+        wollte er von einem Geschäft mit der Angst etwas wissen. Die Reformation
+        erkannte in Christus allein die erlösende Weisheit und Gerechtigkeit.
+        Sie führte das Abendmahl ein, dessen Gemeinschaftscharakter sie neu
+        betonte, und brachte die Säkularisierung auch des Bruderschaftswesens.
+        <br />
+        Dabei war, da es sich um Stiftungen handelte, ein vorsichtiges Vorgehen
+        geboten. Im Reformationsmandat vom 7. Februar 1528 verfügte der Berner
+        Rat, die Bruderschaften hätten ihm ihre Rechnungsbücher vorzulegen. Die
+        festgesetzten Mitgliederbeiträge seien weiterhin zu entrichten, aber in
+        Zukunft zugunsten der Armen zu verwenden. Im Übrigen werde der Rat das
+        weitere Verfahren bei der Umwidmung des Stiftungsvermögens mit den
+        Bruderschaften beraten. Der Altar, später das Marienbild wurden
+        entfernt, und an die Stelle der kirchlich-bruderschaftlichen Seel-Sorge
+        trat schliesslich die kirchlich-kommunale Für-Sorge. Geblieben ist die
+        unscheinbare Bronzetafel. Geblieben ist auch die Aufgabe, Kirche als
+        geschwisterliche und verantwortliche Gemeinschaft in ökumenischem Geist
+        zu leben.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-unsererfrauenbruderschaft/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Oft übersehen und übergangen: Bronzetafel im Berner Münster. Sie
+        erinnert sie an die mittelalterliche Marienbruderschaft. (Bild: Adriana
+        Basso Schaub)
+      </p>
+
+      <p class="autor">
+        Dr. Rudolf Dellsperger ist ein Schweizer Theologe und emeritierter
+        Professor für Neuere Kirchengeschichte, Konfessionskunde und
+        Theologiegeschichte an der Universität Bern.
+      </p>
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            Türler, Heinrich: "Die Altäre und Kaplaneien des Münsters in Bern
+            vor der Reformation", in: Neues Berner Taschenbuch auf das Jahr
+            1896, 70-118, hier 99-102.
+          </li>
+          <li>
+            Mariani-Pasche, Véronique/Bischof, Franz Xaver: Art.
+            «Bruderschaften», in: Historisches Lexikon der Schweiz 2, 2003,
+            731-733.
+          </li>
+          <li>
+            Huber-Hernándes, Ariane: Für die Lebenden und für die Toten.
+            Testamente des Spätmittelalters aus der Stadt Bern, Bern 2019,
+            312-316.
+          </li>
+        </ul>
+      </div>
+
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

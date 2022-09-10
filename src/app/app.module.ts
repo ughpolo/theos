@@ -111,6 +111,7 @@ import { GlandSaintJeanBaptisteComponent } from './beiträge/gland-saint-jean-ba
 import { MuenchenwilerChristusKircheComponent } from './beiträge/muenchenwiler-christus-kirche/muenchenwiler-christus-kirche.component';
 import { TrouvaillenMuenchenwilerchristusundkircheComponent } from './beiträge/trouvaillen-muenchenwilerchristusundkirche/trouvaillen-muenchenwilerchristusundkirche.component';
 import { TrouvaillenBeatuslachtComponent } from './beiträge/trouvaillen-beatuslacht/trouvaillen-beatuslacht.component';
+import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouvaillen-unsererfrauenbruderschaft/trouvaillen-unsererfrauenbruderschaft.component';
 
 @NgModule({
   declarations: [
@@ -201,6 +202,7 @@ import { TrouvaillenBeatuslachtComponent } from './beiträge/trouvaillen-beatusl
     MuenchenwilerChristusKircheComponent,
     TrouvaillenMuenchenwilerchristusundkircheComponent,
     TrouvaillenBeatuslachtComponent,
+    TrouvaillenUnsererfrauenbruderschaftComponent,
 
   ],
   imports: [

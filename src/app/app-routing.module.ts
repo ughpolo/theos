@@ -79,7 +79,12 @@ import { GlandSaintJeanBaptisteComponent } from './beiträge/gland-saint-jean-ba
 import { MuenchenwilerChristusKircheComponent } from './beiträge/muenchenwiler-christus-kirche/muenchenwiler-christus-kirche.component';
 import { TrouvaillenMuenchenwilerchristusundkircheComponent } from './beiträge/trouvaillen-muenchenwilerchristusundkirche/trouvaillen-muenchenwilerchristusundkirche.component';
 import { TrouvaillenBeatuslachtComponent } from './beiträge/trouvaillen-beatuslacht/trouvaillen-beatuslacht.component';
+import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouvaillen-unsererfrauenbruderschaft/trouvaillen-unsererfrauenbruderschaft.component';
 const routes: Routes = [
+  {
+    path: 'unsererfrauenbruderschaft',
+    component: TrouvaillenUnsererfrauenbruderschaftComponent,
+  },
   {
     path: 'beatuslacht',
     component: TrouvaillenBeatuslachtComponent,

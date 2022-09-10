@@ -63,10 +63,10 @@ export const Beiträge = {
   },*/
 
   '1 Christus und die Kirche': {
-    karusselltitel: '1 Christus und die Kirche',
+    karusselltitel: '1 Münchenwiler: Christus und die Kirche',
     verzeichnispfad: 'muenchenwilerchristusundkirche',
-    beitragtitel: '1 Christus und die Kirche',
-    ort: 'Trouvaille: Münchenwiler (BE)',
+    beitragtitel: '1 Münchenwiler: Christus und die Kirche',
+    ort: 'Trouvaille',
     bild: 'trouvaille-muenchenwiler-christus-kirche/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',
     jahr: '2022 (2007)',

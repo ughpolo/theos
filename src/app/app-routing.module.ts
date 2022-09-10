@@ -78,7 +78,13 @@ import { BaselGalluspforteComponent } from './beiträge/basel-galluspforte/basel
 import { GlandSaintJeanBaptisteComponent } from './beiträge/gland-saint-jean-baptiste/gland-saint-jean-baptiste.component';
 import { MuenchenwilerChristusKircheComponent } from './beiträge/muenchenwiler-christus-kirche/muenchenwiler-christus-kirche.component';
 import { TrouvaillenMuenchenwilerchristusundkircheComponent } from './beiträge/trouvaillen-muenchenwilerchristusundkirche/trouvaillen-muenchenwilerchristusundkirche.component';
+import { TrouvaillenBeatuslachtComponent } from './beiträge/trouvaillen-beatuslacht/trouvaillen-beatuslacht.component';
 const routes: Routes = [
+  {
+    path: 'beatuslacht',
+    component: TrouvaillenBeatuslachtComponent,
+  },
+
   {
     path: 'muenchenwilerchristusundkirche',
     component: TrouvaillenMuenchenwilerchristusundkircheComponent,

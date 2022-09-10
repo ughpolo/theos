@@ -62,11 +62,27 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },*/
 
+  '1 Beatus lacht': {
+    karusselltitel:
+      '2 Dreifaltigkeitkirche Bern / Kirche Einigen: Beatus lacht',
+    verzeichnispfad: 'beatuslacht',
+    beitragtitel: 'Beatus lacht',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-beatuslacht/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2008)',
+    markierungen: [
+      [46.94512, 7.43932],
+      [46.70941, 7.64619],
+    ],
+    kanton: Kantone.Trouvaillen,
+  },
+
   '1 Christus und die Kirche': {
     karusselltitel: '1 Münchenwiler: Christus und die Kirche',
     verzeichnispfad: 'muenchenwilerchristusundkirche',
-    beitragtitel: '1 Münchenwiler: Christus und die Kirche',
-    ort: 'Trouvaille',
+    beitragtitel: 'Christus und die Kirche',
+    ort: 'Trouvaillen',
     bild: 'trouvaille-muenchenwiler-christus-kirche/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',
     jahr: '2022 (2007)',

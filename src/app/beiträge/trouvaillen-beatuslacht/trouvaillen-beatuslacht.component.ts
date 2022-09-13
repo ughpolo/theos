@@ -12,7 +12,7 @@ export class TrouvaillenBeatuslachtComponent implements OnInit {
   ngOnInit(): void {
     this.assign(
       'Rudolf Dellsperger',
-      '2 Dreifaltigkeitkirche Bern / Kirche Einigen: Beatus lacht'
+      'Dreifaltigkeitkirche Bern / Kirche Einigen: Beatus lacht'
     );
     this.createIds();
   }

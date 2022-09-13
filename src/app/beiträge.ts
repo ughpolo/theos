@@ -28,7 +28,7 @@ export const Beiträge = {
   },*/
 
   '3 "unserer frauen bruderschaft"': {
-    karusselltitel: '3 Berner Münster: "unserer frauen bruderschaft"',
+    karusselltitel: 'Berner Münster: "unserer frauen bruderschaft"',
     verzeichnispfad: 'unsererfrauenbruderschaft',
     beitragtitel: '"unserer frauen bruderschaft"',
     ort: 'Trouvaillen',
@@ -40,8 +40,7 @@ export const Beiträge = {
   },
 
   '2 Beatus lacht': {
-    karusselltitel:
-      '2 Dreifaltigkeitkirche Bern / Kirche Einigen: Beatus lacht',
+    karusselltitel: 'Dreifaltigkeitkirche Bern / Kirche Einigen: Beatus lacht',
     verzeichnispfad: 'beatuslacht',
     beitragtitel: 'Beatus lacht',
     ort: 'Trouvaillen',
@@ -56,7 +55,7 @@ export const Beiträge = {
   },
 
   '1 Christus und die Kirche': {
-    karusselltitel: '1 Münchenwiler: Christus und die Kirche',
+    karusselltitel: 'Münchenwiler: Christus und die Kirche',
     verzeichnispfad: 'muenchenwilerchristusundkirche',
     beitragtitel: 'Christus und die Kirche',
     ort: 'Trouvaillen',

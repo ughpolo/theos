@@ -12,7 +12,7 @@ export class TrouvaillenUnsererfrauenbruderschaftComponent implements OnInit {
   ngOnInit(): void {
     this.assign(
       'Rudolf Dellsperger',
-      '3 Berner Münster: "unserer frauen bruderschaft"'
+      'Berner Münster: "unserer frauen bruderschaft"'
     );
     this.createIds();
   }

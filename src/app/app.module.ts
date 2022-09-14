@@ -103,8 +103,6 @@ import { KirchenthurnenBahaiComponent } from './beiträge/kirchenthurnen-bahai/k
 import { BaselTotentanzComponent } from './beiträge/basel-totentanz/basel-totentanz.component';
 import { WindischDasAmphitheaterVindonissaComponent } from './beiträge/windisch-das-amphitheater-vindonissa/windisch-das-amphitheater-vindonissa.component';
 import { OberdorfWallfahrtskircheComponent } from './beiträge/oberdorf-wallfahrtskirche/oberdorf-wallfahrtskirche.component';
-import { TrouvaillenPraeludiumComponent } from './beiträge/trouvaillen-praeludium/trouvaillen-praeludium.component';
-import { TrouvaillenChristusunddiekircheComponent } from './beiträge/trouvaillen-christusunddiekirche/trouvaillen-christusunddiekirche.component';
 import { StMangenWiboradaComponent } from './beiträge/st-mangen-wiborada/st-mangen-wiborada.component';
 import { BaselGalluspforteComponent } from './beiträge/basel-galluspforte/basel-galluspforte.component';
 import { GlandSaintJeanBaptisteComponent } from './beiträge/gland-saint-jean-baptiste/gland-saint-jean-baptiste.component';
@@ -194,8 +192,6 @@ import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouv
     BaselTotentanzComponent,
     WindischDasAmphitheaterVindonissaComponent,
     OberdorfWallfahrtskircheComponent,
-    TrouvaillenPraeludiumComponent,
-    TrouvaillenChristusunddiekircheComponent,
     StMangenWiboradaComponent,
     BaselGalluspforteComponent,
     GlandSaintJeanBaptisteComponent,
@@ -203,7 +199,6 @@ import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouv
     TrouvaillenMuenchenwilerchristusundkircheComponent,
     TrouvaillenBeatuslachtComponent,
     TrouvaillenUnsererfrauenbruderschaftComponent,
-
   ],
   imports: [
     MatToolbarModule,

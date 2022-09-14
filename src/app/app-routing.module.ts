@@ -71,12 +71,10 @@ import { KirchenthurnenBahaiComponent } from './beiträge/kirchenthurnen-bahai/k
 import { BaselTotentanzComponent } from './beiträge/basel-totentanz/basel-totentanz.component';
 import { WindischDasAmphitheaterVindonissaComponent } from './beiträge/windisch-das-amphitheater-vindonissa/windisch-das-amphitheater-vindonissa.component';
 import { OberdorfWallfahrtskircheComponent } from './beiträge/oberdorf-wallfahrtskirche/oberdorf-wallfahrtskirche.component';
-import { TrouvaillenPraeludiumComponent } from './beiträge/trouvaillen-praeludium/trouvaillen-praeludium.component';
-import { TrouvaillenChristusunddiekircheComponent } from './beiträge/trouvaillen-christusunddiekirche/trouvaillen-christusunddiekirche.component';
+
 import { StMangenWiboradaComponent } from './beiträge/st-mangen-wiborada/st-mangen-wiborada.component';
 import { BaselGalluspforteComponent } from './beiträge/basel-galluspforte/basel-galluspforte.component';
 import { GlandSaintJeanBaptisteComponent } from './beiträge/gland-saint-jean-baptiste/gland-saint-jean-baptiste.component';
-import { MuenchenwilerChristusKircheComponent } from './beiträge/muenchenwiler-christus-kirche/muenchenwiler-christus-kirche.component';
 import { TrouvaillenMuenchenwilerchristusundkircheComponent } from './beiträge/trouvaillen-muenchenwilerchristusundkirche/trouvaillen-muenchenwilerchristusundkirche.component';
 import { TrouvaillenBeatuslachtComponent } from './beiträge/trouvaillen-beatuslacht/trouvaillen-beatuslacht.component';
 import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouvaillen-unsererfrauenbruderschaft/trouvaillen-unsererfrauenbruderschaft.component';
@@ -94,18 +92,7 @@ const routes: Routes = [
     path: 'muenchenwilerchristusundkirche',
     component: TrouvaillenMuenchenwilerchristusundkircheComponent,
   },
-  {
-    path: 'christusunddiekirche',
-    component: MuenchenwilerChristusKircheComponent,
-  },
-  {
-    path: 'christusunddiekirche',
-    component: TrouvaillenChristusunddiekircheComponent,
-  },
-  {
-    path: 'praeludium',
-    component: TrouvaillenPraeludiumComponent,
-  },
+
   {
     path: 'saint-jean-baptiste',
     component: GlandSaintJeanBaptisteComponent,

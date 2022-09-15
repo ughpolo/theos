@@ -2,6 +2,19 @@ import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
   /*
+
+ 'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf': {
+    karusselltitel: 'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf',
+    verzeichnispfad: 'raebeliechtli',
+    beitragtitel: 'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf',
+    ort: 'Oberrohrdorf (AG)',
+    bild: 'oberrohrdorf-martinundraebeliechtli/Bild0.jpeg',
+    autor: 'Tabea Stauffer',
+    jahr: '2022',
+    markierungen: [[47.41906, 8.31497]],
+    kanton: Kantone.Aargau,
+  },
+  
 'Église Saint-Jean-Baptiste': {
     karusselltitel: 'Église Saint-Jean-Baptiste',
     verzeichnispfad: 'Saint-Jean-Baptiste',
@@ -27,17 +40,6 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },*/
 
-  'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf': {
-    karusselltitel: 'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf',
-    verzeichnispfad: 'raebeliechtli',
-    beitragtitel: 'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf',
-    ort: 'Oberrohrdorf (AG)',
-    bild: 'oberrohrdorf-martinundraebeliechtli/Bild0.jpeg',
-    autor: 'Tabea Stauffer',
-    jahr: '2022',
-    markierungen: [[47.41906, 8.31497]],
-    kanton: Kantone.Aargau,
-  },
   '3 "unserer frauen bruderschaft"': {
     karusselltitel: 'Berner Münster: "unserer frauen bruderschaft"',
     verzeichnispfad: 'unsererfrauenbruderschaft',

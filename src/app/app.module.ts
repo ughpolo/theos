@@ -110,6 +110,7 @@ import { MuenchenwilerChristusKircheComponent } from './beiträge/muenchenwiler-
 import { TrouvaillenMuenchenwilerchristusundkircheComponent } from './beiträge/trouvaillen-muenchenwilerchristusundkirche/trouvaillen-muenchenwilerchristusundkirche.component';
 import { TrouvaillenBeatuslachtComponent } from './beiträge/trouvaillen-beatuslacht/trouvaillen-beatuslacht.component';
 import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouvaillen-unsererfrauenbruderschaft/trouvaillen-unsererfrauenbruderschaft.component';
+import { OberrohrdorfRaebeliechtliComponent } from './beiträge/oberrohrdorf-raebeliechtli/oberrohrdorf-raebeliechtli.component';
 
 @NgModule({
   declarations: [
@@ -199,6 +200,7 @@ import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouv
     TrouvaillenMuenchenwilerchristusundkircheComponent,
     TrouvaillenBeatuslachtComponent,
     TrouvaillenUnsererfrauenbruderschaftComponent,
+    OberrohrdorfRaebeliechtliComponent,
   ],
   imports: [
     MatToolbarModule,

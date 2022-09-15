@@ -78,7 +78,12 @@ import { GlandSaintJeanBaptisteComponent } from './beiträge/gland-saint-jean-ba
 import { TrouvaillenMuenchenwilerchristusundkircheComponent } from './beiträge/trouvaillen-muenchenwilerchristusundkirche/trouvaillen-muenchenwilerchristusundkirche.component';
 import { TrouvaillenBeatuslachtComponent } from './beiträge/trouvaillen-beatuslacht/trouvaillen-beatuslacht.component';
 import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouvaillen-unsererfrauenbruderschaft/trouvaillen-unsererfrauenbruderschaft.component';
+import { OberrohrdorfRaebeliechtliComponent } from './beiträge/oberrohrdorf-raebeliechtli/oberrohrdorf-raebeliechtli.component';
 const routes: Routes = [
+  {
+    path: 'raebeliechtli',
+    component: OberrohrdorfRaebeliechtliComponent,
+  },
   {
     path: 'unsererfrauenbruderschaft',
     component: TrouvaillenUnsererfrauenbruderschaftComponent,

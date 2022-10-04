@@ -27,6 +27,7 @@ export const Beiträge = {
     kanton: Kantone.Waadt,
   },
 
+*/
 
   'Basel Galluspforte': {
     karusselltitel: 'Die Galluspforte am Basler Münster',
@@ -38,7 +39,7 @@ export const Beiträge = {
     jahr: '2022',
     markierungen: [[47.55621, 7.59225]],
     kanton: Kantone.BaselStadt,
-  },*/
+  },
 
   '3 "unserer frauen bruderschaft"': {
     karusselltitel: 'Berner Münster: "unserer frauen bruderschaft"',

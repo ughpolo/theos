@@ -79,7 +79,13 @@ import { TrouvaillenMuenchenwilerchristusundkircheComponent } from './beiträge/
 import { TrouvaillenBeatuslachtComponent } from './beiträge/trouvaillen-beatuslacht/trouvaillen-beatuslacht.component';
 import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouvaillen-unsererfrauenbruderschaft/trouvaillen-unsererfrauenbruderschaft.component';
 import { OberrohrdorfRaebeliechtliComponent } from './beiträge/oberrohrdorf-raebeliechtli/oberrohrdorf-raebeliechtli.component';
+import { TrouvaillenHerrengasse13Component } from './beiträge/trouvaillen-herrengasse13/trouvaillen-herrengasse13.component';
 const routes: Routes = [
+  {
+    path: 'herrengasse13',
+    component: TrouvaillenHerrengasse13Component,
+  },
+
   {
     path: 'raebeliechtli',
     component: OberrohrdorfRaebeliechtliComponent,

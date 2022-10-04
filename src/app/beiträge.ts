@@ -50,6 +50,10 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },
 
+  
+
+*/
+
   '4 Hausspruch Herrengasse 13': {
     karusselltitel: 'Bern, Herrengasse 13: Hausspruch',
     verzeichnispfad: 'herrengasse13',
@@ -61,8 +65,6 @@ export const Beiträge = {
     markierungen: [[46.947, 7.44992]],
     kanton: Kantone.Trouvaillen,
   },
-
-*/
 
   'Basel Galluspforte': {
     karusselltitel: 'Die Galluspforte am Basler Münster',

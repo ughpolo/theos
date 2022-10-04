@@ -81,7 +81,13 @@ import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouv
 import { OberrohrdorfRaebeliechtliComponent } from './beiträge/oberrohrdorf-raebeliechtli/oberrohrdorf-raebeliechtli.component';
 import { TrouvaillenHerrengasse13Component } from './beiträge/trouvaillen-herrengasse13/trouvaillen-herrengasse13.component';
 import { TrouvaillenUnsertaeglichbrotComponent } from './beiträge/trouvaillen-unsertaeglichbrot/trouvaillen-unsertaeglichbrot.component';
+import { TrouvaillenMattelaendtetorComponent } from './beiträge/trouvaillen-mattelaendtetor/trouvaillen-mattelaendtetor.component';
 const routes: Routes = [
+  {
+    path: 'mattelaendtetor',
+    component: TrouvaillenMattelaendtetorComponent,
+  },
+
   {
     path: 'unsertaeglichbrot',
     component: TrouvaillenUnsertaeglichbrotComponent,

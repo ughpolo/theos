@@ -1,0 +1,138 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-mattelaendtetor/Bild0.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+      <p id="firstParagraph">
+        Sie sehen einen Ausschnitt aus einem Sgraffito, das Hans A. Fischer 1964
+        nach einer Zeichnung von Sigmund Wagner geschaffen hat. Es befindet an
+        der Mattenenge 3/5 in Bern und zeigt Nydegg und Ländtetor um 1820. Beim
+        Tor wird eben ein Kahn entladen. Ein Schiff wird gleich die
+        Untertorbrücke passieren.
+        <br />Für Täuferinnen und Täufer ist das Ländtetor mehr als ein alter
+        Warenumschlagsplatz. Es ist ein Ort, wo einige ihrer Vorfahren aus der
+        Gesellschaft ausgestossen wurden – ins Jenseits oder in die Fremde. Hans
+        Hausmann zum Beispiel, der im Juli 1529 mit Hans Dreyer und Heini Seiler
+        von einem Schiff aus ertränkt wurde – Täuferhistoriker nehmen an, es sei
+        hier geschehen, in der Aare unterhalb des Ländtetors. Oder die 56
+        Täuferinnen und Täufer, deren Schiff mit scharfer Bewachung an Bord hier
+        am 18. März 1710 von Land stiess. Sie sollten nach Amerika deportiert
+        werden, was die Täufer in der Pfalz und in Holland allerdings zu
+        verhindern wussten. <br />Solches geschah nach geltendem Recht: Täufer
+        wurden zunächst ermahnt, von ihrem Glauben Abstand zu nehmen. Weigerten
+        sie sich, kamen sie in Beugehaft. Blieben sie standhaft, wies man sie
+        aus. Ihre Güter konnten sie mitnehmen, durften aber nicht zurückkommen.
+        Wer es dennoch tat, verlor sein Gut und wurde wieder ausgewiesen oder
+        deportiert. Wer nochmals wiederkam, hatte sein Leben verwirkt oder wurde
+        zu lebenslanger Haft verurteilt. Man nennt das spiegelnde
+        Genossenschaftsstrafen: Wer sich hartnäckig von der Gesellschaft trennt,
+        wird von ihr abgetrennt. So geschah an den Täufern nach damaligem
+        Verständnis Recht. <br />Galt das auch für die beiden Frauen, eine
+        achtzigjährige Greisin und deren Tochter, Mutter von sechs Kindern, die
+        um 1538 hingerichtet wurden, weil sie die Kindertaufe ablehnten? Für
+        Nikolaus Zurkinden, einen der bedeutendsten Politiker Berns im 16.
+        Jahrhundert, geschah ihnen Unrecht. Er hatte ihre Hinrichtung miterlebt.
+        Seine Erschütterung über das Ungeheuerliche klang auch Jahre später noch
+        nach, als er Calvin davon berichtete. Er wusste, dass keine Regierung
+        der Welt in solchen Situationen eine Patentlösung kennt. Der Konflikt
+        zwischen den Täufern, die Kindertaufe, Eid und Waffendienst verweigerten
+        und die kompromisslose Nachfolge Jesu praktizierten, und dem modernen
+        konfessionellen Einheitsstaat war echt. Echt war aber auch Zurkindens
+        Geständnis, er ziehe es vor, wenn eine Regierung in solchen Konflikten
+        übertrieben mild als übermässig streng sei. Als Landvogt von Sumiswald
+        steckte er lieber einen scharfen Verweis von oben ein, als dass er die
+        Täufer hart angefasst hätte. <br />So hielt es 1710 auch der
+        holländische Kanzler: Das Schiff mit den von Gefangenschaft und
+        strapaziöser Flussfahrt völlig entkräfteten 56 Frauen und Männern war
+        noch unterwegs, als er erklärte, sobald ein Mensch seinen Fuss in sein
+        Land setze, sei er frei. <br />Zwischen Zurkinden und ihm lagen fast
+        zwei Jahrhunderte. Es sollten nochmals gut zwei Jahrhunderte vergehen,
+        bis am 8. Mai 1988 in der Nydeggkirche Täufer und Reformierte einander
+        die Hand reichten. Dann gingen sie auf den Spuren der Täufer gemeinsam
+        durch Bern. Unter anderem zum Ländtetor.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-mattelaendtetor/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Mattenenge in Bern: Wo Täufer verschifft oder ersäuft wurden. (Bild
+        Adriana Basso Schaub)
+      </p>
+
+      <p class="autor">autor</p>
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            Lavater, Hans Rudolf: Die vereitelte Deportation emmentalischer
+            Täufer nach Amerika 1710. Nach dem Augenzeugenbericht der
+            ‹Röthenbacher Chronik›, in: Mennonitica Helvetica 13 (1990), S.
+            51-124.
+          </li>
+          <li>
+            Jecker, Hanspeter: «Biss das gantze Land von disem unkraut bereinigt
+            sein wird.» Repression und Verfolgung des Täufertums in Bern. Ein
+            kurzer Überblick zu einigen Fakten und Hintergründen, in:
+            Dellsperger, Rudolf / Lavater, Hans Rudolf (Hgg.): Die Wahrheit ist
+            untödlich. Berner Täufer in Geschichte und Gegenwart, Bern 2007), S.
+            97-132.
+          </li>
+          <li>
+            Loosli-Amstutz, Dorothea: Stationenweg zur Täufergeschichte, in:
+            Institut für Historische Theologie der Universität Bern (Hg.):
+            Theologisch bedeutsame Orte der Schweiz, verfügbar unter:
+            <a
+              target="_blank"
+              href="https://www.theos.unibe.ch/stationenweg-zur-t%C3%A4ufergeschichte"
+              >www.theos.unibe Stationenweg zur Täufergeschichte </a
+            >(2020).
+          </li>
+          <li>
+            Website des Stationenwegs, verfügbar unter:
+            <a target="_blank" href="https://stationenweg-bern.ch/"
+              >www.stationenweg-bern.ch </a
+            >.
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -26,19 +26,20 @@ export const Beiträge = {
     markierungen: [[46.42244, 6.26538]],
     kanton: Kantone.Waadt,
   },
-  '6 Bern, Matte: Ländtetor': {
-    karusselltitel: 'Bern, Matte: Ländtetor',
-    verzeichnispfad: 'mattelaendtetor',
-    beitragtitel: 'Ländtetor',
-    ort: 'Trouvaillen',
-    bild: 'trouvaille-laendtetor/Bild1.jpeg',
-    autor: 'Rudolf Dellsperger',
-    jahr: '2022 (2006)',
-    markierungen: [[46.94897, 7.45807]],
-    kanton: Kantone.Trouvaillen,
-  },
+  
 
   
+  '5 Kirche Einigen "Unser täglich Brot ..."': {
+    karusselltitel: 'Kirche Einigen: "Unser täglich Brot ..."',
+    verzeichnispfad: 'unsertaeglichbrot',
+    beitragtitel: '"Unser täglich Brot"',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-unsertaeglichbrot/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2006)',
+    markierungen: [[46.70941, 7.64619]],
+    kanton: Kantone.Trouvaillen,
+  },
 
  '4 Hausspruch Herrengasse 13': {
     karusselltitel: 'Bern, Herrengasse 13: Hausspruch',
@@ -55,15 +56,15 @@ export const Beiträge = {
 
 */
 
-  '5 Kirche Einigen "Unser täglich Brot ..."': {
-    karusselltitel: 'Kirche Einigen: "Unser täglich Brot ..."',
-    verzeichnispfad: 'unsertaeglichbrot',
-    beitragtitel: '"Unser täglich Brot"',
+  '6 Bern, Matte: Ländtetor': {
+    karusselltitel: 'Bern, Matte: Ländtetor',
+    verzeichnispfad: 'mattelaendtetor',
+    beitragtitel: 'Ländtetor',
     ort: 'Trouvaillen',
-    bild: 'trouvaille-unsertaeglichbrot/Bild0.jpeg',
+    bild: 'trouvaille-mattelaendtetor/Bild1.jpeg',
     autor: 'Rudolf Dellsperger',
     jahr: '2022 (2006)',
-    markierungen: [[46.70941, 7.64619]],
+    markierungen: [[46.94897, 7.45807]],
     kanton: Kantone.Trouvaillen,
   },
 

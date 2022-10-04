@@ -29,10 +29,22 @@ export const Beiträge = {
 
 */
 
+  '5 Kirche Einigen "Unser täglich Brot ..."': {
+    karusselltitel: 'Kirche Einigen: "Unser täglich Brot ...""',
+    verzeichnispfad: 'unsertaeglichbrot',
+    beitragtitel: '"Unser täglich Brot"',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-unsertaeglichbrot/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2006)',
+    markierungen: [[46.70941, 7.64619]],
+    kanton: Kantone.Trouvaillen,
+  },
+
   '4 Hausspruch Herrengasse 13': {
     karusselltitel: 'Bern, Herrengasse 13: Hausspruch',
     verzeichnispfad: 'herrengasse13',
-    beitragtitel: 'Bern, Herrengasse 13: Hausspruch',
+    beitragtitel: 'Hausspruch',
     ort: 'Trouvaillen',
     bild: 'trouvaille-herrengasse13/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',

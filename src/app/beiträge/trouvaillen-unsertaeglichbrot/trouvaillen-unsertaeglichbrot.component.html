@@ -1,0 +1,128 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-unsertaeglichbrot/Bild1.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+      <p id="firstParagraph">
+        Im mittleren Chorfenster der Kirche Einigen am Thunersee befindet sich
+        eine Glasscheibe zum Unservater. Sie besteht aus acht Scheibchen, die
+        das Gebet illustrieren. Das Werk ist höchst reizvoll, wenn auch nicht
+        originell: Der Berner Glasmaler Mathis Walther und ein anderer,
+        unbekannter Künstler haben es in der zweiten Hälfte des 16. Jahrhunderts
+        nach einer berühmten Vorlage geschaffen: nach den Metallschnitten, mit
+        denen Hans Holbein der Jüngere 1523 eine Vaterunser-Auslegung des
+        Erasmus von Rotterdam bebildert hatte. Der Zyklus erreicht seinen
+        Höhepunkt mit der Bitte um das tägliche Brot. «Unser täglich Brot gib
+        uns hüt.» Wir blicken in einen Kirchenraum. Den Vordergrund unter der
+        Kanzel nimmt die hörende Gemeinde ein. Im Mittelgrund links, vor dem
+        Altar, wird die Eucharistie gefeiert. Nach hinten ist der Raum auf einen
+        Platz hin offen, hinter dem stattliche Gebäude aufragen. An einem Tisch
+        sitzt eine Gruppe bei Speis und Trank.
+        <br />Wie wird hier die vierte Unservater-Bitte gedeutet? Das tägliche
+        Brot ist der christlichen Gemeinde gegeben als Evangelium, als Wort des
+        Lebens, als Zuspruch und Anspruch. Darauf bezieht sich die Predigtszene.
+        Das tägliche Brot wird der christlichen Gemeinde aber auch gereicht als
+        Leib Christi, als Brot des Lebens, als Zeichen der Gemeinschaft mit
+        Christus. Daran erinnert die Eucharistiefeier. So, rein geistlich, hat
+        Erasmus von Rotterdam die Brotbitte verstanden. Der Gedanke an Speis und
+        Trank lag ihm dabei fern. <br />Was aber hat es mit der Szene im
+        Hintergrund auf sich? Ist das ein Abendmahlsbild? Sitzt da Jesus in der
+        Mitte der Jünger und verteilt das Brot? Der Glasmaler wird seine Vorlage
+        so gelesen haben. Bei Holbein wird währschaft gegessen und getrunken. So
+        oder so, wichtig scheint mir, dass dieses Mahl nicht in einem
+        geschlossenen Raum, sondern in aller Öffentlichkeit, mitten in der Stadt
+        gehalten wird. Im Vorder- und Mittelgrund des Bildes wird die Brotbitte
+        mit Wort und Sakrament verknüpft, im Hintergrund mit Markt und Rathaus.
+        <br />Das erinnert mich an Martin Luthers Verständnis der vierten Bitte.
+        Sie umfasst nach ihm alles, was zum Leben in der Welt gehört: Nahrung
+        und Kleidung und anderes mehr, vor allem auch Ruhe und Frieden in Haus,
+        Nachbarschaft und Staat. Es geht in der Brotbitte um die elementaren
+        Bedürfnisse menschlichen Lebens. Kein Brot ohne Frieden und kein Friede
+        ohne Brot. <br />Mag sein, dass Luther mehr in die Brotbitte
+        hineingelegt hat, als darin enthalten ist. Mag auch sein, dass ich in
+        dem Scheibchen von Einigen mehr sehe, als vorliegt. Gleichwohl: Eine
+        Kirche, zumal eine begüterte Kirche, die sich dieser elementaren
+        Dimension der Brotbitte bewusst ist, wird offen sein. Auch und gerade,
+        wenn sie von Wort und Sakrament lebt und sich, wie bei Holbein und
+        Walther, scheinbar ganz darauf konzentriert. Sie wird, sooft sie die
+        vierte Bitte spricht, die Welt vor Augen haben. Und sie wird darum beten
+        und dafür sorgen, dass da gegessen und getrunken werden kann, geistlich
+        und real. An sich selber wird sie dabei zuletzt denken. Aber sie wird
+        den Dank nicht vergessen.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-unsertaeglichbrot/Bild0.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Unservater im Chorfenster der Kirche Einigen. (Bild: Adriana Basso
+        Schaub)
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-unsertaeglichbrot/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        «Unser täglich Brot gib uns hüt» im Chorfenster der Kirche Einigen.
+        (Bild: Adriana Basso Schaub)
+      </p>
+
+      <p class="autor">autor</p>
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            Stähli-Lüthi, Verena: Die Vaterunser-Scheibe in der Kirche Einigen,
+            Reformierte Kirchgemeinde Spiez, 1993.
+          </li>
+          <li>
+            Dellsperger, Rudolf: «Unser tägliches Brot …». Die Brotbitte bei
+            Erasmus von Rotterdam, Martin Luther, Wolfgang Musculus und Petrus
+            Canisius SJ, in: ders.: Zwischen Offenbarung und Erfahrung.
+            Gesammelte Aufsätze zur historischen Theologie, Zürich 2015 (BBSHT
+            77), S. 11-28.
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

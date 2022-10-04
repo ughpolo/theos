@@ -112,6 +112,7 @@ import { TrouvaillenBeatuslachtComponent } from './beiträge/trouvaillen-beatusl
 import { TrouvaillenUnsererfrauenbruderschaftComponent } from './beiträge/trouvaillen-unsererfrauenbruderschaft/trouvaillen-unsererfrauenbruderschaft.component';
 import { OberrohrdorfRaebeliechtliComponent } from './beiträge/oberrohrdorf-raebeliechtli/oberrohrdorf-raebeliechtli.component';
 import { TrouvaillenHerrengasse13Component } from './beiträge/trouvaillen-herrengasse13/trouvaillen-herrengasse13.component';
+import { TrouvaillenUnsertaeglichbrotComponent } from './beiträge/trouvaillen-unsertaeglichbrot/trouvaillen-unsertaeglichbrot.component';
 
 @NgModule({
   declarations: [
@@ -203,6 +204,7 @@ import { TrouvaillenHerrengasse13Component } from './beiträge/trouvaillen-herre
     TrouvaillenUnsererfrauenbruderschaftComponent,
     OberrohrdorfRaebeliechtliComponent,
     TrouvaillenHerrengasse13Component,
+    TrouvaillenUnsertaeglichbrotComponent,
   ],
   imports: [
     MatToolbarModule,

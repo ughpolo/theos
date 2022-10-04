@@ -26,9 +26,6 @@ export const Beiträge = {
     markierungen: [[46.42244, 6.26538]],
     kanton: Kantone.Waadt,
   },
-
-*/
-
   '6 Bern, Matte: Ländtetor': {
     karusselltitel: 'Bern, Matte: Ländtetor',
     verzeichnispfad: 'mattelaendtetor',
@@ -64,6 +61,8 @@ export const Beiträge = {
     markierungen: [[46.947, 7.44992]],
     kanton: Kantone.Trouvaillen,
   },
+
+*/
 
   'Basel Galluspforte': {
     karusselltitel: 'Die Galluspforte am Basler Münster',

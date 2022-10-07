@@ -27,7 +27,17 @@ export const Beiträge = {
     kanton: Kantone.Waadt,
   },
   
-
+ '6 Bern, Matte: Ländtetor': {
+    karusselltitel: 'Bern, Matte: Ländtetor',
+    verzeichnispfad: 'mattelaendtetor',
+    beitragtitel: 'Ländtetor',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-mattelaendtetor/Bild1.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2006)',
+    markierungen: [[46.94897, 7.45807]],
+    kanton: Kantone.Trouvaillen,
+  },
   
   '5 Kirche Einigen "Unser täglich Brot ..."': {
     karusselltitel: 'Kirche Einigen: "Unser täglich Brot ..."',
@@ -53,17 +63,7 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },
 
-  '6 Bern, Matte: Ländtetor': {
-    karusselltitel: 'Bern, Matte: Ländtetor',
-    verzeichnispfad: 'mattelaendtetor',
-    beitragtitel: 'Ländtetor',
-    ort: 'Trouvaillen',
-    bild: 'trouvaille-mattelaendtetor/Bild1.jpeg',
-    autor: 'Rudolf Dellsperger',
-    jahr: '2022 (2006)',
-    markierungen: [[46.94897, 7.45807]],
-    kanton: Kantone.Trouvaillen,
-  },
+ 
 
 */
 

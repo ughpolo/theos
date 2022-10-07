@@ -27,7 +27,11 @@ export const Beiträge = {
     kanton: Kantone.Waadt,
   },
   
+<<<<<<< Updated upstream
  '6 Bern, Matte: Ländtetor': {
+=======
+   '6 Bern, Matte: Ländtetor': {
+>>>>>>> Stashed changes
     karusselltitel: 'Bern, Matte: Ländtetor',
     verzeichnispfad: 'mattelaendtetor',
     beitragtitel: 'Ländtetor',
@@ -38,6 +42,10 @@ export const Beiträge = {
     markierungen: [[46.94897, 7.45807]],
     kanton: Kantone.Trouvaillen,
   },
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
   
   '5 Kirche Einigen "Unser täglich Brot ..."': {
     karusselltitel: 'Kirche Einigen: "Unser täglich Brot ..."',
@@ -65,8 +73,11 @@ export const Beiträge = {
 
  
 
+<<<<<<< Updated upstream
 */
 
+=======
+>>>>>>> Stashed changes
   'Basel Galluspforte': {
     karusselltitel: 'Die Galluspforte am Basler Münster',
     verzeichnispfad: 'Die Galluspforte am Basler Münster',

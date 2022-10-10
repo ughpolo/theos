@@ -74,7 +74,7 @@ export const Beiträge = {
     bild: 'basel-galluspforte/Bild0.jpeg',
     autor: 'Silvan Beer',
     jahr: '2022',
-    markierungen: [[47.55621, 7.59225]],
+    markierungen: [[47.55662, 7.5923]],
     kanton: Kantone.BaselStadt,
   },
 

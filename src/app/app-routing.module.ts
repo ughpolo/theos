@@ -84,6 +84,11 @@ import { TrouvaillenUnsertaeglichbrotComponent } from './beiträge/trouvaillen-u
 import { TrouvaillenMattelaendtetorComponent } from './beiträge/trouvaillen-mattelaendtetor/trouvaillen-mattelaendtetor.component';
 const routes: Routes = [
   {
+    path: 'herrengasse13',
+    component: TrouvaillenHerrengasse13Component,
+  },
+
+  {
     path: 'mattelaendtetor',
     component: TrouvaillenMattelaendtetorComponent,
   },

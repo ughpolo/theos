@@ -16,8 +16,12 @@ export const Beiträge = {
   },
   
 
-  
- '6 Bern, Matte: Ländtetor': {
+ 
+
+
+*/
+
+  '6 Bern, Matte: Ländtetor': {
     karusselltitel: 'Bern, Matte: Ländtetor',
     verzeichnispfad: 'mattelaendtetor',
     beitragtitel: 'Ländtetor',
@@ -28,7 +32,7 @@ export const Beiträge = {
     markierungen: [[46.94897, 7.45807]],
     kanton: Kantone.Trouvaillen,
   },
-  
+
   '5 Kirche Einigen "Unser täglich Brot ..."': {
     karusselltitel: 'Kirche Einigen: "Unser täglich Brot ..."',
     verzeichnispfad: 'unsertaeglichbrot',
@@ -41,7 +45,7 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },
 
- '4 Hausspruch Herrengasse 13': {
+  '4 Hausspruch Herrengasse 13': {
     karusselltitel: 'Bern, Herrengasse 13: Hausspruch',
     verzeichnispfad: 'herrengasse13',
     beitragtitel: 'Hausspruch',
@@ -52,9 +56,6 @@ export const Beiträge = {
     markierungen: [[46.947, 7.44992]],
     kanton: Kantone.Trouvaillen,
   },
-
-
-*/
 
   'Église Saint-Jean-Baptiste': {
     karusselltitel: 'Église Saint-Jean-Baptiste',

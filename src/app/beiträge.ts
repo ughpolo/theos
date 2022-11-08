@@ -3,7 +3,14 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
 
- 'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf': {
+
+
+ 
+
+
+*/
+
+  'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf': {
     karusselltitel: 'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf',
     verzeichnispfad: 'raebeliechtli',
     beitragtitel: 'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf',
@@ -14,12 +21,6 @@ export const Beiträge = {
     markierungen: [[47.41906, 8.31497]],
     kanton: Kantone.Aargau,
   },
-  
-
- 
-
-
-*/
 
   '6 Bern, Matte: Ländtetor': {
     karusselltitel: 'Bern, Matte: Ländtetor',

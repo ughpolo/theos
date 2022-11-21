@@ -22,10 +22,10 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },
 
-  '8 Bätterkinden, "OEil-de-boeuf"-Fenster': {
-    karusselltitel: 'Bätterkinden, "OEil-de-boeuf"-Fenster',
+  '8 Bätterkinden, Das "Oeil-de-boeuf"-Fenster': {
+    karusselltitel: 'Bätterkinden, Das "Oeil-de-boeuf"-Fenster',
     verzeichnispfad: 'oeildeboeuf',
-    beitragtitel: 'Bätterkinden, "OEil-de-boeuf"-Fenster',
+    beitragtitel: 'Bätterkinden, Das "Oeil-de-boeuf"-Fenster',
     ort: 'Trouvaillen',
     bild: 'trouvaille-oeildeboeuf/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',

@@ -10,7 +10,10 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 })
 export class TrouvaillenOeildeboeufComponent implements OnInit {
   ngOnInit(): void {
-    this.assign('Rudolf Dellsperger', 'Bätterkinden, "OEil-de-boeuf"-Fenster');
+    this.assign(
+      'Rudolf Dellsperger',
+      'Bätterkinden, Das "Oeil-de-boeuf"-Fenster'
+    );
     this.createIds();
   }
 

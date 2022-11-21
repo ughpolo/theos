@@ -2,15 +2,7 @@ import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
   /*
-
-
-
- 
-
-
-*/
-
-  'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins': {
+ 'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins': {
     karusselltitel:
       'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins',
     verzeichnispfad: 'trivultus',
@@ -23,6 +15,12 @@ export const Beiträge = {
     markierungen: [[47.55927, 7.58525]],
     kanton: Kantone.BaselStadt,
   },
+
+
+ 
+
+
+*/
 
   '9 Bern, Heiliggeistkirche: Für Burger und Strafgefangene': {
     karusselltitel: 'Bern, Heiliggeistkirche: Für Burger und Strafgefangene',

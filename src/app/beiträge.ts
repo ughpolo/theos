@@ -10,6 +10,20 @@ export const Beiträge = {
 
 */
 
+  'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins': {
+    karusselltitel:
+      'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins',
+    verzeichnispfad: 'trivultus',
+    beitragtitel:
+      'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins',
+    ort: 'Basel',
+    bild: 'basel-trivultus/Bild0.jpeg',
+    autor: 'Adriana Basso Schaub',
+    jahr: '2022',
+    markierungen: [[47.55927, 7.58525]],
+    kanton: Kantone.BaselStadt,
+  },
+
   '9 Bern, Heiliggeistkirche: Für Burger und Strafgefangene': {
     karusselltitel: 'Bern, Heiliggeistkirche: Für Burger und Strafgefangene',
     verzeichnispfad: 'burgerundstrafgefangene',

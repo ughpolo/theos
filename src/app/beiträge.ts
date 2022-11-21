@@ -10,6 +10,45 @@ export const Beiträge = {
 
 */
 
+  '9 Bern, Heiliggeistkirche: Für Burger und Strafgefangene': {
+    karusselltitel: 'Bern, Heiliggeistkirche: Für Burger und Strafgefangene',
+    verzeichnispfad: 'burgerundstrafgefangene',
+    beitragtitel: 'Bern, Heiliggeistkirche: Für Burger und Strafgefangene',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-burgerundstrafgefangene/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2007)',
+    markierungen: [[46.948, 7.44073]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '8 Bätterkinden, "OEil-de-boeuf"-Fenster': {
+    karusselltitel: 'Bätterkinden, "OEil-de-boeuf"-Fenster',
+    verzeichnispfad: 'oeildeboeuf',
+    beitragtitel: 'Bätterkinden, "OEil-de-boeuf"-Fenster',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-oeildeboeuf/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2007)',
+    markierungen: [[47.12895, 7.54056]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '7 Bern, Kirche und Staat - ein Balanceakt': {
+    karusselltitel: 'Bern, Kirche und Staat - ein Balanceakt',
+    verzeichnispfad: 'kircheundstaat',
+    beitragtitel: 'Bern, Kirche und Staat - ein Balanceakt',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-kircheundstaat/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2007)',
+    markierungen: [
+      [46.9487, 7.45235],
+      [46.94724, 7.45153],
+    ],
+    kanton: Kantone.Trouvaillen,
+  },
+
   'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf': {
     karusselltitel: 'Sankt Martin und der Räbeliechtliumzug in Oberrohrdorf',
     verzeichnispfad: 'raebeliechtli',

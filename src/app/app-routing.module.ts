@@ -82,7 +82,24 @@ import { OberrohrdorfRaebeliechtliComponent } from './beiträge/oberrohrdorf-rae
 import { TrouvaillenHerrengasse13Component } from './beiträge/trouvaillen-herrengasse13/trouvaillen-herrengasse13.component';
 import { TrouvaillenUnsertaeglichbrotComponent } from './beiträge/trouvaillen-unsertaeglichbrot/trouvaillen-unsertaeglichbrot.component';
 import { TrouvaillenMattelaendtetorComponent } from './beiträge/trouvaillen-mattelaendtetor/trouvaillen-mattelaendtetor.component';
+import { TrouvaillenKircheundstaatComponent } from './beiträge/trouvaillen-kircheundstaat/trouvaillen-kircheundstaat.component';
+import { TrouvaillenOeildeboeufComponent } from './beiträge/trouvaillen-oeildeboeuf/trouvaillen-oeildeboeuf.component';
+import { TrouvaillenBurgerundstrafgefangeneComponent } from './beiträge/trouvaillen-burgerundstrafgefangene/trouvaillen-burgerundstrafgefangene.component';
 const routes: Routes = [
+  {
+    path: 'burgerundstrafgefangene',
+    component: TrouvaillenBurgerundstrafgefangeneComponent,
+  },
+
+  {
+    path: 'oeildeboeuf',
+    component: TrouvaillenOeildeboeufComponent,
+  },
+
+  {
+    path: 'kircheundstaat',
+    component: TrouvaillenKircheundstaatComponent,
+  },
   {
     path: 'herrengasse13',
     component: TrouvaillenHerrengasse13Component,

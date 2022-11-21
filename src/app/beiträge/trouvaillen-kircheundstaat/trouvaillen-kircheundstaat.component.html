@@ -1,0 +1,109 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-kircheundstaat/Bild0.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+
+      <p id="firstParagraph">
+        Von Norden gesehen, dominieren drei Bauten die Berner Altstadt: das
+        Rathaus, die (christkatholische) Kirche St. Peter und Paul und das
+        Münster. Wir konzentrieren uns, obwohl auch die Dreifaltigkeitskirche
+        und die Synagoge mit einzubeziehen wären, auf das Rathaus und das
+        Münster. Sie liegen an den Enden der Kreuzgasse, die wie eine
+        Balancierstange quer zur Hauptachse liegt: ein Sinnbild für den Auftrag
+        an Staat und Kirche, zum Wohl der Menschen und der Schöpfung
+        zusammenzuarbeiten.
+        <br />Dies ist ein hohes Ideal, dessen Umsetzung stets nur annähernd
+        gelang (und gelingt). Das liesse sich historisch illustrieren. Aber hier
+        soll nur wenig zum Thema gesagt und stattdessen an zwei Momentaufnahmen
+        aus dem Rathaus angeknüpft werden: Jedes Mal, wenn die Berner
+        Kantonsregierung tagt, liegt auf dem Tisch in der Mitte des
+        Sitzungszimmers eine alte Bibel, und jedes Mal, wenn das für das
+        Kirchenwesen zuständige Regierungsmitglied in der Rathauskapelle, die
+        gleich hinter besagtem Sitzungszimmer liegt, die neu ordinierten
+        Pfarrerinnen und Pfarrer in den Kirchendienst aufnimmt, übergibt es
+        ihnen ihr wichtigstes Werkzeug: die Bibel. <br />Diese traditionsreichen
+        Szenen erinnern mich an den Traktat «Von göttlicher und menschlicher
+        Gerechtigkeit», den der Zürcher Reformator Huldrych Zwingli 1523 nach
+        Bern adressierte. Dessen Tenor lautet: Die menschliche Gerechtigkeit
+        gibt jedem, was ihm gehört, hingegen ist «Gnade vor Recht» der Grundsatz
+        der göttlichen Gerechtigkeit. Ein irdisches Gericht muss einen Menschen
+        nach seinen Taten beurteilen – Gott sieht ihm ins Herz. Die menschliche
+        Gerechtigkeit ist bitter nötig, denn ohne sie drohte der Kampf aller
+        gegen alle – wenn sie als relative Gerechtigkeit die absolute
+        Gerechtigkeit nur im Auge behält. War (und ist) mit der Bibel in der
+        Mitte jeweils die Unterscheidung zwischen menschlichem und göttlichem
+        Recht gemeint? Wenn der Staat den Pfarrerinnen und Pfarrern die
+        «Kanzelbibel» schenkt: Bekundet er damit sein Interesse daran, dass sie
+        aus ihr auch und gerade den Gesichtspunkt der göttlichen Gerechtigkeit
+        ins öffentliche Leben einbringen? Nicht dass die Kirche die göttliche
+        Gerechtigkeit gepachtet hätte, behüte – sie hat sie oft genug verraten
+        und ist wahrhaftig auf sie angewiesen. Aber sie hat den Auftrag, in
+        Stadt und Land mit Wort und Tat für sie einzutreten. <br />Die
+        Kirchenordnung des Evangelisch-reformierten Synodalverbandes Bern-Jura
+        von 1990 bringt die Unterscheidung der beiden Gerechtigkeiten in Artikel
+        158, Absatz 1 auf den Punkt: «Die Kirche arbeitet zum Wohl der Menschen
+        partnerschaftlich mit dem Staat und seinen Behörden zusammen. Sie
+        unterstützt den Staat in seiner Aufgabe, für Recht und Frieden zu sorgen
+        und erinnert ihn an die Grenzen, die ihm, wie jeder menschlichen
+        Ordnung, durch Gottes Reich und durch das an Gottes Wort gebundene
+        Gewissen gesetzt sind.»
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-kircheundstaat/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Von Norden gesehen, dominieren drei Bauten die Berner Altstadt: das
+        Rathaus, die (christkatholische) Kirche St. Peter und Paul und das
+        Münster. Kirche (Münster, rechts) und Staat (Rathaus, links):
+        aufeinander angewiesen. (Bild: Adriana Basso Schaub)
+      </p>
+
+      <p class="autor">
+        Dr. Rudolf Dellsperger ist ein Schweizer Theologe und emeritierter
+        Professor für Neuere Kirchengeschichte, Konfessionskunde und
+        Theologiegeschichte an der Universität Bern.
+      </p>
+
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -86,7 +86,25 @@ import { TrouvaillenKircheundstaatComponent } from './beiträge/trouvaillen-kirc
 import { TrouvaillenOeildeboeufComponent } from './beiträge/trouvaillen-oeildeboeuf/trouvaillen-oeildeboeuf.component';
 import { TrouvaillenBurgerundstrafgefangeneComponent } from './beiträge/trouvaillen-burgerundstrafgefangene/trouvaillen-burgerundstrafgefangene.component';
 import { BaselTrivultusComponent } from './beiträge/basel-trivultus/basel-trivultus.component';
+import { TrouvaillenBuchhofComponent } from './beiträge/trouvaillen-buchhof/trouvaillen-buchhof.component';
+import { TrouvaillenBernersynodusComponent } from './beiträge/trouvaillen-bernersynodus/trouvaillen-bernersynodus.component';
+import { TrouvaillenHindelbankComponent } from './beiträge/trouvaillen-hindelbank/trouvaillen-hindelbank.component';
 const routes: Routes = [
+  {
+    path: 'hindelbank',
+    component: TrouvaillenHindelbankComponent,
+  },
+
+  {
+    path: 'bernersynodus',
+    component: TrouvaillenBernersynodusComponent,
+  },
+
+  {
+    path: 'buchhof',
+    component: TrouvaillenBuchhofComponent,
+  },
+
   {
     path: 'trivultus',
     component: BaselTrivultusComponent,

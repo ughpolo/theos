@@ -1,0 +1,128 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-buchhof/Bild0.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+
+      <p id="firstParagraph">
+        Seit fünf Jahren lebte Beat Ludwig von Muralt (1665–1749) mit seiner
+        Familie im Exil. Bern hatte ihm seine Kritik an Kirche und Gesellschaft
+        übel genommen und ihn anno 1700 verbannt. Er zog nach Genf, wurde aber
+        auch dort ausgewiesen. Auch in Merlinge bei Genf konnte er nicht
+        bleiben: Der Landesherr, der Bischof von Genf-Annecy, verlangte für die
+        Niederlassung die Konversion zum Katholizismus. Erst recht keine Zukunft
+        hatte er in Montcherand bei Orbe. Zwar lebte er dort auf
+        familieneigenem, aber eben auf bernischem Grund und Boden. Und so wohnte
+        er 1705 halt auf solothurnischem Gebiet, auf dem Buchhof der Familie
+        Arregger. Es war ein idyllischer, auch «Freudegg» genannter Landsitz mit
+        Herrschaftshaus, Ökonomiegebäuden, Gärten, Park und einem Weiher. In der
+        Nähe führte die Strasse Bern-Solothurn vorbei.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-buchhof/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Exil von Beat Ludwig von Muralt: Landsitz Buchhof, Lohn-Ammannsegg (SO).
+        (Bild: Adriana Basso Schaub)
+      </p>
+      <p>
+        Vor von Muralt lag ein Brief seines Cousins Georg Thormann (1655–1708).
+        Dieser, Pfarrer in Lützelflüh und Dekan des Kapitels Burgdorf, hatte ihn
+        gebeten, er möchte doch seinen Widerstand gegen die Kirche aufgeben und
+        wieder am Gottesdienst teilnehmen. Diese Einladung hatte schon wegen
+        ihres Absenders Gewicht. Wenn jemand den Pfarrerstand glaubwürdig
+        verkörperte, dann Thormann. Er und seine Frau Marthe de l’Isle (*1620)
+        setzten sich unermüdlich für die Glaubensflüchtlinge aus Frankreich und
+        die Waldenser aus dem Piemont ein, Thormann hatte ein Buch über das
+        Abendmahl und dessen würdige Feier geschrieben und in einem Traktat über
+        das Täufertum eine gründliche Reform der Kirche und Erneuerung des
+        Pfarrerstandes gefordert.
+        <br />Von Muralt hatte den Brief seines Cousins wieder und wieder
+        gelesen. Seine Antwort datiert vom 10. November 1705. Er liebte die
+        literarische Form des Briefs und beherrschte sie meisterhaft. Das hatte
+        er rund zehn Jahre zuvor mit Briefen aus London und Paris bewiesen, die
+        später als Lettres sur les Anglais et les Français berühmt werden
+        sollten. Von Muralt hätte nur einwilligen, nur Ja sagen müssen, und er
+        hätte nach Bern zurückkehren können. Aber er sagte freundlich, aber
+        bestimmt Nein, indem er, was Thormann besonders geschmerzt haben muss,
+        durchwegs von «euren» Gottesdiensten und «euren» Versammlungen sprach.
+        Er gehörte nicht mehr dazu oder konnte noch nicht wieder dazu gehören.
+        <br />Warum? Von Muralt erinnerte daran, dass nicht er sich den Menschen
+        entziehe, sondern dass man ihn aus den Städten verbanne. Er wolle den
+        hohen erzieherischen Wert des kirchlichen Lebens keineswegs bestreiten
+        und habe im Unterschied zu früher an der Polemik gegen die Korruption in
+        der Pfarrerschaft kein Interesse mehr. Er habe genug damit zu tun, vor
+        der eigenen Tür zu kehren. Hingegen sei es schon so, dass ihn sein
+        Gewissen nicht zur Teilnahme am kirchlichen Leben verpflichte. Dann
+        erinnerte er an das für ihn traumatische Erlebnis vom Jahr 1700, als er
+        von zwei Pfarrern ultimativ zum Besuch von Gottesdienst und Abendmahl
+        aufgefordert wurde, andernfalls man ihn seitens des Kleinen Rates so
+        weit bringen werde. Solcher Druck bestand nach wie vor: den Täufern, den
+        Pietisten und eben auch ihm, von Muralt gegenüber. Er legte Wert darauf,
+        dass er nach seiner Verbannung aus Bern in Genf den Gottesdienst besucht
+        habe, und versprach, es wieder zu tun – wenn nur die Freiheit dazu
+        bestünde, es auch unterlassen zu können. Und er werde es so lange nicht
+        tun können, als diese Freiheit nicht bestehe. <br />Von Muralt verstand
+        die Freiheit, die er meinte, als ein genuin christliches Gut. Was ist
+        sie heute?
+      </p>
+
+      <p class="autor">
+        Dr. Rudolf Dellsperger ist ein Schweizer Theologe und emeritierter
+        Professor für Neuere Kirchengeschichte, Konfessionskunde und
+        Theologiegeschichte an der Universität Bern.
+      </p>
+
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            Dellsperger, Rudolf: «Beat Ludwig von Muralts Emigration aus der
+            Kirche – Hinweise zu seinem Weg zwischen Pietismus und Aufklärung»,
+            in: Ders.: Kirchengemeinschaft und Gewissensfreiheit. Studien zur
+            Kirchen- und Theologiegeschichte der reformierten Schweiz:
+            Ereignisse, Gestalten, Wirkungen, Bern u. a. 2001 (BSHST 71), 66-84.
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

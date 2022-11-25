@@ -118,6 +118,9 @@ import { TrouvaillenKircheundstaatComponent } from './beiträge/trouvaillen-kirc
 import { TrouvaillenOeildeboeufComponent } from './beiträge/trouvaillen-oeildeboeuf/trouvaillen-oeildeboeuf.component';
 import { TrouvaillenBurgerundstrafgefangeneComponent } from './beiträge/trouvaillen-burgerundstrafgefangene/trouvaillen-burgerundstrafgefangene.component';
 import { BaselTrivultusComponent } from './beiträge/basel-trivultus/basel-trivultus.component';
+import { TrouvaillenBuchhofComponent } from './beiträge/trouvaillen-buchhof/trouvaillen-buchhof.component';
+import { TrouvaillenBernersynodusComponent } from './beiträge/trouvaillen-bernersynodus/trouvaillen-bernersynodus.component';
+import { TrouvaillenHindelbankComponent } from './beiträge/trouvaillen-hindelbank/trouvaillen-hindelbank.component';
 
 @NgModule({
   declarations: [
@@ -215,6 +218,9 @@ import { BaselTrivultusComponent } from './beiträge/basel-trivultus/basel-trivu
     TrouvaillenOeildeboeufComponent,
     TrouvaillenBurgerundstrafgefangeneComponent,
     BaselTrivultusComponent,
+    TrouvaillenBuchhofComponent,
+    TrouvaillenBernersynodusComponent,
+    TrouvaillenHindelbankComponent,
   ],
   imports: [
     MatToolbarModule,

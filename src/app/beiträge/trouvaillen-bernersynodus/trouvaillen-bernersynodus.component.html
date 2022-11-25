@@ -1,0 +1,128 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-oberdiessbach/Bild2.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+
+      <p id="firstParagraph">
+        Mitte Januar 1740 stieg beim Oberdiessbacher Pfarrhaus ein vornehmer
+        Herr ab. Es war Nikolaus Ludwig von Zinzendorf (1700–1760), Reichsgraf
+        und Gründer der Herrnhuter Brüdergemeine. Er stand mit vierzig Jahren
+        auf der Höhe des Lebens. Sein Gastgeber, der Ortspfarrer Samuel Lutz
+        (1674–1750), hätte sein Vater sein können. Die beiden kannten sich aus
+        Briefen und Büchern. Sie standen sich nicht nur theologisch nahe. Ihre
+        Freundschaft hatte sich bewährt, auch als Lutz den Grafen
+        verschiedentlich vor Betriebsamkeit gewarnt und ihn damit verärgert
+        hatte. Jetzt sahen sie sich zum ersten Mal. Zinzendorf führte im
+        Pfarrhaus Bibelstunden durch, unterhielt sich ausgiebig mit Lutz,
+        besuchte in der nahen Kirche den Gottesdienst und machte im Neuen
+        Schloss Junker Albrecht von Wattenwyl (1681–1743) und dessen Gattin
+        Salome (1697–1755) seine Aufwartung.
+        <br />Trotzdem wurde es keine glückliche Begegnung. Zu hoch waren die
+        Erwartungen, zu verschieden die Temperamente, zu belastend der Argwohn,
+        mit dem ihr Zusammensein gerade aus frommen Kreisen beobachtet wurde.
+        Solchem Druck war Lutz nicht gewachsen. Er hielt in Zinzendorfs
+        Anwesenheit eine schlechte Predigt und betrachtete, als der Graf wieder
+        abgereist war, dessen Besuch als verpasste Chance: Denn das, was er mit
+        ihm hätte besprechen können, sei ihm erst hinterher eingefallen, schrieb
+        er ihm am 22. Januar. Er lese nämlich zurzeit den Berner Synodus. Wenn
+        er, der Graf, einmal wiederkomme, könne er darüber predigen. Berner
+        Synodus? <br />Der Berner Synodus ging aus der Synode der bernischen
+        Pfarrerschaft vom Januar 1532 hervor. Diese fiel in eine für die Berner
+        Kirche kritische Zeit: Nach der Niederlage der Reformierten im Zweiten
+        Kappeler Krieg machte sich im Volk gegenüber den Pfarrern
+        Unzufriedenheit breit. Sowohl die Täufer als auch die Anhänger der alten
+        kirchlichen Ordnung fanden beträchtliche Resonanz. Da traf aus
+        Strassburg der Reformator Wolfgang Capito (1478–1541) in Bern ein und
+        fand sich kurzfristig bereit, für die Synode eine Vorlage zu entwerfen.
+        Der Berner Synodus ist das Ergebnis ihrer Beratungen. Er befasst sich
+        mit der rechten Predigt und mit der kirchlichen Ordnung und war der
+        Berner Kirche gleichsam auf den Leib geschrieben. <br />Zurück ins Jahr
+        1740. Als Zinzendorf den Berner Synodus las, war er begeistert. Er fand
+        sich darin wieder. Er las: Rechte Predigt ist Christuspredigt. Christus,
+        der Gekreuzigte, Auferstandene und im Heiligen Geist Gegenwärtige, ist
+        das ganze Evangelium. Heilsame Erkenntnis der Sünde ergibt sich nicht
+        aus Gesetz und Moral, sondern unterm Kreuz. Sie befreit dazu, sich ganz
+        auf Gottes Gabe in Christus zu verlassen, und erweckt zu neuem Leben.
+        <br />Die Bekanntschaft mit dem Synodus war für Zinzendorf ein Glück.
+        Was er da las, klang anno 1740 – auf dem Höhepunkt der Aufklärung! –
+        allerdings merkwürdig fremd. Er war sich dessen bewusst und hielt
+        dennoch daran fest. Der Berner Synodus gehört bis heute zum
+        geschichtlichen Fundament der reformierten Berner Kirche und zur
+        Bekenntnisgrundlage der Herrnhuter. Das versteht sich in einer Zeit des
+        ökumenischen und interreligiösen Miteinanders nicht von selbst, sondern
+        will als Erbe stets neu erworben werden.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-oberdiessbach/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Wo sich der Pfarrer und der Graf trafen: Pfarrhaus Oberdiessbach. (Bild:
+        Adriana Basso Schaub)
+      </p>
+
+      <p class="autor">
+        Dr. Rudolf Dellsperger ist ein Schweizer Theologe und emeritierter
+        Professor für Neuere Kirchengeschichte, Konfessionskunde und
+        Theologiegeschichte an der Universität Bern.
+      </p>
+
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            Sallmann, Martin / Zeindler, Matthias (Hg.): Dokumente der Berner
+            Reformation: Disputationsthesen, Reformationsmandat, Synodus, Zürich
+            2. Aufl. 2017.
+          </li>
+          <li>
+            Dellsperger, Rudolf: «Der ‹Berner Synodus›; ‹… fleissig verlesen,
+            erläutert, ausgelegt und erneuert …›. Vortrag anlässlich der
+            Jubiläumsfeier 475 Jahre Berner Synodus am 12. Januar 2007», in:
+            ders. / Lavater, Hans Rudolf (Hg.): Die Wahrheit ist untödlich.
+            Beiträge eines Vortragszyklus an der Universität Bern im Winter
+            2006/2007, Bern 2007 (zugleich Mennonitica Helvetica 30), 213–242.
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

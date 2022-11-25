@@ -16,6 +16,43 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },
 
+  '12 Hindelbank (BE): Es geht nicht alles zugrunde': {
+    karusselltitel: 'Hindelbank (BE): Es geht nicht alles zugrunde',
+    verzeichnispfad: 'hindelbank',
+    beitragtitel: 'Hindelbank (BE): Es geht nicht alles zugrunde',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-hindelbank/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2008)',
+    markierungen: [[47.04177, 7.54017]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '11 Oberdiessbach (BE): Der Berner Synodus': {
+    karusselltitel: 'Oberdiessbach (BE): Der Berner Synodus',
+    verzeichnispfad: 'bernersynodus',
+    beitragtitel: 'Oberdiessbach (BE): Der Berner Synodus',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-oberdiessbach/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2006)',
+    markierungen: [[46.84032, 7.61958]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '10 Buchhof (S0): "... damit die christliche Freiheit bleibe"': {
+    karusselltitel: 'Buchhof (SO): "... damit die christliche Freiheit bleibe"',
+    verzeichnispfad: 'buchhof',
+    beitragtitel: 'Buchhof (SO): "... damit die christliche Freiheit bleibe"',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-buchhof/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2007)',
+    markierungen: [[47.1835, 7.5256]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+
 
  
 
@@ -113,7 +150,7 @@ export const Beiträge = {
     karusselltitel: 'Église Saint-Jean-Baptiste',
     verzeichnispfad: 'Saint-Jean-Baptiste',
     beitragtitel: 'Prädikat: «Mérite un détour»',
-    ort: 'Gland',
+    ort: 'Gland (VD)',
     bild: 'gland-saint-jean-baptiste/Bild1.jpeg',
     autor: 'David Zimmer',
     jahr: '2022',

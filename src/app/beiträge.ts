@@ -59,6 +59,18 @@ export const Beiträge = {
 
 */
 
+  'St. Clara – Gotteshaus der Katholiken Basels seit 1798': {
+    karusselltitel: 'St. Clara – Gotteshaus der Katholiken Basels seit 1798',
+    verzeichnispfad: 'clarakirche',
+    beitragtitel: 'St. Clara – Gotteshaus der Katholiken Basels seit 1798',
+    ort: 'Basel',
+    bild: 'basel-clarakirche/Bild0.jpeg',
+    autor: 'Patrick Braun',
+    jahr: '2022',
+    markierungen: [[47.56163, 7.59416]],
+    kanton: Kantone.BaselStadt,
+  },
+
   '9 Bern, Heiliggeistkirche: Für Burger und Strafgefangene': {
     karusselltitel: 'Bern, Heiliggeistkirche: Für Burger und Strafgefangene',
     verzeichnispfad: 'burgerundstrafgefangene',

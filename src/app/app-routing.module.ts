@@ -89,7 +89,12 @@ import { BaselTrivultusComponent } from './beiträge/basel-trivultus/basel-trivu
 import { TrouvaillenBuchhofComponent } from './beiträge/trouvaillen-buchhof/trouvaillen-buchhof.component';
 import { TrouvaillenBernersynodusComponent } from './beiträge/trouvaillen-bernersynodus/trouvaillen-bernersynodus.component';
 import { TrouvaillenHindelbankComponent } from './beiträge/trouvaillen-hindelbank/trouvaillen-hindelbank.component';
+import { BaselClarakircheComponent } from './beiträge/basel-clarakirche/basel-clarakirche.component';
 const routes: Routes = [
+  {
+    path: 'clarakirche',
+    component: BaselClarakircheComponent,
+  },
   {
     path: 'hindelbank',
     component: TrouvaillenHindelbankComponent,

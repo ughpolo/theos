@@ -16,6 +16,10 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },
 
+
+
+*/
+
   '12 Hindelbank (BE): Es geht nicht alles zugrunde': {
     karusselltitel: 'Hindelbank (BE): Es geht nicht alles zugrunde',
     verzeichnispfad: 'hindelbank',
@@ -51,11 +55,6 @@ export const Beiträge = {
     markierungen: [[47.1835, 7.5256]],
     kanton: Kantone.Trouvaillen,
   },
-
-
-
-
-*/
 
   'St. Clara – Gotteshaus der Katholiken Basels seit 1798': {
     karusselltitel: 'St. Clara – Gotteshaus der Katholiken Basels seit 1798',

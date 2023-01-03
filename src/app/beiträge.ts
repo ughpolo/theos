@@ -2,7 +2,12 @@ import { Kantone } from 'src/app/components/models/kantone';
 
 export const Beiträge = {
   /*
- 'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins': {
+ 
+
+
+*/
+
+  'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins': {
     karusselltitel:
       'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins',
     verzeichnispfad: 'trivultus',
@@ -15,10 +20,6 @@ export const Beiträge = {
     markierungen: [[47.55927, 7.58525]],
     kanton: Kantone.BaselStadt,
   },
-
-
-
-*/
 
   '12 Hindelbank (BE): Es geht nicht alles zugrunde': {
     karusselltitel: 'Hindelbank (BE): Es geht nicht alles zugrunde',

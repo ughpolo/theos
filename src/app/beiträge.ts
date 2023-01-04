@@ -7,6 +7,78 @@ export const Beiträge = {
 
 */
 
+  '18 Zürich, Landesausstellung: Ganz Ohr': {
+    karusselltitel: 'Zürich, Landesausstellung: Ganz Ohr',
+    verzeichnispfad: 'landizh',
+    beitragtitel: 'Zürich, Landesausstellung: Ganz Ohr',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-landizh/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2008)',
+    markierungen: [[47.3661, 8.5432]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '17 Erlenbach im Simmental (BE): "La cellule d`Erlenbach': {
+    karusselltitel: 'Erlenbach im Simmental (BE): "La cellule d`Erlenbach',
+    verzeichnispfad: 'cellule',
+    beitragtitel: 'Erlenbach im Simmental (BE): "La cellule d`Erlenbach',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-cellulederlenbach/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2007)',
+    markierungen: [[46.66112, 7.55159]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '16 Bern, Landesausstellung 1914: Gottesfremde': {
+    karusselltitel: 'Bern, Landesausstellung 1914: Gottesfremde',
+    verzeichnispfad: 'landibern',
+    beitragtitel: 'Bern, Landesausstellung 1914: Gottesfremde',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-landibern/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2007)',
+    markierungen: [[46.9595, 7.4304]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '15 Därstetten (BE): "Almosen geben armet nid': {
+    karusselltitel: 'Därstetten (BE): "Almosen geben armet nid',
+    verzeichnispfad: 'daerstetten',
+    beitragtitel: 'Därstetten (BE): "Almosen geben armet nid',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-daerstetten/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2007)',
+    markierungen: [[46.6559, 7.4969]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '14 Bern West: Vom Zeughaus zum Diakonissenhaus': {
+    karusselltitel: 'Bern West: Vom Zeughaus zum Diakonissenhaus',
+    verzeichnispfad: 'diakonissenhaus',
+    beitragtitel: 'Bern West: Vom Zeughaus zum Diakonissenhaus',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-diakonissenhaus/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2007)',
+    markierungen: [[46.94959, 7.44305]],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '13 Thielle-Wavre (NE): Das alte Haus von Montmirail': {
+    karusselltitel: 'Thielle-Wavre (NE): Das alte Haus von Montmirail',
+    verzeichnispfad: 'montmirail',
+    beitragtitel: 'Thielle-Wavre (NE): Das alte Haus von Montmirail',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-montmirail/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022 (2008)',
+    markierungen: [[47.01687, 7.02622]],
+    kanton: Kantone.Trouvaillen,
+  },
+
   'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins': {
     karusselltitel:
       'Trivultus: Dreigesicht Gottes – ein mal eins mal eins gleich eins',

@@ -12,7 +12,7 @@ export class TrouvaillenUnsertaeglichbrotComponent implements OnInit {
   ngOnInit(): void {
     this.assign(
       'Rudolf Dellsperger',
-      'Kirche Einigen: "Unser täglich Brot ..."'
+      'Kirche Einigen (BE): "Unser täglich Brot ..."'
     );
     this.createIds();
   }

@@ -12,7 +12,10 @@ export class TrouvaillenMuenchenwilerchristusundkircheComponent
   implements OnInit
 {
   ngOnInit(): void {
-    this.assign('Rudolf Dellsperger', 'Münchenwiler: Christus und die Kirche');
+    this.assign(
+      'Rudolf Dellsperger',
+      'Münchenwiler (BE): Christus und die Kirche'
+    );
     this.createIds();
   }
 

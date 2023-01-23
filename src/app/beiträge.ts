@@ -195,7 +195,7 @@ export const Beiträge = {
   '6 Bern, Matte: Ländtetor': {
     karusselltitel: 'Bern, Matte: Ländtetor',
     verzeichnispfad: 'mattelaendtetor',
-    beitragtitel: 'Ländtetor',
+    beitragtitel: 'Bern, Matte: Ländtetor',
     ort: 'Trouvaillen',
     bild: 'trouvaille-mattelaendtetor/Bild1.jpeg',
     autor: 'Rudolf Dellsperger',
@@ -204,10 +204,10 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },
 
-  '5 Kirche Einigen "Unser täglich Brot ..."': {
-    karusselltitel: 'Kirche Einigen: "Unser täglich Brot ..."',
+  '5 Kirche Einigen (BE): "Unser täglich Brot ..."': {
+    karusselltitel: 'Kirche Einigen (BE): "Unser täglich Brot ..."',
     verzeichnispfad: 'unsertaeglichbrot',
-    beitragtitel: '"Unser täglich Brot"',
+    beitragtitel: 'Kirche Einigen (BE): "Unser täglich Brot ..."',
     ort: 'Trouvaillen',
     bild: 'trouvaille-unsertaeglichbrot/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',
@@ -219,7 +219,7 @@ export const Beiträge = {
   '4 Hausspruch Herrengasse 13': {
     karusselltitel: 'Bern, Herrengasse 13: Hausspruch',
     verzeichnispfad: 'herrengasse13',
-    beitragtitel: 'Hausspruch',
+    beitragtitel: 'Bern, Herrengasse 13: Hausspruch',
     ort: 'Trouvaillen',
     bild: 'trouvaille-herrengasse13/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',
@@ -255,7 +255,7 @@ export const Beiträge = {
   '3 "unserer frauen bruderschaft"': {
     karusselltitel: 'Berner Münster: "unserer frauen bruderschaft"',
     verzeichnispfad: 'unsererfrauenbruderschaft',
-    beitragtitel: '"unserer frauen bruderschaft"',
+    beitragtitel: 'Berner Münster: "unserer frauen bruderschaft"',
     ort: 'Trouvaillen',
     bild: 'trouvaille-unsererfrauenbruderschaft/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',
@@ -267,7 +267,7 @@ export const Beiträge = {
   '2 Beatus lacht': {
     karusselltitel: 'Dreifaltigkeitkirche Bern / Kirche Einigen: Beatus lacht',
     verzeichnispfad: 'beatuslacht',
-    beitragtitel: 'Beatus lacht',
+    beitragtitel: 'Dreifaltigkeitkirche Bern / Kirche Einigen: Beatus lacht',
     ort: 'Trouvaillen',
     bild: 'trouvaille-beatuslacht/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',
@@ -280,9 +280,9 @@ export const Beiträge = {
   },
 
   '1 Christus und die Kirche': {
-    karusselltitel: 'Münchenwiler: Christus und die Kirche',
+    karusselltitel: 'Münchenwiler (BE): Christus und die Kirche',
     verzeichnispfad: 'muenchenwilerchristusundkirche',
-    beitragtitel: 'Christus und die Kirche',
+    beitragtitel: 'Münchenwiler (BE): Christus und die Kirche',
     ort: 'Trouvaillen',
     bild: 'trouvaille-muenchenwiler-christus-kirche/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',

@@ -19,10 +19,10 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },
 
-  '17 Erlenbach im Simmental (BE): "La cellule d`Erlenbach': {
-    karusselltitel: 'Erlenbach im Simmental (BE): "La cellule d`Erlenbach',
+  '17 Erlenbach im Simmental (BE): "La cellule d`Erlenbach"': {
+    karusselltitel: '"Erlenbach im Simmental (BE): "La cellule d`Erlenbach"',
     verzeichnispfad: 'cellule',
-    beitragtitel: 'Erlenbach im Simmental (BE): "La cellule d`Erlenbach',
+    beitragtitel: 'Erlenbach im Simmental (BE): "La cellule d`Erlenbach"',
     ort: 'Trouvaillen',
     bild: 'trouvaille-cellulederlenbach/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',

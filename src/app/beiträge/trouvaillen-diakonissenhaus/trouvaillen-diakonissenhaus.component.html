@@ -1,0 +1,129 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-diakonissenhaus/Bild0.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+
+      <p id="firstParagraph">
+        Nach der Aufklärung und der Französischen Revolution erlebte Europa in
+        Romantik und Erweckungsbewegung eine Wiederkehr der Religion. In Bern
+        ging die Erweckung in den Jahren 1816/17 von der Französischen Kirche
+        aus. Dort predigte Antoine Jean Louis Galland (1792–1862) das Evangelium
+        von der Rechtfertigung allein aus Gnade. Viele Menschen liessen sich
+        davon bewegen. Sie gründeten Kirchen und Gemeinschaften, Schulen und
+        Spitäler, gemeinnützige Vereine und Sozialwerke. <br />Einige davon
+        haben sich um 1880 im Raum Zeughausgasse/Nägeligasse niedergelassen, als
+        dieser durch den Abbruch des Zeughauses frei wurde. Man kann sie auf
+        einem Spaziergang bequem erwandern und entdecken: an der Nägeligasse das
+        ehemalige Freie Gymnasium mit der Inschrift «Trachtet am ersten nach dem
+        Reiche Gottes» (Mt. 6,33), auf der anderen Strassenseite das Gebäude der
+        Evangelischen Gesellschaft mit der beim 1. Petrusbrief (1,23)
+        aufgeschlagenen Bibel über der Eingangstüre («Des Herrn/Gottes Wort
+        bleibt in Ewigkeit»), ihnen gegenüber die Kapelle der Evangelischen
+        Gemeinschaft, daneben die Neue Mittelschule mit dem benediktinischen
+        Wahlspruch «Ora et labora» («Bete und arbeite») und in der Zeughausgasse
+        die Kapelle der Freien evangelischen Gemeinde mit dem Vereinshaus, in
+        dem auch der Blaukreuzverein zuhause war. <br />Ein älteres Monument der
+        Berner Erweckung befindet sich einige Schritte stadtaufwärts an der
+        Aarbergergasse 26. Hier eröffnete ein Krankenverein um Sophie von
+        Wurstemberger im Jahr 1844 ein Krankenheim. Eine Gedenktafel erinnert
+        daran und damit an die Gründung des Diakonissenhauses Bern. Sophie von
+        Wurstemberger (1809–1878) zählte sich zur Französischen Gemeinde und
+        hatte schon in jungen Jahren begonnen, Krankenbesuche zu machen. 1836
+        hatte sich um sie ein Kreis gleich gesinnter Frauen zum Krankenverein
+        zusammengeschlossen. Neben die gelegentliche Betreuung trat die ständige
+        Präsenz am Krankenbett, neben den Hausbesuchen die unentgeltliche Pflege
+        und seelsorgerliche Begleitung von Schwerkranken in eigenen
+        Räumlichkeiten.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-diakonissenhaus/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Bern, Aarbergergasse 26: Erster Standort des Diakonissenhauses. (Bild:
+        Adriana Basso Schaub)
+      </p>
+
+      <p>
+        Das erforderte umfassende Abklärungen und eine Konsolidierung des
+        Vereins. Die Frauen wagten im Glauben viel, aber dem Zufall überliessen
+        sie nichts. Bald reichten die vorhandenen Pflegeplätze nicht mehr aus.
+        Im Sommer 1845 wurde eine grössere Wohnung an der Brunngasse bezogen und
+        die erste Diakonisse, Margareth Scheidegger, eingesegnet. 1849 erfolgte
+        die Übersiedelung in den Neunbau der Nydegglaube. Weitere Schwestern
+        kamen dazu. 1853 übernahmen zwei Diakonissen die Kinderstube im
+        Inselspital. Die erste Station ausserhalb des Hauses war eröffnet, und
+        als sich die anderen Gründungen, die aus der Berner Erweckung
+        hervorgegangen waren, auf dem alten Zeughausareal niederliessen, hatte
+        das Diakonissenhaus seinen heutigen Standort am Altenberg bereits
+        bezogen. Aus bescheidenen Anfängen war in kurzer Zeit ein grosses Werk
+        geworden. Es ist, obwohl die Zahl der Schwestern abgenommen hat, jung
+        geblieben. Heute tut die Stiftung diaconis ihren Dienst am Nächsten im
+        Berner Stellennetz, in der Palliative Care und im Bereich Wohnen und
+        Pflege. (Diakonissenhaus Bern, Schänzlistrasse 43, 3013 Bern,
+        <a href="https://diaconis.ch/">www.diaconis.ch</a>)
+      </p>
+
+      <p class="autor">
+        Dr. Rudolf Dellsperger ist ein Schweizer Theologe und emeritierter
+        Professor für Neuere Kirchengeschichte, Konfessionskunde und
+        Theologiegeschichte an der Universität Bern.
+      </p>
+
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            Dellsperger, Rudolf / Nägeli, Markus / Ramser, Hansueli: Auf dein
+            Wort. Beiträge zur Geschichte und Theologie der Evangelischen
+            Gesellschaft des Kantons Bern im 19. Jahrhundert, Bern 1981.
+          </li>
+          <li>
+            Dellsperger, Rudolf: «Die Gründungszeit – Umfeld, Wurzeln,
+            Ausstrahlung», in: Naef, Christoph / Schranz, Sr. Lydia / Vogler,
+            Martin (Hg.): Festschrift 150 Jahre Diakonissenhaus Bern 1844–1944.
+            Begegnung mit Jesus Christus bewegt, Zürich 1994, 20–27.
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

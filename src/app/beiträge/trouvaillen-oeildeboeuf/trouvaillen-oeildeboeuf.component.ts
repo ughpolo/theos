@@ -12,7 +12,7 @@ export class TrouvaillenOeildeboeufComponent implements OnInit {
   ngOnInit(): void {
     this.assign(
       'Rudolf Dellsperger',
-      'Bätterkinden, Das "Oeil-de-boeuf"-Fenster'
+      'Bätterkinden (BE): Das "Oeil-de-boeuf"-Fenster'
     );
     this.createIds();
   }

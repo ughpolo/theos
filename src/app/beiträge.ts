@@ -43,10 +43,10 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },
 
-  '15 Därstetten (BE): "Almosen geben armet nid': {
-    karusselltitel: 'Därstetten (BE): "Almosen geben armet nid',
+  '15 Därstetten (BE): "Almosen geben armet nid"': {
+    karusselltitel: 'Därstetten (BE): "Almosen geben armet nid"',
     verzeichnispfad: 'daerstetten',
-    beitragtitel: 'Därstetten (BE): "Almosen geben armet nid',
+    beitragtitel: 'Därstetten (BE): "Almosen geben armet nid"',
     ort: 'Trouvaillen',
     bild: 'trouvaille-daerstetten/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',
@@ -153,10 +153,10 @@ export const Beiträge = {
     kanton: Kantone.Trouvaillen,
   },
 
-  '8 Bätterkinden, Das "Oeil-de-boeuf"-Fenster': {
-    karusselltitel: 'Bätterkinden, Das "Oeil-de-boeuf"-Fenster',
+  '8 Bätterkinden (BE): Das "Oeil-de-boeuf"-Fenster': {
+    karusselltitel: 'Bätterkinden (BE): Das "Oeil-de-boeuf"-Fenster',
     verzeichnispfad: 'oeildeboeuf',
-    beitragtitel: 'Bätterkinden, Das "Oeil-de-boeuf"-Fenster',
+    beitragtitel: 'Bätterkinden (BE): Das "Oeil-de-boeuf"-Fenster',
     ort: 'Trouvaillen',
     bild: 'trouvaille-oeildeboeuf/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',

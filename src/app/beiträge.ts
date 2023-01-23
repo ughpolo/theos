@@ -3,10 +3,6 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
  
-
-
-*/
-
   '18 Zürich, Landesausstellung: Ganz Ohr': {
     karusselltitel: 'Zürich, Landesausstellung: Ganz Ohr',
     verzeichnispfad: 'landizh',
@@ -42,6 +38,8 @@ export const Beiträge = {
     markierungen: [[46.9595, 7.4304]],
     kanton: Kantone.Trouvaillen,
   },
+
+*/
 
   '15 Därstetten (BE): "Almosen geben armet nid"': {
     karusselltitel: 'Därstetten (BE): "Almosen geben armet nid"',

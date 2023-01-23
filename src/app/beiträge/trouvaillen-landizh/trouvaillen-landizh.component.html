@@ -1,0 +1,116 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-landizh/Bild0.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+
+      <p id="firstParagraph">
+        An manchen alten Kirchen des Berner Oberlandes ist der Riese
+        Christophorus zu sehen, wie er, gebeugt von schwerer Last und auf einen
+        Baum gestützt, durchs Wasser stapft. Er war es leid, stets der Stärkste
+        und Grösste zu sein, und wünschte dem zu begegnen, an dem auch er
+        hinaufsehen konnte. Der König wars nicht: Der fürchtete den Teufel. Der
+        Teufel wars auch nicht: Sah der ein Kreuz, so umging ers in weitem
+        Bogen. Der Riese hätte noch lange suchen können, hätte ihn nicht eines
+        Tages ein Eremit auf Christus hingewiesen. Bei ihm müsse man aber fasten
+        können. Das konnte der Riese natürlich nicht, geschweige denn beten.
+        Aber Menschen über einen Fluss tragen, das konnte er wohl. Also ging er
+        hinüber und herüber, bekam nasse, kalte Füsse, wurde rechtschaffen müde
+        und schlief tief. Einmal weckte ihn eine feine Stimme: Ein Kind wollte
+        hinüber. Er nahm es und zog los. Da wurde das Kind schwer und schwerer,
+        so schwer wie die ganze Welt. «Du trägst mehr als die Welt», sagte das
+        Kind, «du trägst den, der sie erschaffen hat.» So ging der Wunsch des
+        Riesen in Erfüllung. Er hiess seitdem Christophorus: Christusträger.
+        <br />
+        Ein Christophorus-Bild befand sich lange auch in der ehemaligen
+        Heimstätte Gwatt, dem heutigen Gwatt-Zentrum. Es stammt von Willy Fries
+        (1907–1980), der es im Auftrag der landeskirchlichen
+        Jugendorganisationen für die Landesausstellung von 1939 in Zürich gemalt
+        hatte. <br />
+        Aus dem Kranz der weitläufigen «Landi» mit ihren Ameisenscharen
+        feiernder Menschen, der legendären Schwebebahn und den vielen bunten
+        Fahnen ragt der junge Riese in die Seen-, Hügel- und Gebirgslandschaft
+        einer schönen Schweiz hinein. Er ist ganz Ohr. Er merkt, auf welche
+        Stimme es anno 1939, mitten im Gedröhn der Diktatoren, ankommt: auf die
+        leise, aber klare Stimme des segnenden Christuskindes, das die heimliche
+        Mitte des Bildes ist. <br />
+        Willy Fries stand während seiner Berliner Studienzeit der Bekennenden
+        Kirche um Dietrich Bonhoeffer (1906–1945) und Martin Niemöller
+        (1892–1984) nahe. Es ging ihm in seinen religiösen Bildern darum, die
+        christliche Botschaft in seine Gegenwart zu übersetzen. Schon
+        «Christophorus», sein erster grosser Auftrag, ging in diese Richtung.
+        Später malte Fries die Passionsgeschichte, wie sie sich als
+        zeitgenössisches Geschehen in seiner Toggenburger Heimat ereignete, und
+        nach dem Krieg verlegte er die Weihnachtsgeschichte in Münchens Ruinen.
+        <br />
+        1972 verlieh ihm die Universität Bern den theologischen Ehrendoktor. Das
+        Christophorus-Gemälde befindet sich heute in der katholischen Kirche St.
+        Gallus in Lichtensteig.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-landizh/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Christophorus an der Landi. Willy Fries, Mischtechnik, 220x288cm, 1938,
+        WV Nr. 903. Bildstandort Katholische Kirche St. Gallus Lichtensteig.
+        (Bild: Silvan Altermatt, Werkverantwortlicher Stiftung Willy Fries
+        Wattwil)
+      </p>
+
+      <p class="autor">
+        Dr. Rudolf Dellsperger ist ein Schweizer Theologe und emeritierter
+        Professor für Neuere Kirchengeschichte, Konfessionskunde und
+        Theologiegeschichte an der Universität Bern.
+      </p>
+
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            Webseite Willy Fries, verfügbar unter:
+            <a target="_blank" href="https://www.willy-fries.ch">Willy Fries</a>
+            (Gret Bolli, 2015)
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

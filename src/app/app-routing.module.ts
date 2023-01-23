@@ -95,7 +95,13 @@ import { TrouvaillenDiakonissenhausComponent } from './beiträge/trouvaillen-dia
 import { TrouvaillenDaerstettenComponent } from './beiträge/trouvaillen-daerstetten/trouvaillen-daerstetten.component';
 import { TrouvaillenLandibernComponent } from './beiträge/trouvaillen-landibern/trouvaillen-landibern.component';
 import { TrouvaillenCelluleComponent } from './beiträge/trouvaillen-cellule/trouvaillen-cellule.component';
+import { TrouvaillenLandizhComponent } from './beiträge/trouvaillen-landizh/trouvaillen-landizh.component';
 const routes: Routes = [
+  {
+    path: 'landizh',
+    component: TrouvaillenLandizhComponent,
+  },
+
   {
     path: 'cellule',
     component: TrouvaillenCelluleComponent,

@@ -127,6 +127,7 @@ import { TrouvaillenDiakonissenhausComponent } from './beiträge/trouvaillen-dia
 import { TrouvaillenDaerstettenComponent } from './beiträge/trouvaillen-daerstetten/trouvaillen-daerstetten.component';
 import { TrouvaillenLandibernComponent } from './beiträge/trouvaillen-landibern/trouvaillen-landibern.component';
 import { TrouvaillenCelluleComponent } from './beiträge/trouvaillen-cellule/trouvaillen-cellule.component';
+import { TrouvaillenLandizhComponent } from './beiträge/trouvaillen-landizh/trouvaillen-landizh.component';
 
 @NgModule({
   declarations: [
@@ -233,6 +234,7 @@ import { TrouvaillenCelluleComponent } from './beiträge/trouvaillen-cellule/tro
     TrouvaillenDaerstettenComponent,
     TrouvaillenLandibernComponent,
     TrouvaillenCelluleComponent,
+    TrouvaillenLandizhComponent,
   ],
   imports: [
     MatToolbarModule,

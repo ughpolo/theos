@@ -125,6 +125,7 @@ import { BaselClarakircheComponent } from './beiträge/basel-clarakirche/basel-c
 import { TrouvaillenMontmirailComponent } from './beiträge/trouvaillen-montmirail/trouvaillen-montmirail.component';
 import { TrouvaillenDiakonissenhausComponent } from './beiträge/trouvaillen-diakonissenhaus/trouvaillen-diakonissenhaus.component';
 import { TrouvaillenDaerstettenComponent } from './beiträge/trouvaillen-daerstetten/trouvaillen-daerstetten.component';
+import { TrouvaillenLandibernComponent } from './beiträge/trouvaillen-landibern/trouvaillen-landibern.component';
 
 @NgModule({
   declarations: [
@@ -229,6 +230,7 @@ import { TrouvaillenDaerstettenComponent } from './beiträge/trouvaillen-daerste
     TrouvaillenMontmirailComponent,
     TrouvaillenDiakonissenhausComponent,
     TrouvaillenDaerstettenComponent,
+    TrouvaillenLandibernComponent,
   ],
   imports: [
     MatToolbarModule,

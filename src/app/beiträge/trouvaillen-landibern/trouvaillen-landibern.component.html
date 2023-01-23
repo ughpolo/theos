@@ -1,0 +1,117 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-landibern/Bild0.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+
+      <p id="firstParagraph">
+        Auf dem Neufeldareal, wo heute das Stadion, das Gymnasium, das
+        Lindenhofspital und das Tierspital stehen, fand 1914 die Schweizerische
+        Landesausstellung statt. An sie erinnern heute nur noch die Stationen
+        Länggasse und Brückfeld, von denen aus man damals in die Ausstellung
+        gelangte. <br />
+        Auch die reformierte und die römisch-katholische Kirche nahmen an diesem
+        «Fest der Arbeit» teil. Wie sind sie neben Gewerbe, Banken, Tourismus
+        und Sport, neben der Maschinen-, Automobil-, Eisenbahn- und
+        Flugzeugindustrie in Erscheinung getreten? Sie engagierten sich nicht
+        ohne Zögern. Als wichtige Faktoren im Leben des Volkes wollten sie
+        zugleich mehr sein als ein Kulturelement. Sie wurden in die Gruppen
+        «Öffentliche Verwaltung, Städtebau» sowie «Kirchliche Kunst und
+        Friedhofanlagen» eingeteilt und im «Dörfli» beim Studerstein am Rand des
+        Ausstellungsgeländes platziert. Die reformierte Sektion stellte sich als
+        Kirche des Worts und der Tat vor, die geistige und soziale Not lindern
+        half, während die katholische Sektion der wachsenden Materialisierung
+        und Veräusserlichung ihr reiches religiöses Brauchtum und ihre
+        kontemplativen Werte gegenüberstellte. Ökumene war noch kein Thema. Man
+        präsentierte sich in friedlichem Nebeneinander. <br />
+        In den Quellen taucht auch ein Projekt «Synagoge» auf, verschwindet aber
+        wieder spurlos, und andere Religionen kamen erst als Gegenstand
+        christlicher Mission vor. Die Frauen, die im Arbeits- und Erwerbsleben
+        voll integriert waren und sich in Verbänden für ihre Rechte und die
+        Volkswohlfahrt engagierten, waren in den Ausstellungsgremien krass
+        untervertreten. Die Gruppe «Friedensbestrebungen» musste aus
+        Kostengründen auf eine Teilnahme verzichten, und als im August der Erste
+        Weltkrieg ausbrach, reagierten die kirchlichen Aussteller nicht darauf.
+        <br />
+        Der junge Karl Barth (1886–1968), knapp dreissig Jahre später einer der
+        schärfsten Kritiker des Nationalsozialismus, nahm bereits die
+        Landesausstellung von 1914 zum Anlass, dem Schweizervolk eine ernste
+        Diagnose zu stellen. Es ging ihm nicht darum, die auch in seinen Augen
+        grossartigen Produkte menschlichen Erfindungsgeists schlechtzumachen.
+        Aber er sah auch, wie die Technik die Menschen versklavte, ohne dass sie
+        es merkten. Für ihn repräsentierte die Ausstellung eine Welt, die in
+        Kapitalismus und Leistungswahn befangen war. Er nannte das
+        «Gottesfremde», und zwar mit persönlicher Betroffenheit: «Den Spiegel
+        wird kein Vernünftiger tadeln, die Ausstellung ist sehr schön. Aber das
+        Bild, das der Spiegel zeigt, ist jammervoll. Es zeigt uns die moderne
+        Menschheit, diese rastlose, erfinderische, arbeitsame Menschheit,
+        <i>zu der wir ja auch gehören</i> (Hervorhebung durch den Autor RD), als
+        eine Herde, die keinen Hirten hat, ganz wie einst das Volk von Galiläa,
+        von dem Jesus das sagte.»
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-landibern/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Die Landesausstellung 1914 in Bern, zwischen Neufeld und Länggasse,
+        zeigte eine «rastlose, erfinderisch, arbeitsame Menschheit». (Bild:
+        Staatsarchiv des Kantons Bern S.L.A.B. 11009)
+      </p>
+
+      <p class="autor">
+        Dr. Rudolf Dellsperger ist ein Schweizer Theologe und emeritierter
+        Professor für Neuere Kirchengeschichte, Konfessionskunde und
+        Theologiegeschichte an der Universität Bern.
+      </p>
+
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            Studer-Schulthess, Barbara: Die Kirche im Spiegel der
+            Schweizerischen Landesausstellung Bern 1914. Unveröffentlichte
+            theologische Lizentiatsarbeit, Bern 1989.
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

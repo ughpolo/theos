@@ -92,7 +92,13 @@ import { TrouvaillenHindelbankComponent } from './beiträge/trouvaillen-hindelba
 import { BaselClarakircheComponent } from './beiträge/basel-clarakirche/basel-clarakirche.component';
 import { TrouvaillenMontmirailComponent } from './beiträge/trouvaillen-montmirail/trouvaillen-montmirail.component';
 import { TrouvaillenDiakonissenhausComponent } from './beiträge/trouvaillen-diakonissenhaus/trouvaillen-diakonissenhaus.component';
+import { TrouvaillenDaerstettenComponent } from './beiträge/trouvaillen-daerstetten/trouvaillen-daerstetten.component';
 const routes: Routes = [
+  {
+    path: 'daerstetten',
+    component: TrouvaillenDaerstettenComponent,
+  },
+
   {
     path: 'diakonissenhaus',
     component: TrouvaillenDiakonissenhausComponent,

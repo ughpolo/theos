@@ -1,0 +1,128 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-daerstetten/Bild0.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+
+      <p id="firstParagraph">
+        Die rechts der Simme gelegene Bäuert «Kloster» mit Kirche, Pfarrhaus und
+        stattlichen Simmentaler Häusern war bis ins 19. Jahrhundert der Ortskern
+        von Därstetten. Der Name erinnert an das Augustiner-Chorherrenstift, das
+        sich früher hier befand. Im Pfarrhaus entstand in den 1830er Jahren das
+        «System der natürlichen Religionslehre», ein Buch über die Frage nach
+        dem Verhältnis von Glaube und Wissen, das in der Gelehrtenwelt weithin
+        Beachtung fand. Sein Autor war Johann Peter Romang. 1802 in Saanen als
+        Bergbauernsohn geboren, hatte er Theologie und Philosophie studiert, war
+        kurze Zeit Professor für Philosophie in Bern gewesen und wirkte von 1837
+        an als Pfarrer am Ort. <br />
+        Ihn beschäftigten aber noch viele andere Themen. 1847, kurz vor
+        Erscheinen des «Kommunistischen Manifest» von Karl Marx und Friedrich
+        Engels und des ersten Glarner Fabrikgesetzes, hielt Romang vor dem
+        Schweizerischen Pfarrverein einen Vortrag über «Die Bedeutung des
+        Kommunismus. Aus dem Gesichtspunkt des Christenthums und der sittlichen
+        Cultur gewürdigt». Bevölkerungswachstum und Agrarmodernisierung,
+        Mechanisierung und Industrialisierung, Naturkatastrophen und eine
+        verheerende Kartoffelkrankheit hatten das soziale Gefüge auch
+        hierzulande schwer beeinträchtigt. <br />
+        Romang kannte die sozialistische und kommunistische Literatur seiner
+        Zeit. Atheistische, materialistische und revolutionäre Positionen waren
+        für ihn mit dem Christentum unvereinbar und der Kommunismus zwar im hoch
+        industrialisierten England, nicht jedoch in der Schweiz gerechtfertigt.
+        Aber er befürwortete eine aktive staatliche und kirchliche
+        Sozialpolitik. <br />
+        «Organisation der Gesellschaft» und «Neubau der Kirche» lautete seine
+        Losung. Dass den Forderungen der sozial Benachteiligten wirkliche
+        Missverhältnisse zugrunde lagen, stand für ihn ausser Frage. Ein
+        Gemeinwesen, in dem der Besitz krass ungerecht verteilt sei, riskiere
+        Spaltung und Aufruhr. Die Menschen sollten aus ihrer unseligen
+        Vereinzelung geholt und in den natürlichen Korporationen der Familie und
+        der Gemeinde organisiert werden. Das hiess: Familienschutz und Ausbau
+        der Sozialfürsorge, Schaffung gewerblicher Verbände und Fabrikreformen.
+        Bei seinen Kollegen warb Romang für den Mut zur Armut, Bereitschaft zum
+        materiellen Verzicht und zu solidarischer Verwendung des Besitzes. Er
+        vertrat ein fast franziskanisches Ideal. Man könnte auch sagen, am
+        Horizont erscheine die Gestalt des Arbeiterpriesters des 20.
+        Jahrhunderts. <br />
+        Gegen Ende seines Lebens schrieb Romang, wenn er in seinen Gemeinden
+        Anerkennung gefunden habe, dann bei der Armen. Betrat er die Kirche von
+        Därstetten durch die ehemalige Chorherrenpforte, so las er auf einer
+        Inschrift des 17. Jahrhunderts den Spruch: ZV DER KILCHEN GAN FERSVMT
+        NIT ALMOSEN GEBEN ARMET NIT. (Kirchgang versäumt nicht, Almosengeben
+        macht nicht arm.) Dass es anno 1847 nicht nur um Almosen, sondern um
+        soziale Gerechtigkeit ging, wusste er.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-daerstetten/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Der gute Mensch von Därstetten: Im Pfarrhaus lebte Johann Peter Romang.
+        (Bild: Adriana Basso Schaub)
+      </p>
+
+      <p class="autor">
+        Dr. Rudolf Dellsperger ist ein Schweizer Theologe und emeritierter
+        Professor für Neuere Kirchengeschichte, Konfessionskunde und
+        Theologiegeschichte an der Universität Bern.
+      </p>
+
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            Dellsperger, Rudolf: Johann Peter Romang (1802–1875). Philosophische
+            Theologie, christlicher Glaube und politische Verantwortung in
+            revolutionärer Zeit, Bern 1975 (BSHST 23).
+          </li>
+          <li>
+            Dellsperger, Rudolf: «Kirche in der «Springflut der Zeit». Vier
+            Reden von Albert Bitzius und Johann Peter Romang aus den Jahren
+            1844/45 und 1849 […]», in: Holl, Hanns Peter / Wäber, J. Harald
+            (Hg.): «... zu schreien in die Zeit hinein ...».
+          </li>
+          <li>
+            Beiträge zu Jeremias Gotthelf, Albert Bitzius (1797–1854), Bern 1997
+            (Schriften der Burgerbibliothek Bern), 195–234.
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

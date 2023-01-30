@@ -41,6 +41,20 @@ export const Beiträge = {
 
 */
 
+  'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe in Undervelier': {
+    karusselltitel:
+      'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe',
+    verzeichnispfad: 'quellgrotte',
+    beitragtitel:
+      'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe in Undervelier',
+    ort: 'Undervelier (JU)',
+    bild: 'undervelier-quellgrotte/Bild0.jpeg',
+    autor: 'Janina Ammon',
+    jahr: '2023',
+    markierungen: [[47.30675, 7.21897]],
+    kanton: Kantone.Jura,
+  },
+
   '15 Därstetten (BE): "Almosen geben armet nid"': {
     karusselltitel: 'Därstetten (BE): "Almosen geben armet nid"',
     verzeichnispfad: 'daerstetten',

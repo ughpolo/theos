@@ -128,6 +128,7 @@ import { TrouvaillenDaerstettenComponent } from './beiträge/trouvaillen-daerste
 import { TrouvaillenLandibernComponent } from './beiträge/trouvaillen-landibern/trouvaillen-landibern.component';
 import { TrouvaillenCelluleComponent } from './beiträge/trouvaillen-cellule/trouvaillen-cellule.component';
 import { TrouvaillenLandizhComponent } from './beiträge/trouvaillen-landizh/trouvaillen-landizh.component';
+import { UndervelierQuellgrotteComponent } from './beiträge/undervelier-quellgrotte/undervelier-quellgrotte.component';
 
 @NgModule({
   declarations: [
@@ -235,6 +236,7 @@ import { TrouvaillenLandizhComponent } from './beiträge/trouvaillen-landizh/tro
     TrouvaillenLandibernComponent,
     TrouvaillenCelluleComponent,
     TrouvaillenLandizhComponent,
+    UndervelierQuellgrotteComponent,
   ],
   imports: [
     MatToolbarModule,

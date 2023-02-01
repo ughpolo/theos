@@ -41,6 +41,21 @@ export const Beiträge = {
 
 */
 
+  'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland':
+    {
+      karusselltitel:
+        'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland',
+      verzeichnispfad: 'wandmalereienundheiligkeit',
+      beitragtitel:
+        'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland',
+      ort: 'Gsteigwiler (BE)',
+      bild: 'gsteigwiler/Bild0.jpeg',
+      autor: 'Janina Ammon',
+      jahr: '2023',
+      markierungen: [[47.30675, 7.21897]],
+      kanton: Kantone.Jura,
+    },
+
   'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe in Undervelier': {
     karusselltitel:
       'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe',

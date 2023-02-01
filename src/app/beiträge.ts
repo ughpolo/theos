@@ -3,6 +3,22 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
  
+ 'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland':
+    {
+      karusselltitel:
+        'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland',
+      verzeichnispfad: 'wandmalereienundheiligkeit',
+      beitragtitel:
+        'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland',
+      ort: 'Gsteigwiler (BE)',
+      bild: 'gsteigwiler-kirche/Bild0.jpeg',
+      autor: 'Joana Mayer',
+      jahr: '2023',
+      markierungen: [[46.665, 7.8725]],
+      kanton: Kantone.Bern,
+    },
+
+
   '18 Zürich, Landesausstellung: Ganz Ohr': {
     karusselltitel: 'Zürich, Landesausstellung: Ganz Ohr',
     verzeichnispfad: 'landizh',
@@ -40,21 +56,6 @@ export const Beiträge = {
   },
 
 */
-
-  'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland':
-    {
-      karusselltitel:
-        'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland',
-      verzeichnispfad: 'wandmalereienundheiligkeit',
-      beitragtitel:
-        'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland',
-      ort: 'Gsteigwiler (BE)',
-      bild: 'gsteigwiler-kirche/Bild0.jpeg',
-      autor: 'Joana Mayer',
-      jahr: '2023',
-      markierungen: [[46.665, 7.8725]],
-      kanton: Kantone.Bern,
-    },
 
   'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe in Undervelier': {
     karusselltitel:

@@ -57,6 +57,20 @@ export const Beiträge = {
 
 */
 
+  '20 "Heidelberger" und "Herrliberger" – zwei Titelblätter, zwei Welten': {
+    karusselltitel:
+      '"Heidelberger" und "Herrliberger" – zwei Titelblätter, zwei Welten',
+    verzeichnispfad: 'heidelundherrliberger',
+    beitragtitel:
+      '"Heidelberger" und "Herrliberger" – zwei Titelblätter, zwei Welten',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-heidelundherrliberger/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022',
+    markierungen: [],
+    kanton: Kantone.Trouvaillen,
+  },
+
   '19 Kirche Kleinhöchstetten und Öki Kehrsatz (BE): «… dass sie alle eins seien»':
     {
       karusselltitel:

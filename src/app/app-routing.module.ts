@@ -98,7 +98,13 @@ import { TrouvaillenCelluleComponent } from './beiträge/trouvaillen-cellule/tro
 import { TrouvaillenLandizhComponent } from './beiträge/trouvaillen-landizh/trouvaillen-landizh.component';
 import { UndervelierQuellgrotteComponent } from './beiträge/undervelier-quellgrotte/undervelier-quellgrotte.component';
 import { GesteigwilerWandmalereienundheiligkeitComponent } from './beiträge/gesteigwiler-wandmalereienundheiligkeit/gesteigwiler-wandmalereienundheiligkeit.component';
+import { TrouvaillenAlleeinsComponent } from './beiträge/trouvaillen-alleeins/trouvaillen-alleeins.component';
 const routes: Routes = [
+  {
+    path: 'alleeins',
+    component: TrouvaillenAlleeinsComponent,
+  },
+
   {
     path: 'wandmalereienundheiligkeit',
     component: GesteigwilerWandmalereienundheiligkeitComponent,

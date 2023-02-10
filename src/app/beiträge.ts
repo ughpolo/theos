@@ -57,6 +57,24 @@ export const Beiträge = {
 
 */
 
+  '19 Kirche Kleinhöchstetten und Öki Kehrsatz (BE): «… dass sie alle eins seien»':
+    {
+      karusselltitel:
+        'Kirche Kleinhöchstetten und Öki Kehrsatz (BE): "… dass sie alle eins seien"',
+      verzeichnispfad: 'alleeins',
+      beitragtitel:
+        'Kirche Kleinhöchstetten und Öki Kehrsatz (BE): "… dass sie alle eins seien"',
+      ort: 'Trouvaillen',
+      bild: 'trouvaille-alleeins/Bild0.jpeg',
+      autor: 'Rudolf Dellsperger',
+      jahr: '2022 (2008)',
+      markierungen: [
+        [46.90334, 7.53136],
+        [46.91247, 7.47361],
+      ],
+      kanton: Kantone.Trouvaillen,
+    },
+
   'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe in Undervelier': {
     karusselltitel:
       'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe',

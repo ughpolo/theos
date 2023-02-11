@@ -101,7 +101,12 @@ import { GesteigwilerWandmalereienundheiligkeitComponent } from './beiträge/ges
 import { TrouvaillenAlleeinsComponent } from './beiträge/trouvaillen-alleeins/trouvaillen-alleeins.component';
 import { TrouvaillenHeidelundherrlibergerComponent } from './beiträge/trouvaillen-heidelundherrliberger/trouvaillen-heidelundherrliberger.component';
 import { TrouvaillenInspeetsilentioComponent } from './beiträge/trouvaillen-inspeetsilentio/trouvaillen-inspeetsilentio.component';
+import { BaselErasmusComponent } from './beiträge/basel-erasmus/basel-erasmus.component';
 const routes: Routes = [
+  {
+    path: 'erasmus',
+    component: BaselErasmusComponent,
+  },
   {
     path: 'inspeetsilentio',
     component: TrouvaillenInspeetsilentioComponent,

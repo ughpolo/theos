@@ -134,6 +134,7 @@ import { TrouvaillenAlleeinsComponent } from './beiträge/trouvaillen-alleeins/t
 
 import { TrouvaillenHeidelundherrlibergerComponent } from './beiträge/trouvaillen-heidelundherrliberger/trouvaillen-heidelundherrliberger.component';
 import { TrouvaillenInspeetsilentioComponent } from './beiträge/trouvaillen-inspeetsilentio/trouvaillen-inspeetsilentio.component';
+import { BaselErasmusComponent } from './beiträge/basel-erasmus/basel-erasmus.component';
 
 @NgModule({
   declarations: [
@@ -248,6 +249,8 @@ import { TrouvaillenInspeetsilentioComponent } from './beiträge/trouvaillen-ins
     TrouvaillenHeidelundherrlibergerComponent,
 
     TrouvaillenInspeetsilentioComponent,
+
+    BaselErasmusComponent,
   ],
   imports: [
     MatToolbarModule,

@@ -3,6 +3,19 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
  
+  'Das Epitaph des Erasmus von Rotterdam im Basler Münster': {
+    karusselltitel: 'Das Epitaph des Erasmus von Rotterdam im Basler Münster',
+    verzeichnispfad: 'erasmus',
+    beitragtitel: 'Das Epitaph des Erasmus von Rotterdam im Basler Münster',
+    ort: 'Basel',
+    bild: 'basel-erasmus/Bild0.jpeg',
+    autor: 'Beate Heiniger',
+    jahr: '2023',
+    markierungen: [[47.55653, 7.59225]],
+    kanton: Kantone.BaselStadt,
+  },
+
+
 
   '21 "IN SPE ET SILENTIO"': {
     karusselltitel: '"IN SPE ET SILENTIO"',
@@ -11,7 +24,7 @@ export const Beiträge = {
     ort: 'Trouvaillen',
     bild: 'trouvaille-inspeetsilentio/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',
-    jahr: '2022',
+    jahr: '2023',
     markierungen: [],
     kanton: Kantone.Trouvaillen,
   },
@@ -25,7 +38,7 @@ export const Beiträge = {
     ort: 'Trouvaillen',
     bild: 'trouvaille-heidelundherrliberger/Bild0.jpeg',
     autor: 'Rudolf Dellsperger',
-    jahr: '2022',
+    jahr: '2023',
     markierungen: [],
     kanton: Kantone.Trouvaillen,
   },
@@ -40,7 +53,7 @@ export const Beiträge = {
       ort: 'Trouvaillen',
       bild: 'trouvaille-alleeins/Bild0.jpeg',
       autor: 'Rudolf Dellsperger',
-      jahr: '2022 (2008)',
+      jahr: '2023 (2008)',
       markierungen: [
         [46.90334, 7.53136],
         [46.91247, 7.47361],

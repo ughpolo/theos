@@ -131,6 +131,8 @@ import { TrouvaillenLandizhComponent } from './beiträge/trouvaillen-landizh/tro
 import { UndervelierQuellgrotteComponent } from './beiträge/undervelier-quellgrotte/undervelier-quellgrotte.component';
 import { GesteigwilerWandmalereienundheiligkeitComponent } from './beiträge/gesteigwiler-wandmalereienundheiligkeit/gesteigwiler-wandmalereienundheiligkeit.component';
 import { TrouvaillenAlleeinsComponent } from './beiträge/trouvaillen-alleeins/trouvaillen-alleeins.component';
+import { TrouvaillenHeidelbergerundherrlibergerComponent } from './beiträge/trouvaillen-heidelbergerundherrliberger/trouvaillen-heidelbergerundherrliberger.component';
+import { TrouvaillenHeidelundherrlibergerComponent } from './beiträge/trouvaillen-heidelundherrliberger/trouvaillen-heidelundherrliberger.component';
 
 @NgModule({
   declarations: [
@@ -241,6 +243,8 @@ import { TrouvaillenAlleeinsComponent } from './beiträge/trouvaillen-alleeins/t
     UndervelierQuellgrotteComponent,
     GesteigwilerWandmalereienundheiligkeitComponent,
     TrouvaillenAlleeinsComponent,
+    TrouvaillenHeidelbergerundherrlibergerComponent,
+    TrouvaillenHeidelundherrlibergerComponent,
   ],
   imports: [
     MatToolbarModule,

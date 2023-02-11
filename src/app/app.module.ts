@@ -133,6 +133,7 @@ import { GesteigwilerWandmalereienundheiligkeitComponent } from './beiträge/ges
 import { TrouvaillenAlleeinsComponent } from './beiträge/trouvaillen-alleeins/trouvaillen-alleeins.component';
 
 import { TrouvaillenHeidelundherrlibergerComponent } from './beiträge/trouvaillen-heidelundherrliberger/trouvaillen-heidelundherrliberger.component';
+import { TrouvaillenInspeetsilentioComponent } from './beiträge/trouvaillen-inspeetsilentio/trouvaillen-inspeetsilentio.component';
 
 @NgModule({
   declarations: [
@@ -245,6 +246,8 @@ import { TrouvaillenHeidelundherrlibergerComponent } from './beiträge/trouvaill
     TrouvaillenAlleeinsComponent,
 
     TrouvaillenHeidelundherrlibergerComponent,
+
+    TrouvaillenInspeetsilentioComponent,
   ],
   imports: [
     MatToolbarModule,

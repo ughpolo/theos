@@ -3,6 +3,52 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
  
+
+  '21 "IN SPE ET SILENTIO"': {
+    karusselltitel: '"IN SPE ET SILENTIO"',
+    verzeichnispfad: 'inspeetsilentio',
+    beitragtitel: '"IN SPE ET SILENTIO"',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-inspeetsilentio/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022',
+    markierungen: [],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '20 "Heidelberger" und "Herrliberger" – zwei Titelblätter, zwei Welten': {
+    karusselltitel:
+      '"Heidelberger" und "Herrliberger" – zwei Titelblätter, zwei Welten',
+    verzeichnispfad: 'heidelundherrliberger',
+    beitragtitel:
+      '"Heidelberger" und "Herrliberger" – zwei Titelblätter, zwei Welten',
+    ort: 'Trouvaillen',
+    bild: 'trouvaille-heidelundherrliberger/Bild0.jpeg',
+    autor: 'Rudolf Dellsperger',
+    jahr: '2022',
+    markierungen: [],
+    kanton: Kantone.Trouvaillen,
+  },
+
+  '19 Kirche Kleinhöchstetten und Öki Kehrsatz (BE): «… dass sie alle eins seien»':
+    {
+      karusselltitel:
+        'Kirche Kleinhöchstetten und Öki Kehrsatz (BE): "… dass sie alle eins seien"',
+      verzeichnispfad: 'alleeins',
+      beitragtitel:
+        'Kirche Kleinhöchstetten und Öki Kehrsatz (BE): "… dass sie alle eins seien"',
+      ort: 'Trouvaillen',
+      bild: 'trouvaille-alleeins/Bild0.jpeg',
+      autor: 'Rudolf Dellsperger',
+      jahr: '2022 (2008)',
+      markierungen: [
+        [46.90334, 7.53136],
+        [46.91247, 7.47361],
+      ],
+      kanton: Kantone.Trouvaillen,
+    },
+
+
  'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland':
     {
       karusselltitel:
@@ -56,38 +102,6 @@ export const Beiträge = {
   },
 
 */
-
-  '20 "Heidelberger" und "Herrliberger" – zwei Titelblätter, zwei Welten': {
-    karusselltitel:
-      '"Heidelberger" und "Herrliberger" – zwei Titelblätter, zwei Welten',
-    verzeichnispfad: 'heidelundherrliberger',
-    beitragtitel:
-      '"Heidelberger" und "Herrliberger" – zwei Titelblätter, zwei Welten',
-    ort: 'Trouvaillen',
-    bild: 'trouvaille-heidelundherrliberger/Bild0.jpeg',
-    autor: 'Rudolf Dellsperger',
-    jahr: '2022',
-    markierungen: [],
-    kanton: Kantone.Trouvaillen,
-  },
-
-  '19 Kirche Kleinhöchstetten und Öki Kehrsatz (BE): «… dass sie alle eins seien»':
-    {
-      karusselltitel:
-        'Kirche Kleinhöchstetten und Öki Kehrsatz (BE): "… dass sie alle eins seien"',
-      verzeichnispfad: 'alleeins',
-      beitragtitel:
-        'Kirche Kleinhöchstetten und Öki Kehrsatz (BE): "… dass sie alle eins seien"',
-      ort: 'Trouvaillen',
-      bild: 'trouvaille-alleeins/Bild0.jpeg',
-      autor: 'Rudolf Dellsperger',
-      jahr: '2022 (2008)',
-      markierungen: [
-        [46.90334, 7.53136],
-        [46.91247, 7.47361],
-      ],
-      kanton: Kantone.Trouvaillen,
-    },
 
   'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe in Undervelier': {
     karusselltitel:

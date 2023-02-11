@@ -100,7 +100,13 @@ import { UndervelierQuellgrotteComponent } from './beiträge/undervelier-quellgr
 import { GesteigwilerWandmalereienundheiligkeitComponent } from './beiträge/gesteigwiler-wandmalereienundheiligkeit/gesteigwiler-wandmalereienundheiligkeit.component';
 import { TrouvaillenAlleeinsComponent } from './beiträge/trouvaillen-alleeins/trouvaillen-alleeins.component';
 import { TrouvaillenHeidelundherrlibergerComponent } from './beiträge/trouvaillen-heidelundherrliberger/trouvaillen-heidelundherrliberger.component';
+import { TrouvaillenInspeetsilentioComponent } from './beiträge/trouvaillen-inspeetsilentio/trouvaillen-inspeetsilentio.component';
 const routes: Routes = [
+  {
+    path: 'inspeetsilentio',
+    component: TrouvaillenInspeetsilentioComponent,
+  },
+
   {
     path: 'heidelundherrliberger',
     component: TrouvaillenHeidelundherrlibergerComponent,

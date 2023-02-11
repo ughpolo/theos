@@ -1,0 +1,116 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'trouvaille-inspeetsilentio/Bild001.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">
+        Diese Miniaturen erschienen bis auf wenige Ausnahmen zwischen 2006 und
+        2008 im «saemann», der Vorgängerzeitung von «reformiert.» Sie führen zu
+        oft übersehenen Orten und Monumenten der bernischen und schweizerischen
+        Kirchengeschichte. Der Umfang war jeweils vorgegeben. Die Texte möchten
+        auf engem Raum in chronologisch-thematischer Ordnung narrativ und
+        kontemplativ eine kleine Theologie entfalten. (RD)
+      </p>
+      <br />
+
+      <p id="firstParagraph">
+        Diesen Holzschnitt verwendete der Berner Verleger Daniel Tschiffeli
+        (1664–1730) mehrfach als Buchschmuck, unter anderem auf dem Titelblatt
+        von Johann Rudolf Rudolfs (1646–1718) Dogmatik, die 1713 in Berns
+        Obrigkeitlicher Buchdruckerei erschien. <br />
+        Auf trockener Erde liegt ein Anker, dessen Haken in die Luft ragen.
+        Darauf sitzt eine Taube, die einen Ölzweig im Schnabel hält. Das Wasser
+        sinkt, die Berge wachsen. Auf dem Band steht <i>IN SPE ET SILENTIO</i>,
+        zu deutsch: «in Vertrauen» oder, wie man auch sagen darf, «in Hoffnung
+        und Stille». <br />
+        Das Bild ist reich an biblischen Bezügen. Es erinnert an die Sintflut in
+        Genesis 6–9. Die Arche ist auf Grund gelaufen. Noah späht durch ein
+        ovales Fenster ins Freie. Er, die Seinen und von allen Tieren je ein
+        Paar haben die Katastrophe überlebt. Gott wird mit Mensch und Tier einen
+        neuen, den Bund der Gnade schliessen. <br />
+        Auf dem Bild erscheint der Anker als Symbol der Hoffnung nach Hebräer
+        6,18f. Das Schiff der Kirche und des Lebens ist in Gottes Verheissung an
+        Abraham und im Schlepptau Christi doppelt gehalten. Die Inschrift
+        schliesslich stammt aus Jesaja 30,15: «In Umkehr und Gelassenheit werdet
+        ihr gerettet, in der Ruhe und im Vertrauen liegt eure Stärke.» Der
+        Prophet rügt das Volk: Es verlässt sich auf sich selbst und auf Andere.
+        Insofern ist es gott-los und hat vergessen, worin seine Stärke liegt:
+        <i>in silentio et (in) spe</i>, «in Stille und Vertrauen». Die
+        Kurzfassung setzt den ganzen Satz voraus:
+        <i>IN SILENTIO ET SPE ERIT FORTITUDO VESTRA</i>. «In der Ruhe und im
+        Vertrauen liegt eure Stärke.» Dies war Luthers Wahlspruch. <br />
+        Warum wird auf dem Band die Hoffnung vor der Stille genannt? Liegt es an
+        der Zeit, in der Tschiffeli und Rudolf gelebt haben? Als dieser zur Welt
+        kam, war der Dreissigjährige Krieg, von dem die Schweiz weitgehend
+        verschont geblieben war, fast beendet. Rudolfs Studien führten ihn
+        später nach Genf, Frankreich und England. In Deutschland – er hat es nie
+        vergessen – kam er nach wie vor durch verwüstete Dörfer und Städte,
+        durch ödes Land. Es fehlte an Menschen, die bauten und bebauten, was
+        zerstört und verwüstet war, es fehlte an Geld – und an Hoffnung. <br />
+        <i>IN SPE ET SILENTIO</i>: Schöpfen hier Menschen, die ein Jahrhundert
+        voll Angst und Not, Krieg, Hunger und Seuchen erlebt haben, neu
+        Hoffnung?
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/trouvaille-inspeetsilentio/Bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Titelblatt von Johann Rudolf Rudolfs Dogmatik, Holzschnitt: Auf
+        trockener Erde liegt ein Anker, dessen Haken in die Luft ragen. Darauf
+        sitzt eine Taube, die einen Ölzweig im Schnabel hält. Das Wasser sinkt,
+        die Berge wachsen. Auf dem Band steht <i>IN SPE ET SILENTIO</i>. (Bild:
+        Aargauer Kantonsbibliothek, S 20)
+      </p>
+
+      <p class="autor">
+        Dr. Rudolf Dellsperger ist ein Schweizer Theologe und emeritierter
+        Professor für Neuere Kirchengeschichte, Konfessionskunde und
+        Theologiegeschichte an der Universität Bern.
+      </p>
+
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            Müller, Karl: Die Geschichte der Zensur im alten Bern, Bern 1904,
+            27-39.
+          </li>
+          <li>
+            Lehmann, Hartmut: «Not, Angst, Hoffnung. Die Krise des Glaubens im
+            17. Jahrhundert», in: ders.: Das Zeitalter des Absolutismus.
+            Gottesgnadentum und Kriegsnot, Stuttgart 1980, 105-169.
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -3,6 +3,18 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
  
+'Das Gotthelf Zentrum Emmental in Lützelflüh': {
+    karusselltitel: 'Das Gotthelf Zentrum Emmental in Lützelflüh',
+    verzeichnispfad: 'gotthelf',
+    beitragtitel: 'Das Gotthelf Zentrum Emmental in Lützelflüh',
+    ort: 'Lützelflüh (BE)',
+    bild: 'luetzelflue-gotthelfzentrum/Bild0.jpeg',
+    autor: 'Daniel N. Herrmann',
+    jahr: '2023',
+    markierungen: [[47.00881, 7.68739]],
+    kanton: Kantone.Bern,
+  },
+
   'Das Epitaph des Erasmus von Rotterdam im Basler Münster': {
     karusselltitel: 'Das Epitaph des Erasmus von Rotterdam im Basler Münster',
     verzeichnispfad: 'erasmus',
@@ -115,18 +127,6 @@ export const Beiträge = {
   },
 
 */
-
-  'Das Gotthelf Zentrum Emmental in Lützelflüh': {
-    karusselltitel: 'Das Gotthelf Zentrum Emmental in Lützelflüh',
-    verzeichnispfad: 'gotthelf',
-    beitragtitel: 'Das Gotthelf Zentrum Emmental in Lützelflüh',
-    ort: 'Lützelflüh (BE)',
-    bild: 'luetzelflue-gotthelfzentrum/Bild0.jpeg',
-    autor: 'Daniel N. Herrmann',
-    jahr: '2023',
-    markierungen: [[47.00881, 7.68739]],
-    kanton: Kantone.Bern,
-  },
 
   'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe in Undervelier': {
     karusselltitel:

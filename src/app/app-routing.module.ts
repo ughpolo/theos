@@ -102,7 +102,12 @@ import { TrouvaillenAlleeinsComponent } from './beiträge/trouvaillen-alleeins/t
 import { TrouvaillenHeidelundherrlibergerComponent } from './beiträge/trouvaillen-heidelundherrliberger/trouvaillen-heidelundherrliberger.component';
 import { TrouvaillenInspeetsilentioComponent } from './beiträge/trouvaillen-inspeetsilentio/trouvaillen-inspeetsilentio.component';
 import { BaselErasmusComponent } from './beiträge/basel-erasmus/basel-erasmus.component';
+import { LuetzelflueGotthelfComponent } from './beiträge/luetzelflue-gotthelf/luetzelflue-gotthelf.component';
 const routes: Routes = [
+  {
+    path: 'gotthelf',
+    component: LuetzelflueGotthelfComponent,
+  },
   {
     path: 'erasmus',
     component: BaselErasmusComponent,

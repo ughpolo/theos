@@ -93,6 +93,18 @@ export const Beiträge = {
 
 */
 
+  'Der Lindenberg – Wiege von Katholisch-Basel': {
+    karusselltitel: 'Der Lindenberg – Wiege von Katholisch-Basel',
+    verzeichnispfad: 'lindenberg',
+    beitragtitel: 'Der Lindenberg – Wiege von Katholisch-Basel',
+    ort: 'Basel',
+    bild: 'basel-lindenberg/Bild0.jpeg',
+    autor: 'Patrick Braun',
+    jahr: '2023',
+    markierungen: [[47.55877, 7.59486]],
+    kanton: Kantone.BaselStadt,
+  },
+
   '18 Zürich, Landesausstellung: Ganz Ohr': {
     karusselltitel: 'Zürich, Landesausstellung: Ganz Ohr',
     verzeichnispfad: 'landizh',

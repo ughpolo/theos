@@ -4,16 +4,13 @@ import { MapService } from 'src/app/components/services/map.service';
 import { MarkerService } from 'src/app/components/services/marker.service';
 
 @Component({
-  selector: 'app-trouvaillen-cellule',
-  templateUrl: './trouvaillen-cellule.component.html',
-  styleUrls: ['./trouvaillen-cellule.component.scss'],
+  selector: 'app-basel-lindenberg',
+  templateUrl: './basel-lindenberg.component.html',
+  styleUrls: ['./basel-lindenberg.component.scss'],
 })
-export class TrouvaillenCelluleComponent implements OnInit {
+export class BaselLindenbergComponent implements OnInit {
   ngOnInit(): void {
-    this.assign(
-      'Rudolf Dellsperger',
-      'Erlenbach im Simmental (BE): "La cellule d`Erlenbach"'
-    );
+    this.assign('Patrick Braun', 'Der Lindenberg – Wiege von Katholisch-Basel');
     this.createIds();
   }
 

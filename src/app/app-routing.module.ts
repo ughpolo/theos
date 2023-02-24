@@ -103,7 +103,12 @@ import { TrouvaillenHeidelundherrlibergerComponent } from './beiträge/trouvaill
 import { TrouvaillenInspeetsilentioComponent } from './beiträge/trouvaillen-inspeetsilentio/trouvaillen-inspeetsilentio.component';
 import { BaselErasmusComponent } from './beiträge/basel-erasmus/basel-erasmus.component';
 import { LuetzelflueGotthelfComponent } from './beiträge/luetzelflue-gotthelf/luetzelflue-gotthelf.component';
+import { BaselLindenbergComponent } from './beiträge/basel-lindenberg/basel-lindenberg.component';
 const routes: Routes = [
+  {
+    path: 'lindenberg',
+    component: BaselLindenbergComponent,
+  },
   {
     path: 'gotthelf',
     component: LuetzelflueGotthelfComponent,

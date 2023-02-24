@@ -90,6 +90,9 @@ export const Beiträge = {
     },
 
 
+
+*/
+
   '18 Zürich, Landesausstellung: Ganz Ohr': {
     karusselltitel: 'Zürich, Landesausstellung: Ganz Ohr',
     verzeichnispfad: 'landizh',
@@ -125,9 +128,6 @@ export const Beiträge = {
     markierungen: [[46.9595, 7.4304]],
     kanton: Kantone.Trouvaillen,
   },
-
-*/
-
   'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe in Undervelier': {
     karusselltitel:
       'Im Mutterleib der Erde? Die Quellgrotte der Sainte-Colombe',

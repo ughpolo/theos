@@ -87,7 +87,12 @@ export const Beiträge = {
     },
 
 
- 'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland':
+
+
+
+*/
+
+  'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland':
     {
       karusselltitel:
         'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland',
@@ -101,10 +106,6 @@ export const Beiträge = {
       markierungen: [[46.665, 7.8725]],
       kanton: Kantone.Bern,
     },
-
-
-
-*/
 
   '18 Zürich, Landesausstellung: Ganz Ohr': {
     karusselltitel: 'Zürich, Landesausstellung: Ganz Ohr',

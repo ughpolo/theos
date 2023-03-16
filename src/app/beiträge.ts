@@ -92,6 +92,18 @@ export const Beiträge = {
 
 */
 
+  'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?': {
+    karusselltitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',
+    verzeichnispfad: 'schweizergarde',
+    beitragtitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',
+    ort: 'Vatikan (I)',
+    bild: 'vatikan-garde/Bild0.jpeg',
+    autor: 'Tabea Stauffer',
+    jahr: '2023',
+    markierungen: [[46.665, 7.8725]],
+    kanton: Kantone.Bern,
+  },
+
   'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland':
     {
       karusselltitel:

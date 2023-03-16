@@ -104,7 +104,12 @@ import { TrouvaillenInspeetsilentioComponent } from './beiträge/trouvaillen-ins
 import { BaselErasmusComponent } from './beiträge/basel-erasmus/basel-erasmus.component';
 import { LuetzelflueGotthelfComponent } from './beiträge/luetzelflue-gotthelf/luetzelflue-gotthelf.component';
 import { BaselLindenbergComponent } from './beiträge/basel-lindenberg/basel-lindenberg.component';
+import { VatikanSchweizergardeComponent } from './beiträge/vatikan-schweizergarde/vatikan-schweizergarde.component';
 const routes: Routes = [
+  {
+    path: 'schweizergarde',
+    component: VatikanSchweizergardeComponent,
+  },
   {
     path: 'lindenberg',
     component: BaselLindenbergComponent,

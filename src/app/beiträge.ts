@@ -100,7 +100,7 @@ export const Beiträge = {
     bild: 'vatikan-garde/Bild0.jpeg',
     autor: 'Tabea Stauffer',
     jahr: '2023',
-    markierungen: [[46.665, 7.8725]],
+    markierungen: [[41.90367, 12.45704]],
     kanton: Kantone.Bern,
   },
 

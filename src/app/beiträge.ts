@@ -3,8 +3,7 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
 
-
-  'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?': {
+'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?': {
     karusselltitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',
     verzeichnispfad: 'schweizergarde',
     beitragtitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',
@@ -13,7 +12,7 @@ export const Beiträge = {
     autor: 'Tabea Stauffer',
     jahr: '2023',
     markierungen: [[41.90367, 12.45704]],
-    kanton: Kantone.Bern,
+    kanton: Kantone.Vatikan,
   },
 
 

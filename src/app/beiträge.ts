@@ -54,6 +54,13 @@ export const Beiträge = {
 
 
 
+
+
+
+
+
+*/
+
   '21 "IN SPE ET SILENTIO"': {
     karusselltitel: '"IN SPE ET SILENTIO"',
     verzeichnispfad: 'inspeetsilentio',
@@ -97,12 +104,6 @@ export const Beiträge = {
       ],
       kanton: Kantone.Trouvaillen,
     },
-
-
-
-
-
-*/
 
   'Einen heiligen Ort schaffen – Zur Bedeutung der Wandmalereien in der Kirche Gsteig im Berner Oberland':
     {

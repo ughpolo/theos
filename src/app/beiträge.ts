@@ -40,6 +40,16 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
 
+
+
+
+
+
+
+
+
+*/
+
   'Das Epitaph des Erasmus von Rotterdam im Basler Münster': {
     karusselltitel: 'Das Epitaph des Erasmus von Rotterdam im Basler Münster',
     verzeichnispfad: 'erasmus',
@@ -51,15 +61,6 @@ export const Beiträge = {
     markierungen: [[47.55653, 7.59225]],
     kanton: Kantone.BaselStadt,
   },
-
-
-
-
-
-
-
-
-*/
 
   '21 "IN SPE ET SILENTIO"': {
     karusselltitel: '"IN SPE ET SILENTIO"',

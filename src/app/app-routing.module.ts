@@ -105,7 +105,13 @@ import { BaselErasmusComponent } from './beiträge/basel-erasmus/basel-erasmus.c
 import { LuetzelflueGotthelfComponent } from './beiträge/luetzelflue-gotthelf/luetzelflue-gotthelf.component';
 import { BaselLindenbergComponent } from './beiträge/basel-lindenberg/basel-lindenberg.component';
 import { VatikanSchweizergardeComponent } from './beiträge/vatikan-schweizergarde/vatikan-schweizergarde.component';
+import { BaselErasmusvonrotterdamComponent } from './beiträge/basel-erasmusvonrotterdam/basel-erasmusvonrotterdam.component';
 const routes: Routes = [
+  {
+    path: 'erasmusvonrotterdam',
+    component: BaselErasmusvonrotterdamComponent,
+  },
+
   {
     path: 'schweizergarde',
     component: VatikanSchweizergardeComponent,

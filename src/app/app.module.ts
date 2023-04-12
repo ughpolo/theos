@@ -138,6 +138,7 @@ import { BaselErasmusComponent } from './beiträge/basel-erasmus/basel-erasmus.c
 import { LuetzelflueGotthelfComponent } from './beiträge/luetzelflue-gotthelf/luetzelflue-gotthelf.component';
 import { BaselLindenbergComponent } from './beiträge/basel-lindenberg/basel-lindenberg.component';
 import { VatikanSchweizergardeComponent } from './beiträge/vatikan-schweizergarde/vatikan-schweizergarde.component';
+import { BaselErasmusvonrotterdamComponent } from './beiträge/basel-erasmusvonrotterdam/basel-erasmusvonrotterdam.component';
 
 @NgModule({
   declarations: [
@@ -260,6 +261,8 @@ import { VatikanSchweizergardeComponent } from './beiträge/vatikan-schweizergar
     BaselLindenbergComponent,
 
     VatikanSchweizergardeComponent,
+
+    BaselErasmusvonrotterdamComponent,
   ],
   imports: [
     MatToolbarModule,

@@ -50,6 +50,21 @@ export const Beiträge = {
 
 */
 
+  'Das Epitaph des Erasmus von Rotterdam – Die Basler Hommage an den katholischen Humanisten':
+    {
+      karusselltitel:
+        'Das Epitaph des Erasmus von Rotterdam – Die Basler Hommage an den katholischen Humanisten',
+      verzeichnispfad: 'erasmusvonrotterdam',
+      beitragtitel:
+        'Das Epitaph des Erasmus von Rotterdam – Die Basler Hommage an den katholischen Humanisten',
+      ort: 'Basel',
+      bild: 'basel-erasmusvonrotterdam/Bild0.jpeg',
+      autor: 'Andrea Flückiger',
+      jahr: '2023',
+      markierungen: [[47.55653, 7.59225]],
+      kanton: Kantone.BaselStadt,
+    },
+
   'Das Epitaph des Erasmus von Rotterdam im Basler Münster': {
     karusselltitel: 'Das Epitaph des Erasmus von Rotterdam im Basler Münster',
     verzeichnispfad: 'erasmus',

@@ -1,9 +1,4 @@
-<app-title-image
-  [author]="author.author"
-  [title]="title"
-  [date]="date"
-  [image]="'scherzligen-kirche/bild1.jpg'"
->
+<app-title-image [author]="author.author" [title]="title" [date]="date" [image]="'scherzligen-kirche/bild1.jpg'">
 </app-title-image>
 <div class="wrapper">
   <div class="text">
@@ -34,11 +29,7 @@
         zu Scherzligen» am Jakobsweg.
       </p>
 
-      <img
-        class="bild"
-        src="../../../assets/images/scherzligen-kirche/bild1.jpg"
-        alt=""
-      />
+      <img class="bild" src="../../../assets/images/scherzligen-kirche/bild1.jpg" alt="" />
       <p class="bildunterschrift">
         Kirche Scherzligen am Ausfluss des Thunersees (Foto: Hans Mischler,
         Thun)
@@ -83,11 +74,7 @@
         der Passion einzuleben und so die persönliche «Nachfolge Christi» zu
         vertiefen.
       </p>
-      <img
-        class="bild"
-        src="../../../assets/images/scherzligen-kirche/bild2.jpg"
-        alt=""
-      />
+      <img class="bild" src="../../../assets/images/scherzligen-kirche/bild2.jpg" alt="" />
       <p class="bildunterschrift">
         Kreuz-Träger (Ausschnitt aus dem Scherzliger Passionspanorama von 1469.
         Archiv der Denkmalpflege des Kantons Bern, Foto M. Beyeler, 2003)
@@ -193,10 +180,7 @@
         </p>
         <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a
-              style="color: black"
-              routerLink="/{{ beitrag | removeshitespaces | lowercase }}"
-            >
+            <a style="color: black" routerLink="/{{ beitrag | removeshitespaces | lowercase }}">
               {{ author.location[i] }}:
               {{ author.fulltitle[i] }}
             </a>
@@ -212,53 +196,44 @@
           </li>
           <li>
             Nägeli Markus:
-            <a
-              target="_blank"
-              href="../../../assets/pdf/scherzligen-kirche/lichtkirche_scherzligen_version_april_2020.pdf"
-            >
-              «Lichtkirche Scherzligen».</a
-            >
+            <a target="_blank"
+              href="../../../assets/pdf/scherzligen-kirche/lichtkirche_scherzligen_version_april_2020.pdf">
+              «Lichtkirche Scherzligen».</a>
             Zu den Scherzliger Lichtphänomenen um Johanni und Maria Himmelfahrt.
-            2017 (erweiterte Version März 2023)
+            2017 (
+            <a target="_blank"
+              href="../../../assets/pdf/scherzligen-kirche/lichtkirche_scherzligen_erw_Vers_03_23.pdf">erweiterte
+              Version März 2023</a>)
           </li>
           <li>
             Nägeli Markus:
-            <a
-              target="_blank"
-              href="../../../assets/pdf/scherzligen-kirche/lichtkirche_scherzligen_version_april_2020.pdf"
-              >Das Scherzliger Passionspanorama
+            <a target="_blank"
+              href="../../../assets/pdf/scherzligen-kirche/lichtkirche_scherzligen_version_april_2020.pdf">Das
+              Scherzliger Passionspanorama
             </a>
-            – Hintergründe und Bedeutung, 2017 (ergänzte Version April 2020)
+            – Hintergründe und Bedeutung, 2017 (
+            <a target="_blank"
+              href="../../../assets/pdf/scherzligen-kirche/scherzliger_passionswand_version_april_2020.pdf">ergänzte
+              Version April 2020</a>)
           </li>
 
           <li>
             mit Anhang: Christoph Jungen,
-            <a
-              target="_blank"
-              href="http://www.scherzligen.ch/fileadmin/user_upload/PDF/Anhang_Chr._Jungen.pdf"
-            >
-              Jerusalem in Scherzligen - eine Entdeckung</a
-            >
+            <a target="_blank" href="http://www.scherzligen.ch/fileadmin/user_upload/PDF/Anhang_Chr._Jungen.pdf">
+              Jerusalem in Scherzligen - eine Entdeckung</a>
             , Sommer 2017
           </li>
           <li>
             Weitere Materialien zur Vertiefung auf
-            <a target="_blank" href="http://www.scherzligen.ch"
-              >www.scherzligen.ch</a
-            >
+            <a target="_blank" href="http://www.scherzligen.ch">www.scherzligen.ch</a>
           </li>
           <li>
             Das gesamte Passionspanorama findet sich
-            <a target="_blank" href="http://www.scherzligen.ch/fileadmin/map/"
-              >hier</a
-            >
+            <a target="_blank" href="http://www.scherzligen.ch/fileadmin/map/">hier</a>
           </li>
           <li>
-            <a
-              target="_blank"
-              href="https://www.srf.ch/audio/perspektiven/jerusalem-am-thunersee-eine-reise-zu-religioesen-begegnungsorten?id=11966882"
-              >SRF-Podcast</a
-            >
+            <a target="_blank"
+              href="https://www.srf.ch/audio/perspektiven/jerusalem-am-thunersee-eine-reise-zu-religioesen-begegnungsorten?id=11966882">SRF-Podcast</a>
             über die Kirche Scherzligen und das Projekt theos
           </li>
         </ul>

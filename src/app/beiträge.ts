@@ -794,7 +794,7 @@ export const Beiträge = {
     bild: 'amsoldingen-kirche/amsoldingen.jpg',
     ort: 'Amsoldingen (BE)',
     autor: 'Nicole Hublard',
-    jahr: '2021',
+    jahr: '2020',
     markierungen: [[46.7272, 7.57891]],
     kanton: Kantone.Bern,
   },

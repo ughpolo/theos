@@ -31,7 +31,17 @@ export const Beiträge = {
   },
 
 
-    'Der Lindenberg – Wiege von Katholisch-Basel': {
+
+
+
+
+
+
+
+
+*/
+
+  'Der Lindenberg – Wiege von Katholisch-Basel': {
     karusselltitel: 'Der Lindenberg – Wiege von Katholisch-Basel',
     verzeichnispfad: 'lindenberg',
     beitragtitel: 'Der Lindenberg – Wiege von Katholisch-Basel',
@@ -42,16 +52,6 @@ export const Beiträge = {
     markierungen: [[47.55877, 7.59486]],
     kanton: Kantone.BaselStadt,
   },
-
-
-
-
-
-
-
-
-
-*/
 
   'Das Gotthelf Zentrum Emmental in Lützelflüh': {
     karusselltitel: 'Das Gotthelf Zentrum Emmental in Lützelflüh',

@@ -18,17 +18,6 @@ export const Beiträge = {
       kanton: Kantone.BaselStadt,
     },
 
-'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?': {
-    karusselltitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',
-    verzeichnispfad: 'schweizergarde',
-    beitragtitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',
-    ort: 'Vatikan (I)',
-    bild: 'vatikan-garde/Bild0.jpeg',
-    autor: 'Tabea Stauffer',
-    jahr: '2023',
-    markierungen: [[41.90367, 12.45704]],
-    kanton: Kantone.Vatikan,
-  },
 
 
 
@@ -40,6 +29,18 @@ export const Beiträge = {
 
 
 */
+
+  'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?': {
+    karusselltitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',
+    verzeichnispfad: 'schweizergarde',
+    beitragtitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',
+    ort: 'Vatikan (I)',
+    bild: 'vatikan-garde/Bild0.jpeg',
+    autor: 'Tabea Stauffer',
+    jahr: '2023',
+    markierungen: [[41.90367, 12.45704]],
+    kanton: Kantone.Vatikan,
+  },
 
   'Der Lindenberg – Wiege von Katholisch-Basel': {
     karusselltitel: 'Der Lindenberg – Wiege von Katholisch-Basel',

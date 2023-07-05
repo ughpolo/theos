@@ -1,5 +1,14 @@
 //individuelles css:
 
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  width: 49.5%;
+  padding-left: 1em;
+}
+
 //gemeinsames css:
 
 .wrapper {

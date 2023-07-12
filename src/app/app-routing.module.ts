@@ -106,10 +106,16 @@ import { LuetzelflueGotthelfComponent } from './beiträge/luetzelflue-gotthelf/l
 import { BaselLindenbergComponent } from './beiträge/basel-lindenberg/basel-lindenberg.component';
 import { VatikanSchweizergardeComponent } from './beiträge/vatikan-schweizergarde/vatikan-schweizergarde.component';
 import { BaselErasmusvonrotterdamComponent } from './beiträge/basel-erasmusvonrotterdam/basel-erasmusvonrotterdam.component';
+import { StGallenEinmauernComponent } from './beiträge/st-gallen-einmauern/st-gallen-einmauern.component';
 const routes: Routes = [
   {
     path: 'erasmusvonrotterdam',
     component: BaselErasmusvonrotterdamComponent,
+  },
+
+  {
+    path: 'einmauern',
+    component: StGallenEinmauernComponent,
   },
 
   {

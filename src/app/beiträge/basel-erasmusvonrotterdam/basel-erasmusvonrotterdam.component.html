@@ -1,5 +1,9 @@
-<app-title-image [author]="author.author" [title]="title" [date]="date"
-  [image]="'basel-erasmusvonrotterdam/Bild1.jpeg'">
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'basel-erasmusvonrotterdam/Bild1.jpeg'"
+>
 </app-title-image>
 <div class="wrapper">
   <div class="text">
@@ -29,10 +33,8 @@
         der Grenzsteine, zu sehen. Von diesem berichtet unter anderem auch der
         Kirchenvater Augustinus in seinem Werk <i>De civitate Dei</i> (Vom
         Gottesstaat; hier in deutscher Übersetzung von Alfred Schröder), wie
-        dieser selbst vor dem Göttervater Jupiter nicht zurückwich:
-      </p>
+        dieser selbst vor dem Göttervater Jupiter nicht zurückwich: <br />
 
-      <p>
         «Als Tarquinius das Kapitol zu erbauen sich anschickte und sah, dass der
         Platz, der ihm besonders würdig und geeignet erschien, bereits von
         anderen Göttern besetzt sei – und es waren ihrer viele an der Stätte, wo
@@ -43,17 +45,19 @@
         bereit, Platz zu machen bis auf die genannten drei, Mars, Terminus und
         Juventas; darum wurden in den Bau des Kapitols auch diese drei
         einbezogen, aber in so versteckten Bildern, dass kaum die gelehrtesten
-        Männer darum wussten.»
-      </p>
+        Männer darum wussten.» <br />
 
-      <p>
         Weil das aus dieser Geschichte heraus Terminus zugeschriebene Motto
         <i>concedo nulli</i> (ich weiche vor niemandem zurück) der persönliche
         Leitspruch des Erasmus war, ist die Büste des Terminus quasi als sein
         Emblem auf dem Epitaph zu sehen.
       </p>
 
-      <img class="bild" src="../../../assets/images/basel-erasmusvonrotterdam/Bild3.jpeg" alt="" />
+      <img
+        class="bild"
+        src="../../../assets/images/basel-erasmusvonrotterdam/Bild3.jpeg"
+        alt=""
+      />
       <p class="bildunterschrift">
         Oberhalb der eigentlichen Inschrift befindet sich ein Ornamentstreifen
         mit einem runden Medaillon in der Mitte. Darin ist das Profil des
@@ -65,7 +69,8 @@
       <div class="flex-container">
         <div>
           <p>
-            <i>CHRISTO SERVATORI S[ACRUM] <br />
+            <i
+              >CHRISTO SERVATORI S[ACRUM] <br />
               DES[IDERIO] ERASMO<br />
               ROTERODAMO<br />
               VIRO OMNIBUS MODIS MAXI[-]<br />
@@ -121,14 +126,20 @@
             weiterleben und mit den Gelehrten <br />
             aller Völker reden wird, sondern <br />
             um seinen sterblichen Körper zu <br />
-            bestatten, diesen Grabstein gesetzt. <br />
-            Er starb, bereits in seinen Siebzigern, <br />
+            bestatten, <br />
+            diesen Grabstein gesetzt. <br />
+            Er starb, bereits in seinen <br />
+            Siebzigern, <br />
             am 12. Juli des Jahres 1536 <br />
             nach Christi Geburt.
           </p>
         </div>
       </div>
-      <img class="bild" src="../../../assets/images/basel-erasmusvonrotterdam/Bild4.jpeg" alt="" />
+      <img
+        class="bild"
+        src="../../../assets/images/basel-erasmusvonrotterdam/Bild4.jpeg"
+        alt=""
+      />
       <p class="bildunterschrift">
         Das Epitaph des Erasmus von Rotterdam ist ein rötlicher Kalkstein mit
         weisser Maserung. (Bild: Andrea Flückiger)
@@ -206,9 +217,12 @@
         </p>
         <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{
+            <a
+              style="color: black"
+              routerLink="/{{
                 author.pathname[i] | removeshitespaces | lowercase
-              }}">
+              }}"
+            >
               {{ author.location[i] }}: {{ author.shorttitle[i] }}
             </a>
           </li>
@@ -225,18 +239,21 @@
             (Des heiligen Kirchenvaters Aurelius Augustinus ausgewählte
             Schriften 1–3, Bibliothek der Kirchenväter, 1. Reihe, Band 01, 16,
             28), Kempten / München: 1911–16, verfügbar unter:
-            <a target="_blank"
-              href="https://bkv.unifr.ch/de/works/cpl-313/versions/zweiundzwanzig-bucher-uber-den-gottesstaat-bkv/divisions/125 "><i>De
-                Civitate Dei.</i> Zweiundzwanzig Bücher über den
-              Gottesstaat</a>
+            <a
+              target="_blank"
+              href="https://bkv.unifr.ch/de/works/cpl-313/versions/zweiundzwanzig-bucher-uber-den-gottesstaat-bkv/divisions/125 "
+              ><i>De Civitate Dei.</i> Zweiundzwanzig Bücher über den
+              Gottesstaat</a
+            >
             (27.12.2022).
           </li>
           <li>
             Jenny, Beat Rudolf: «Tod, Begräbnis und Grabmal des Erasmus von
             Rotterdam», in: Basler Zeitschrift für Geschichte und Altertumskunde
             86 (1986), 61–104, verfügbar unter:
-            <a target="_blank" href="http://edoc.unibas.ch/dok/A6243506">Tod, Begräbnis und Grabmal des Erasmus von
-              Rotterdam</a>
+            <a target="_blank" href="http://edoc.unibas.ch/dok/A6243506"
+              >Tod, Begräbnis und Grabmal des Erasmus von Rotterdam</a
+            >
             (10.1.2023).
           </li>
           <li>
@@ -244,8 +261,11 @@
             / Hess, Stefan / Jäggi Carola / Nagel, Anne / Pajor, Ferdinand: Die
             Kunstdenkmäler des Kantons Basel-Stadt X. Bern: Gesellschaft für
             Schweizerische Kunstgeschichte GSK, verfügbar unter:
-            <a target="_blank" href="https://library.oapen.org/handle/20.500.12657/49857">Die Kunstdenkmäler des Kantons
-              Basel-Stadt X</a>
+            <a
+              target="_blank"
+              href="https://library.oapen.org/handle/20.500.12657/49857"
+              >Die Kunstdenkmäler des Kantons Basel-Stadt X</a
+            >
             (27.12.2022).
           </li>
 

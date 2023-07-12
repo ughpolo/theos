@@ -27,8 +27,20 @@ export const Beiträge = {
 
 
 
-
 */
+
+  'St. Gallen: Einmal einmauern, bitte.': {
+    karusselltitel: 'Einmal einmauern, bitte.',
+    verzeichnispfad: 'einmauern',
+    beitragtitel:
+      'St. Gallen: Einmal einmauern, bitte. Wie 1000 Jahre später der Heiligen Wiborada in St. Gallen nachgelebt wird.',
+    ort: 'St. Gallen',
+    bild: 'st-gallen-wiborada/Bild0.jpeg',
+    autor: 'Andrea Mösching',
+    jahr: '2023',
+    markierungen: [[47.42775, 9.37616]],
+    kanton: Kantone.SanktGallen,
+  },
 
   'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?': {
     karusselltitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',

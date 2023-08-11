@@ -107,7 +107,13 @@ import { BaselLindenbergComponent } from './beiträge/basel-lindenberg/basel-lin
 import { VatikanSchweizergardeComponent } from './beiträge/vatikan-schweizergarde/vatikan-schweizergarde.component';
 import { BaselErasmusvonrotterdamComponent } from './beiträge/basel-erasmusvonrotterdam/basel-erasmusvonrotterdam.component';
 import { StGallenEinmauernComponent } from './beiträge/st-gallen-einmauern/st-gallen-einmauern.component';
+import { BaselMarienkircheComponent } from './beiträge/basel-marienkirche/basel-marienkirche.component';
 const routes: Routes = [
+  {
+    path: 'marienkirche',
+    component: BaselMarienkircheComponent,
+  },
+
   {
     path: 'erasmusvonrotterdam',
     component: BaselErasmusvonrotterdamComponent,

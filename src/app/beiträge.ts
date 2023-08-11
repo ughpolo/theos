@@ -19,6 +19,23 @@ export const Beiträge = {
     },
 
 
+
+
+
+      'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs': {
+    karusselltitel: 'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs',
+    verzeichnispfad: 'marienkirche',
+    beitragtitel:
+      'Basel: Marienkirche – Kirchenbau in der Zeit des Kulturkampfs',
+    ort: 'Basel',
+    bild: 'basel-marienkirche/bild0.jpeg',
+    autor: 'Patrick Braun',
+    jahr: '2023',
+    markierungen: [[47.55349, 7.58417]],
+    kanton: Kantone.BaselStadt,
+  },
+
+
   'St. Gallen: Einmal einmauern, bitte.': {
     karusselltitel: 'Einmal einmauern, bitte.',
     verzeichnispfad: 'einmauern',
@@ -41,19 +58,6 @@ export const Beiträge = {
 
 
 */
-
-  'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs': {
-    karusselltitel: 'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs',
-    verzeichnispfad: 'marienkirche',
-    beitragtitel:
-      'Basel: Marienkirche – Kirchenbau in der Zeit des Kulturkampfs',
-    ort: 'Basel',
-    bild: 'basel-marienkirche/bild0.jpeg',
-    autor: 'Patrick Braun',
-    jahr: '2023',
-    markierungen: [[47.55349, 7.58417]],
-    kanton: Kantone.BaselStadt,
-  },
 
   'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?': {
     karusselltitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',

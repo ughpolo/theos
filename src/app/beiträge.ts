@@ -36,6 +36,17 @@ export const Beiträge = {
   },
 
 
+
+
+
+
+
+
+
+
+
+*/
+
   'St. Gallen: Einmal einmauern, bitte.': {
     karusselltitel: 'Einmal einmauern, bitte.',
     verzeichnispfad: 'einmauern',
@@ -48,16 +59,6 @@ export const Beiträge = {
     markierungen: [[47.42775, 9.37616]],
     kanton: Kantone.SanktGallen,
   },
-
-
-
-
-
-
-
-
-
-*/
 
   'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?': {
     karusselltitel: 'Die Schweizer Garde – ein bedeutsamer Ort der Schweiz?',

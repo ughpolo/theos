@@ -22,15 +22,6 @@ export const Beiträge = {
 
 
 
-
-
-
-
-
-
-
-
-
 */
 
   'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs': {

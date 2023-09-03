@@ -22,7 +22,18 @@ export const Beiträge = {
 
 
 
-      'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs': {
+
+
+
+
+
+
+
+
+
+*/
+
+  'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs': {
     karusselltitel: 'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs',
     verzeichnispfad: 'marienkirche',
     beitragtitel:
@@ -34,18 +45,6 @@ export const Beiträge = {
     markierungen: [[47.55349, 7.58417]],
     kanton: Kantone.BaselStadt,
   },
-
-
-
-
-
-
-
-
-
-
-
-*/
 
   'St. Gallen: Einmal einmauern, bitte.': {
     karusselltitel: 'Einmal einmauern, bitte.',

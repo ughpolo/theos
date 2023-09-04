@@ -24,6 +24,18 @@ export const Beiträge = {
 
 */
 
+  'Sant´Ambrogio vecchio in Prugiasco (San Carlo di Negrentino)': {
+    karusselltitel: 'Sant´Ambrogio vecchio (San Carlo di Negrentino)',
+    verzeichnispfad: 'santambrogio',
+    beitragtitel: 'Prugiasco: Sant´Ambrogio vecchio (San Carlo di Negrentino)',
+    ort: 'Prugiasco',
+    bild: 'prugiasco-santambrogio/bild0.jpeg',
+    autor: 'Jonathan Stutz',
+    jahr: '2023',
+    markierungen: [[46.46269, 8.92285]],
+    kanton: Kantone.Tessin,
+  },
+
   'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs': {
     karusselltitel: 'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs',
     verzeichnispfad: 'marienkirche',

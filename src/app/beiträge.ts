@@ -17,14 +17,8 @@ export const Beiträge = {
       markierungen: [[47.55653, 7.59225]],
       kanton: Kantone.BaselStadt,
     },
-
-
-
-
-
-*/
-
-  'Sant´Ambrogio vecchio in Prugiasco (San Carlo di Negrentino)': {
+    
+ 'Sant´Ambrogio vecchio in Prugiasco (San Carlo di Negrentino)': {
     karusselltitel: 'Sant´Ambrogio vecchio (San Carlo di Negrentino)',
     verzeichnispfad: 'santambrogio',
     beitragtitel: 'Prugiasco: Sant´Ambrogio vecchio (San Carlo di Negrentino)',
@@ -35,6 +29,12 @@ export const Beiträge = {
     markierungen: [[46.46269, 8.92285]],
     kanton: Kantone.Tessin,
   },
+
+
+
+
+
+*/
 
   'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs': {
     karusselltitel: 'Marienkirche – Kirchenbau in der Zeit des Kulturkampfs',

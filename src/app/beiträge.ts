@@ -30,7 +30,7 @@ export const Beiträge = {
         'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
       verzeichnispfad: 'niederamt',
       beitragtitel:
-        'Niederamt: Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
+        'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
       ort: 'Niederamt (SO)',
       bild: 'niederamt-sakrallandschaft/bild0.jpg',
       autor: 'David Zimmer',

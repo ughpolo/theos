@@ -3,6 +3,28 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
 
+
+
+    'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt':
+    {
+      karusselltitel:
+        'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
+      verzeichnispfad: 'niederamt',
+      beitragtitel:
+        'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
+      ort: 'Niederamt (SO)',
+      bild: 'niederamt-sakrallandschaft/bild0.jpg',
+      autor: 'David Zimmer',
+      jahr: '2023',
+      markierungen: [
+        [47.3563, 7.9787],
+        [47.3713, 8.0003],
+        [47.3592, 7.9936],
+      ],
+      kanton: Kantone.Solothurn,
+    },
+
+    
   'Das Epitaph des Erasmus von Rotterdam – Die Basler Hommage an den katholischen Humanisten':
     {
       karusselltitel:
@@ -23,25 +45,6 @@ export const Beiträge = {
 
 
 */
-
-  'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt':
-    {
-      karusselltitel:
-        'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
-      verzeichnispfad: 'niederamt',
-      beitragtitel:
-        'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
-      ort: 'Niederamt (SO)',
-      bild: 'niederamt-sakrallandschaft/bild0.jpg',
-      autor: 'David Zimmer',
-      jahr: '2023',
-      markierungen: [
-        [47.3563, 7.9787],
-        [47.3713, 8.0003],
-        [47.3592, 7.9936],
-      ],
-      kanton: Kantone.Solothurn,
-    },
 
   'Sant´Ambrogio vecchio in Prugiasco (San Carlo di Negrentino)': {
     karusselltitel: 'Sant´Ambrogio vecchio (San Carlo di Negrentino)',

@@ -24,7 +24,14 @@ export const Beiträge = {
       kanton: Kantone.Solothurn,
     },
 
-    
+  
+  
+
+
+
+
+*/
+
   'Das Epitaph des Erasmus von Rotterdam – Die Basler Hommage an den katholischen Humanisten':
     {
       karusselltitel:
@@ -39,18 +46,12 @@ export const Beiträge = {
       markierungen: [[47.55653, 7.59225]],
       kanton: Kantone.BaselStadt,
     },
-  
-
-
-
-
-*/
 
   'Sant´Ambrogio vecchio in Prugiasco (San Carlo di Negrentino)': {
     karusselltitel: 'Sant´Ambrogio vecchio (San Carlo di Negrentino)',
     verzeichnispfad: 'santambrogio',
     beitragtitel: 'Prugiasco: Sant´Ambrogio vecchio (San Carlo di Negrentino)',
-    ort: 'Prugiasco',
+    ort: 'Prugiasco (TI)',
     bild: 'prugiasco-santambrogio/bild0.jpeg',
     autor: 'Jonathan Stutz',
     jahr: '2023',

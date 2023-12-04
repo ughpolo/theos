@@ -13,7 +13,7 @@ export class AlpthalApolloniaComponent implements OnInit {
 
  
 ngOnInit(): void {
-  this.assign('Joël Meier', 'Solothurn zwei Heilige');
+  this.assign('Katja Bury und Christoph Kerwien', 'Apollonia – Heilige mit Zange und Zahn');
   this.createIds();
 }
 

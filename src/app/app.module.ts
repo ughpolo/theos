@@ -143,6 +143,7 @@ import { StGallenEinmauernComponent } from './beiträge/st-gallen-einmauern/st-g
 import { BaselMarienkircheComponent } from './beiträge/basel-marienkirche/basel-marienkirche.component';
 import { PrugiascoSantambrogioComponent } from './beiträge/prugiasco-santambrogio/prugiasco-santambrogio.component';
 import { NiederamtSakrallandschaftComponent } from './beiträge/niederamt-sakrallandschaft/niederamt-sakrallandschaft.component';
+import { AlpthalApolloniaComponent } from './beiträge/alpthal-apollonia/alpthal-apollonia.component';
 
 @NgModule({
   declarations: [
@@ -275,6 +276,8 @@ import { NiederamtSakrallandschaftComponent } from './beiträge/niederamt-sakral
     PrugiascoSantambrogioComponent,
 
     NiederamtSakrallandschaftComponent,
+
+    AlpthalApolloniaComponent,
   ],
   imports: [
     MatToolbarModule,

@@ -13,7 +13,20 @@ export const Beiträge = {
 
 
 */
-
+'Apollonia – Heilige mit Zange und Zahn':
+{
+  karusselltitel:
+    'Apollonia – Heilige mit Zange und Zahn',
+  verzeichnispfad: 'apollonia',
+  beitragtitel:
+    'Alpthal (SZ): Apollonia – Heilige mit Zange und Zahn',
+  ort: 'Alpthal (SZ)',
+  bild: 'alpthal-apollonia/bild0.jpeg',
+  autor: 'Katja Bury und Christoph Kerwien',
+  jahr: '2023',
+  markierungen: [[47.07077, 8.71608]],
+  kanton: Kantone.Schwyz,
+},
 
 'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt':
 {

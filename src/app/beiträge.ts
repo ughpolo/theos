@@ -13,39 +13,51 @@ export const Beiträge = {
 
 
 */
-'Apollonia – Heilige mit Zange und Zahn':
-{
-  karusselltitel:
-    'Apollonia – Heilige mit Zange und Zahn',
-  verzeichnispfad: 'apollonia',
-  beitragtitel:
-    'Alpthal (SZ): Apollonia – Heilige mit Zange und Zahn',
-  ort: 'Alpthal (SZ)',
-  bild: 'alpthal-apollonia/bild0.jpeg',
-  autor: 'Katja Bury und Christoph Kerwien',
-  jahr: '2023',
-  markierungen: [[47.07077, 8.71608]],
-  kanton: Kantone.Schwyz,
-},
 
-'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt':
-{
-  karusselltitel:
-    'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
-  verzeichnispfad: 'niederamt',
-  beitragtitel:
-    'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
-  ort: 'Niederamt (SO)',
-  bild: 'niederamt-sakrallandschaft/bild0.jpg',
-  autor: 'David Zimmer',
-  jahr: '2023',
-  markierungen: [
-    [47.3563, 7.9787],
-    [47.3713, 8.0003],
-    [47.3592, 7.9936],
-  ],
-  kanton: Kantone.Solothurn,
-},
+  'Taubenschlag und Davidstern – im Schatten der Marienkirche': {
+    karusselltitel:
+      'Taubenschlag und Davidstern – im Schatten der Marienkirche',
+    verzeichnispfad: 'waschhaus',
+    beitragtitel:
+      'Basel: Taubenschlag und Davidstern – im Schatten der Marienkirche',
+    ort: 'Basel',
+    bild: 'basel-waschhaus/bild0.jpeg',
+    autor: 'Patrick Braun',
+    jahr: '2023',
+    markierungen: [[47.55358, 7.58365]],
+    kanton: Kantone.BaselStadt,
+  },
+
+  'Apollonia – Heilige mit Zange und Zahn': {
+    karusselltitel: 'Apollonia – Heilige mit Zange und Zahn',
+    verzeichnispfad: 'apollonia',
+    beitragtitel: 'Alpthal (SZ): Apollonia – Heilige mit Zange und Zahn',
+    ort: 'Alpthal (SZ)',
+    bild: 'alpthal-apollonia/bild0.jpeg',
+    autor: 'Katja Bury und Christoph Kerwien',
+    jahr: '2023',
+    markierungen: [[47.07077, 8.71608]],
+    kanton: Kantone.Schwyz,
+  },
+
+  'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt':
+    {
+      karusselltitel:
+        'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
+      verzeichnispfad: 'niederamt',
+      beitragtitel:
+        'Im Schatten des Kühlturms. Religiös vielfältige Sakrallandschaft im südlichen Niederamt',
+      ort: 'Niederamt (SO)',
+      bild: 'niederamt-sakrallandschaft/bild0.jpg',
+      autor: 'David Zimmer',
+      jahr: '2023',
+      markierungen: [
+        [47.3563, 7.9787],
+        [47.3713, 8.0003],
+        [47.3592, 7.9936],
+      ],
+      kanton: Kantone.Solothurn,
+    },
 
   'Das Epitaph des Erasmus von Rotterdam – Die Basler Hommage an den katholischen Humanisten':
     {

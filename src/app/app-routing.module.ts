@@ -113,7 +113,12 @@ import { NiederamtSakrallandschaftComponent } from './beiträge/niederamt-sakral
 import { AlpthalApolloniaComponent } from './beiträge/alpthal-apollonia/alpthal-apollonia.component';
 import { BaselWaschhausComponent } from './beiträge/basel-waschhaus/basel-waschhaus.component';
 import { BernMuristaldenComponent } from './beiträge/bern-muristalden/bern-muristalden.component';
+import { OberwilHansarpComponent } from './beiträge/oberwil-hansarp/oberwil-hansarp.component';
 const routes: Routes = [
+  {
+    path: 'hansarp',
+    component: OberwilHansarpComponent,
+  },
   {
     path: 'muristalden',
     component: BernMuristaldenComponent,

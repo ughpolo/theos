@@ -6,7 +6,21 @@ export const Beiträge = {
 
 
 
-  
+   'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil':
+    {
+      karusselltitel:
+        'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil',
+      verzeichnispfad: 'hansarp',
+      beitragtitel:
+        'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil',
+      ort: 'Oberwil (BL)',
+      bild: 'oberwil-hansarp/bild0.jpeg',
+      autor: 'Jonas Engeler',
+      jahr: '2024',
+      markierungen: [[47.51368, 7.55387]],
+      kanton: Kantone.BaselLand,
+    },
+
   
 
 
@@ -26,20 +40,6 @@ export const Beiträge = {
 
 
 */
-  'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil':
-    {
-      karusselltitel:
-        'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil',
-      verzeichnispfad: 'hansarp',
-      beitragtitel:
-        'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil',
-      ort: 'Oberwil (BL)',
-      bild: 'oberwil-hansarp/bild0.jpeg',
-      autor: 'Jonas Engeler',
-      jahr: '2024',
-      markierungen: [[47.51368, 7.55387]],
-      kanton: Kantone.BaselLand,
-    },
 
   'Taubenschlag und Davidstern – im Schatten der Marienkirche': {
     karusselltitel:

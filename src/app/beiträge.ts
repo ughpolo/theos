@@ -10,9 +10,36 @@ export const Beiträge = {
   
 
 
+ 'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen': {
+    karusselltitel:
+      'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen',
+    verzeichnispfad: 'muristalden',
+    beitragtitel:
+      'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen',
+    ort: 'Bern',
+    bild: 'bern-muristalden/bild0.jpeg',
+    autor: 'Meriel Lannutti',
+    jahr: '2024',
+    markierungen: [[46.94423, 7.45996]],
+    kanton: Kantone.Bern,
+  },
 
 
 */
+  'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil':
+    {
+      karusselltitel:
+        'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil',
+      verzeichnispfad: 'hansarp',
+      beitragtitel:
+        'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil',
+      ort: 'Oberwil (BL)',
+      bild: 'oberwil-hansarp/bild0.jpeg',
+      autor: 'Jonas Engeler',
+      jahr: '2024',
+      markierungen: [[47.51368, 7.55387]],
+      kanton: Kantone.BaselLand,
+    },
 
   'Taubenschlag und Davidstern – im Schatten der Marienkirche': {
     karusselltitel:

@@ -112,7 +112,12 @@ import { PrugiascoSantambrogioComponent } from './beiträge/prugiasco-santambrog
 import { NiederamtSakrallandschaftComponent } from './beiträge/niederamt-sakrallandschaft/niederamt-sakrallandschaft.component';
 import { AlpthalApolloniaComponent } from './beiträge/alpthal-apollonia/alpthal-apollonia.component';
 import { BaselWaschhausComponent } from './beiträge/basel-waschhaus/basel-waschhaus.component';
+import { BernMuristaldenComponent } from './beiträge/bern-muristalden/bern-muristalden.component';
 const routes: Routes = [
+  {
+    path: 'muristalden',
+    component: BernMuristaldenComponent,
+  },
   {
     path: 'waschhaus',
     component: BaselWaschhausComponent,

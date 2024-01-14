@@ -24,22 +24,25 @@ export const Beiträge = {
   
 
 
- 'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen': {
-    karusselltitel:
-      'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen',
-    verzeichnispfad: 'muristalden',
-    beitragtitel:
-      'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen',
-    ort: 'Bern',
-    bild: 'bern-muristalden/bild0.jpeg',
-    autor: 'Meriel Lannutti',
-    jahr: '2024',
-    markierungen: [[46.94423, 7.45996]],
-    kanton: Kantone.Bern,
-  },
 
 
 */
+
+
+'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen': {
+  karusselltitel:
+    'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen',
+  verzeichnispfad: 'muristalden',
+  beitragtitel:
+    'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen',
+  ort: 'Bern',
+  bild: 'bern-muristalden/bild0.jpeg',
+  autor: 'Meriel Lannutti',
+  jahr: '2024',
+  markierungen: [[46.94423, 7.45996]],
+  kanton: Kantone.Bern,
+},
+
 
   'Taubenschlag und Davidstern – im Schatten der Marienkirche': {
     karusselltitel:

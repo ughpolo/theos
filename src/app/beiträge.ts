@@ -4,6 +4,18 @@ export const Beiträge = {
   /*
 
 
+  'Der Notker Globus und das mittelalterliche Weltbild': {
+    karusselltitel: 'Der Notker Globus und das mittelalterliche Weltbild',
+    verzeichnispfad: 'notkerglobus',
+    beitragtitel:
+      'St. Gallen: Der Notker Globus und das mittelalterliche Weltbild',
+    ort: 'St. Gallen',
+    bild: 'stgallen-notkerglobus/bild0.jpeg',
+    autor: 'Sophie Strauch',
+    jahr: '2024',
+    markierungen: [[47.42266, 9.37697]],
+    kanton: Kantone.SanktGallen,
+  },
 
 
    'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil':
@@ -27,19 +39,6 @@ export const Beiträge = {
 
 
 */
-
-  'Der Notker Globus und das mittelalterliche Weltbild': {
-    karusselltitel: 'Der Notker Globus und das mittelalterliche Weltbild',
-    verzeichnispfad: 'notkerglobus',
-    beitragtitel:
-      'St. Gallen: Der Notker Globus und das mittelalterliche Weltbild',
-    ort: 'St. Gallen',
-    bild: 'stgallen-notkerglobus/bild0.jpeg',
-    autor: 'Sophie Strauch',
-    jahr: '2024',
-    markierungen: [[47.42266, 9.37697]],
-    kanton: Kantone.SanktGallen,
-  },
 
   'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen': {
     karusselltitel:

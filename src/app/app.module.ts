@@ -147,6 +147,7 @@ import { AlpthalApolloniaComponent } from './beiträge/alpthal-apollonia/alpthal
 import { BaselWaschhausComponent } from './beiträge/basel-waschhaus/basel-waschhaus.component';
 import { BernMuristaldenComponent } from './beiträge/bern-muristalden/bern-muristalden.component';
 import { OberwilHansarpComponent } from './beiträge/oberwil-hansarp/oberwil-hansarp.component';
+import { StgallenNotkerglobusComponent } from './beiträge/stgallen-notkerglobus/stgallen-notkerglobus.component';
 
 @NgModule({
   declarations: [
@@ -287,6 +288,8 @@ import { OberwilHansarpComponent } from './beiträge/oberwil-hansarp/oberwil-han
     BernMuristaldenComponent,
 
     OberwilHansarpComponent,
+
+    StgallenNotkerglobusComponent,
   ],
   imports: [
     MatToolbarModule,

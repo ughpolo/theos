@@ -28,21 +28,32 @@ export const Beiträge = {
 
 */
 
+  'Der Notker Globus und das mittelalterliche Weltbild': {
+    karusselltitel: 'Der Notker Globus und das mittelalterliche Weltbild',
+    verzeichnispfad: 'notkerglobus',
+    beitragtitel:
+      'St. Gallen: Der Notker Globus und das mittelalterliche Weltbild',
+    ort: 'St. Gallen',
+    bild: 'stgallen-notkerglobus/bild0.jpeg',
+    autor: 'Sophie Strauch',
+    jahr: '2024',
+    markierungen: [[47.42266, 9.37697]],
+    kanton: Kantone.SanktGallen,
+  },
 
-'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen': {
-  karusselltitel:
-    'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen',
-  verzeichnispfad: 'muristalden',
-  beitragtitel:
-    'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen',
-  ort: 'Bern',
-  bild: 'bern-muristalden/bild0.jpeg',
-  autor: 'Meriel Lannutti',
-  jahr: '2024',
-  markierungen: [[46.94423, 7.45996]],
-  kanton: Kantone.Bern,
-},
-
+  'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen': {
+    karusselltitel:
+      'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen',
+    verzeichnispfad: 'muristalden',
+    beitragtitel:
+      'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen',
+    ort: 'Bern',
+    bild: 'bern-muristalden/bild0.jpeg',
+    autor: 'Meriel Lannutti',
+    jahr: '2024',
+    markierungen: [[46.94423, 7.45996]],
+    kanton: Kantone.Bern,
+  },
 
   'Taubenschlag und Davidstern – im Schatten der Marienkirche': {
     karusselltitel:

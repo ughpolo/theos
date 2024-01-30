@@ -114,7 +114,12 @@ import { AlpthalApolloniaComponent } from './beiträge/alpthal-apollonia/alpthal
 import { BaselWaschhausComponent } from './beiträge/basel-waschhaus/basel-waschhaus.component';
 import { BernMuristaldenComponent } from './beiträge/bern-muristalden/bern-muristalden.component';
 import { OberwilHansarpComponent } from './beiträge/oberwil-hansarp/oberwil-hansarp.component';
+import { StgallenNotkerglobusComponent } from './beiträge/stgallen-notkerglobus/stgallen-notkerglobus.component';
 const routes: Routes = [
+  {
+    path: 'notkerglobus',
+    component: StgallenNotkerglobusComponent,
+  },
   {
     path: 'hansarp',
     component: OberwilHansarpComponent,

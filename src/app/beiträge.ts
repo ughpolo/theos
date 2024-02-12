@@ -18,7 +18,15 @@ export const Beiträge = {
   },
 
 
-   'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil':
+
+  
+
+
+
+
+*/
+
+  'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil':
     {
       karusselltitel:
         'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil',
@@ -32,13 +40,6 @@ export const Beiträge = {
       markierungen: [[47.51368, 7.55387]],
       kanton: Kantone.BaselLand,
     },
-
-  
-
-
-
-
-*/
 
   'Der Campus Muristalden in Bern - Neues auf alten Pfaden begehen': {
     karusselltitel:

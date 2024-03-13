@@ -4,6 +4,12 @@ export const Beiträge = {
   /*
 
 
+
+
+
+
+*/
+
   'Der Notker Globus und das mittelalterliche Weltbild': {
     karusselltitel: 'Der Notker Globus und das mittelalterliche Weltbild',
     verzeichnispfad: 'notkerglobus',
@@ -16,15 +22,6 @@ export const Beiträge = {
     markierungen: [[47.42266, 9.37697]],
     kanton: Kantone.SanktGallen,
   },
-
-
-
-  
-
-
-
-
-*/
 
   'Spätantike Tradition und Moderne Kunst – Zwei Welten in der römisch-katholischen Kirche Oberwil':
     {

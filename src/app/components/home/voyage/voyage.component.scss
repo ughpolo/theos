@@ -46,21 +46,22 @@ p{
   grid-column: 2/3;
 }
 
+/*TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version.*/
 mat-card {
   padding: 0;
   background-color: #f5f5f5;
 }
 
-.mat-card:not([class*="mat-elevation-z"]) {
+.mat-mdc-card:not([class*="mat-elevation-z"]) {
   box-shadow: none;
 }
 
-.mat-card-image {
+.mat-mdc-card-image {
   width: 100%;
   margin: 0 0 0 0;
 }
 
-.mat-card-image:first-child {
+.mat-mdc-card-image:first-child {
   margin-top: 0;
 }
 
@@ -232,7 +233,7 @@ a {
   width: max(50%, 300px);
   }
   
-  .mat-card-image {
+  .mat-mdc-card-image {
     width: min(100%, 300px);
     margin: 0 0 0 0;
   }

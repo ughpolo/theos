@@ -43,9 +43,9 @@
   font-weight: 200;
 }
 
-.mat-button,
-.mat-icon-button,
-.mat-stroked-button:hover ::ng-deep {
+.mat-mdc-button,
+.mat-mdc-icon-button,
+.mat-mdc-outlined-button:hover ::ng-deep {
   transition: 0.5s;
   background: rgb(155, 30, 30);
   opacity: 0.9;

@@ -1,170 +1,141 @@
-
 /* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
 mat-card img {
   object-fit: cover;
-  height: 200px;
-}
+  height: 200px; }
+
 mat-form-field {
   font-weight: 300;
-  text-align: center;
-}
+  text-align: center; }
 
 .not-empty-select.mat-mdc-selected {
-  color: green !important;
-}
+  color: green !important; }
 
 /* TODO(mdc-migration): The following rule targets internal classes of select that may no longer apply for the MDC version. */
 .mat-select-value-text:host {
-  color: green !important;
-}
+  color: green !important; }
 
 /* TODO(mdc-migration): The following rule targets internal classes of option that may no longer apply for the MDC version. */
 mat-option {
-  color: #d6002b !important;
-}
-
-
+  color: #d6002b !important; }
 
 #title::after {
   content: "\a";
-  white-space: pre;
-}
+  white-space: pre; }
 
 /* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
-mat-card{
+mat-card {
   cursor: pointer;
   width: 200px;
-  border-radius: 0;
-}
+  border-radius: 0; }
 
-::ng-deep mat-label{
+::ng-deep mat-label {
   font-weight: 300 !important;
   font-size: 1em !important;
   letter-spacing: 1px;
   display: flex;
   justify-content: center;
   color: black;
-  text-align: center;
-}
+  text-align: center; }
 
 #beitrag {
   color: #d6002b;
-  justify-content: center !important;
-}
+  justify-content: center !important; }
 
 /* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
-mat-card-content{
+mat-card-content {
   padding: 1.1em 0;
   font-weight: 300 !important;
   font-size: 1.1em !important;
   letter-spacing: 1px !important;
   display: flex;
-  justify-content: center;
-}
-
+  justify-content: center; }
 
 .text {
-  text-align: center;
-}
+  text-align: center; }
 
 /* TODO(mdc-migration): The following rule targets internal classes of form-field that may no longer apply for the MDC version. */
 .dropdown::ng-deep .mat-form-field-underline {
-  display: none;
-}
+  display: none; }
 
 /* TODO(mdc-migration): The following rule targets internal classes of form-field that may no longer apply for the MDC version. */
 .dropdown::ng-deep .mat-form-field-wrapper {
-  padding-bottom: 0;
-}
+  padding-bottom: 0; }
 
 /* TODO(mdc-migration): The following rule targets internal classes of form-field that may no longer apply for the MDC version. */
 .dropdown::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
-  padding: 0;
-}
+  padding: 0; }
 
 .mat-mdc-card:not([class*="mat-elevation-z"]) {
-  box-shadow: none;
-}
+  box-shadow: none; }
 
 /* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
 mat-card::ng-deep {
-  border: none;
-}
+  border: none; }
 
 /* TODO(mdc-migration): The following rule targets internal classes of form-field that may no longer apply for the MDC version. */
 ::ng-deep .mat-form-field-infix {
   padding: 0 !important;
-  border-top: 0;
-}
+  border-top: 0; }
 
 ::ng-deep .mat-mdc-form-field-infix {
   padding: 0 !important;
   border-top: 0;
   display: flex !important;
   justify-content: center !important;
-  flex-wrap: wrap !important;
-}
+  flex-wrap: wrap !important; }
+
 ::ng-deep .mat-mdc-text-field-wrapper {
   text-align: center !important;
   background-color: white !important;
-  border-style: none !important;
-}
+  border-style: none !important; }
+
 ::ng-deep .mat-mdc-form-field {
-  margin: -1.3em 0 0 0 !important;
-}
+  margin: -1.3em 0 0 0 !important; }
 
 ::ng-deep .mdc-line-ripple::before {
-  border-style: none !important;
-}
+  border-style: none !important; }
+
 ::ng-deep .mat-mdc-select {
-padding: 1em 0 0 0 !important;
-}
+  padding: 1em 0 0 0 !important; }
 
 ::ng-deep .mat-mdc-floating-label .mdc-floating-label {
-  text-align: center !important;
-}
+  text-align: center !important; }
 
 ::ng-deep .mdc-list-item__primary-text {
   color: #d6002b !important;
   font-size: inherit;
-    line-height: 3em;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: block;
-    line-height: 48px;
-    padding: 0 16px;
-    text-align: left;
-    text-decoration: none;
-    max-width: 100%;
-    position: relative;
-    cursor: pointer;
-    outline: none;
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    box-sizing: border-box;
-    align-items: center;
-    -webkit-tap-highlight-color: transparent;
-}
+  line-height: 3em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 48px;
+  padding: 0 16px;
+  text-align: left;
+  text-decoration: none;
+  max-width: 100%;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent; }
 
 ::ng-deep .cdk-overlay-pane {
   min-width: 30vw !important;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 ::ng-deep .mdc-text-field--filled .mdc-floating-label--float-above {
-  transform: translateY(-50%) scale(1) !important;
-}
+  transform: translateY(-50%) scale(1) !important; }
 
 ::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-line-ripple::after {
-  border-bottom-color: rgba(0, 0, 0, .04) !important;
-}
+  border-bottom-color: rgba(0, 0, 0, 0.04) !important; }
 
 ::ng-deep .mdc-list-item__primary-text {
-  padding: 0.5vw 2vw !important;
-}
+  padding: 0.5vw 2vw !important; }
 
 ::ng-deep .mat-mdc-option {
-  min-height: 0.1vw !important;
-}
+  min-height: 0.1vw !important; }

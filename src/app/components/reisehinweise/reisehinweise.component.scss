@@ -25,20 +25,20 @@
   color: white;
 }
 
-.mat-button,
-.mat-raised-button,
-.mat-icon-button,
-.mat-stroked-button,
-.mat-flat-button,
-.mat-fab,
-.mat-mini-fab {
+.mat-mdc-button,
+.mat-mdc-raised-button,
+.mat-mdc-icon-button,
+.mat-mdc-outlined-button,
+.mat-mdc-unelevated-button,
+.mat-mdc-fab,
+.mat-mdc-mini-fab {
   font-family: "Montserrat";
 }
 
-.mat-flat-button.mat-warn,
-.mat-raised-button.mat-warn,
-.mat-fab.mat-warn,
-.mat-mini-fab.mat-warn {
+.mat-mdc-unelevated-button.mat-warn,
+.mat-mdc-raised-button.mat-warn,
+.mat-mdc-fab.mat-warn,
+.mat-mdc-mini-fab.mat-warn {
   background-color: black;
 }
 

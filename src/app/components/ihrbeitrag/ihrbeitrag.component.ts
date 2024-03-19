@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl, FormGroupDirective, NgForm, Validators} from '@angular/forms';
+import {UntypedFormControl, FormGroupDirective, NgForm, Validators} from '@angular/forms';
 
 
 @Component({
@@ -8,7 +8,7 @@ import {FormControl, FormGroupDirective, NgForm, Validators} from '@angular/form
   styleUrls: ['./ihrbeitrag.component.scss']
 })
 export class IhrbeitragComponent {
-  emailFormControl = new FormControl('', [
+  emailFormControl = new UntypedFormControl('', [
     Validators.required,
     Validators.email,
   ]);

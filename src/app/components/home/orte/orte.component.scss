@@ -55,6 +55,9 @@ app-ort-item:nth-child(4n + 3) {
   letter-spacing: 1px;
 }
 
+/* TODO(mdc-migration): The following rule targets internal classes of form-field that may no longer apply for the MDC version.
+
+*/
 ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
   background-color: #fff;
 }

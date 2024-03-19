@@ -14,8 +14,9 @@ interface Food {
 })
 export class OrtItemComponent implements OnInit {
 
-  @Input() beitrag: { 
-    pathname: string, locationCat: string, count: number, title: string, image: string, location: string, titleArray: string[], pathnameArray: string[]  } = { pathname: "", locationCat: "", count: 0, title: "", image: "", location: "", titleArray: [], pathnameArray: []  }
+  @Input() beitrag: {
+    pathname: string, locationCat: string, count: number, title: string, image: string, location: string, titleArray: string[], pathnameArray: string[]
+  } = { pathname: "", locationCat: "", count: 0, title: "", image: "", location: "", titleArray: [], pathnameArray: [] }
 
 
 
@@ -29,7 +30,7 @@ export class OrtItemComponent implements OnInit {
     this.allLocations = this.beitrag.titleArray;
     this.allPathnames = this.beitrag.pathnameArray;
     this.pathname = this.beitrag.pathname;
-   
+
   }
 
 
@@ -51,6 +52,6 @@ export class OrtItemComponent implements OnInit {
     this.router.navigateByUrl(`/${url}`);
   }
 
-  }
+}
 
 

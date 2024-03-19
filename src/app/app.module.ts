@@ -18,7 +18,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 import { OrtItemComponent } from './components/home/orte/ort-item/ort-item.component';
 import { CarouselItemComponent } from './components/carousel/carousel-item/carousel-item.component';
-import { StickyNavModule } from 'ng2-sticky-nav';
+//import { StickyNavModule } from 'ng2-sticky-nav';
 import { AmsoldingenKircheComponent } from './beiträge/amsoldingen-kirche/amsoldingen-kirche.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -300,7 +300,7 @@ import { StgallenNotkerglobusComponent } from './beiträge/stgallen-notkerglobus
     ReactiveFormsModule,
     FormsModule,
     MatInputModule,
-    StickyNavModule,
+    //StickyNavModule,
     MatSelectModule,
     MatCardModule,
     MatButtonModule,

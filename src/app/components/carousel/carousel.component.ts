@@ -28,6 +28,8 @@ export class CarouselComponent implements OnInit {
     navSpeed: 700,
     navText: ['', ''],
     margin: 30,
+    lazyLoad: true,
+    lazyLoadEager: 4,
     autoplay: true,
     autoplaySpeed: 2000,
     autoplayHoverPause: true,

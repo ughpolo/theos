@@ -10,6 +10,20 @@ export const Beiträge = {
 
 */
 
+  'Wer zum Schwert greift – Über die vier kleinen Männer am Berner Gerechtigkeitsbrunnen':
+    {
+      karusselltitel:
+        'Wer zum Schwert greift – Über die vier kleinen Männer am Berner Gerechtigkeitsbrunnen',
+      verzeichnispfad: 'gerechtigkeitsbrunnen',
+      beitragtitel:
+        'Wer zum Schwert greift – Über die vier kleinen Männer am Berner Gerechtigkeitsbrunnen',
+      ort: 'Bern',
+      bild: 'bern-gerechtigkeitsbrunnen/bild.0.jpeg',
+      autor: 'Torben Hanhart',
+      jahr: '2024',
+      markierungen: [[46.94828, 7.45407]],
+      kanton: Kantone.Bern,
+    },
   'Der Notker Globus und das mittelalterliche Weltbild': {
     karusselltitel: 'Der Notker Globus und das mittelalterliche Weltbild',
     verzeichnispfad: 'notkerglobus',

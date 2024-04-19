@@ -6,13 +6,12 @@ import { Beitrag } from '../models/beitrag';
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.scss']
+  styleUrls: ['./carousel.component.scss'],
 })
 export class CarouselComponent implements OnInit {
+  items: Beitrag[] = [];
 
-  items: Beitrag[] = []
-
-  constructor(private dataSourceService: DataServiceService) { }
+  constructor(private dataSourceService: DataServiceService) {}
 
   ngOnInit(): void {
     this.items = this.dataSourceService.beiträge;
@@ -31,29 +30,26 @@ export class CarouselComponent implements OnInit {
     lazyLoad: true,
     lazyLoadEager: 4,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     autoplayHoverPause: true,
     responsive: {
       0: {
         margin: 0,
-        items: 1
+        items: 1,
       },
       500: {
-        items: 1
+        items: 1,
       },
       1000: {
-        items: 2
+        items: 2,
       },
       1450: {
-        items: 3
+        items: 3,
       },
       1700: {
-        items: 4
-      }
-
-
+        items: 4,
+      },
     },
-    nav: true
-  }
-
+    nav: true,
+  };
 }

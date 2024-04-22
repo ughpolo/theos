@@ -11,7 +11,7 @@ BIS HIER.
 KOPIERE DEN REST VON ZEILE 13 BIS AM SCHLUSS(ZEILE 59):
 
 ngOnInit(): void {
-    this.assign('Joël Meier', 'Solothurn zwei Heilige');
+    this.assign('Torben Hanhart', 'Wer zum Schwert greift – Über die vier kleinen Männer am Berner Gerechtigkeitsbrunnen');
     this.createIds();
 }
 

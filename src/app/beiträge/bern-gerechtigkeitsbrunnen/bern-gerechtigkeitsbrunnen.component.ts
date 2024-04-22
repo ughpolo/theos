@@ -12,7 +12,10 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 })
 export class BernGerechtigkeitsbrunnenComponent {
   ngOnInit(): void {
-    this.assign('Joël Meier', 'Solothurn zwei Heilige');
+    this.assign(
+      'Torben Hanhart',
+      'Wer zum Schwert greift – Über die vier kleinen Männer am Berner Gerechtigkeitsbrunnen'
+    );
     this.createIds();
   }
 

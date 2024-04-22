@@ -24,6 +24,7 @@ export const Beiträge = {
       markierungen: [[46.94828, 7.45407]],
       kanton: Kantone.Bern,
     },
+
   'Der Notker Globus und das mittelalterliche Weltbild': {
     karusselltitel: 'Der Notker Globus und das mittelalterliche Weltbild',
     verzeichnispfad: 'notkerglobus',

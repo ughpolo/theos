@@ -116,7 +116,12 @@ import { BernMuristaldenComponent } from './beiträge/bern-muristalden/bern-muri
 import { OberwilHansarpComponent } from './beiträge/oberwil-hansarp/oberwil-hansarp.component';
 import { StgallenNotkerglobusComponent } from './beiträge/stgallen-notkerglobus/stgallen-notkerglobus.component';
 import { BernGerechtigkeitsbrunnenComponent } from './beiträge/bern-gerechtigkeitsbrunnen/bern-gerechtigkeitsbrunnen.component';
+import { JerusalemBubenbergComponent } from './beiträge/jerusalem-bubenberg/jerusalem-bubenberg.component';
 const routes: Routes = [
+  {
+    path: 'bubenberg',
+    component: JerusalemBubenbergComponent,
+  },
   {
     path: 'gerechtigkeitsbrunnen',
     component: BernGerechtigkeitsbrunnenComponent,

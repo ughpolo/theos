@@ -28,4 +28,5 @@ export enum Kantone {
   London = 'London',
   Trouvaillen = 'Trouvaillen',
   Vatikan = 'Vatikan',
+  Jerusalem = 'Jerusalem',
 }

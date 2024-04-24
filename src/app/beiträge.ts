@@ -10,6 +10,19 @@ export const Beiträge = {
 
 */
 
+  'Auch ich war hier! Adrian von Bubenberg in Jerusalem': {
+    karusselltitel: 'Auch ich war hier! Adrian von Bubenberg in Jerusalem',
+    verzeichnispfad: 'bubenberg',
+    beitragtitel:
+      'Der Abendmahlssaal auf dem Zionsberg in Jerusalem und sein Besucher Adrian von Bubenberg',
+    ort: 'Jerusalem',
+    bild: 'jerusalem-bubenberg/bild1.jpeg',
+    autor: 'Jürgen Krüger',
+    jahr: '2024',
+    markierungen: [[31.77195, 35.2293]],
+    kanton: Kantone.Jerusalem,
+  },
+
   'Wer zum Schwert greift – Über die vier kleinen Männer am Berner Gerechtigkeitsbrunnen':
     {
       karusselltitel:

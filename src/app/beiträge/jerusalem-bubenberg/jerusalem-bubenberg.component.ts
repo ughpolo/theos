@@ -12,7 +12,10 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 })
 export class JerusalemBubenbergComponent {
   ngOnInit(): void {
-    this.assign('Joël Meier', 'Solothurn Zwei Heilige');
+    this.assign(
+      'Jürgen Krüger',
+      'Auch ich war hier! Adrian von Bubenberg in Jerusalem'
+    );
     this.createIds();
   }
 

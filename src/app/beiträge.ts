@@ -18,7 +18,7 @@ export const Beiträge = {
       beitragtitel:
         'Wer zum Schwert greift – Über die vier kleinen Männer am Berner Gerechtigkeitsbrunnen',
       ort: 'Bern',
-      bild: 'bern-gerechtigkeitsbrunnen/bild1.jpeg',
+      bild: 'bern-gerechtigkeitsbrunnen/bild0.jpeg',
       autor: 'Torben Hanhart',
       jahr: '2024',
       markierungen: [[46.94828, 7.45407]],

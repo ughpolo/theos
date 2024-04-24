@@ -148,6 +148,7 @@ import { BaselWaschhausComponent } from './beiträge/basel-waschhaus/basel-wasch
 import { BernMuristaldenComponent } from './beiträge/bern-muristalden/bern-muristalden.component';
 import { OberwilHansarpComponent } from './beiträge/oberwil-hansarp/oberwil-hansarp.component';
 import { StgallenNotkerglobusComponent } from './beiträge/stgallen-notkerglobus/stgallen-notkerglobus.component';
+import { BernGerechtigkeitsbrunnenComponent } from './beiträge/bern-gerechtigkeitsbrunnen/bern-gerechtigkeitsbrunnen.component';
 
 @NgModule({
   declarations: [

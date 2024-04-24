@@ -20,7 +20,7 @@ export const Beiträge = {
     autor: 'Jürgen Krüger',
     jahr: '2024',
     markierungen: [[31.77195, 35.2293]],
-    kanton: Kantone.Bern,
+    kanton: Kantone.Jerusalem,
   },
 
   'Wer zum Schwert greift – Über die vier kleinen Männer am Berner Gerechtigkeitsbrunnen':

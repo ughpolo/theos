@@ -5,8 +5,6 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 
 @Component({
   selector: 'app-jerusalem-bubenberg',
-  standalone: true,
-  imports: [],
   templateUrl: './jerusalem-bubenberg.component.html',
   styleUrl: './jerusalem-bubenberg.component.scss',
 })

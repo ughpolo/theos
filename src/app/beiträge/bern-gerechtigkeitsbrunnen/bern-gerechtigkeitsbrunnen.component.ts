@@ -5,8 +5,6 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 
 @Component({
   selector: 'app-bern-gerechtigkeitsbrunnen',
-  standalone: true,
-  imports: [],
   templateUrl: './bern-gerechtigkeitsbrunnen.component.html',
   styleUrl: './bern-gerechtigkeitsbrunnen.component.scss',
 })

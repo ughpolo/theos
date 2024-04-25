@@ -4,13 +4,7 @@ export const Beiträge = {
   /*
 
 
-
-
-
-
-*/
-
-  'Auch ich war hier! Adrian von Bubenberg in Jerusalem': {
+'Auch ich war hier! Adrian von Bubenberg in Jerusalem': {
     karusselltitel: 'Auch ich war hier! Adrian von Bubenberg in Jerusalem',
     verzeichnispfad: 'bubenberg',
     beitragtitel:
@@ -22,6 +16,10 @@ export const Beiträge = {
     markierungen: [[31.77195, 35.2293]],
     kanton: Kantone.Jerusalem,
   },
+
+
+
+*/
 
   'Wer zum Schwert greift – Über die vier kleinen Männer am Berner Gerechtigkeitsbrunnen':
     {

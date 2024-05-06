@@ -130,19 +130,19 @@
         de Compostela versinnbildlicht dabei ihre hohe theologisch-historische
         Bedeutung.
       </p>
-      
-        <img
+
+      <img
         style="padding-right: 1%"
-          class="bild-klein"
-          src="../../../assets/images/amsoldingen-kirche/bild4.jpg"
-          alt=""
-        />
-        <img
-          class="bild-klein"
-          src="../../../assets/images/amsoldingen-kirche/bild5.jpg"
-          alt=""
-        />
-     
+        class="bild-klein"
+        src="../../../assets/images/amsoldingen-kirche/bild4.jpg"
+        alt=""
+      />
+      <img
+        class="bild-klein"
+        src="../../../assets/images/amsoldingen-kirche/bild5.jpg"
+        alt=""
+      />
+
       <p class="bildunterschrift">
         Pilgerstempel der Kirche Amsoldingen (Bild: Nicole Hublard)
       </p>
@@ -153,29 +153,34 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>
-        </div>
-        <div class="vertiefung">
-          <h2>Zur Vertiefung:</h2>
-          <ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
           <li>
             Kramer, Daniel: «Der Thuner Medaillon-Teppich und die Wollstickerei
             der Wartburg (14. Jh.)», in: Jahresbericht Schlossmuseum Thun, Thun
-            2003, 27-50, verfügbar unter: 
+            2003, 27-50, verfügbar unter:
             <a
               target="_blank"
               href="https://biblio.unibe.ch/digibern/jahrbuch_schloss_thun/jahrbuch_schloss_thun_2003.pdf"
-              >
-              https://biblio.unibe.ch 
+            >
+              www.biblio.unibe.ch
             </a>
             (10.06.2020).
           </li>

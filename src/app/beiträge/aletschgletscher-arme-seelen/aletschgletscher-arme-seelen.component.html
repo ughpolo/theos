@@ -1,8 +1,9 @@
-<app-title-image 
-[author]="author.author" 
-[title]="title" 
-[date]="date"
-  [image]="'aletschgletscher-arme-seelen/bild1.JPG'">
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'aletschgletscher-arme-seelen/bild1.JPG'"
+>
 </app-title-image>
 <div class="wrapper">
   <div class="text">
@@ -14,15 +15,18 @@
         «ewigen» Eises sind gezählt: bis Ende dieses Jahrhunderts wird
         voraussichtlich auch der längste Gletscher der Alpen, der Grosse
         Aletschgletscher im Wallis, wegen der Klimaerwärmung weggeschmolzen
-        sein.
-      </p>
-      <p>
+        sein. <br />
         Von der Gletscherwelt übrig bleiben werden ein schwarzbrauner
         Taleinschnitt und zwei grossen Seen sowie die Erinnerungen an die
         Sommerfrischler (Touristen) und die uralten Volkserzählungen, in denen
         der Gletscher als der Ort der Läuterung für die Seelen Verstobener galt.
       </p>
-      <img class="bild" src="../../../assets/images/aletschgletscher-arme-seelen/bild1.JPG" alt="" />
+
+      <img
+        class="bild"
+        src="../../../assets/images/aletschgletscher-arme-seelen/bild1.JPG"
+        alt=""
+      />
       <p class="bildunterschrift">
         Sicht auf den schwindenden Aletschgletscher und die Streusiedlung der
         Alpe Aletschji. (Bild: Andreas Weissen)
@@ -41,7 +45,11 @@
         die 1917 errichtet wurde und in keinem Kunstführer erwähnt wird.
       </p>
 
-      <img class="bild" src="../../../assets/images/aletschgletscher-arme-seelen/bild2.JPG" alt="" />
+      <img
+        class="bild"
+        src="../../../assets/images/aletschgletscher-arme-seelen/bild2.JPG"
+        alt=""
+      />
 
       <p class="bildunterschrift">
         Kapelle von 1917 zwischen Belalp und Riederalp. (Bild: Andreas Weissen)
@@ -60,7 +68,11 @@
         anderweitig korrigiert haben.
       </p>
 
-      <img class="bild" src="../../../assets/images/aletschgletscher-arme-seelen/bild3.JPG" alt="" />
+      <img
+        class="bild"
+        src="../../../assets/images/aletschgletscher-arme-seelen/bild3.JPG"
+        alt=""
+      />
 
       <p class="bildunterschrift">
         Das Bild ist weder signiert noch datiert. Vom Stil her, der Tracht der
@@ -88,7 +100,11 @@
         Seelen beizufügen, ihr ja nichts anzutun.
       </p>
 
-      <img class="bild" src="../../../assets/images/aletschgletscher-arme-seelen/bild4.JPG" alt="" />
+      <img
+        class="bild"
+        src="../../../assets/images/aletschgletscher-arme-seelen/bild4.JPG"
+        alt=""
+      />
 
       <p class="bildunterschrift">
         «d’alt Schmittja im Aletschji», unterer Teil des Altarbildes in der
@@ -110,30 +126,21 @@
         vernachlässigten. Sie alle haben die Aussicht auf Erlösung von den
         Qualen und die Hoffnung auf die Verkürzung ihrer Leidenszeit durch «gute
         Werke» der Lebenden, die für sie beten und Messen spenden oder Almosen
-        geben.
-      </p>
-
-      <p>
-        In römisch-katholischen Kirchen hängen bis heute unzählige bildliche
-        Darstellungen von nackten Menschen mit erhobenen, flehenden Händen in
-        einem Flammenmeer, ebenso drastisch wie grausam. Das Fegefeuer, obwohl
-        biblisch nicht begründbar, war vom Hohen Mittelalter bis zum Zweiten
-        Vatikanischen Konzil während rund 700 Jahren ein fester Bestandteil der
-        römisch–katholischen Lehre, schüchterte die Menschen ein, wollte sie mit
-        massivsten Drohungen auf den Weg der Tugend «prügeln» und zu Spenden
-        zugunsten der Kirche bewegen. Der blühende, ja exzessive Ablasshandel im
-        16. Jahrhundert gab bekanntlich den Anstoss zur Reformation.
-      </p>
-
-      <p>
+        geben. <br />In römisch-katholischen Kirchen hängen bis heute unzählige
+        bildliche Darstellungen von nackten Menschen mit erhobenen, flehenden
+        Händen in einem Flammenmeer, ebenso drastisch wie grausam. Das
+        Fegefeuer, obwohl biblisch nicht begründbar, war vom Hohen Mittelalter
+        bis zum Zweiten Vatikanischen Konzil während rund 700 Jahren ein fester
+        Bestandteil der römisch–katholischen Lehre, schüchterte die Menschen
+        ein, wollte sie mit massivsten Drohungen auf den Weg der Tugend
+        «prügeln» und zu Spenden zugunsten der Kirche bewegen. Der blühende, ja
+        exzessive Ablasshandel im 16. Jahrhundert gab bekanntlich den Anstoss
+        zur Reformation. <br />
         In den Volkserzählungen im Wallis und in benachbarten Vallée de Chamonix
         und im Urner Reusstal, ist der Läuterungsort der Seelen nicht das Feuer,
         sondern das Gletschereis. Die Kälte war im Alltag viel gegenwärtiger als
         die Hitze und viel gefürchteter. Ja die riesigen Eisströme boten sich
-        als unheimlicher und für alle sichtbarer Sühneort geradezu an.
-      </p>
-
-      <p>
+        als unheimlicher und für alle sichtbarer Sühneort geradezu an. <br />
         Die Vorstellung eines eisigen Gletschersees als Ort der Busse finden wir
         übrigens auch in Dante Alighieris «Divina Commedia» als untersten Kreis
         der Hölle. Und im tibetanischen Buddhismus gibt es neben acht heissen,
@@ -149,13 +156,18 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>

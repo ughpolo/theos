@@ -5,9 +5,6 @@ export const Beiträge = {
 
  
 
-
-*/
-
   'Stadtkirche Glarus - Das Simultaneum in Glarus': {
     karusselltitel: 'Stadtkirche Glarus - Das Simultaneum in Glarus',
     verzeichnispfad: 'simultaneum',
@@ -31,6 +28,8 @@ export const Beiträge = {
     markierungen: [[47.47942, 8.90724]],
     kanton: Kantone.Thurgau,
   },
+
+*/
 
   'Auch ich war hier! Adrian von Bubenberg in Jerusalem': {
     karusselltitel: 'Auch ich war hier! Adrian von Bubenberg in Jerusalem',

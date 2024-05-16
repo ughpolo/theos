@@ -118,7 +118,12 @@ import { StgallenNotkerglobusComponent } from './beiträge/stgallen-notkerglobus
 import { BernGerechtigkeitsbrunnenComponent } from './beiträge/bern-gerechtigkeitsbrunnen/bern-gerechtigkeitsbrunnen.component';
 import { JerusalemBubenbergComponent } from './beiträge/jerusalem-bubenberg/jerusalem-bubenberg.component';
 import { TaenikonKlostertaenikonComponent } from './beiträge/taenikon-klostertaenikon/taenikon-klostertaenikon.component';
+import { GlarusSimultaneumComponent } from './beiträge/glarus-simultaneum/glarus-simultaneum.component';
 const routes: Routes = [
+  {
+    path: 'simultaneum',
+    component: GlarusSimultaneumComponent,
+  },
   {
     path: 'klostertaenikon',
     component: TaenikonKlostertaenikonComponent,

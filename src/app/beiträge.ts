@@ -8,11 +8,23 @@ export const Beiträge = {
 
 */
 
+  'Stadtkirche Glarus - Das Simultaneum in Glarus': {
+    karusselltitel: 'Stadtkirche Glarus - Das Simultaneum in Glarus',
+    verzeichnispfad: 'simultaneum',
+    beitragtitel: 'Stadtkirche Glarus - Das Simultaneum in Glarus',
+    ort: 'Glarus',
+    bild: 'glarus-simultaneum/bild0.jpeg',
+    autor: 'Tamara Landolt',
+    jahr: '2024',
+    markierungen: [[47.04026, 9.06541]],
+    kanton: Kantone.Glarus,
+  },
+
   'Das Zisterzienserinnenkloster Tänikon': {
     karusselltitel: 'Das Zisterzienserinnenkloster Tänikon',
     verzeichnispfad: 'klostertaenikon',
     beitragtitel: 'Das Zisterzienserinnenkloster Tänikon',
-    ort: 'Tänikon',
+    ort: 'Tänikon (TG)',
     bild: 'taenikon-kloster/bild0.jpeg',
     autor: 'Martin Brunner',
     jahr: '2024',

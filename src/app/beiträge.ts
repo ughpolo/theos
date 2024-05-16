@@ -8,12 +8,12 @@ export const Beiträge = {
 
 */
 
-  'Das Zisterzienserinnenkloster Tänikon ': {
-    karusselltitel: 'Das Zisterzienserinnenkloster Tänikon ',
+  'Das Zisterzienserinnenkloster Tänikon': {
+    karusselltitel: 'Das Zisterzienserinnenkloster Tänikon',
     verzeichnispfad: 'klostertaenikon',
-    beitragtitel: 'Das Zisterzienserinnenkloster Tänikon ',
+    beitragtitel: 'Das Zisterzienserinnenkloster Tänikon',
     ort: 'Tänikon',
-    bild: 'jerusalem-bubenberg/bild1.jpeg',
+    bild: 'taenikon-kloster/bild0.jpeg',
     autor: 'Martin Brunner',
     jahr: '2024',
     markierungen: [[47.47942, 8.90724]],

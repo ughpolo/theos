@@ -150,9 +150,11 @@ import { OberwilHansarpComponent } from './beiträge/oberwil-hansarp/oberwil-han
 import { StgallenNotkerglobusComponent } from './beiträge/stgallen-notkerglobus/stgallen-notkerglobus.component';
 import { BernGerechtigkeitsbrunnenComponent } from './beiträge/bern-gerechtigkeitsbrunnen/bern-gerechtigkeitsbrunnen.component';
 import { JerusalemBubenbergComponent } from './beiträge/jerusalem-bubenberg/jerusalem-bubenberg.component';
+import { TaenikonKlostertaenikonComponent } from './beiträge/taenikon-klostertaenikon/taenikon-klostertaenikon.component';
 
 @NgModule({
   declarations: [
+    TaenikonKlostertaenikonComponent,
     JerusalemBubenbergComponent,
     BernGerechtigkeitsbrunnenComponent,
     BaptisteriumComponent,

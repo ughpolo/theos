@@ -1,0 +1,125 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'taenikon-kloster/bild0.jpeg'"
+>
+</app-title-image>
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p id="firstParagraph">
+        Tänikon ist heute ein Standort der Agroscope (Kompetenzzentrum des
+        Bundes für die Forschung und Entwicklung im Agrar-, Ernährungs-, und
+        Umweltbereich, aktiv an verschiedenen Standorten). Das Areal ist
+        eingebettet in ein naturreiches Gebiet rund um den Tänikoner Weiher.
+        Unmittelbar neben dem Weiher steht heute die geschichtsträchtige
+        ehemalige Klosterkirche der Zisterzienserinnen von Tänikon, die heute
+        als Pfarrkirche dient.
+      </p>
+
+      <h2>Die Schwesterngemeinschaft von Tänikon</h2>
+
+      <p>
+        Gemäss einer historisch nicht belegbaren Überlieferung soll der heilige
+        Bernhard von Clairvaux (1090–1153) auf seiner Reise durch das damalige
+        Bistum Konstanz in Tänikon, das als «Tanninchova» seit 789 urkundlich
+        bezeugt und somit der älteste erwähnte Ort der heutigen Thurgauer
+        Gemeinde Aadorf ist, eine Predigt gehalten haben. Diese Reise führte ihn
+        vermutlich über Wil und Winterthur, so dass diese Predigt nicht
+        auszuschliessen ist, da Tänikon zwischen diesen beiden Ortschaften
+        liegt. In der Sakristei der Klosterkirche ist ein Stein zu sehen, auf
+        dem der heilige Bernhard angeblich gepredigt haben soll. Hier soll das
+        spätere Zisterzienserinnenkloster entstanden sein.
+      </p>
+      <img
+        class="bild"
+        src="../../../assets/images/taenikon-kloster/stein.jpg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Der Stein in der Sakristei, auf dem Bernhard von Clairvaux gepredigt
+        haben soll. (Bild: Martin Brunner)
+      </p>
+      <p>
+        Im Privileg (eine besondere Form einer Papsturkunde) vom 20. Dezember
+        1249 von Papst Innozenz IV (1195–1254) wird von einem neu gegründeten
+        Kloster gesprochen. Die Gründung des Klosters könnte auch mit den
+        Edelleuten von Bichelsee, Eberhard II. und seinem Sohn Eberhard III.,
+        zusammenhängen, die mit ihren Schenkungen beabsichtigten, einen Konvent
+        ins Leben zu rufen und für deren anfänglichen Unterhalt zu sorgen. Diese
+        Schenkung bestätigte Abt Bertold von St. Gallen († 1272) am 12. Juni
+        1257. Der Text ist auf Pergament in lateinischer Sprache abgefasst. Er
+        handelt von Schenkungen, die gemacht worden sind, um dieses
+        Zisterzienserinnenkloster zu gründen und den frommen Frauen ihre Wünsche
+        zu erfüllen. Die Urkunde trägt das Siegel von Abt Bertold von St. Gallen
+        und dessen Konvent. Seit der Aufhebung des Klosters im Jahre 1848 wird
+        diese Urkunde im Staatsarchiv Thurgau in Frauenfeld aufbewahrt. <br />
+        Die Urkunde bezeugt, dass bereits vor der Klostergründung fromme Frauen
+        in Tänikon waren. In der Chronik findet man Berichte, dass es sich um
+        Betschwestern oder sogenannte Beginen (Mitglieder einer religiösen
+        Gemeinschaft, ohne einem Orden verpflichtet zu sein) handeln muss, die
+        in der Nähe wohnten (ein Quartier in Guntershausen heisst heute noch
+        ‹Altkloster›). Es gibt zahlreiche päpstliche Bullen und Urkunden, die
+        die Aufnahme der Schwestergemeinschaft von Tänikon in den
+        Zisterzienserorden belegen. Die Wichtigste sei hier genannt: Am 1.
+        September 1255 gab Bischof Eberhard von Konstanz († 1274) der
+        ‹Meisterin› und den Schwestern zu «Tennichoven» die Erlaubnis, sich dem
+        Zisterzienserorden einverleiben zu lassen. Es dauerte aber noch bis zum
+        6. Mai 1263, bis die Vorsteherin auch wirklich ‹Äbtissin› genannt wurde.
+        Nach der Aufnahme der Frauen in den Zisterzienserorden entwickelte sich
+        das Kloster nicht nur zum geistlichen Zentrum, sondern weitete sich auch
+        zum kulturellen und politischen Zentrum aus. Tänikon bekam fortan immer
+        mehr Schenkungen und durfte sich an einem immer grösser werdenden Kreis
+        von Gönner:innen freuen. Eine besondere Bereicherung an Land und Geld
+        erfuhr das Kloster durch die Jahrzeitstiftungen (Anniversarien), die von
+        Adeligen oder sonst begüterten Familien gestiftet wurden.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/taenikon-kloster/bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Klosterkirche Tänikon, heute Pfarrkirche St. Bernhard, links das
+        ehemalige Refektorium. (Bild: Martin Brunner)
+      </p>
+
+      <img class="bild" src="../../../assets/images/ordner/bild1.jpg" alt="" />
+      <p class="bildunterschrift">bildunterschrift</p>
+
+      <p class="autor">autor</p>
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li>
+            textb4link (Leerzeichen am Schluss)
+            <a target="_blank" href="https://websitelink">text</a>
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

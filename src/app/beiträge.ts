@@ -8,6 +8,18 @@ export const Beiträge = {
 
 */
 
+  'Das Zisterzienserinnenkloster Tänikon ': {
+    karusselltitel: 'Das Zisterzienserinnenkloster Tänikon ',
+    verzeichnispfad: 'klostertaenikon',
+    beitragtitel: 'Das Zisterzienserinnenkloster Tänikon ',
+    ort: 'Tänikon',
+    bild: 'jerusalem-bubenberg/bild1.jpeg',
+    autor: 'Martin Brunner',
+    jahr: '2024',
+    markierungen: [[47.47942, 8.90724]],
+    kanton: Kantone.Thurgau,
+  },
+
   'Auch ich war hier! Adrian von Bubenberg in Jerusalem': {
     karusselltitel: 'Auch ich war hier! Adrian von Bubenberg in Jerusalem',
     verzeichnispfad: 'bubenberg',

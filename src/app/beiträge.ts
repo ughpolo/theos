@@ -43,6 +43,19 @@ export const Beiträge = {
 
 */
 
+  'Interlaken – Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen': {
+    karusselltitel: 'Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen',
+    verzeichnispfad: 'jungfrau',
+    beitragtitel:
+      'Interlaken – Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen',
+    ort: 'Interlaken (BE)',
+    bild: 'interlaken-kloster/bild1.jpeg',
+    autor: 'Manuel von Däniken',
+    jahr: '2024',
+    markierungen: [[46.6875, 7.86439]],
+    kanton: Kantone.Bern,
+  },
+
   'Auch ich war hier! Adrian von Bubenberg in Jerusalem': {
     karusselltitel: 'Auch ich war hier! Adrian von Bubenberg in Jerusalem',
     verzeichnispfad: 'bubenberg',

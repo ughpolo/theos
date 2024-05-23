@@ -120,7 +120,13 @@ import { JerusalemBubenbergComponent } from './beiträge/jerusalem-bubenberg/jer
 import { TaenikonKlostertaenikonComponent } from './beiträge/taenikon-klostertaenikon/taenikon-klostertaenikon.component';
 import { GlarusSimultaneumComponent } from './beiträge/glarus-simultaneum/glarus-simultaneum.component';
 import { BaselHistmuseumComponent } from './beiträge/basel-histmuseum/basel-histmuseum.component';
+import { InterlakenJungfrauComponent } from './beiträge/interlaken-jungfrau/interlaken-jungfrau.component';
 const routes: Routes = [
+  {
+    path: 'jungfrau',
+    component: InterlakenJungfrauComponent,
+  },
+
   {
     path: 'histmuseum',
     component: BaselHistmuseumComponent,

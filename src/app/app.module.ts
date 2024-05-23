@@ -152,9 +152,11 @@ import { BernGerechtigkeitsbrunnenComponent } from './beiträge/bern-gerechtigke
 import { JerusalemBubenbergComponent } from './beiträge/jerusalem-bubenberg/jerusalem-bubenberg.component';
 import { TaenikonKlostertaenikonComponent } from './beiträge/taenikon-klostertaenikon/taenikon-klostertaenikon.component';
 import { GlarusSimultaneumComponent } from './beiträge/glarus-simultaneum/glarus-simultaneum.component';
+import { BaselHistmuseumComponent } from './beiträge/basel-histmuseum/basel-histmuseum.component';
 
 @NgModule({
   declarations: [
+    BaselHistmuseumComponent,
     GlarusSimultaneumComponent,
     TaenikonKlostertaenikonComponent,
     JerusalemBubenbergComponent,

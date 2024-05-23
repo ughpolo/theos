@@ -31,6 +31,18 @@ export const Beiträge = {
 
 */
 
+  'Vom Kloster zum Museum, Historisches Museum Basel': {
+    karusselltitel: 'Vom Kloster zum Museum, Historisches Museum Basel',
+    verzeichnispfad: 'histmuseum',
+    beitragtitel: 'Vom Kloster zum Museum, Historisches Museum Basel',
+    ort: 'Basel',
+    bild: 'basel-histmuseum/bild0.jpeg',
+    autor: 'Elisheba Schmid',
+    jahr: '2024',
+    markierungen: [[47.55453, 7.59042]],
+    kanton: Kantone.BaselStadt,
+  },
+
   'Auch ich war hier! Adrian von Bubenberg in Jerusalem': {
     karusselltitel: 'Auch ich war hier! Adrian von Bubenberg in Jerusalem',
     verzeichnispfad: 'bubenberg',

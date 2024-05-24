@@ -121,7 +121,13 @@ import { TaenikonKlostertaenikonComponent } from './beiträge/taenikon-klosterta
 import { GlarusSimultaneumComponent } from './beiträge/glarus-simultaneum/glarus-simultaneum.component';
 import { BaselHistmuseumComponent } from './beiträge/basel-histmuseum/basel-histmuseum.component';
 import { InterlakenJungfrauComponent } from './beiträge/interlaken-jungfrau/interlaken-jungfrau.component';
+import { WaltensburgPassionComponent } from './beiträge/waltensburg-passion/waltensburg-passion.component';
 const routes: Routes = [
+  {
+    path: 'passion',
+    component: WaltensburgPassionComponent,
+  },
+
   {
     path: 'jungfrau',
     component: InterlakenJungfrauComponent,

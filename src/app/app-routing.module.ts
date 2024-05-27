@@ -122,7 +122,12 @@ import { GlarusSimultaneumComponent } from './beiträge/glarus-simultaneum/glaru
 import { BaselHistmuseumComponent } from './beiträge/basel-histmuseum/basel-histmuseum.component';
 import { InterlakenJungfrauComponent } from './beiträge/interlaken-jungfrau/interlaken-jungfrau.component';
 import { WaltensburgPassionComponent } from './beiträge/waltensburg-passion/waltensburg-passion.component';
+import { ZuerichBrunngasseComponent } from './beiträge/zuerich-brunngasse/zuerich-brunngasse.component';
 const routes: Routes = [
+  {
+    path: 'brunngasse',
+    component: ZuerichBrunngasseComponent,
+  },
   {
     path: 'passion',
     component: WaltensburgPassionComponent,

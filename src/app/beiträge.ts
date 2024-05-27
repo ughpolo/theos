@@ -51,6 +51,21 @@ export const Beiträge = {
 
 */
 
+  '«Schauplatz Brunngasse» Einvernehmliches Zusammenleben und katastrophaler Absturz – Jüdisches Leben im mittelalterlichen Zürich':
+    {
+      karusselltitel:
+        '«Schauplatz Brunngasse» Einvernehmliches Zusammenleben und katastrophaler Absturz – Jüdisches Leben im mittelalterlichen Zürich',
+      verzeichnispfad: 'brunngasse',
+      beitragtitel:
+        '«Schauplatz Brunngasse» Einvernehmliches Zusammenleben und katastrophaler Absturz – Jüdisches Leben im mittelalterlichen Zürich',
+      ort: 'Zürich',
+      bild: 'zuerich-brunngasse/bild0.jpeg',
+      autor: 'Dölf Wild',
+      jahr: '2024',
+      markierungen: [[47.37314, 8.54453]],
+      kanton: Kantone.Zürich,
+    },
+
   'Stadtkirche Glarus - Das Simultaneum in Glarus': {
     karusselltitel: 'Stadtkirche Glarus - Das Simultaneum in Glarus',
     verzeichnispfad: 'simultaneum',

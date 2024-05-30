@@ -3,6 +3,21 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
 
+'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann': {
+    karusselltitel:
+      'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann',
+    verzeichnispfad: 'herzjesuwiedikon',
+    beitragtitel:
+      'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann',
+    ort: 'Zürich',
+    bild: 'zuerich-herzjesu/bild0.jpeg',
+    autor: 'Silke Weinig',
+    jahr: '2024',
+    markierungen: [[47.37271, 8.51431]],
+    kanton: Kantone.Zürich,
+  },
+
+
   'Interlaken – Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen': {
     karusselltitel: 'Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen',
     verzeichnispfad: 'jungfrau',
@@ -65,20 +80,6 @@ export const Beiträge = {
   
 
 */
-
-  'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann': {
-    karusselltitel:
-      'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann',
-    verzeichnispfad: 'herzjesuwiedikon',
-    beitragtitel:
-      'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann',
-    ort: 'Zürich',
-    bild: 'zuerich-herzjesu/bild0.jpeg',
-    autor: 'Silke Weinig',
-    jahr: '2024',
-    markierungen: [[47.37271, 8.51431]],
-    kanton: Kantone.Zürich,
-  },
 
   'Stadtkirche Glarus - Das Simultaneum in Glarus': {
     karusselltitel: 'Stadtkirche Glarus - Das Simultaneum in Glarus',

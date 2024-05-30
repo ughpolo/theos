@@ -156,9 +156,11 @@ import { BaselHistmuseumComponent } from './beiträge/basel-histmuseum/basel-his
 import { InterlakenJungfrauComponent } from './beiträge/interlaken-jungfrau/interlaken-jungfrau.component';
 import { WaltensburgPassionComponent } from './beiträge/waltensburg-passion/waltensburg-passion.component';
 import { ZuerichBrunngasseComponent } from './beiträge/zuerich-brunngasse/zuerich-brunngasse.component';
+import { ZuerichHerzjesuwiedikonComponent } from './beiträge/zuerich-herzjesuwiedikon/zuerich-herzjesuwiedikon.component';
 
 @NgModule({
   declarations: [
+    ZuerichHerzjesuwiedikonComponent,
     ZuerichBrunngasseComponent,
     WaltensburgPassionComponent,
     InterlakenJungfrauComponent,

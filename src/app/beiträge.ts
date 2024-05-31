@@ -31,6 +31,7 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
 
+
  
   'Vom Kloster zum Museum, Historisches Museum Basel': {
     karusselltitel: 'Vom Kloster zum Museum, Historisches Museum Basel',

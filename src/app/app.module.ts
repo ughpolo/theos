@@ -157,9 +157,11 @@ import { InterlakenJungfrauComponent } from './beiträge/interlaken-jungfrau/int
 import { WaltensburgPassionComponent } from './beiträge/waltensburg-passion/waltensburg-passion.component';
 import { ZuerichBrunngasseComponent } from './beiträge/zuerich-brunngasse/zuerich-brunngasse.component';
 import { ZuerichHerzjesuwiedikonComponent } from './beiträge/zuerich-herzjesuwiedikon/zuerich-herzjesuwiedikon.component';
+import { DavosMarienkircheComponent } from './beiträge/davos-marienkirche/davos-marienkirche.component';
 
 @NgModule({
   declarations: [
+    DavosMarienkircheComponent,
     ZuerichHerzjesuwiedikonComponent,
     ZuerichBrunngasseComponent,
     WaltensburgPassionComponent,

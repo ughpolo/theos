@@ -82,6 +82,21 @@ export const Beiträge = {
 
 */
 
+  'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos':
+    {
+      karusselltitel:
+        'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos',
+      verzeichnispfad: 'marienkirche',
+      beitragtitel:
+        'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos',
+      ort: 'Davos (GR)',
+      bild: 'davos-marienkirche/bild0.jpeg',
+      autor: 'Petra Homberger',
+      jahr: '2024',
+      markierungen: [[46.79531, 9.81833]],
+      kanton: Kantone.Graubünden,
+    },
+
   'Stadtkirche Glarus - Das Simultaneum in Glarus': {
     karusselltitel: 'Stadtkirche Glarus - Das Simultaneum in Glarus',
     verzeichnispfad: 'simultaneum',

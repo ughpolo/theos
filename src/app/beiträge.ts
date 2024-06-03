@@ -79,6 +79,13 @@ export const Beiträge = {
     },
 
 
+
+
+
+  
+
+*/
+
   '«Schauplatz Brunngasse» Einvernehmliches Zusammenleben und katastrophaler Absturz – Jüdisches Leben im mittelalterlichen Zürich':
     {
       karusselltitel:
@@ -93,11 +100,6 @@ export const Beiträge = {
       markierungen: [[47.37314, 8.54453]],
       kanton: Kantone.Zürich,
     },
-
-
-  
-
-*/
 
   'Stadtkirche Glarus - Das Simultaneum in Glarus': {
     karusselltitel: 'Stadtkirche Glarus - Das Simultaneum in Glarus',

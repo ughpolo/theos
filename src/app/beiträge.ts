@@ -63,21 +63,6 @@ export const Beiträge = {
   },
 
 
-  '«Nackte Füsse» in über 1000 Metern Höhe – der Waltensburger Meister und die von ihm erzählte Passion Christi':
-    {
-      karusselltitel:
-        '«Nackte Füsse» in über 1000 Metern Höhe – der Waltensburger Meister und die von ihm erzählte Passion Christi',
-      verzeichnispfad: 'passion',
-      beitragtitel:
-        'Waltensburg/Vuorz: «Nackte Füsse» in über 1000 Metern Höhe – der Waltensburger Meister und die von ihm erzählte Passion Christi',
-      ort: 'Waltensburg/Vuorz (GR)',
-      bild: 'waltensburg-passion/bild0.jpeg',
-      autor: 'David Neuhold',
-      jahr: '2024',
-      markierungen: [[46.77711, 9.11758]],
-      kanton: Kantone.Graubünden,
-    },
-
 
 
 
@@ -85,6 +70,23 @@ export const Beiträge = {
   
 
 */
+
+
+
+'«Nackte Füsse» in über 1000 Metern Höhe – der Waltensburger Meister und die von ihm erzählte Passion Christi':
+{
+  karusselltitel:
+    '«Nackte Füsse» in über 1000 Metern Höhe – der Waltensburger Meister und die von ihm erzählte Passion Christi',
+  verzeichnispfad: 'passion',
+  beitragtitel:
+    'Waltensburg/Vuorz: «Nackte Füsse» in über 1000 Metern Höhe – der Waltensburger Meister und die von ihm erzählte Passion Christi',
+  ort: 'Waltensburg/Vuorz (GR)',
+  bild: 'waltensburg-passion/bild0.jpeg',
+  autor: 'David Neuhold',
+  jahr: '2024',
+  markierungen: [[46.77711, 9.11758]],
+  kanton: Kantone.Graubünden,
+},
 
   '«Schauplatz Brunngasse» Einvernehmliches Zusammenleben und katastrophaler Absturz – Jüdisches Leben im mittelalterlichen Zürich':
     {

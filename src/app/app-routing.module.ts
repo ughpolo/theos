@@ -125,7 +125,13 @@ import { WaltensburgPassionComponent } from './beiträge/waltensburg-passion/wal
 import { ZuerichBrunngasseComponent } from './beiträge/zuerich-brunngasse/zuerich-brunngasse.component';
 import { ZuerichHerzjesuwiedikonComponent } from './beiträge/zuerich-herzjesuwiedikon/zuerich-herzjesuwiedikon.component';
 import { DavosMarienkircheComponent } from './beiträge/davos-marienkirche/davos-marienkirche.component';
+import { LeukerbadGemmipassComponent } from './beiträge/leukerbad-gemmipass/leukerbad-gemmipass.component';
 const routes: Routes = [
+  {
+    path: 'gemmipass',
+    component: LeukerbadGemmipassComponent,
+  },
+
   {
     path: 'marienkirche',
     component: DavosMarienkircheComponent,

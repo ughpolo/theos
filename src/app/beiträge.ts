@@ -44,6 +44,18 @@ export const Beiträge = {
 
 */
 
+  'Der Gemmipass': {
+    karusselltitel: 'Der Gemmipass',
+    verzeichnispfad: 'gemmipass',
+    beitragtitel: 'Leukerbad – Der Gemmipass',
+    ort: 'Leukerbad (VS)',
+    bild: 'leukerbad-gemmipass/bild1.jpeg',
+    autor: 'Miriam Löhr',
+    jahr: '2024',
+    markierungen: [[46.39631, 7.61142]],
+    kanton: Kantone.Wallis,
+  },
+
   'Interlaken – Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen': {
     karusselltitel: 'Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen',
     verzeichnispfad: 'jungfrau',

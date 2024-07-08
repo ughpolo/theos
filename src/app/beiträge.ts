@@ -44,6 +44,20 @@ export const Beiträge = {
 
 */
 
+  'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers': {
+    karusselltitel:
+      'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers',
+    verzeichnispfad: 'bruderholzallee',
+    beitragtitel:
+      'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers',
+    ort: 'Basel',
+    bild: 'basel-bruderholzallee/bild1.jpeg',
+    autor: 'Albrecht Grözinger',
+    jahr: '2024',
+    markierungen: [[47.53457, 7.58727]],
+    kanton: Kantone.BaselStadt,
+  },
+
   'Der Wartesaal im Bieler Bahnhof – la salle d`attente': {
     karusselltitel: 'Der Wartesaal im Bieler Bahnhof – la salle d`attente',
     verzeichnispfad: 'wartesaal',

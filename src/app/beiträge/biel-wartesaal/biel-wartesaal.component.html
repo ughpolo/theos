@@ -1,0 +1,87 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'biel-wartesaal/bild2.jpeg'"
+>
+</app-title-image>
+
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">David Plüss zum 60. Geburtstag</p>
+      <br />
+
+      <p>«<i>Je ne connais pas vos petites minutes</i>» (Philippe Robert)</p>
+      <br />
+
+      <h2>Heure bleue im Bieler Wartesaal</h2>
+      <p>
+        Im Bahnhof Biel eine Hintertür nehmen, in Nähe der Bahnhofshalle. In
+        einen quadratischen, nicht sehr grossen, hohen Raum schlüpfen. Ein
+        separates Zimmer inmitten des Bahnhofstrubels, wo das gedämpfte Licht
+        über das Presslufthammergeschrei vor dem Fenster hinwegtröstet. Ein
+        Geschäftsmann mit Knopf im Ohr tigert auf und ab und spricht dabei vom
+        Zusatznutzen in Millionenhöhe. Ein Bier trinkender Passant raunt, es
+        handle sich um ein Gesamtkunstwerk,
+        <i>«un ensemble – vous savez?»</i> mit vier grossformatigen Fresken.
+        Elegant geschnitzte Holzbänke erinnern an einen Kirchenraum. Eine
+        Kapelle des Wartens mit Ausblick ins Meerblau, Himmelblau, in lila
+        Landschaften, wie sie bloss die blaue Stunde kennt. Titel und die
+        Jahreszahl 1923, manchmal ein Sinnspruch über den Lauf der Zeit, direkt
+        ins Wandbild gemalt. An der Nordwand des Raums: «Der Stundentanz /
+        <i>La Ronde des Heures</i>, 1923». Die Westwand zieren «Die Lebensstufen
+        / <i>Les Âges de l`Homme</i>». Gegenüber an der Ostwand liegen: «Die
+        Jahreszeiten / <i>Les Saisons</i>». Während auf der Südwand «Zeit und
+        Ewigkeit / <i>Temps - Étérnité</i>» unter einer Bahnhofsuhr in die Ferne
+        fliessen. Die Bahnhofsuhr hat keinen Sekundenzeiger.
+      </p>
+
+      <img class="bild" src="../../../assets/images/ordner/bild1.jpg" alt="" />
+      <p class="bildunterschrift">bildunterschrift</p>
+
+      <img class="bild" src="../../../assets/images/ordner/bild1.jpg" alt="" />
+      <p class="bildunterschrift">bildunterschrift</p>
+
+      <img class="bild" src="../../../assets/images/ordner/bild1.jpg" alt="" />
+      <p class="bildunterschrift">bildunterschrift</p>
+
+      <img class="bild" src="../../../assets/images/ordner/bild1.jpg" alt="" />
+      <p class="bildunterschrift">bildunterschrift</p>
+
+      <p class="autor">autor</p>
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li></li>
+          <li></li>
+          <li>
+            textb4link (Leerzeichen am Schluss)
+            <a target="_blank" href="https://websitelink">text</a>
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

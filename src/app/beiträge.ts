@@ -50,7 +50,7 @@ export const Beiträge = {
     beitragtitel: 'Rüschegg – Kultur trifft Natur',
     ort: 'Rüschegg (BE)',
     bild: 'rueschegg-schwarzwasser/bild1.jpeg',
-    autor: 'Andreas Köhler-Andereggen ',
+    autor: 'Andreas Köhler-Andereggen',
     jahr: '2024',
     markierungen: [[46.77996, 7.39283]],
     kanton: Kantone.Bern,

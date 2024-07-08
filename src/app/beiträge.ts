@@ -44,6 +44,18 @@ export const Beiträge = {
 
 */
 
+  'Der Wartesaal im Bieler Bahnhof – la salle d`attente': {
+    karusselltitel: 'Der Wartesaal im Bieler Bahnhof – la salle d`attente',
+    verzeichnispfad: 'wartesaal',
+    beitragtitel: 'Der Wartesaal im Bieler Bahnhof – la salle d`attente',
+    ort: 'Biel (BE)',
+    bild: 'biel-wartesaal/bild2.jpeg',
+    autor: 'Martina Schwarz',
+    jahr: '2024',
+    markierungen: [[46.13294, 7.24288]],
+    kanton: Kantone.Bern,
+  },
+
   'Kultur trifft Natur': {
     karusselltitel: 'Kultur trifft Natur',
     verzeichnispfad: 'schwarzwasser',

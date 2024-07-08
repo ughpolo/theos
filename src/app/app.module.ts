@@ -161,9 +161,11 @@ import { DavosMarienkircheComponent } from './beiträge/davos-marienkirche/davos
 import { LeukerbadGemmipassComponent } from './beiträge/leukerbad-gemmipass/leukerbad-gemmipass.component';
 import { RuescheggSchwarzwasserComponent } from './beiträge/rueschegg-schwarzwasser/rueschegg-schwarzwasser.component';
 import { BielWartesaalComponent } from './beiträge/biel-wartesaal/biel-wartesaal.component';
+import { BaselBruderholzalleeComponent } from './beiträge/basel-bruderholzallee/basel-bruderholzallee.component';
 
 @NgModule({
   declarations: [
+    BaselBruderholzalleeComponent,
     BielWartesaalComponent,
     RuescheggSchwarzwasserComponent,
     LeukerbadGemmipassComponent,

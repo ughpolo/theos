@@ -11,7 +11,10 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 })
 export class LeukerbadGemmipassComponent {
   ngOnInit(): void {
-    this.assign('Miriam Löhr', 'Der Gemmipass');
+    this.assign(
+      'Miriam Löhr',
+      'Der Gemmipass – Ein Weg durch die Jahrhunderte'
+    );
     this.createIds();
   }
 

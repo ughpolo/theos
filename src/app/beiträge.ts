@@ -44,10 +44,10 @@ export const Beiträge = {
 
 */
 
-  'Der Gemmipass': {
-    karusselltitel: 'Der Gemmipass',
+  'Der Gemmipass – Ein Weg durch die Jahrhunderte': {
+    karusselltitel: 'Der Gemmipass – Ein Weg durch die Jahrhunderte',
     verzeichnispfad: 'gemmipass',
-    beitragtitel: 'Leukerbad – Der Gemmipass',
+    beitragtitel: 'Der Gemmipass – Ein Weg durch die Jahrhunderte',
     ort: 'Leukerbad (VS)',
     bild: 'leukerbad-gemmipass/bild1.jpeg',
     autor: 'Miriam Löhr',

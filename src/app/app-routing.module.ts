@@ -126,7 +126,12 @@ import { ZuerichBrunngasseComponent } from './beiträge/zuerich-brunngasse/zueri
 import { ZuerichHerzjesuwiedikonComponent } from './beiträge/zuerich-herzjesuwiedikon/zuerich-herzjesuwiedikon.component';
 import { DavosMarienkircheComponent } from './beiträge/davos-marienkirche/davos-marienkirche.component';
 import { LeukerbadGemmipassComponent } from './beiträge/leukerbad-gemmipass/leukerbad-gemmipass.component';
+import { RuescheggSchwarzwasserComponent } from './beiträge/rueschegg-schwarzwasser/rueschegg-schwarzwasser.component';
 const routes: Routes = [
+  {
+    path: 'schwarzwasser',
+    component: RuescheggSchwarzwasserComponent,
+  },
   {
     path: 'gemmipass',
     component: LeukerbadGemmipassComponent,

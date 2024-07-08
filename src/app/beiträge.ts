@@ -44,6 +44,18 @@ export const Beiträge = {
 
 */
 
+  'Kultur trifft Natur': {
+    karusselltitel: 'Kultur trifft Natur',
+    verzeichnispfad: 'schwarzwasser',
+    beitragtitel: 'Rüschegg – Kultur trifft Natur',
+    ort: 'Rüschegg (BE)',
+    bild: 'rueschegg-schwarzwasser/bild1.jpeg',
+    autor: 'Andreas Köhler-Andereggen ',
+    jahr: '2024',
+    markierungen: [[46.77996, 7.39283]],
+    kanton: Kantone.Bern,
+  },
+
   'Der Gemmipass – Ein Weg durch die Jahrhunderte': {
     karusselltitel: 'Der Gemmipass – Ein Weg durch die Jahrhunderte',
     verzeichnispfad: 'gemmipass',

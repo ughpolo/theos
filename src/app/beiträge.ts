@@ -44,6 +44,18 @@ export const Beiträge = {
 
 */
 
+  'Im Tal des Lichts': {
+    karusselltitel: 'Im Tal des Lichts',
+    verzeichnispfad: 'taldeslichts',
+    beitragtitel: 'Pleif – Im Tal des Lichts',
+    ort: 'Pleif',
+    bild: 'pleif-taldeslichts/bild1.jpeg',
+    autor: 'Ralph Kunz',
+    jahr: '2024',
+    markierungen: [[46.71519, 9.17901]],
+    kanton: Kantone.Graubünden,
+  },
+
   'Das Refugium des Zweiflers: Das Centre Dürrenmatt': {
     karusselltitel: 'Das Refugium des Zweiflers: Das Centre Dürrenmatt',
     verzeichnispfad: 'cdn',

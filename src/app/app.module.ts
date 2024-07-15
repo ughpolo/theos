@@ -163,9 +163,11 @@ import { RuescheggSchwarzwasserComponent } from './beiträge/rueschegg-schwarzwa
 import { BielWartesaalComponent } from './beiträge/biel-wartesaal/biel-wartesaal.component';
 import { BaselBruderholzalleeComponent } from './beiträge/basel-bruderholzallee/basel-bruderholzallee.component';
 import { NeuenburgCdnComponent } from './beiträge/neuenburg-cdn/neuenburg-cdn.component';
+import { PleifTaldeslichtsComponent } from './beiträge/pleif-taldeslichts/pleif-taldeslichts.component';
 
 @NgModule({
   declarations: [
+    PleifTaldeslichtsComponent,
     NeuenburgCdnComponent,
     BaselBruderholzalleeComponent,
     BielWartesaalComponent,

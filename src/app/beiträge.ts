@@ -44,6 +44,18 @@ export const Beiträge = {
 
 */
 
+  'Das Refugium des Zweiflers: Das Centre Dürrenmatt': {
+    karusselltitel: 'Das Refugium des Zweiflers: Das Centre Dürrenmatt',
+    verzeichnispfad: 'cdn',
+    beitragtitel: 'Das Refugium des Zweiflers: Das Centre Dürrenmatt Neuchâtel',
+    ort: 'Neuenburg/Neuchâtel',
+    bild: 'neuenburg-cdn/bild1.jpeg',
+    autor: 'Matthias Zeindler',
+    jahr: '2024',
+    markierungen: [[47.00123, 6.9365]],
+    kanton: Kantone.Neuenburg,
+  },
+
   'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers': {
     karusselltitel:
       'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers',

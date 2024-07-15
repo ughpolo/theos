@@ -162,9 +162,11 @@ import { LeukerbadGemmipassComponent } from './beiträge/leukerbad-gemmipass/leu
 import { RuescheggSchwarzwasserComponent } from './beiträge/rueschegg-schwarzwasser/rueschegg-schwarzwasser.component';
 import { BielWartesaalComponent } from './beiträge/biel-wartesaal/biel-wartesaal.component';
 import { BaselBruderholzalleeComponent } from './beiträge/basel-bruderholzallee/basel-bruderholzallee.component';
+import { NeuenburgCdnComponent } from './beiträge/neuenburg-cdn/neuenburg-cdn.component';
 
 @NgModule({
   declarations: [
+    NeuenburgCdnComponent,
     BaselBruderholzalleeComponent,
     BielWartesaalComponent,
     RuescheggSchwarzwasserComponent,

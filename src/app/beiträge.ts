@@ -4,47 +4,8 @@ export const Beiträge = {
   /*
 
 
-    'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos':
-    {
-      karusselltitel:
-        'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos',
-      verzeichnispfad: 'marienkirche',
-      beitragtitel:
-        'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos',
-      ort: 'Davos (GR)',
-      bild: 'davos-marienkirche/bild0.jpeg',
-      autor: 'Petra Homberger',
-      jahr: '2024',
-      markierungen: [[46.79531, 9.81833]],
-      kanton: Kantone.Graubünden,
-    },
 
-
-'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann': {
-    karusselltitel:
-      'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann',
-    verzeichnispfad: 'herzjesuwiedikon',
-    beitragtitel:
-      'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann',
-    ort: 'Zürich',
-    bild: 'zuerich-herzjesu/bild0.jpeg',
-    autor: 'Silke Weinig',
-    jahr: '2024',
-    markierungen: [[47.37271, 8.51431]],
-    kanton: Kantone.Zürich,
-  },
-
-
-
-
-
-
-
-  
-
-*/
-
-  'Im Tal des Lichts': {
+    'Im Tal des Lichts': {
     karusselltitel: 'Im Tal des Lichts',
     verzeichnispfad: 'taldeslichts',
     beitragtitel: 'Pleif – Im Tal des Lichts',
@@ -117,6 +78,47 @@ export const Beiträge = {
     markierungen: [[46.39631, 7.61142]],
     kanton: Kantone.Wallis,
   },
+  
+
+    'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos':
+    {
+      karusselltitel:
+        'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos',
+      verzeichnispfad: 'marienkirche',
+      beitragtitel:
+        'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos',
+      ort: 'Davos (GR)',
+      bild: 'davos-marienkirche/bild0.jpeg',
+      autor: 'Petra Homberger',
+      jahr: '2024',
+      markierungen: [[46.79531, 9.81833]],
+      kanton: Kantone.Graubünden,
+    },
+
+
+'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann': {
+    karusselltitel:
+      'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann',
+    verzeichnispfad: 'herzjesuwiedikon',
+    beitragtitel:
+      'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann',
+    ort: 'Zürich',
+    bild: 'zuerich-herzjesu/bild0.jpeg',
+    autor: 'Silke Weinig',
+    jahr: '2024',
+    markierungen: [[47.37271, 8.51431]],
+    kanton: Kantone.Zürich,
+  },
+
+
+
+
+
+
+
+  
+
+*/
 
   'Interlaken – Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen': {
     karusselltitel: 'Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen',

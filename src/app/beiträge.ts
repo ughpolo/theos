@@ -119,6 +119,17 @@ export const Beiträge = {
   
 
 */
+  '«Chileli vo Wasse»': {
+    karusselltitel: '«Chileli vo Wasse»',
+    verzeichnispfad: 'chileli',
+    beitragtitel: '«Chileli vo Wasse»',
+    ort: 'Wassen (UR)',
+    bild: 'wassen-chileli/bild0.jpeg',
+    autor: 'Tobias Briker',
+    jahr: '2024',
+    markierungen: [[46.70708, 8.60102]],
+    kanton: Kantone.Uri,
+  },
 
   'Interlaken – Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen': {
     karusselltitel: 'Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen',

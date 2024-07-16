@@ -131,8 +131,14 @@ import { BielWartesaalComponent } from './beiträge/biel-wartesaal/biel-wartesaa
 import { BaselBruderholzalleeComponent } from './beiträge/basel-bruderholzallee/basel-bruderholzallee.component';
 import { NeuenburgCdnComponent } from './beiträge/neuenburg-cdn/neuenburg-cdn.component';
 import { PleifTaldeslichtsComponent } from './beiträge/pleif-taldeslichts/pleif-taldeslichts.component';
+import { WassenChileliComponent } from './beiträge/wassen-chileli/wassen-chileli.component';
 
 const routes: Routes = [
+  {
+    path: 'chileli',
+    component: WassenChileliComponent,
+  },
+
   {
     path: 'taldeslichts',
     component: PleifTaldeslichtsComponent,

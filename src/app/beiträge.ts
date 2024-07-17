@@ -137,7 +137,7 @@ export const Beiträge = {
     verzeichnispfad: 'chileli',
     beitragtitel: '«Chileli vo Wasse»',
     ort: 'Wassen (UR)',
-    bild: 'wassen-chileli/bild0.jpeg',
+    bild: 'wassen-chileli/bild0_.jpeg',
     autor: 'Tobias Briker',
     jahr: '2024',
     markierungen: [[46.70708, 8.60102]],

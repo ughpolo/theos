@@ -165,9 +165,11 @@ import { BaselBruderholzalleeComponent } from './beiträge/basel-bruderholzallee
 import { NeuenburgCdnComponent } from './beiträge/neuenburg-cdn/neuenburg-cdn.component';
 import { PleifTaldeslichtsComponent } from './beiträge/pleif-taldeslichts/pleif-taldeslichts.component';
 import { WassenChileliComponent } from './beiträge/wassen-chileli/wassen-chileli.component';
+import { CasacciaKircheComponent } from './beiträge/casaccia-kirche/casaccia-kirche.component';
 
 @NgModule({
   declarations: [
+    CasacciaKircheComponent,
     WassenChileliComponent,
     PleifTaldeslichtsComponent,
     NeuenburgCdnComponent,

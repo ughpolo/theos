@@ -3,6 +3,30 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
 
+  'Die Legende des kopflosen Wanderers': {
+    karusselltitel: 'Die Legende des kopflosen Wanderers',
+    verzeichnispfad: 'kirche',
+    beitragtitel: 'Casaccia – Die Legende des kopflosen Wanderers',
+    ort: 'Casaccia (GR)',
+    bild: 'casaccia-kirche/bild0_.jpeg',
+    autor: 'Lukas Wüst',
+    jahr: '2024',
+    markierungen: [[46.39473, 9.67308]],
+    kanton: Kantone.Graubünden,
+  },
+
+  '«Chileli vo Wasse»': {
+    karusselltitel: '«Chileli vo Wasse»',
+    verzeichnispfad: 'chileli',
+    beitragtitel: '«Chileli vo Wasse»',
+    ort: 'Wassen (UR)',
+    bild: 'wassen-chileli/bild0_.jpeg',
+    autor: 'Tobias Briker',
+    jahr: '2024',
+    markierungen: [[46.70708, 8.60102]],
+    kanton: Kantone.Uri,
+  },
+
 
 
     'Im Tal des Lichts': {
@@ -119,30 +143,6 @@ export const Beiträge = {
   
 
 */
-
-  'Die Legende des kopflosen Wanderers': {
-    karusselltitel: 'Die Legende des kopflosen Wanderers',
-    verzeichnispfad: 'kirche',
-    beitragtitel: 'Casaccia – Die Legende des kopflosen Wanderers',
-    ort: 'Casaccia (GR)',
-    bild: 'casaccia-kirche/bild0_.jpeg',
-    autor: 'Lukas Wüst',
-    jahr: '2024',
-    markierungen: [[46.39473, 9.67308]],
-    kanton: Kantone.Graubünden,
-  },
-
-  '«Chileli vo Wasse»': {
-    karusselltitel: '«Chileli vo Wasse»',
-    verzeichnispfad: 'chileli',
-    beitragtitel: '«Chileli vo Wasse»',
-    ort: 'Wassen (UR)',
-    bild: 'wassen-chileli/bild0_.jpeg',
-    autor: 'Tobias Briker',
-    jahr: '2024',
-    markierungen: [[46.70708, 8.60102]],
-    kanton: Kantone.Uri,
-  },
 
   'Interlaken – Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen': {
     karusselltitel: 'Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen',

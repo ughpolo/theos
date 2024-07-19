@@ -104,7 +104,18 @@ export const Beiträge = {
   },
   
 
-    'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos':
+   
+
+
+
+
+
+
+  
+
+*/
+
+  'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos':
     {
       karusselltitel:
         'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos',
@@ -119,8 +130,7 @@ export const Beiträge = {
       kanton: Kantone.Graubünden,
     },
 
-
-'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann': {
+  'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann': {
     karusselltitel:
       'Mitten in Zürich - wo man seine Spiritualität kunstvoll entfalten kann',
     verzeichnispfad: 'herzjesuwiedikon',
@@ -133,16 +143,6 @@ export const Beiträge = {
     markierungen: [[47.37271, 8.51431]],
     kanton: Kantone.Zürich,
   },
-
-
-
-
-
-
-
-  
-
-*/
 
   'Interlaken – Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen': {
     karusselltitel: 'Ein Fremdenverkehrsort auf klösterlichem Boden gewachsen',

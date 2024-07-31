@@ -1,0 +1,104 @@
+<app-title-image
+  [author]="author.author"
+  [title]="title"
+  [date]="date"
+  [image]="'zuerich-rietberg/bild0.jpeg'"
+>
+</app-title-image>
+
+<div class="wrapper">
+  <div class="text">
+    <div class="innerText">
+      <p style="font-style: italic">David Plüss zum 60. Geburtstag</p>
+      <br />
+
+      <p id="firstParagraph">
+        Mitten im behaglichen Quartier Enge in der Stadt Zürich, in
+        unmittelbarer Nähe zu einer jüdischen Schule, zur katholischen Kirche
+        Dreikönigen und zur reformierten Kirche Enge, befindet sich das Museum
+        Rietberg. Zum Museum gehören neben der Villa Wesendonck – in der Richard
+        Wagner (1813–1883), den die Familie Wesendonck verehrte, 16 Monate lang
+        lebte und wo er <i>Tristan und Isolde</i> komponierte – auch die Villa
+        Rieter und die Villa Schönberg. Die Villa Wesendonck inmitten des an
+        alten Bäumen reichen Rietbergparks ist seit 1945 im Besitz der Stadt
+        Zürich. 2007 wurde das Gebäudeensemble aus drei repräsentativen Villen
+        aus dem 19. Jahrhundert um einen Erweiterungsbau, den ‹Smaragd›,
+        ergänzt, dessen moderne Glasfassade einen neuen ästhetischen Akzent
+        setzt und der nicht minder ansehnlich ist. Die sorgsam restaurierten
+        Villen und die grosszügige Parkanlage dokumentieren einen saturierten
+        Wohlstand, in dem sich die Besucher:innen des Museumscafés und des Parks
+        fast das ganze Jahr über sonnen.
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/zuerich-rietberg/bild1.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Villa Wesendonck, von 1853–1857 für Otto und Mathilde Wesendonck erbaut.
+        (Foto: Adriana Basso Schaub)
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/zuerich-rietberg/bild2.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">Schaudepot. (Foto: Adriana Basso Schaub)</p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/zuerich-rietberg/bild3.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Ausstellungsräume in der Villa Wesendonk. (Foto: Adriana Basso Schaub)
+      </p>
+
+      <img
+        class="bild"
+        src="../../../assets/images/zuerich-rietberg/bild4.jpeg"
+        alt=""
+      />
+      <p class="bildunterschrift">
+        Shiva Nataraja, ein Kultbild der Chola um 1050, Südindien. (Foto:
+        Adriana Basso Schaub)
+      </p>
+
+      <p class="autor">autor</p>
+      <div *ngIf="author.beitrag.length > 0" class="weitere">
+        <p class="autor">
+          Weitere Artikel von {{ author.author }} finden Sie hier:
+        </p>
+        <ul style="margin-top: 0">
+          <li *ngFor="let beitrag of author.beitrag; let i = index">
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}: {{ author.shorttitle[i] }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="vertiefung">
+        <h2>Zur Vertiefung:</h2>
+        <ul>
+          <li></li>
+          <li></li>
+          <li>
+            textb4link (Leerzeichen am Schluss)
+            <a target="_blank" href="https://websitelink">text</a>
+          </li>
+        </ul>
+      </div>
+      <h2>Lageplan:</h2>
+      <div *ngFor="let id of ids" class="map-container">
+        <div [id]="id" class="map"></div>
+      </div>
+    </div>
+  </div>
+</div>

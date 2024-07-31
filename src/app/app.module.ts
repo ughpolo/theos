@@ -167,9 +167,11 @@ import { PleifTaldeslichtsComponent } from './beiträge/pleif-taldeslichts/pleif
 import { WassenChileliComponent } from './beiträge/wassen-chileli/wassen-chileli.component';
 import { CasacciaKircheComponent } from './beiträge/casaccia-kirche/casaccia-kirche.component';
 import { FinsteraarhornGipfelkreuzComponent } from './beiträge/finsteraarhorn-gipfelkreuz/finsteraarhorn-gipfelkreuz.component';
+import { ZuerichRietbergComponent } from './beiträge/zuerich-rietberg/zuerich-rietberg.component';
 
 @NgModule({
   declarations: [
+    ZuerichRietbergComponent,
     FinsteraarhornGipfelkreuzComponent,
     CasacciaKircheComponent,
     WassenChileliComponent,

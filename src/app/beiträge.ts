@@ -119,7 +119,7 @@ export const Beiträge = {
     karusselltitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',
     verzeichnispfad: 'gipfelkreuz',
     beitragtitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',
-    ort: 'Finsteraarhorn (BE/VS))',
+    ort: 'Finsteraarhorn (BE/VS)',
     bild: 'finsteraarhorn-gipfelkreuz/bild1.jpeg',
     autor: 'Johannes Stückelberger',
     jahr: '2024',

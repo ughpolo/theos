@@ -93,18 +93,7 @@ export const Beiträge = {
 
 
 
-   
-
-
-
-
-
-
-  
-
-*/
-
-  'Der Gemmipass – Ein Weg durch die Jahrhunderte': {
+     'Der Gemmipass – Ein Weg durch die Jahrhunderte': {
     karusselltitel: 'Der Gemmipass – Ein Weg durch die Jahrhunderte',
     verzeichnispfad: 'gemmipass',
     beitragtitel: 'Der Gemmipass – Ein Weg durch die Jahrhunderte',
@@ -115,6 +104,16 @@ export const Beiträge = {
     markierungen: [[46.39631, 7.61142]],
     kanton: Kantone.Wallis,
   },
+
+
+
+
+
+
+
+  
+
+*/
 
   'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos':
     {

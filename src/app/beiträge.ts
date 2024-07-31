@@ -123,7 +123,7 @@ export const Beiträge = {
       beitragtitel:
         'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg',
       ort: 'Zürich',
-      bild: 'zuerich/bild0.jpeg',
+      bild: 'zuerich-rietberg/bild0.jpeg',
       autor: 'Sonja Keller',
       jahr: '2024',
       markierungen: [[47.35883, 8.53025]],

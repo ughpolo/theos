@@ -28,6 +28,33 @@ export const Beiträge = {
   },
 
 
+  'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg':
+    {
+      karusselltitel:
+        'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg',
+      verzeichnispfad: 'rietberg',
+      beitragtitel:
+        'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg',
+      ort: 'Zürich',
+      bild: 'zuerich-rietberg/bild0.jpeg',
+      autor: 'Sonja Keller',
+      jahr: '2024',
+      markierungen: [[47.35883, 8.53025]],
+      kanton: Kantone.Zürich,
+    },
+
+  'Das Finsteraarhorn mit seinem Gipfelkreuz': {
+    karusselltitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',
+    verzeichnispfad: 'gipfelkreuz',
+    beitragtitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',
+    ort: 'Finsteraarhorn (BE/VS)',
+    bild: 'finsteraarhorn-gipfelkreuz/bild1.jpeg',
+    autor: 'Johannes Stückelberger',
+    jahr: '2024',
+    markierungen: [[46.53735, 8.12611]],
+    kanton: Kantone.Wallis,
+  },
+
 
     'Im Tal des Lichts': {
     karusselltitel: 'Im Tal des Lichts',
@@ -114,33 +141,6 @@ export const Beiträge = {
   
 
 */
-
-  'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg':
-    {
-      karusselltitel:
-        'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg',
-      verzeichnispfad: 'rietberg',
-      beitragtitel:
-        'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg',
-      ort: 'Zürich',
-      bild: 'zuerich-rietberg/bild0.jpeg',
-      autor: 'Sonja Keller',
-      jahr: '2024',
-      markierungen: [[47.35883, 8.53025]],
-      kanton: Kantone.Zürich,
-    },
-
-  'Das Finsteraarhorn mit seinem Gipfelkreuz': {
-    karusselltitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',
-    verzeichnispfad: 'gipfelkreuz',
-    beitragtitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',
-    ort: 'Finsteraarhorn (BE/VS)',
-    bild: 'finsteraarhorn-gipfelkreuz/bild1.jpeg',
-    autor: 'Johannes Stückelberger',
-    jahr: '2024',
-    markierungen: [[46.53735, 8.12611]],
-    kanton: Kantone.Wallis,
-  },
 
   'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos':
     {

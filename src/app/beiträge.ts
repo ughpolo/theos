@@ -142,6 +142,20 @@ export const Beiträge = {
 
 */
 
+  'Vom roten Pfarrer von Safenwil und Anführer der Dialektischen Theologie': {
+    karusselltitel:
+      'Vom roten Pfarrer von Safenwil und Anführer der Dialektischen Theologie',
+    verzeichnispfad: 'barth',
+    beitragtitel:
+      'Vom roten Pfarrer von Safenwil und Anführer der Dialektischen Theologie',
+    ort: 'Safenwil (AG)',
+    bild: 'safenwil-barth/bild2.jpeg',
+    autor: 'Georg Pfleiderer',
+    jahr: '2024',
+    markierungen: [[47.31755, 7.98216]],
+    kanton: Kantone.Aargau,
+  },
+
   'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos':
     {
       karusselltitel:

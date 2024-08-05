@@ -135,8 +135,14 @@ import { WassenChileliComponent } from './beiträge/wassen-chileli/wassen-chilel
 import { CasacciaKircheComponent } from './beiträge/casaccia-kirche/casaccia-kirche.component';
 import { FinsteraarhornGipfelkreuzComponent } from './beiträge/finsteraarhorn-gipfelkreuz/finsteraarhorn-gipfelkreuz.component';
 import { ZuerichRietbergComponent } from './beiträge/zuerich-rietberg/zuerich-rietberg.component';
+import { SafenwilBarthComponent } from './beiträge/safenwil-barth/safenwil-barth.component';
 
 const routes: Routes = [
+  {
+    path: 'barth',
+    component: SafenwilBarthComponent,
+  },
+
   {
     path: 'rietberg',
     component: ZuerichRietbergComponent,

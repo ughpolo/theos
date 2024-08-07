@@ -150,6 +150,18 @@ export const Beiträge = {
   },
 
 
+  'Der Gemmipass – Ein Weg durch die Jahrhunderte': {
+    karusselltitel: 'Der Gemmipass – Ein Weg durch die Jahrhunderte',
+    verzeichnispfad: 'gemmipass',
+    beitragtitel: 'Der Gemmipass – Ein Weg durch die Jahrhunderte',
+    ort: 'Leukerbad (VS)',
+    bild: 'leukerbad-gemmipass/bild1.jpeg',
+    autor: 'Miriam Löhr',
+    jahr: '2024',
+    markierungen: [[46.39631, 7.61142]],
+    kanton: Kantone.Wallis,
+  },
+
 
 
 

@@ -140,7 +140,7 @@ import { BernDreifaltigkeitComponent } from './beiträge/bern-dreifaltigkeit/ber
 
 const routes: Routes = [
   {
-    path: 'bdreifaltigkeit',
+    path: 'dreifaltigkeit',
     component: BernDreifaltigkeitComponent,
   },
 

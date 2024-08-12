@@ -171,6 +171,21 @@ export const Beiträge = {
 
 */
 
+  'Kirche auf dem Weg – Die Dreifaltigkeitskirche in Bern und ihre turbulente Vorgeschichte':
+    {
+      karusselltitel:
+        'Kirche auf dem Weg – Die Dreifaltigkeitskirche in Bern und ihre turbulente Vorgeschichte',
+      verzeichnispfad: 'dreifaltigkeit',
+      beitragtitel:
+        'Kirche auf dem Weg – Die Dreifaltigkeitskirche in Bern und ihre turbulente Vorgeschichte',
+      ort: 'Bern',
+      bild: 'bern-dreifaltigkeit/bild1.jpeg',
+      autor: 'Christian Geltinger',
+      jahr: '2024',
+      markierungen: [[46.94516, 7.43935]],
+      kanton: Kantone.Bern,
+    },
+
   'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos':
     {
       karusselltitel:

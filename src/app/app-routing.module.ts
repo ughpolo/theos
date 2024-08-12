@@ -136,8 +136,14 @@ import { CasacciaKircheComponent } from './beiträge/casaccia-kirche/casaccia-ki
 import { FinsteraarhornGipfelkreuzComponent } from './beiträge/finsteraarhorn-gipfelkreuz/finsteraarhorn-gipfelkreuz.component';
 import { ZuerichRietbergComponent } from './beiträge/zuerich-rietberg/zuerich-rietberg.component';
 import { SafenwilBarthComponent } from './beiträge/safenwil-barth/safenwil-barth.component';
+import { BernDreifaltigkeitComponent } from './beiträge/bern-dreifaltigkeit/bern-dreifaltigkeit.component';
 
 const routes: Routes = [
+  {
+    path: 'bdreifaltigkeit',
+    component: BernDreifaltigkeitComponent,
+  },
+
   {
     path: 'barth',
     component: SafenwilBarthComponent,

@@ -46,20 +46,6 @@ export const Beiträge = {
 
 
 
-   'Vom roten Pfarrer von Safenwil und Anführer der Dialektischen Theologie': {
-    karusselltitel:
-      'Vom roten Pfarrer von Safenwil und Anführer der Dialektischen Theologie',
-    verzeichnispfad: 'barth',
-    beitragtitel:
-      'Vom roten Pfarrer von Safenwil und Anführer der Dialektischen Theologie',
-    ort: 'Safenwil (AG)',
-    bild: 'safenwil-barth/bild2.jpeg',
-    autor: 'Georg Pfleiderer',
-    jahr: '2024',
-    markierungen: [[47.31755, 7.98216]],
-    kanton: Kantone.Aargau,
-  },
-  
 
   
   'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg':
@@ -76,18 +62,6 @@ export const Beiträge = {
       markierungen: [[47.35883, 8.53025]],
       kanton: Kantone.Zürich,
     },
-
-  'Das Finsteraarhorn mit seinem Gipfelkreuz': {
-    karusselltitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',
-    verzeichnispfad: 'gipfelkreuz',
-    beitragtitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',
-    ort: 'Finsteraarhorn (BE/VS)',
-    bild: 'finsteraarhorn-gipfelkreuz/bild1.jpeg',
-    autor: 'Johannes Stückelberger',
-    jahr: '2024',
-    markierungen: [[46.53735, 8.12611]],
-    kanton: Kantone.Wallis,
-  },
 
 
     'Im Tal des Lichts': {
@@ -126,18 +100,6 @@ export const Beiträge = {
     jahr: '2024',
     markierungen: [[47.53457, 7.58727]],
     kanton: Kantone.BaselStadt,
-  },
-
-  'Der Wartesaal im Bieler Bahnhof – la salle d`attente': {
-    karusselltitel: 'Der Wartesaal im Bieler Bahnhof – la salle d`attente',
-    verzeichnispfad: 'wartesaal',
-    beitragtitel: 'Der Wartesaal im Bieler Bahnhof – la salle d`attente',
-    ort: 'Biel (BE)',
-    bild: 'biel-wartesaal/bild2.jpeg',
-    autor: 'Martina Schwarz',
-    jahr: '2024',
-    markierungen: [[46.13294, 7.24288]],
-    kanton: Kantone.Bern,
   },
 
   'Kultur trifft Natur': {
@@ -187,6 +149,44 @@ export const Beiträge = {
   
 
 */
+
+  'Das Finsteraarhorn mit seinem Gipfelkreuz': {
+    karusselltitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',
+    verzeichnispfad: 'gipfelkreuz',
+    beitragtitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',
+    ort: 'Finsteraarhorn (BE/VS)',
+    bild: 'finsteraarhorn-gipfelkreuz/bild1.jpeg',
+    autor: 'Johannes Stückelberger',
+    jahr: '2024',
+    markierungen: [[46.53735, 8.12611]],
+    kanton: Kantone.Wallis,
+  },
+
+  'Der Wartesaal im Bieler Bahnhof – la salle d`attente': {
+    karusselltitel: 'Der Wartesaal im Bieler Bahnhof – la salle d`attente',
+    verzeichnispfad: 'wartesaal',
+    beitragtitel: 'Der Wartesaal im Bieler Bahnhof – la salle d`attente',
+    ort: 'Biel (BE)',
+    bild: 'biel-wartesaal/bild2.jpeg',
+    autor: 'Martina Schwarz',
+    jahr: '2024',
+    markierungen: [[46.13294, 7.24288]],
+    kanton: Kantone.Bern,
+  },
+
+  'Vom roten Pfarrer von Safenwil und Anführer der Dialektischen Theologie': {
+    karusselltitel:
+      'Vom roten Pfarrer von Safenwil und Anführer der Dialektischen Theologie',
+    verzeichnispfad: 'barth',
+    beitragtitel:
+      'Vom roten Pfarrer von Safenwil und Anführer der Dialektischen Theologie',
+    ort: 'Safenwil (AG)',
+    bild: 'safenwil-barth/bild2.jpeg',
+    autor: 'Georg Pfleiderer',
+    jahr: '2024',
+    markierungen: [[47.31755, 7.98216]],
+    kanton: Kantone.Aargau,
+  },
 
   'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos':
     {

@@ -1,6 +1,7 @@
 export enum Kantone {
   Zürich = 'Zürich',
   Bern = 'Bern',
+  Biel = 'Biel',
   Luzern = 'Luzern',
   Uri = 'Uri',
   Schwyz = 'Schwyz',

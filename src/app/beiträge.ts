@@ -171,7 +171,7 @@ export const Beiträge = {
     autor: 'Martina Schwarz',
     jahr: '2024',
     markierungen: [[47.132925, 7.242997]],
-    kanton: Kantone.Bern,
+    kanton: Kantone.Biel,
   },
 
   'Vom roten Pfarrer von Safenwil und Anführer der Dialektischen Theologie': {

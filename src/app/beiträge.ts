@@ -170,7 +170,7 @@ export const Beiträge = {
     bild: 'biel-wartesaal/bild2.jpeg',
     autor: 'Martina Schwarz',
     jahr: '2024',
-    markierungen: [[46.132925, 7.242997]],
+    markierungen: [[47.132925, 7.242997]],
     kanton: Kantone.Bern,
   },
 

@@ -48,21 +48,6 @@ export const Beiträge = {
 
 
   
-  'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg':
-    {
-      karusselltitel:
-        'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg',
-      verzeichnispfad: 'rietberg',
-      beitragtitel:
-        'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg',
-      ort: 'Zürich',
-      bild: 'zuerich-rietberg/bild0.jpeg',
-      autor: 'Sonja Keller',
-      jahr: '2024',
-      markierungen: [[47.35883, 8.53025]],
-      kanton: Kantone.Zürich,
-    },
-
 
     'Im Tal des Lichts': {
     karusselltitel: 'Im Tal des Lichts',
@@ -76,17 +61,6 @@ export const Beiträge = {
     kanton: Kantone.Graubünden,
   },
 
-  'Das Refugium des Zweiflers: Das Centre Dürrenmatt': {
-    karusselltitel: 'Das Refugium des Zweiflers: Das Centre Dürrenmatt',
-    verzeichnispfad: 'cdn',
-    beitragtitel: 'Das Refugium des Zweiflers: Das Centre Dürrenmatt Neuchâtel',
-    ort: 'Neuenburg/Neuchâtel',
-    bild: 'neuenburg-cdn/bild1.jpeg',
-    autor: 'Matthias Zeindler',
-    jahr: '2024',
-    markierungen: [[47.00123, 6.9365]],
-    kanton: Kantone.Neuenburg,
-  },
 
   'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers': {
     karusselltitel:
@@ -102,18 +76,7 @@ export const Beiträge = {
     kanton: Kantone.BaselStadt,
   },
 
-  'Kultur trifft Natur': {
-    karusselltitel: 'Kultur trifft Natur',
-    verzeichnispfad: 'schwarzwasser',
-    beitragtitel: 'Rüschegg – Kultur trifft Natur',
-    ort: 'Rüschegg (BE)',
-    bild: 'rueschegg-schwarzwasser/bild1.jpeg',
-    autor: 'Andreas Köhler-Andereggen',
-    jahr: '2024',
-    markierungen: [[46.77996, 7.39283]],
-    kanton: Kantone.Bern,
-  },
-
+ 
 
 
      'Der Gemmipass – Ein Weg durch die Jahrhunderte': {
@@ -149,6 +112,45 @@ export const Beiträge = {
   
 
 */
+
+  'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg':
+    {
+      karusselltitel:
+        'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg',
+      verzeichnispfad: 'rietberg',
+      beitragtitel:
+        'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg',
+      ort: 'Zürich',
+      bild: 'zuerich-rietberg/bild0.jpeg',
+      autor: 'Sonja Keller',
+      jahr: '2024',
+      markierungen: [[47.35883, 8.53025]],
+      kanton: Kantone.Zürich,
+    },
+
+  'Das Refugium des Zweiflers: Das Centre Dürrenmatt': {
+    karusselltitel: 'Das Refugium des Zweiflers: Das Centre Dürrenmatt',
+    verzeichnispfad: 'cdn',
+    beitragtitel: 'Das Refugium des Zweiflers: Das Centre Dürrenmatt Neuchâtel',
+    ort: 'Neuenburg/Neuchâtel',
+    bild: 'neuenburg-cdn/bild1.jpeg',
+    autor: 'Matthias Zeindler',
+    jahr: '2024',
+    markierungen: [[47.00123, 6.9365]],
+    kanton: Kantone.Neuenburg,
+  },
+
+  'Kultur trifft Natur': {
+    karusselltitel: 'Kultur trifft Natur',
+    verzeichnispfad: 'schwarzwasser',
+    beitragtitel: 'Rüschegg – Kultur trifft Natur',
+    ort: 'Rüschegg (BE)',
+    bild: 'rueschegg-schwarzwasser/bild1.jpeg',
+    autor: 'Andreas Köhler-Andereggen',
+    jahr: '2024',
+    markierungen: [[46.77996, 7.39283]],
+    kanton: Kantone.Bern,
+  },
 
   'Das Finsteraarhorn mit seinem Gipfelkreuz': {
     karusselltitel: 'Das Finsteraarhorn mit seinem Gipfelkreuz',

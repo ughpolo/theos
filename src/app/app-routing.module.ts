@@ -140,6 +140,11 @@ import { BernDreifaltigkeitComponent } from './beiträge/bern-dreifaltigkeit/ber
 
 const routes: Routes = [
   {
+    path: 'schwarzwasser',
+    component: RuescheggSchwarzwasserComponent,
+  },
+
+  {
     path: 'dreifaltigkeit',
     component: BernDreifaltigkeitComponent,
   },

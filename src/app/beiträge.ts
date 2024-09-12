@@ -78,7 +78,7 @@ export const Beiträge = {
     karusselltitel: 'Im Tal des Lichts',
     verzeichnispfad: 'taldeslichts',
     beitragtitel: 'Pleif – Im Tal des Lichts',
-    ort: 'Pleif',
+    ort: 'Pleif (GR)',
     bild: 'pleif–taldeslichts/bild1.jpeg',
     autor: 'Ralph Kunz',
     jahr: '2024',

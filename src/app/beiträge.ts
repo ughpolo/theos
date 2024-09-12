@@ -49,34 +49,7 @@ export const Beiträge = {
 
   
 
-    'Im Tal des Lichts': {
-    karusselltitel: 'Im Tal des Lichts',
-    verzeichnispfad: 'taldeslichts',
-    beitragtitel: 'Pleif – Im Tal des Lichts',
-    ort: 'Pleif',
-    bild: 'pleif–taldeslichts/bild1.jpeg',
-    autor: 'Ralph Kunz',
-    jahr: '2024',
-    markierungen: [[46.71519, 9.17901]],
-    kanton: Kantone.Graubünden,
-  },
-
-
-  'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers': {
-    karusselltitel:
-      'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers',
-    verzeichnispfad: 'bruderholzallee',
-    beitragtitel:
-      'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers',
-    ort: 'Basel',
-    bild: 'basel-bruderholzallee/bild1.jpeg',
-    autor: 'Albrecht Grözinger',
-    jahr: '2024',
-    markierungen: [[47.53457, 7.58727]],
-    kanton: Kantone.BaselStadt,
-  },
-
- 
+  
 
 
      'Der Gemmipass – Ein Weg durch die Jahrhunderte': {
@@ -92,6 +65,27 @@ export const Beiträge = {
   },
 
 
+ 
+
+
+
+
+  
+
+*/
+
+  'Im Tal des Lichts': {
+    karusselltitel: 'Im Tal des Lichts',
+    verzeichnispfad: 'taldeslichts',
+    beitragtitel: 'Pleif – Im Tal des Lichts',
+    ort: 'Pleif',
+    bild: 'pleif–taldeslichts/bild1.jpeg',
+    autor: 'Ralph Kunz',
+    jahr: '2024',
+    markierungen: [[46.71519, 9.17901]],
+    kanton: Kantone.Graubünden,
+  },
+
   'Der Gemmipass – Ein Weg durch die Jahrhunderte': {
     karusselltitel: 'Der Gemmipass – Ein Weg durch die Jahrhunderte',
     verzeichnispfad: 'gemmipass',
@@ -104,14 +98,19 @@ export const Beiträge = {
     kanton: Kantone.Wallis,
   },
 
-
-
-
-
-
-  
-
-*/
+  'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers': {
+    karusselltitel:
+      'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers',
+    verzeichnispfad: 'bruderholzallee',
+    beitragtitel:
+      'Bruderholzallee 26 – Adresse eines theologischen Denkabenteuers',
+    ort: 'Basel',
+    bild: 'basel-bruderholzallee/bild1.jpeg',
+    autor: 'Albrecht Grözinger',
+    jahr: '2024',
+    markierungen: [[47.53457, 7.58727]],
+    kanton: Kantone.BaselStadt,
+  },
 
   'Die ausgestellte Schönheit der Religionen. Das prachtvolle Museum Rietberg':
     {

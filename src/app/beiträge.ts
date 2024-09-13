@@ -74,6 +74,18 @@ export const Beiträge = {
 
 */
 
+  'Auf Wahrheitswegen': {
+    karusselltitel: 'Auf Wahrheitswegen',
+    verzeichnispfad: 'wahrheitswege',
+    beitragtitel: 'Monte Verità – Auf Wahrheitswegen',
+    ort: 'Monte Verità (TI)',
+    bild: 'monte-verita-wahrheitswege/bild0.jpeg',
+    autor: 'Thomas Schlag',
+    jahr: '2024',
+    markierungen: [[46.1583, 8.763029]],
+    kanton: Kantone.Tessin,
+  },
+
   'Im Tal des Lichts': {
     karusselltitel: 'Im Tal des Lichts',
     verzeichnispfad: 'taldeslichts',

@@ -171,9 +171,11 @@ import { ZuerichRietbergComponent } from './beiträge/zuerich-rietberg/zuerich-r
 import { SafenwilBarthComponent } from './beiträge/safenwil-barth/safenwil-barth.component';
 import { BernDreifaltigkeitComponent } from './beiträge/bern-dreifaltigkeit/bern-dreifaltigkeit.component';
 import { MonteVeritaWahrheitswegeComponent } from './beiträge/monte-verita-wahrheitswege/monte-verita-wahrheitswege.component';
+import { BernBrachedock8Component } from './beiträge/bern-brachedock8/bern-brachedock8.component';
 
 @NgModule({
   declarations: [
+    BernBrachedock8Component,
     MonteVeritaWahrheitswegeComponent,
     BernDreifaltigkeitComponent,
     SafenwilBarthComponent,

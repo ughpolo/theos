@@ -170,9 +170,11 @@ import { FinsteraarhornGipfelkreuzComponent } from './beiträge/finsteraarhorn-g
 import { ZuerichRietbergComponent } from './beiträge/zuerich-rietberg/zuerich-rietberg.component';
 import { SafenwilBarthComponent } from './beiträge/safenwil-barth/safenwil-barth.component';
 import { BernDreifaltigkeitComponent } from './beiträge/bern-dreifaltigkeit/bern-dreifaltigkeit.component';
+import { MonteVeritaWahrheitswegeComponent } from './beiträge/monte-verita-wahrheitswege/monte-verita-wahrheitswege.component';
 
 @NgModule({
   declarations: [
+    MonteVeritaWahrheitswegeComponent,
     BernDreifaltigkeitComponent,
     SafenwilBarthComponent,
     ZuerichRietbergComponent,

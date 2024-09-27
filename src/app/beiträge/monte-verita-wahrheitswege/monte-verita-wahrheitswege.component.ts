@@ -11,7 +11,7 @@ import { MarkerService } from 'src/app/components/services/marker.service';
 })
 export class MonteVeritaWahrheitswegeComponent {
   ngOnInit(): void {
-    this.assign('Thomas SchlagJ', 'Auf Wahrheitswegen');
+    this.assign('Thomas Schlag', 'Auf Wahrheitswegen');
     this.createIds();
   }
 

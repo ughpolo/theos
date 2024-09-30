@@ -173,9 +173,11 @@ import { BernDreifaltigkeitComponent } from './beiträge/bern-dreifaltigkeit/ber
 import { MonteVeritaWahrheitswegeComponent } from './beiträge/monte-verita-wahrheitswege/monte-verita-wahrheitswege.component';
 import { BernBrachedock8Component } from './beiträge/bern-brachedock8/bern-brachedock8.component';
 import { CazisFrauenstiftComponent } from './beiträge/cazis-frauenstift/cazis-frauenstift.component';
+import { ArthMoravginComponent } from './beiträge/arth-moravgin/arth-moravgin.component';
 
 @NgModule({
   declarations: [
+    ArthMoravginComponent,
     CazisFrauenstiftComponent,
     BernBrachedock8Component,
     MonteVeritaWahrheitswegeComponent,

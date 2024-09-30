@@ -104,6 +104,20 @@ export const Beiträge = {
 
 */
 
+  'Aramäisch am Zugersee. Das syrisch-orthodoxe Kloster Mor Avgin': {
+    karusselltitel:
+      'Aramäisch am Zugersee. Das syrisch-orthodoxe Kloster Mor Avgin',
+    verzeichnispfad: 'moravgin',
+    beitragtitel:
+      'Arth: Aramäisch am Zugersee. Das syrisch-orthodoxe Kloster Mor Avgin',
+    ort: 'Arth (SZ)',
+    bild: 'arth-moravgin/bild0.jpeg',
+    autor: 'David Zimmer',
+    jahr: '2024',
+    markierungen: [[47.065512, 8.5245]],
+    kanton: Kantone.Schwyz,
+  },
+
   'Im Tal des Lichts': {
     karusselltitel: 'Im Tal des Lichts',
     verzeichnispfad: 'taldeslichts',

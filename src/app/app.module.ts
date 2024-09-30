@@ -172,9 +172,11 @@ import { SafenwilBarthComponent } from './beiträge/safenwil-barth/safenwil-bart
 import { BernDreifaltigkeitComponent } from './beiträge/bern-dreifaltigkeit/bern-dreifaltigkeit.component';
 import { MonteVeritaWahrheitswegeComponent } from './beiträge/monte-verita-wahrheitswege/monte-verita-wahrheitswege.component';
 import { BernBrachedock8Component } from './beiträge/bern-brachedock8/bern-brachedock8.component';
+import { CazisFrauenstiftComponent } from './beiträge/cazis-frauenstift/cazis-frauenstift.component';
 
 @NgModule({
   declarations: [
+    CazisFrauenstiftComponent,
     BernBrachedock8Component,
     MonteVeritaWahrheitswegeComponent,
     BernDreifaltigkeitComponent,

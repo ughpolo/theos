@@ -47,6 +47,18 @@ export const Beiträge = {
     },
 
 
+    '«Chileli vo Wasse»': {
+    karusselltitel: '«Chileli vo Wasse»',
+    verzeichnispfad: 'chileli',
+    beitragtitel: '«Chileli vo Wasse»',
+    ort: 'Wassen (UR)',
+    bild: 'wassen-chileli/bild0_.jpeg',
+    autor: 'Tobias Briker',
+    jahr: '2024',
+    markierungen: [[46.70708, 8.60102]],
+    kanton: Kantone.Uri, },
+
+
   'Die Legende des kopflosen Wanderers': {
     karusselltitel: 'Die Legende des kopflosen Wanderers',
     verzeichnispfad: 'kirche',
@@ -59,17 +71,21 @@ export const Beiträge = {
     kanton: Kantone.Graubünden,
   },
 
-  '«Chileli vo Wasse»': {
-    karusselltitel: '«Chileli vo Wasse»',
-    verzeichnispfad: 'chileli',
-    beitragtitel: '«Chileli vo Wasse»',
-    ort: 'Wassen (UR)',
-    bild: 'wassen-chileli/bild0_.jpeg',
-    autor: 'Tobias Briker',
+  
+
+     'Kloster Cazis – Das erste Frauenstift in Churrätien': {
+    karusselltitel: 'Kloster Cazis – Das erste Frauenstift in Churrätien',
+    verzeichnispfad: 'frauenstift',
+    beitragtitel: 'Kloster Cazis – Das erste Frauenstift in Churrätien',
+    ort: 'Cazis (GR)',
+    bild: 'cazis-frauenstift/bild0.jpeg',
+    autor: 'Deborah Koch',
     jahr: '2024',
-    markierungen: [[46.70708, 8.60102]],
-    kanton: Kantone.Uri,
+    markierungen: [[46.720928, 9.429858]],
+    kanton: Kantone.Graubünden,
   },
+
+ 
 
 
 

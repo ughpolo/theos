@@ -3,6 +3,33 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
 
+    'Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum': {
+    karusselltitel:
+      'Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum',
+    verzeichnispfad: 'brachedock8',
+    beitragtitel:
+      'Bern: Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum',
+    ort: 'Bern',
+    bild: 'bern-brachedock8/bild0.jpeg',
+    autor: 'Christian Walti',
+    jahr: '2024',
+    markierungen: [[46.947574, 7.415737]],
+    kanton: Kantone.Bern,
+  },
+
+  'Auf Wahrheitswegen': {
+    karusselltitel: 'Auf Wahrheitswegen',
+    verzeichnispfad: 'wahrheitswege',
+    beitragtitel: 'Monte Verità – Auf Wahrheitswegen',
+    ort: 'Monte Verità (TI)',
+    bild: 'monte-verita-wahrheitswege/bild0.jpeg',
+    autor: 'Thomas Schlag',
+    jahr: '2024',
+    markierungen: [[46.158343, 8.763177]],
+    kanton: Kantone.Tessin,
+  },
+
+
 
   'Kirche auf dem Weg – Die Dreifaltigkeitskirche in Bern und ihre turbulente Vorgeschichte':
     {
@@ -60,32 +87,6 @@ export const Beiträge = {
   
 
 */
-
-  'Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum': {
-    karusselltitel:
-      'Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum',
-    verzeichnispfad: 'brachedock8',
-    beitragtitel:
-      'Bern: Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum',
-    ort: 'Bern',
-    bild: 'bern-brachedock8/bild0.jpeg',
-    autor: 'Christian Walti',
-    jahr: '2024',
-    markierungen: [[46.947574, 7.415737]],
-    kanton: Kantone.Bern,
-  },
-
-  'Auf Wahrheitswegen': {
-    karusselltitel: 'Auf Wahrheitswegen',
-    verzeichnispfad: 'wahrheitswege',
-    beitragtitel: 'Monte Verità – Auf Wahrheitswegen',
-    ort: 'Monte Verità (TI)',
-    bild: 'monte-verita-wahrheitswege/bild0.jpeg',
-    autor: 'Thomas Schlag',
-    jahr: '2024',
-    markierungen: [[46.158343, 8.763177]],
-    kanton: Kantone.Tessin,
-  },
 
   'Im Tal des Lichts': {
     karusselltitel: 'Im Tal des Lichts',

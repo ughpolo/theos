@@ -66,44 +66,6 @@ export const Beiträge = {
     },
 
 
-    '«Chileli vo Wasse»': {
-    karusselltitel: '«Chileli vo Wasse»',
-    verzeichnispfad: 'chileli',
-    beitragtitel: '«Chileli vo Wasse»',
-    ort: 'Wassen (UR)',
-    bild: 'wassen-chileli/bild0_.jpeg',
-    autor: 'Tobias Briker',
-    jahr: '2024',
-    markierungen: [[46.70708, 8.60102]],
-    kanton: Kantone.Uri, },
-
-
-  'Die Legende des kopflosen Wanderers': {
-    karusselltitel: 'Die Legende des kopflosen Wanderers',
-    verzeichnispfad: 'kirche',
-    beitragtitel: 'Casaccia – Die Legende des kopflosen Wanderers',
-    ort: 'Casaccia (GR)',
-    bild: 'casaccia-kirche/bild0_.jpeg',
-    autor: 'Lukas Wüst',
-    jahr: '2024',
-    markierungen: [[46.39473, 9.67308]],
-    kanton: Kantone.Graubünden,
-  },
-
-  
-
-     'Kloster Cazis – Das erste Frauenstift in Churrätien': {
-    karusselltitel: 'Kloster Cazis – Das erste Frauenstift in Churrätien',
-    verzeichnispfad: 'frauenstift',
-    beitragtitel: 'Kloster Cazis – Das erste Frauenstift in Churrätien',
-    ort: 'Cazis (GR)',
-    bild: 'cazis-frauenstift/bild0.jpeg',
-    autor: 'Deborah Koch',
-    jahr: '2024',
-    markierungen: [[46.720928, 9.429858]],
-    kanton: Kantone.Graubünden,
-  },
-
  
 
 
@@ -122,6 +84,42 @@ export const Beiträge = {
   
 
 */
+
+  '«Chileli vo Wasse»': {
+    karusselltitel: '«Chileli vo Wasse»',
+    verzeichnispfad: 'chileli',
+    beitragtitel: '«Chileli vo Wasse»',
+    ort: 'Wassen (UR)',
+    bild: 'wassen-chileli/bild0_.jpeg',
+    autor: 'Tobias Briker',
+    jahr: '2024',
+    markierungen: [[46.70708, 8.60102]],
+    kanton: Kantone.Uri,
+  },
+
+  'Die Legende des kopflosen Wanderers': {
+    karusselltitel: 'Die Legende des kopflosen Wanderers',
+    verzeichnispfad: 'kirche',
+    beitragtitel: 'Casaccia – Die Legende des kopflosen Wanderers',
+    ort: 'Casaccia (GR)',
+    bild: 'casaccia-kirche/bild0_.jpeg',
+    autor: 'Lukas Wüst',
+    jahr: '2024',
+    markierungen: [[46.39473, 9.67308]],
+    kanton: Kantone.Graubünden,
+  },
+
+  'Kloster Cazis – Das erste Frauenstift in Churrätien': {
+    karusselltitel: 'Kloster Cazis – Das erste Frauenstift in Churrätien',
+    verzeichnispfad: 'frauenstift',
+    beitragtitel: 'Kloster Cazis – Das erste Frauenstift in Churrätien',
+    ort: 'Cazis (GR)',
+    bild: 'cazis-frauenstift/bild0.jpeg',
+    autor: 'Deborah Koch',
+    jahr: '2024',
+    markierungen: [[46.720928, 9.429858]],
+    kanton: Kantone.Graubünden,
+  },
 
   'Im Tal des Lichts': {
     karusselltitel: 'Im Tal des Lichts',

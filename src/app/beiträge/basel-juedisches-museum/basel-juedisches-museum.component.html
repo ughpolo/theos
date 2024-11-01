@@ -155,13 +155,18 @@
 
       <div *ngIf="author.beitrag.length > 0" class="weitere">
         <p class="autor">
-          Weitere Artikel von {{ author.author }} finden Sie hier: 
+          Weitere Artikel von {{ author.author }} finden Sie hier:
         </p>
-         <ul style="margin-top:0">
+        <ul style="margin-top: 0">
           <li *ngFor="let beitrag of author.beitrag; let i = index">
-            <a style="color: black" routerLink="/{{ author.pathname[i] | removeshitespaces | lowercase }}">
-              {{author.location[i]}}: 
-              {{author.shorttitle[i]}} 
+            <a
+              style="color: black"
+              routerLink="/{{
+                author.pathname[i] | removeshitespaces | lowercase
+              }}"
+            >
+              {{ author.location[i] }}:
+              {{ author.shorttitle[i] }}
             </a>
           </li>
         </ul>
@@ -170,9 +175,9 @@
         <h2>Zur Vertiefung:</h2>
         <ul>
           <li>
-            Website des Jüdischen Museums der Schweiz, verfügbar unter: 
+            Website des Jüdischen Museums der Schweiz, verfügbar unter:
             <a href="https://www.juedisches-museum.ch/de/"
-              >https://www.juedisches-museum.ch </a
+              >www.juedisches-museum.ch </a
             >(08.05.2021).
           </li>
 
@@ -187,18 +192,18 @@
             Schatz eurer Religion, eurer Überlieferung!›: zur Sammlungs- und
             Museumsgeschichte des Jüdischen Museums der Schweiz in Basel», in:
             Basler Zeitschrift für Geschichte und - Altertumskunde 103 (2003),
-            S. 149–182, verfügbar unter: 
+            S. 149–182, verfügbar unter:
             <a href="https://doi.org/10.5169/SEALS-118470"
-              >https://doi.org
+              >www.eperiodica.ch
             </a>
             (08.05.2021).
           </li>
 
           <li>
             Kugelmann, Yves: «Museen ohne Publikum»: im Gespräch mit Naomi
-            Lubrich, in: Tachles Podcast, 23:32 Minuten, verfügbar unter: 
+            Lubrich, in: Tachles Podcast, 23:32 Minuten, verfügbar unter:
             <a href="https://www.tachles.ch/podcasts/museen-ohne-publikum"
-              >https://www.tachles.ch</a
+              >www.tachles.ch</a
             >
             (08.05.2021).
           </li>

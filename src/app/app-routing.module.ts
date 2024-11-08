@@ -141,6 +141,7 @@ import { MonteVeritaWahrheitswegeComponent } from './beiträge/monte-verita-wahr
 import { BernBrachedock8Component } from './beiträge/bern-brachedock8/bern-brachedock8.component';
 import { CazisFrauenstiftComponent } from './beiträge/cazis-frauenstift/cazis-frauenstift.component';
 import { ArthMoravginComponent } from './beiträge/arth-moravgin/arth-moravgin.component';
+import { DavosMarienkirchedavosComponent } from './beiträge/davos-marienkirchedavos/davos-marienkirchedavos.component';
 
 const routes: Routes = [
   {
@@ -214,6 +215,11 @@ const routes: Routes = [
   {
     path: 'gemmipass',
     component: LeukerbadGemmipassComponent,
+  },
+
+  {
+    path: 'marienkirchedavos',
+    component: DavosMarienkirchedavosComponent,
   },
 
   {

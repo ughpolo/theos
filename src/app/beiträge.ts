@@ -240,11 +240,11 @@ export const Beiträge = {
     {
       karusselltitel:
         'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos',
-      verzeichnispfad: 'marienkirche',
+      verzeichnispfad: 'marienkirchedavos',
       beitragtitel:
         'Die Marienkirche – Zeugin der bewegten Geschichte der römisch-katholischen Pfarrei Davos',
       ort: 'Davos (GR)',
-      bild: 'davos-marienkirche/bild0.jpeg',
+      bild: 'davos-marienkirchedavos/bild0.jpeg',
       autor: 'Petra Homberger',
       jahr: '2024',
       markierungen: [[46.79531, 9.81833]],

@@ -174,9 +174,11 @@ import { MonteVeritaWahrheitswegeComponent } from './beiträge/monte-verita-wahr
 import { BernBrachedock8Component } from './beiträge/bern-brachedock8/bern-brachedock8.component';
 import { CazisFrauenstiftComponent } from './beiträge/cazis-frauenstift/cazis-frauenstift.component';
 import { ArthMoravginComponent } from './beiträge/arth-moravgin/arth-moravgin.component';
+import { DavosMarienkirchedavosComponent } from './beiträge/davos-marienkirchedavos/davos-marienkirchedavos.component';
 
 @NgModule({
   declarations: [
+    DavosMarienkirchedavosComponent,
     ArthMoravginComponent,
     CazisFrauenstiftComponent,
     BernBrachedock8Component,

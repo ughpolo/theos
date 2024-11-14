@@ -174,9 +174,11 @@ import { BernBrachedock8Component } from './beiträge/bern-brachedock8/bern-brac
 import { CazisFrauenstiftComponent } from './beiträge/cazis-frauenstift/cazis-frauenstift.component';
 import { ArthMoravginComponent } from './beiträge/arth-moravgin/arth-moravgin.component';
 import { DavosMarienkirchedavosComponent } from './beiträge/davos-marienkirchedavos/davos-marienkirchedavos.component';
+import { BernFranzoesischekirchebernComponent } from './beiträge/bern-franzoesischekirchebern/bern-franzoesischekirchebern.component';
 
 @NgModule({
   declarations: [
+    BernFranzoesischekirchebernComponent,
     DavosMarienkirchedavosComponent,
     ArthMoravginComponent,
     CazisFrauenstiftComponent,

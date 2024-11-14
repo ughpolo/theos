@@ -14,7 +14,7 @@ export const Beiträge = {
     ort: 'Arth (SZ)',
     bild: 'arth-moravgin/bild0.jpeg',
     autor: 'David Zimmer',
-    jahr: '2024',
+    jahr: '2025',
     markierungen: [[47.065512, 8.5245]],
     kanton: Kantone.Schwyz,
   },
@@ -58,6 +58,18 @@ export const Beiträge = {
   
 
 */
+
+  'Klosterleben in der Französischen Kirche': {
+    karusselltitel: 'Klosterleben in der Französischen Kirche',
+    verzeichnispfad: 'franzoesischekirchebern',
+    beitragtitel: 'Bern: Klosterleben in der Französischen Kirche ',
+    ort: 'Bern',
+    bild: 'bern-franzoesischekirchebern/bild0.jpeg',
+    autor: 'Naemi Zürcher',
+    jahr: '2025',
+    markierungen: [[46.948971, 7.446512]],
+    kanton: Kantone.Bern,
+  },
 
   'Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum': {
     karusselltitel:

@@ -3,6 +3,17 @@ import { Kantone } from 'src/app/components/models/kantone';
 export const Beiträge = {
   /*
 
+'Klosterleben in der Französischen Kirche': {
+    karusselltitel: 'Klosterleben in der Französischen Kirche',
+    verzeichnispfad: 'franzoesischekirchebern',
+    beitragtitel: 'Bern: Klosterleben in der Französischen Kirche ',
+    ort: 'Bern',
+    bild: 'bern-franzoesischekirchebern/bild0.jpeg',
+    autor: 'Naemi Zürcher',
+    jahr: '2025',
+    markierungen: [[46.948971, 7.446512]],
+    kanton: Kantone.Bern,
+  },
 
 
     'Aramäisch am Zugersee. Das syrisch-orthodoxe Kloster Mor Avgin': {
@@ -58,18 +69,6 @@ export const Beiträge = {
   
 
 */
-
-  'Klosterleben in der Französischen Kirche': {
-    karusselltitel: 'Klosterleben in der Französischen Kirche',
-    verzeichnispfad: 'franzoesischekirchebern',
-    beitragtitel: 'Bern: Klosterleben in der Französischen Kirche ',
-    ort: 'Bern',
-    bild: 'bern-franzoesischekirchebern/bild0.jpeg',
-    autor: 'Naemi Zürcher',
-    jahr: '2025',
-    markierungen: [[46.948971, 7.446512]],
-    kanton: Kantone.Bern,
-  },
 
   'Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum': {
     karusselltitel:

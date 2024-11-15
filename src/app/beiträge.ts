@@ -53,22 +53,21 @@ export const Beiträge = {
 
  
 
-
-
-
-  
-
-  
-
-
- 
-
-
-
-
   
 
 */
+
+  'Das Pfarrhaus von Oberwil: Ein Juwel des Spätbarocks': {
+    karusselltitel: 'Das Pfarrhaus von Oberwil: Ein Juwel des Spätbarocks',
+    verzeichnispfad: 'pfarrhausoberwil',
+    beitragtitel: 'Das Pfarrhaus von Oberwil: Ein Juwel des Spätbarocks',
+    ort: 'Oberwil',
+    bild: 'oberwil–parrhausoberwil/bild0.jpeg',
+    autor: 'Jonas Engeler',
+    jahr: '2025',
+    markierungen: [[47.513529, 7.554318]],
+    kanton: Kantone.BaselLand,
+  },
 
   'Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum': {
     karusselltitel:

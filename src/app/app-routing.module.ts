@@ -142,12 +142,14 @@ import { CazisFrauenstiftComponent } from './beiträge/cazis-frauenstift/cazis-f
 import { ArthMoravginComponent } from './beiträge/arth-moravgin/arth-moravgin.component';
 import { DavosMarienkirchedavosComponent } from './beiträge/davos-marienkirchedavos/davos-marienkirchedavos.component';
 import { BernFranzoesischekirchebernComponent } from './beiträge/bern-franzoesischekirchebern/bern-franzoesischekirchebern.component';
+import { OberwilPfarrhausoberwilComponent } from './beiträge/oberwil-pfarrhausoberwil/oberwil-pfarrhausoberwil.component';
 
 const routes: Routes = [
   {
-    path: 'franzoesischekirchebern',
-    component: BernFranzoesischekirchebernComponent,
+    path: 'pfarrhausoberwil',
+    component: OberwilPfarrhausoberwilComponent,
   },
+
   {
     path: 'moravgin',
     component: ArthMoravginComponent,

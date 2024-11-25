@@ -176,9 +176,11 @@ import { ArthMoravginComponent } from './beiträge/arth-moravgin/arth-moravgin.c
 import { DavosMarienkirchedavosComponent } from './beiträge/davos-marienkirchedavos/davos-marienkirchedavos.component';
 import { BernFranzoesischekirchebernComponent } from './beiträge/bern-franzoesischekirchebern/bern-franzoesischekirchebern.component';
 import { OberwilPfarrhausoberwilComponent } from './beiträge/oberwil-pfarrhausoberwil/oberwil-pfarrhausoberwil.component';
+import { WohlenbeibernMuengerfensterComponent } from './beiträge/wohlenbeibern-muengerfenster/wohlenbeibern-muengerfenster.component';
 
 @NgModule({
   declarations: [
+    WohlenbeibernMuengerfensterComponent,
     OberwilPfarrhausoberwilComponent,
     BernFranzoesischekirchebernComponent,
     DavosMarienkirchedavosComponent,

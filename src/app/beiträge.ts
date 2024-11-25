@@ -59,6 +59,21 @@ export const Beiträge = {
 
 */
 
+  'Kirche Wohlen bei Bern – Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser':
+    {
+      karusselltitel:
+        'Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser',
+      verzeichnispfad: 'wohlenmüngerfenster',
+      beitragtitel:
+        'Kirche Wohlen bei Bern – Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser',
+      ort: 'Wohlen bei Bern (BE)',
+      bild: 'wohlenbeibern-müngerfenster/bild1.jpeg',
+      autor: 'Ulrike Münger',
+      jahr: '2024',
+      markierungen: [[46.970578, 7.355669]],
+      kanton: Kantone.Bern,
+    },
+
   'Kirche auf dem Weg – Die Dreifaltigkeitskirche in Bern und ihre turbulente Vorgeschichte':
     {
       karusselltitel:
@@ -71,21 +86,6 @@ export const Beiträge = {
       autor: 'Christian Geltinger',
       jahr: '2024',
       markierungen: [[46.94516, 7.43935]],
-      kanton: Kantone.Bern,
-    },
-
-  'Kirche Wohlen bei Bern – Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser':
-    {
-      karusselltitel:
-        'Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser',
-      verzeichnispfad: 'wohlenmüngerfenster',
-      beitragtitel:
-        'Kirche Wohlen bei Bern – Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser',
-      ort: 'Wohlen bei Bern (BE)',
-      bild: 'wohlenbeibern-müngerfenster/bild1.jpeg',
-      autor: 'Ulrike Münger',
-      jahr: '2024',
-      markierungen: [[46.970578, 7.355669]],
       kanton: Kantone.Bern,
     },
 

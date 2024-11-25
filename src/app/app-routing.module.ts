@@ -143,8 +143,14 @@ import { ArthMoravginComponent } from './beiträge/arth-moravgin/arth-moravgin.c
 import { DavosMarienkirchedavosComponent } from './beiträge/davos-marienkirchedavos/davos-marienkirchedavos.component';
 import { BernFranzoesischekirchebernComponent } from './beiträge/bern-franzoesischekirchebern/bern-franzoesischekirchebern.component';
 import { OberwilPfarrhausoberwilComponent } from './beiträge/oberwil-pfarrhausoberwil/oberwil-pfarrhausoberwil.component';
+import { WohlenbeibernMuengerfensterComponent } from './beiträge/wohlenbeibern-muengerfenster/wohlenbeibern-muengerfenster.component';
 
 const routes: Routes = [
+  {
+    path: 'wohlenmüngerfenster',
+    component: WohlenbeibernMuengerfensterComponent,
+  },
+
   {
     path: 'pfarrhausoberwil',
     component: OberwilPfarrhausoberwilComponent,

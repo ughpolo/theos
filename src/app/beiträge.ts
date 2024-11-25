@@ -74,6 +74,21 @@ export const Beiträge = {
       kanton: Kantone.Bern,
     },
 
+  'Kirche Wohlen bei Bern – Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser':
+    {
+      karusselltitel:
+        'Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser',
+      verzeichnispfad: 'wohlenmüngerfenster',
+      beitragtitel:
+        'Kirche Wohlen bei Bern – Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser',
+      ort: 'Wohlen bei Bern (BE)',
+      bild: 'wohlenbeibern-müngerfenster/bild1.jpeg',
+      autor: 'Ulrike Münger',
+      jahr: '2024',
+      markierungen: [[46.970578, 7.355669]],
+      kanton: Kantone.Bern,
+    },
+
   'Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum': {
     karusselltitel:
       'Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum',

@@ -5,18 +5,6 @@ export const Beiträge = {
 
 
 
-  'Das Pfarrhaus von Oberwil: Ein Juwel des Spätbarocks': {
-    karusselltitel: 'Das Pfarrhaus von Oberwil: Ein Juwel des Spätbarocks',
-    verzeichnispfad: 'pfarrhausoberwil',
-    beitragtitel: 'Das Pfarrhaus von Oberwil: Ein Juwel des Spätbarocks',
-    ort: 'Oberwil',
-    bild: 'oberwil–parrhausoberwil/bild0.jpeg',
-    autor: 'Jonas Engeler',
-    jahr: '2025',
-    markierungen: [[47.513529, 7.554318]],
-    kanton: Kantone.BaselLand,
-  },
-
 
   
 'Klosterleben in der Französischen Kirche': {
@@ -31,6 +19,19 @@ export const Beiträge = {
     kanton: Kantone.Bern,
   },
 
+
+
+  'Das Pfarrhaus von Oberwil: Ein Juwel des Spätbarocks': {
+    karusselltitel: 'Das Pfarrhaus von Oberwil: Ein Juwel des Spätbarocks',
+    verzeichnispfad: 'pfarrhausoberwil',
+    beitragtitel: 'Das Pfarrhaus von Oberwil: Ein Juwel des Spätbarocks',
+    ort: 'Oberwil',
+    bild: 'oberwil–parrhausoberwil/bild0.jpeg',
+    autor: 'Jonas Engeler',
+    jahr: '2025',
+    markierungen: [[47.513529, 7.554318]],
+    kanton: Kantone.BaselLand,
+  },
 
     'Aramäisch am Zugersee. Das syrisch-orthodoxe Kloster Mor Avgin': {
     karusselltitel:
@@ -51,6 +52,13 @@ export const Beiträge = {
 
 
 
+
+ 
+
+  
+
+*/
+
   'Kirche auf dem Weg – Die Dreifaltigkeitskirche in Bern und ihre turbulente Vorgeschichte':
     {
       karusselltitel:
@@ -65,13 +73,6 @@ export const Beiträge = {
       markierungen: [[46.94516, 7.43935]],
       kanton: Kantone.Bern,
     },
-
-
- 
-
-  
-
-*/
 
   'Brache/Dock8 – vom Freiraum zum Zwischenraum zum Begegnungsraum': {
     karusselltitel:

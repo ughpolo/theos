@@ -67,7 +67,7 @@ export const Beiträge = {
       beitragtitel:
         'Kirche Wohlen bei Bern – Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser',
       ort: 'Wohlen bei Bern (BE)',
-      bild: 'wohlenbeibern-müngerfenster/bild1.jpeg',
+      bild: 'wohlenbeibern-muengerfenster/bild1.jpeg',
       autor: 'Ulrike Münger',
       jahr: '2024',
       markierungen: [[46.970578, 7.355669]],

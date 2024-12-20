@@ -55,7 +55,7 @@ export const Beiträge = {
     ort: 'Arth (SZ)',
     bild: 'arth-moravgin/bild0.jpeg',
     autor: 'David Zimmer',
-    jahr: '2025',
+    jahr: '2024',
     markierungen: [[47.065512, 8.5245]],
     kanton: Kantone.Schwyz,
   },

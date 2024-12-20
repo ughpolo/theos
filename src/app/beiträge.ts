@@ -33,7 +33,20 @@ export const Beiträge = {
     kanton: Kantone.BaselLand,
   },
 
-    'Aramäisch am Zugersee. Das syrisch-orthodoxe Kloster Mor Avgin': {
+    
+
+  
+
+
+
+
+ 
+
+  
+
+*/
+
+  'Aramäisch am Zugersee. Das syrisch-orthodoxe Kloster Mor Avgin': {
     karusselltitel:
       'Aramäisch am Zugersee. Das syrisch-orthodoxe Kloster Mor Avgin',
     verzeichnispfad: 'moravgin',
@@ -46,18 +59,6 @@ export const Beiträge = {
     markierungen: [[47.065512, 8.5245]],
     kanton: Kantone.Schwyz,
   },
-
-
-  
-
-
-
-
- 
-
-  
-
-*/
 
   'Kirche Wohlen bei Bern – Erinnerungen an ein bäuerliches Leben vor dem grossen Wasser':
     {
